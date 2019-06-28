@@ -1,14 +1,18 @@
+body {
+    font-family: 'Noto Sans HK', sans-serif;
+}
+
 #topbar {
     width: 100%;
     height: 110px;
-    background-color: gray;
+    background-color: #A8EBA2;
 
 }
 
 #logoSpace {
     width: 120px;
-    height: 90px;
-    background-color: black;
+    height: 110px;
+    background-color: #476345;
     margin: 0 auto;
     border-radius: 100%;
     
@@ -17,11 +21,13 @@
 #welcomeSpace {
     width: 100%;
     height: 100vh;
-    background-color: lightgray;
+    background-color:#E8FFD4;
 }
 
 #centerText {
-    padding: 220px;
+    font-family: 'Noto Sans HK', sans-serif;
+    color: #39423A;
+    padding-top: 180px;
 }
 
 #title {
@@ -37,7 +43,8 @@
 }
 
 #begin {
-    background-color: green;
+    background-color: #39423A;
+    color:white;
     margin: 0 auto;
     width: 100px;
     text-align: center;
@@ -50,16 +57,33 @@
    flex-direction: row;
 }
 
+
 #persona {
-    background-color: whitesmoke;
+    background-color: #A8EBA2;
     height: 100vh;
     width: 50%;
+    opacity: 0;
+    transform: translateX(-600px);
+    transition: all 1.3s ease-out;
+}
+
+#persona.fade-in {
+    opacity: 1;
+    transform: translateX(0px);
 }
 
 #ratio {
-    background-color: gray;
+    background-color: #A6EBCD;
     height: 100vh;
     width: 50%;
+    opacity: 0;
+    transform: translateX(600px);
+    transition: all 1.3s ease-out;
+}
+
+#ratio.fade-in {
+    opacity: 1;
+    transform: translateX(0px);
 }
 
 #fuelSave {
@@ -68,21 +92,45 @@
  }
  
  #iecsFuel {
-     background-color: gray;
+     background-color: #A6EBCD;
      height: 100vh;
      width: 50%;
+     opacity: 0;
+     transform: translateY(150px);
+     transition: all 1.2s ease-out;
  }
  
+#iecsFuel.fade-in {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
  #rrFuel {
-     background-color: whitesmoke;
+     background-color: #A8EBA2;
      height: 100vh;
      width: 50%;
+     opacity: 0;
+    transform: translateY(250px);
+    transition: all 1.2s ease-out;
+ }
+
+ #rrFuel.fade-in {
+    opacity: 1;
+    transform: translateY(0px);
  }
 
  #emissions {
     width: 100%;
     height: 100vh;
-    background-color: lightgray;
+    background-color: #AEEBBC;
+    opacity: 0;
+    transform: translateX(-900px);
+    transition: all 1.5s ease-out;
+}
+
+#emissions.fade-in {
+    opacity: 1;
+    transform: translateX(0px);
 }
 
 #roadDamage {
@@ -94,18 +142,27 @@
 
 #road {
     width: 60%;
-    background-color: gray;
+    background-color: #E8FFD4;
 }
 
 #damageInfo {
     width: 40%;
-    background-color: whitesmoke;
+    background-color: #7BAD9C;
+    opacity: 0;
+    transform: translateX(200px);
+    transition: all 1s ease-out;
+}
+
+#damageInfo.fade-in {
+    opacity: 1;
+    transform: translateX(0px);
 }
 
 #summary {
     display: flex;
     flex-direction: column;
     height: 100vh;
+    background-color: #E8FFD4;
 }
 
 #dashboard {
@@ -116,10 +173,16 @@
 }
 
 .dashBox {
-    background-color: lightgray;
+    background-color: #89CC8B;
     border-right: 2px solid white;
     width: 25%;
     height: 100%;
+    opacity: 0;
+    transition: all 3s ease-out;
+}
+
+.dashBox.fade-in {
+    opacity: 1;
 }
 
 #finale {
