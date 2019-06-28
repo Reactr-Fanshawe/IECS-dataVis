@@ -19,8 +19,9 @@
     <section id="welcomeSpace">
         <div id="centerText">
             <p id="title">Welcome to IECS</p>
-            <p id="message">We want to show you how we are reducing our carbon footprint one job at a time. Scroll down to begin!</p>
-            <p id="begin">Begin!</p>
+            <p id="message">We want to show you how we are reducing our carbon footprint one job at a time.</p>
+            <p id="begin">Scroll to begin</p>
+            <img src="images/downarrow.png" alt="downarrow" width=5%>
         </div>
     </section>
 
