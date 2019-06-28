@@ -9,7 +9,8 @@ $(document).ready(function(){
     .addTo(controller);
 
     var ratioScene = new ScrollMagic.Scene({
-        triggerElement: '#ratio'
+        triggerElement: '#ratio',
+        triggerHook: .2
     })
     .setClassToggle('#ratio', 'fade-in')
     .addTo(controller);
@@ -21,25 +22,29 @@ $(document).ready(function(){
     .addTo(controller);
 
     var rrfuelScene = new ScrollMagic.Scene({
-        triggerElement: '#rrFuel'
+        triggerElement: '#rrFuel',
+        triggerHook: .4
     })
     .setClassToggle('#rrFuel', 'fade-in')
     .addTo(controller);
 
     var emissionsScene = new ScrollMagic.Scene({
-        triggerElement: '#emissions'
+        triggerElement: '#emissions',
+        triggerHook: .4
     })
     .setClassToggle('#emissions', 'fade-in')
     .addTo(controller);
 
     var damageinfoScene = new ScrollMagic.Scene({
-        triggerElement: '#damageInfo'
+        triggerElement: '#damageInfo',
+        triggerHook: .25
     })
     .setClassToggle('#damageInfo', 'fade-in')
     .addTo(controller);
 
     var dashScene = new ScrollMagic.Scene({
-        triggerElement: '.dashBox'
+        triggerElement: '.dashBox',
+        triggerHook: .2
     })
     .setClassToggle('.dashBox', 'fade-in')
     .addTo(controller);
