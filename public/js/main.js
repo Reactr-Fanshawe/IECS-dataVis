@@ -1,52 +1,81 @@
+//https://ihatetomatoes.net/module-1/s101-reverse-and-each-loop-726/  <--- go here if you 
+//decide to do a foreach loop for duplicated animations
+
 $(document).ready(function(){
 
     var controller = new ScrollMagic.Controller();
-	
-    var personaScene = new ScrollMagic.Scene({
-        triggerElement: '#persona'
-    })
-    .setClassToggle('#persona', 'fade-in')
-    .addTo(controller);
 
-    var ratioScene = new ScrollMagic.Scene({
-        triggerElement: '#ratio',
-        triggerHook: .2
-    })
-    .setClassToggle('#ratio', 'fade-in')
+   //scene pins for every section
+   
+    var welcomePinScene = new ScrollMagic.Scene({
+		triggerElement: '#welcomeSpace',
+		triggerHook: 0,
+	})
+	.setPin('#welcomeSpace')
     .addTo(controller);
+    
+    var sectionPinScene1 = new ScrollMagic.Scene({
+		triggerElement: '#scenario',
+        triggerHook: 0,
+        duration: '90%'
+	})
+	.setPin('#scenario')
+    .addTo(controller);
+    
+    var sectionPinScene1 = new ScrollMagic.Scene({
+		triggerElement: '#fuelSave',
+        triggerHook: 0,
+        duration: '90%'
+	})
+	.setPin('#fuelSave')
+    .addTo(controller);
+    
+    var sectionPinScene1 = new ScrollMagic.Scene({
+		triggerElement: '#emissions',
+        triggerHook: 0,
+        duration: '90%'
+	})
+	.setPin('#emissions')
+    .addTo(controller);
+    
+    var sectionPinScene1 = new ScrollMagic.Scene({
+		triggerElement: '#roadDamage',
+        triggerHook: 0,
+        duration: '90%'
+	})
+	.setPin('#roadDamage')
+    .addTo(controller);
+    
+    var sectionPinScene1 = new ScrollMagic.Scene({
+		triggerElement: '#summary',
+        triggerHook: 0,
+	})
+	.setPin('#summary')
+	.addTo(controller);
 
-    var iecsfuelScene = new ScrollMagic.Scene({
-        triggerElement: '#iecsFuel'
-    })
-    .setClassToggle('#iecsFuel', 'fade-in')
-    .addTo(controller);
-
-    var rrfuelScene = new ScrollMagic.Scene({
-        triggerElement: '#rrFuel',
-        triggerHook: .4
-    })
-    .setClassToggle('#rrFuel', 'fade-in')
-    .addTo(controller);
-
-    var emissionsScene = new ScrollMagic.Scene({
-        triggerElement: '#emissions',
-        triggerHook: .4
-    })
-    .setClassToggle('#emissions', 'fade-in')
-    .addTo(controller);
+  //end pin scene for every section
+  
+  
 
     var damageinfoScene = new ScrollMagic.Scene({
-        triggerElement: '#damageInfo',
-        triggerHook: .25
-    })
-    .setClassToggle('#damageInfo', 'fade-in')
+        triggerElement: '#damageInfoT',
+        triggerHook: .2
+     })
+    .setClassToggle('#damageInfoT', 'fade-in')
     .addTo(controller);
 
-    var dashScene = new ScrollMagic.Scene({
-        triggerElement: '.dashBox',
-        triggerHook: .2
+    var carScene = new ScrollMagic.Scene({
+        triggerElement: '#testCar',
+        triggerHook: .5
     })
-    .setClassToggle('.dashBox', 'fade-in')
+    .setClassToggle('#testCar', 'fade-in')
     .addTo(controller);
+    
+  //  var dashScene = new ScrollMagic.Scene({
+   //     triggerElement: '.dashBox',
+    //    triggerHook: .2
+   // })
+  //  .setClassToggle('.dashBox', 'fade-in')
+   // .addTo(controller);
 
 });

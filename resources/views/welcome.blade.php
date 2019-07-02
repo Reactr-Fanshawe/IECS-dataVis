@@ -9,14 +9,14 @@
         <title>IECS Data</title>
     </head>
     <body>
-    <header> 
+   
+
+    <section id="welcomeSpace">
         <div id="topbar">
             <div id="logoSpace">
             </div>
         </div>
-    </header>
-
-    <section id="welcomeSpace">
+  
         <div id="centerText">
             <p id="title">Welcome to IECS</p>
             <p id="message">We want to show you how we are reducing our carbon footprint one job at a time.</p>
@@ -25,9 +25,11 @@
         </div>
     </section>
 
-    <section id="scenario">
+    <section id="scenario" class="section">
         <div id="persona">
+            <div class="testBox">
 
+            </div>
         </div>
 
         <div id="ratio">
@@ -36,19 +38,21 @@
     </section>
 
 
-    <section id="fuelSave">
+    <section id="fuelSave" class="section">
     <div id="iecsFuel">
 
     </div>
 
     <div id="rrFuel">
+         <div class="testBox">
 
+         </div>
     </div>
     </section>
 
 
     <section id="emissions">
-
+    
     </section>
 
 
@@ -57,9 +61,14 @@
 
     <div id="road">
 
+        <div id="testCar">
+
+        </div>
     </div>
 
     <div id="damageInfo">
+       
+             <p id="damageInfoT">this is text about damage on the roads!</p>
 
     </div>
 
@@ -67,7 +76,7 @@
 
 
 
-    <section id="summary">
+    <section id="summary" class="section">
 
     <div id="dashboard">
         <div class="dashBox">
@@ -85,7 +94,7 @@
     </div>
 
     <div id="finale">
-
+  
     </div>
 
     </section>
