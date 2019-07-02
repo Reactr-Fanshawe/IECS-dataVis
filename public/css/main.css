@@ -2,26 +2,26 @@ body {
     font-family: 'Noto Sans HK', sans-serif;
 }
 
-#topbar {
-    width: 100%;
-    height: 110px;
-    background-color: #182628;
 
-}
-
-#logoSpace {
-    width: 120px;
-    height: 110px;
-    background-color: #F2F2F2;
-    margin: 0 auto;
-    border-radius: 100%;
-    
-}
 
 #welcomeSpace {
     width: 100%;
     height: 100vh;
     background-color:#F2F2F2;
+}
+
+#topbar {
+    width: 100%;
+    height: 15%;
+    background-color: #182628;
+}
+
+#logoSpace {
+    width: 120px;
+    height: 100%;
+    background-color: #F2F2F2;
+    margin: 0 auto;
+    border-radius: 100%;
 }
 
 #centerText {
@@ -68,29 +68,15 @@ body {
     background-color: #65CCB8;
     height: 100vh;
     width: 50%;
-    opacity: 0;
-    transform: translateX(-600px);
-    transition: all 1s ease-out;
 }
 
-#persona.fade-in {
-    opacity: 1;
-    transform: translateX(0px);
-}
 
 #ratio {
     background-color: #182628;
     height: 100vh;
     width: 50%;
-    opacity: 0;
-    transform: translateX(600px);
-    transition: all 1s ease-out;
 }
 
-#ratio.fade-in {
-    opacity: 1;
-    transform: translateX(0px);
-}
 
 #fuelSave {
     display: flex;
@@ -101,43 +87,22 @@ body {
      background-color: #182628;
      height: 100vh;
      width: 50%;
-     opacity: 0;
-     transform: translateY(250px);
-     transition: all 1.2s ease-out;
  }
  
-#iecsFuel.fade-in {
-    opacity: 1;
-    transform: translateY(0px);
-}
 
  #rrFuel {
      background-color: #A8EBA2;
      height: 100vh;
      width: 50%;
-     opacity: 0;
-    transform: translateY(250px);
-    transition: all 1.2s ease-out;
  }
 
- #rrFuel.fade-in {
-    opacity: 1;
-    transform: translateY(0px);
- }
 
  #emissions {
     width: 100%;
     height: 100vh;
     background-color: #57ba98;
-    opacity: 0;
-    transform: translateX(-900px);
-    transition: all 1.5s ease-out;
 }
 
-#emissions.fade-in {
-    opacity: 1;
-    transform: translateX(0px);
-}
 
 #roadDamage {
     display: flex;
@@ -154,15 +119,8 @@ body {
 #damageInfo {
     width: 40%;
     background-color: #182628;
-    opacity: 0;
-    transform: translateX(200px);
-    transition: all 1s ease-out;
 }
 
-#damageInfo.fade-in {
-    opacity: 1;
-    transform: translateX(0px);
-}
 
 #summary {
     display: flex;
@@ -175,7 +133,6 @@ body {
     height: 220px;
     width: 100%;
     display: flex;
-    flex-direction: row;
 }
 
 .dashBox {
@@ -183,17 +140,51 @@ body {
     border-right: 4px solid white;
     width: 25%;
     height: 100%;
-    opacity: 0;
-    transition: all 3s ease-out;
 }
 
-.dashBox.fade-in {
-    opacity: 1;
-}
+
+
 
 #finale {
     height: 100vh;
     background-color: #F2F2F2;
+}
+
+.testBox {
+    width: 100px;
+    height: 200px;
+    background-color: yellow;
+    margin-left: 50px;
+}
+
+#damageInfoT {
+    color: white;
+    transition: all 1s ease-out;
+    opacity: 0;
+    transform: translateX(150px);
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+#damageInfoT.fade-in{
+    opacity: 1;
+    transform: translateX(0px)
+}
+
+#testCar {
+    background-color: green;
+    padding: 50px;
+    width: 300px;
+    height: 100px;
+    opacity: 0;
+    margin-top: 200px;
+    transition: all 1s ease-out;
+    transform: translateX(-200px);
+}
+
+#testCar.fade-in {
+    opacity: 1;
+    transform: translateX(100px);
 }
 
 
