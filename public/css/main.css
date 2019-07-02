@@ -65,10 +65,79 @@ body {
 
 
 #persona {
-    background-color: #65CCB8;
+    background-color: #F2FADB;
     height: 100vh;
     width: 50%;
 }
+
+#personaScene {
+    margin-left: 30px;
+    width: 21%;
+    position: absolute;
+    bottom: 0px;
+   /* opacity: 0; */
+}
+
+#personaText {
+    font-family: 'Noto Sans HK', sans-serif;
+    color: #39423A;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    line-height: 25px;
+}
+
+#thisMichael {
+    font-weight: bold;
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+#michael {
+    position: absolute;
+    transition: all 1s ease-out;
+    transform: translateX(-400px);
+    bottom: 0px;
+}
+
+#plant {
+    width: 120%;
+    margin-left: -30px;
+
+}
+
+#michael.fade-in {
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+#clouds1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    opacity: 0;
+    transition: all 3s ease-out;
+    transform: translateX(-400px);
+}
+
+#clouds1 .cloudfirst {
+    width: 15%;
+    margin-top: 170px;
+    margin-left: -70px;
+}
+
+#clouds1 .cloudsecond {
+    width: 35%;
+    margin-top: 70px;
+    margin-left: 90px
+}
+
+#clouds1.fade-in {
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+
 
 
 #ratio {

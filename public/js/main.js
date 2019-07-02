@@ -78,4 +78,20 @@ $(document).ready(function(){
   //  .setClassToggle('.dashBox', 'fade-in')
    // .addTo(controller);
 
+
+   //persona content animation
+
+   var michaelScene = new ScrollMagic.Scene({
+      triggerElement: '#michael',
+      triggerHook: .6
+    })
+      .setClassToggle('#michael', 'fade-in')
+      .addTo(controller);
+
+    var clouds1Scene = new ScrollMagic.Scene({
+      triggerElement: '#clouds1',
+      triggerHook: .8
+    })
+      .setClassToggle('#clouds1', 'fade-in')
+      .addTo(controller);
 });

@@ -27,9 +27,25 @@
 
     <section id="scenario" class="section">
         <div id="persona">
-            <div class="testBox">
 
+        <div id="personaText">
+            <p id="thisMichael">This is Michael.</p>
+            <p>He wants to provide erosion control for his local 
+             waterway. He's looking for the most environmentally and economically effective
+             contract for his project of 4,000m2. He researches his options
+             with IECS Cable-Concrete versus Rip-rap.</p>
+        </div>
+                
+            <div id="clouds1">
+                <img class="cloudfirst" src="images/IECS_illustrated_cloud_1.svg">
+                <img class="cloudsecond" src="images/IECS_illustrated_cloud_2.svg">
             </div>
+
+            <div id="personaScene">
+                <img id="michael" src="images/IECS_illustrated_michael.svg">
+                <img id="plant" src="images/IECS_illustrated_vegetation.svg">      
+            </div>
+
         </div>
 
         <div id="ratio">
