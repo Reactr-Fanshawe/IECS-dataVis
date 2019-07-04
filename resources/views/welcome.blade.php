@@ -10,43 +10,79 @@
     </head>
     <body>
    
-
+ 
     <section id="welcomeSpace">
-        <div id="topbar">
+        <img id="welcomeBg" src="images/IECS_illustrated_headerBackground.svg">
+        <img id="treeHill" src="images/IECS_illustrated_treeonHill.svg">
+        <img id="sun" src="images/IECS_illustrated_theSun.svg">
             <div id="logoSpace">
+                <img src="images/iecs_logo.png" alt="IECS logo">
             </div>
-        </div>
   
         <div id="centerText">
             <p id="title">Welcome to IECS</p>
             <p id="message">We want to show you how we are reducing our carbon footprint one job at a time.</p>
-            <p id="begin">Scroll to begin</p>
-            <img src="images/downarrow.png" alt="downarrow" width=5%>
+            <div id="begin"><p>SCROLL</p></div>
+            <img id="scrollBtn" src="images/IECS_illustrated_scrolldownBtn.svg">
         </div>
     </section>
 
     <section id="scenario" class="section">
         <div id="persona">
-            <div class="testBox">
 
+        <div id="personaText">
+            <p id="thisMichael">This is Michael.</p>
+            <p>He wants to provide erosion control for his local 
+             waterway. He's looking for the most environmentally and economically effective
+             contract for his project of 4,000m2. He researches his options
+             with IECS Cable-Concrete versus Rip-rap.</p>
+        </div>
+                
+            <div id="clouds1">
+                <img class="cloudfirst" src="images/IECS_illustrated_cloud_1.svg">
+                <img class="cloudsecond" src="images/IECS_illustrated_cloud_2.svg">
             </div>
+
+            <div id="personaScene">
+                <img id="michael" src="images/IECS_illustrated_michael.svg">
+                <img id="plant" src="images/IECS_illustrated_vegetation.svg">      
+            </div>
+
         </div>
 
         <div id="ratio">
-          
+          <img id ="ratioBkgrd" src="images/IECS_illustrated_ratio_background.svg">
+          <div id="ratioRow6"><img src="images/IECS_illustrated_ratio_row.svg"></div>
+          <div id="ratioRow5"><img src="images/IECS_illustrated_ratio_row.svg"></div>
+          <div id="ratioRow4"><img src="images/IECS_illustrated_ratio_row.svg"></div>
+          <div id="ratioRow3"><img src="images/IECS_illustrated_ratio_row.svg"></div>
+          <div id="ratioRow2"><img src="images/IECS_illustrated_ratio_row.svg"></div>
+          <div id="ratioRow1"><img src="images/IECS_illustrated_riprap_trucks_2.svg"></div>
         </div>
     </section>
 
 
     <section id="fuelSave" class="section">
     <div id="iecsFuel">
-
+        <img id="scale1" src="images/IECS_illustrated_scale.svg">   
+        <img id ="fuelAnim1" src="images/IECS_illustrated_fuel.svg">
+        <img id ="fuelDrop1" src="images/IECS_illustrated_fuel_drops.svg">
+        <div id="indc1Div">
+            <h2>79</h2>
+            <p>LITRES</p>
+        <img id="indicator1" src="images/IECS_illustrated_indicator.svg">
+        </div>
     </div>
 
     <div id="rrFuel">
-         <div class="testBox">
-
-         </div>
+        <img id="scale2" src="images/IECS_illustrated_scale.svg"> 
+        <img id ="fuelAnim2" src="images/IECS_illustrated_fuel.svg">
+        <img id ="fuelDrop2" src="images/IECS_illustrated_fuel_drops.svg">
+        <div id="indc2Div">
+            <h2>1,422</h2>
+            <p>LITRES</p>
+        <img id="indicator2" src="images/IECS_illustrated_indicator.svg">
+        </div>
     </div>
     </section>
 
@@ -91,10 +127,13 @@
         <div class="dashBox">
 
         </div>
+
     </div>
 
     <div id="finale">
   
+        <img src="images/cableconcrete_result.jpg" alt="Cable Concrete" id="CC_result">
+
     </div>
 
     </section>
