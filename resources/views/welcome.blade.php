@@ -20,7 +20,7 @@
             </div>
   
         <div id="centerText">
-            <p id="title">Welcome to IECS</p>
+            <p id="title">IECS is tackling carbon emissions</p>
             <p id="message">We want to show you how we are reducing our carbon footprint one job at a time.</p>
             <div id="begin"><p>SCROLL</p></div>
             <img id="scrollBtn" src="images/IECS_illustrated_scrolldownBtn.svg">
@@ -33,9 +33,8 @@
         <div id="personaText">
             <p id="thisMichael">This is Michael.</p>
             <p>He wants to provide erosion control for his local 
-             waterway. He's looking for the most environmentally and economically effective
-             contract for his project of 4,000m2. He researches his options
-             with IECS Cable-Concrete versus Rip-rap.</p>
+             waterway. He's looking for the most environmentally and economically conscientious
+             contract.</p>
         </div>
                 
             <div id="clouds1">
@@ -51,19 +50,30 @@
         </div>
 
         <div id="ratio">
-          <img id ="ratioBkgrd" src="images/IECS_illustrated_ratio_background.svg">
+             <img id ="ratioBkgrd" src="images/IECS_illustrated_ratio_background.svg">
+        <div id="ratioRows"> 
           <div id="ratioRow6"><img src="images/IECS_illustrated_ratio_row.svg"></div>
           <div id="ratioRow5"><img src="images/IECS_illustrated_ratio_row.svg"></div>
           <div id="ratioRow4"><img src="images/IECS_illustrated_ratio_row.svg"></div>
           <div id="ratioRow3"><img src="images/IECS_illustrated_ratio_row.svg"></div>
           <div id="ratioRow2"><img src="images/IECS_illustrated_ratio_row.svg"></div>
           <div id="ratioRow1"><img src="images/IECS_illustrated_riprap_trucks_2.svg"></div>
+        </div> 
         </div>
     </section>
 
 
     <section id="fuelSave" class="section">
     <div id="iecsFuel">
+        <div id="fuelText">
+            <p>“Heavy trucks make up just around 7% of the vehicles on the 
+                road in the U.S., but they consume about 25% of all fuel.”</p>
+        </div>
+
+        <div id="fuelText2">          
+                <p>With IECS, Michael will be:</p>
+        </div>
+        
         <img id="scale1" src="images/IECS_illustrated_scale.svg">   
         <img id ="fuelAnim1" src="images/IECS_illustrated_fuel.svg">
         <img id ="fuelDrop1" src="images/IECS_illustrated_fuel_drops.svg">
@@ -88,7 +98,10 @@
 
 
     <section id="emissions">
-    
+       <img id="emissionsBg" src="images/IECS_illustrated_emissions.svg">
+       <div id="emissionCloud">
+        
+       </div>
     </section>
 
 
