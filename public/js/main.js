@@ -22,7 +22,7 @@ $(document).ready(function(){
 	.setPin('#scenario')
     .addTo(controller);
     
-    var sectionPinScene1 = new ScrollMagic.Scene({
+    var sectionPinScene2 = new ScrollMagic.Scene({
 		triggerElement: '#fuelSave',
         triggerHook: 0,
         duration: '90%'
@@ -30,7 +30,7 @@ $(document).ready(function(){
 	.setPin('#fuelSave')
     .addTo(controller);
     
-    var sectionPinScene1 = new ScrollMagic.Scene({
+    var sectionPinScene3 = new ScrollMagic.Scene({
 		triggerElement: '#emissions',
         triggerHook: 0,
         duration: '90%'
@@ -38,7 +38,7 @@ $(document).ready(function(){
 	.setPin('#emissions')
     .addTo(controller);
     
-    var sectionPinScene1 = new ScrollMagic.Scene({
+    var sectionPinScene4 = new ScrollMagic.Scene({
 		triggerElement: '#roadDamage',
         triggerHook: 0,
         duration: '90%'
@@ -46,7 +46,7 @@ $(document).ready(function(){
 	.setPin('#roadDamage')
     .addTo(controller);
     
-    var sectionPinScene1 = new ScrollMagic.Scene({
+    var sectionPinScene5 = new ScrollMagic.Scene({
 		triggerElement: '#summary',
         triggerHook: 0,
 	})
@@ -75,7 +75,8 @@ $(document).ready(function(){
 
    var michaelScene = new ScrollMagic.Scene({
       triggerElement: '#michael',
-      triggerHook: .6
+      triggerHook: .9,
+      reverse: false
     })
       .setClassToggle('#michael', 'fade-in')
       .addTo(controller);
@@ -92,51 +93,76 @@ $(document).ready(function(){
 
       var ratioRow1Scene = new ScrollMagic.Scene({
         triggerElement: '#ratioRow1',
-        triggerHook: 1
+        triggerHook: 1,
+        reverse:false
       })
         .setClassToggle('#ratioRow1', 'fade-in')
         .addTo(controller);
 
       var ratioRow2Scene = new ScrollMagic.Scene({
         triggerElement: '#ratioRow2',
-        triggerHook: .95
+        triggerHook: .95,
+        reverse:false
       })
         .setClassToggle('#ratioRow2', 'fade-in')
         .addTo(controller);  
 
         var ratioRow3Scene = new ScrollMagic.Scene({
           triggerElement: '#ratioRow3',
-          triggerHook: .9
+          triggerHook: .9,
+          reverse:false
         })
           .setClassToggle('#ratioRow3', 'fade-in')
           .addTo(controller);  
 
       var ratioRow4Scene = new ScrollMagic.Scene({
         triggerElement: '#ratioRow4',
-        triggerHook: .8
+        triggerHook: .8,
+        reverse:false
       })
         .setClassToggle('#ratioRow4', 'fade-in')
         .addTo(controller);
         
         var ratioRow5Scene = new ScrollMagic.Scene({
           triggerElement: '#ratioRow5',
-          triggerHook: .7
+          triggerHook: .7,
+          reverse:false
         })
           .setClassToggle('#ratioRow5', 'fade-in')
           .addTo(controller);
           
           var ratioRow6Scene = new ScrollMagic.Scene({
             triggerElement: '#ratioRow6',
-            triggerHook: .6
+            triggerHook: .6,
+            reverse:false
           })
             .setClassToggle('#ratioRow6', 'fade-in')
             .addTo(controller);  
 
-        /*fuel content animation*/
+        
+            /*fuel content animation*/
+            
+            var fuelTextScene = new ScrollMagic.Scene({
+              triggerElement: '#iecsFuel',
+              triggerHook: .6,
+              reverse:false
+            })
+              .setClassToggle('#fuelText', 'fade-in')
+              .addTo(controller);  
+
+              var fuelTextScene2 = new ScrollMagic.Scene({
+                triggerElement: '#iecsFuel',
+                triggerHook: .5,
+                reverse:false
+              })
+                .setClassToggle('#fuelText2', 'fade-in')
+                .addTo(controller);  
+
 
         var fuelAnim1Scene = new ScrollMagic.Scene({
           triggerElement: '#iecsFuel',
-          triggerHook: .6
+          triggerHook: .6,
+          reverse:false
         })
           .setClassToggle('#fuelAnim1', 'fade-in')
           .addTo(controller);  
@@ -144,7 +170,8 @@ $(document).ready(function(){
 
           var fuelAnim1Scene = new ScrollMagic.Scene({
             triggerElement: '#rrFuel',
-            triggerHook: .6
+            triggerHook: .6,
+            reverse:false
           })
             .setClassToggle('#fuelAnim2', 'fade-in')
             .addTo(controller); 
@@ -152,32 +179,36 @@ $(document).ready(function(){
 
             var fuelDrop1Scene = new ScrollMagic.Scene({
               triggerElement: '#rrFuel',
-              triggerHook: .6
+              triggerHook: .6,
+              reverse:false
             })
               .setClassToggle('#fuelDrop1', 'fade-in')
               .addTo(controller); 
 
               var fuelDrop2Scene = new ScrollMagic.Scene({
                 triggerElement: '#rrFuel',
-                triggerHook: .6
+                triggerHook: .6,
+                reverse:false
               })
                 .setClassToggle('#fuelDrop2', 'fade-in')
                 .addTo(controller); 
   
                 var indc1Scene = new ScrollMagic.Scene({
                   triggerElement: '#rrFuel',
-                  triggerHook: .4
+                  triggerHook: .4,
+                  reverse:false
                 })
                   .setClassToggle('#indc1Div', 'fade-in')
                   .addTo(controller); 
 
 
-                  var indc2Scene = new ScrollMagic.Scene({
-                    triggerElement: '#rrFuel',
-                    triggerHook: .4
-                  })
-                    .setClassToggle('#indc2Div', 'fade-in')
-                    .addTo(controller); 
+                var indc2Scene = new ScrollMagic.Scene({
+                  triggerElement: '#rrFuel',
+                  triggerHook: .4,
+                  reverse:false
+                })
+                  .setClassToggle('#indc2Div', 'fade-in')
+                  .addTo(controller); 
 
 
 });
