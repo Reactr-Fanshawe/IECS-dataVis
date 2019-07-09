@@ -740,18 +740,19 @@ body
     flex-direction: row;
     height: 100vh;
     width: 100%;
+    background-color: #4eae48
 }
 
-#road {
+
+#roadBG {
     width: 100%;
-    background-color: #182628;
+    height: 100%;
+    position: absolute;
+    bottom: 0%;
 }
 
-#damageInfo {
-    width: 40%;
-    background-color: #182628;
-}
 
+/* summary styling */
 
 #summary {
     display: flex;
@@ -761,7 +762,7 @@ body
 }
 
 #dashboard {
-    height: 220px;
+    height: 30%;
     width: 100%;
     display: flex;
 }
@@ -779,45 +780,6 @@ body
     background-color: #F2F2F2;
 }
 
-.testBox {
-    width: 100px;
-    height: 200px;
-    background-color: yellow;
-    margin-left: 50px;
-}
-
-#damageInfoT {
-    color: white;
-    transition: all 1s ease-out;
-    opacity: 0;
-    transform: translateX(150px);
-    margin-top: 100px;
-    margin-left: 50px;
-}
-
-#damageInfoT.fade-in{
-    opacity: 1;
-    transform: translateX(0px)
-}
-
-#testCar {
-    background-color: green;
-    padding: 50px;
-    width: 300px;
-    height: 100px;
-    opacity: 0;
-    margin-top: 200px;
-    transition: all 1s ease-out;
-    transform: translateX(-200px);
-}
-
-#testCar.fade-in {
-    opacity: 1;
-    transform: translateX(100px);
-}
-
-
-/* summary styling */
 
 #finale {
     overflow: hidden;
