@@ -6,6 +6,9 @@ body
 }
 
 
+
+/*main welcome page*/
+
 #welcomeSpace {
     width: 100%;
     height: 100vh;
@@ -80,7 +83,7 @@ body
 }
 
 #scrollBtn {
-    width: 6%;  
+    width: 6%; 
 }
 
 #begin {
@@ -105,7 +108,11 @@ body
     padding-top: 8%;
 }
 
-/* scenario styling*/
+
+
+
+
+/* scenario block styling*/
 
 #scenario {
    display: flex;
@@ -117,6 +124,8 @@ body
    width: 100%;
    height: 100vh;
 }
+
+
 
 
 
@@ -133,7 +142,6 @@ body
     width: 21%;
     position: absolute;
     bottom: 0px;
-   /* opacity: 0; */
 }
 
 #personaText {
@@ -193,6 +201,9 @@ body
     opacity: 1;
     transform: translateX(0px);
 }
+
+
+
 
 
 /* ratio styling*/
@@ -306,6 +317,10 @@ body
 }
 
 
+
+
+
+
 /* fuel save styling*/
 
 #fuelText {
@@ -370,6 +385,14 @@ body
     height: 100%;
  }
 
+ #iconFuel1 {
+     position: absolute;
+     width: 15%;
+     left: 40%;
+     top: 19%;
+     z-index: 4;
+ }
+
  #indicator1 {
      z-index: 2;
      position: absolute;
@@ -400,7 +423,7 @@ body
     font-size: 2.5vw;
     text-align: center;
     position: absolute;
-    top: 28%;
+    top: 37%;
     left: 37%;
     font-family: 'Montserrat', sans-serif;
 }
@@ -411,8 +434,8 @@ body
      font-size: 1vw;
      text-align: center;
      position: absolute;
-     top: 50%;
-     left: 36%;
+     top: 52%;
+     left: 37%;
      font-family: 'Montserrat', sans-serif;
  }
  
@@ -431,6 +454,14 @@ body
     left: 50%;
     z-index: 1;
     height: 100%;
+}
+
+#iconFuel2 {
+    position: absolute;
+    width: 15%;
+    left: 40%;
+    top: 19%;
+    z-index: 4;
 }
 
 #indicator2 {
@@ -463,7 +494,7 @@ body
     font-size: 2.5vw;
     text-align: center;
     position: absolute;
-    top: 28%;
+    top: 37%;
     left: 25%;
     font-family: 'Montserrat', sans-serif;
 }
@@ -473,7 +504,7 @@ body
     color:black;
     text-align: center;
     position: absolute;
-    top: 50%;
+    top: 52%;
     left: 36%;
     font-family: 'Montserrat', sans-serif;
     font-size: 1vw;
@@ -530,20 +561,176 @@ body
 }
 
 
+
+
+
 /*emissions section styling*/
 
  #emissions {
     width: 100%;
     height: 100vh;
-    background-color: #57ba98;
+    background-color: #E7FFD8;
+    overflow: hidden;
 }
 
-#emissionsBg {
-    height: 100%;
-    width: 100%;
-    background-color: #E7FFD8;
-    position:absolute;
+#emissionsCloud {
+    width: 90%;
+    position: absolute;
+    margin: 0 auto;
+    top: 10%;
 }
+
+#emissionsFact {
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    font-size: 2.5vw;
+    z-index: 1;
+    width: 60%;
+    left: 5%;
+    top: 5%;
+    transition: all 1s ease;
+    transition-delay: 3s;
+    transform: translateY(-200%);
+}
+
+#emissionsFact.fade-in {
+    transition-delay: 6.5s;
+    transform: translateY(0%);
+    padding-bottom: 15px;
+    border-bottom: 1px solid black;
+}
+
+#cityForest {
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+}
+
+#iecsTruck {
+    position: absolute;
+    width: 12%;
+    bottom: 30%;
+    right: 7%;
+    transition: all 2s ease;
+    transform: translateX(-600%);
+}
+
+#iecsTruck.fade-in {
+    transform: translateX(0%);
+}
+
+#citytruckRow1 {
+    position: absolute;
+    bottom: 46%;
+    right: 8%;
+    width: 85%;
+    z-index: 1;
+    transition: all 3.5s ease;
+    transform: translateX(-600%);
+}
+
+#citytruckRow1.fade-in {
+    transition-delay: 2.2s;
+    transform: translateX(0%);
+}
+
+#citytruckRow2 {
+    position: absolute;
+    bottom: 30%;
+    right: 20%;
+    width: 75%;
+    transition: all 3.5s ease;
+    transform: translateX(-600%);
+}
+
+#citytruckRow2.fade-in {
+    transition-delay: 1.7s;
+    transform: translateX(0%);
+}
+
+#iecsSmog {
+    position: absolute;
+    z-index: 1;
+    width: 0vw;
+    bottom: 39%;
+    right: 8%;
+    opacity: 0;
+    transition: all 5s ease;
+    transform: translate(40%, 40%) scale(0);
+}
+
+#iecsSmog.fade-in {
+    transform: translate(0%, 0%) scale(1);
+    transition-delay: 1s;
+    opacity: .8;
+    width: 35vw;
+}
+
+#iecsSmogData {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2vw;
+    font-weight: bold;
+    position: absolute;
+    bottom: 42%;
+    right: 37%;
+    color: white;
+    z-index: 3;
+    opacity: 0;
+    transition: all 1s ease;
+}
+
+#iecsSmogData p {
+    font-size: 1vw;
+}
+
+#iecsSmogData.fade-in {
+    transition-delay: 6.5s;
+    opacity: 1;
+}
+
+
+#riprapSmog {
+    position: absolute;
+    z-index: 2;
+    width: 0vw;
+    bottom: 56%;
+    right: 10%;
+    opacity: 0;
+    transition: all 4.5s ease;
+    transform: translate(40%, 62%) scale(0);
+}
+
+#riprapSmog.fade-in {
+    transform: translate(0%, 0%) scale(1);
+    opacity: .8;
+    width: 70vw;
+    transition-delay: 4.5s;
+}
+
+#riprapSmogData {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5vw;
+    font-weight: bold;
+    position: absolute;
+    bottom: 68%;
+    left: 24%;
+    color: white;
+    z-index: 3;
+    opacity: 0;
+    transition: all 1s ease;
+}
+
+#riprapSmogData p {
+    font-size: 1.5vw;
+}
+
+#riprapSmogData.fade-in {
+    transition-delay: 8s;
+    opacity: 1;
+}
+
+
+
 
 
 /*road damage styling*/
@@ -556,8 +743,8 @@ body
 }
 
 #road {
-    width: 60%;
-    background-color: #E8FFD4;
+    width: 100%;
+    background-color: #182628;
 }
 
 #damageInfo {
@@ -585,8 +772,6 @@ body
     width: 25%;
     height: 100%;
 }
-
-
 
 
 #finale {

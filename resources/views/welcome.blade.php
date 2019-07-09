@@ -10,7 +10,8 @@
     </head>
     <body>
    
- 
+    <!––main welcome space--> 
+
     <section id="welcomeSpace">
         <img id="welcomeBg" src="images/IECS_illustrated_headerBackground.svg">
         <img id="treeHill" src="images/IECS_illustrated_treeonHill.svg">
@@ -26,6 +27,9 @@
             <img id="scrollBtn" src="images/IECS_illustrated_scrolldownBtn.svg">
         </div>
     </section>
+
+
+    <!––scenario/persona/ratio space-->
 
     <section id="scenario" class="section">
         <div id="persona">
@@ -63,6 +67,8 @@
     </section>
 
 
+    <!––fuel savings space-->
+
     <section id="fuelSave" class="section">
     <div id="iecsFuel">
         <div id="fuelText">
@@ -78,9 +84,10 @@
         <img id ="fuelAnim1" src="images/IECS_illustrated_fuel.svg">
         <img id ="fuelDrop1" src="images/IECS_illustrated_fuel_drops.svg">
         <div id="indc1Div">
-            <h2>79</h2>
-            <p>LITRES</p>
-        <img id="indicator1" src="images/IECS_illustrated_indicator.svg">
+            <img id="iconFuel1" src="images/IECS_illustrated_fuel_icon.svg">
+                <h2>79</h2>
+                <p>LITRES</p>
+            <img id="indicator1" src="images/IECS_illustrated_indicator.svg">
         </div>
     </div>
 
@@ -89,41 +96,51 @@
         <img id ="fuelAnim2" src="images/IECS_illustrated_fuel.svg">
         <img id ="fuelDrop2" src="images/IECS_illustrated_fuel_drops.svg">
         <div id="indc2Div">
-            <h2>1,422</h2>
-            <p>LITRES</p>
-        <img id="indicator2" src="images/IECS_illustrated_indicator.svg">
+            <img id="iconFuel2" src="images/IECS_illustrated_fuel_icon.svg">
+                <h2>1,422</h2>
+                <p>LITRES</p>
+            <img id="indicator2" src="images/IECS_illustrated_indicator.svg">
         </div>
     </div>
     </section>
 
+    <!––co2 emissions space-->
 
     <section id="emissions">
-       <img id="emissionsBg" src="images/IECS_illustrated_emissions.svg">
-       <div id="emissionCloud">
-        
-       </div>
+            <p id="emissionsFact">"The commercial road transportation sector produces 
+            19% of the total emissions in Canada"</p>
+       <img id="emissionsCloud" src="images/IECS_illustrated_city_clouds.svg">
+       <img id="citytruckRow1" src="images/IECS_illustrated_cityriprap_upper.svg">
+       <img id="citytruckRow2" src="images/IECS_illustrated_cityriprap_lower.svg">
+       
+            <img id="iecsSmog" src="images/IECS_illustrated_iecs_smog.svg">
+            <div id="iecsSmogData">
+                <h2>298g</p>
+                <p>CO2</p>
+            </div>
+
+            <img id="riprapSmog" src="images/IECS_illustrated_riprap_smog.svg">
+                <div id="riprapSmogData">
+                <h2>5,424g</p>
+                <p>CO2</p>
+            </div>
+      
+       <img id="iecsTruck" src="images/IECS_illustrated_iecs_city_truck.svg">
+       <img id="cityForest" src="images/IECS_illustrated_cityscape_background.svg">
     </section>
 
 
+    <!––road damage space-->
 
     <section id="roadDamage">
 
-    <div id="road">
-
-        <div id="testCar">
+        <div id="road">
 
         </div>
-    </div>
-
-    <div id="damageInfo">
-       
-             <p id="damageInfoT">this is text about damage on the roads!</p>
-
-    </div>
-
+        
     </section>
 
-
+    <!––ending summary space-->
 
     <section id="summary" class="section">
 
