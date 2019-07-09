@@ -134,11 +134,10 @@
 
     <section id="roadDamage">
 
-        <div id="road">
+        <img id="roadBG" src="images/IECS_illustrated_road_damage_background.svg">
 
-        </div>
-        
     </section>
+    
 
     <!––ending summary space-->
 
