@@ -725,7 +725,7 @@ body
 }
 
 #riprapSmogData.fade-in {
-    transition-delay: 8s;
+    transition-delay: 8.5s;
     opacity: 1;
 }
 
@@ -736,8 +736,6 @@ body
 /*road damage styling*/
 
 #roadDamage {
-    display: flex;
-    flex-direction: row;
     height: 100vh;
     width: 100%;
     background-color: #4eae48
@@ -747,8 +745,259 @@ body
 #roadBG {
     width: 100%;
     height: 100%;
+    bottom: 0%;
+}
+
+
+
+
+/*all cars and trucks and road cracks appearingon road sequentially*/
+
+/* bottom lane*/
+
+#car1 {
+    z-index: 2;
+    position: absolute;
+    bottom: 5%;
+    right: -30%;
+    width: 22%;
+    transition: all 2s linear;
+    transform: translateX(-700%);
+}
+
+#car1.fade-in {
+    transform: translateX(0%);
+}
+
+#rrDamageTruck1 {
+    z-index: 2;
+    position: absolute;
+    bottom: 5%;
+    right: -50%;
+    width: 30%;
+    transition: all 5s linear;
+    transform: translateX(-700%);
+}
+
+#rrDamageTruck1.fade-in {
+    transform: translateX(0%);
+    transition-delay: 1s;
+}
+
+#roadCrack4 {
+    z-index: 1;
     position: absolute;
     bottom: 0%;
+    width: 10%;
+    left: 10%;
+    transition: all .8s linear;
+    opacity: 0;
+}
+
+#roadCrack4.fade-in {
+    opacity: 1;
+    transition-delay: 3.2s;
+}
+
+
+#car2 {
+    z-index: 2;
+    position: absolute;
+    bottom: 5%;
+    right: -30%;
+    width: 22%;
+    transition: all 5s ease-in;
+    transform: translateX(-700%);
+}
+
+#car2.fade-in {
+    transition-delay: 1.7s;
+    transform: translateX(0%);
+}
+
+#roadCrack5 {
+    z-index: 1;
+    position: absolute;
+    bottom: 0%;
+    width: 10%;
+    left: 45%;
+    transition: all .8s linear;
+    opacity: 0;
+}
+
+#roadCrack5.fade-in {
+    opacity: 1;
+    transition-delay: 4.7s;
+}
+
+#rrDamageTruck2 {
+    z-index: 2;
+    position: absolute;
+    bottom: 5%;
+    right: -50%;
+    width: 30%;
+    transition: all 5.5s linear;
+    transform: translateX(-700%);
+}
+
+#roadCrack6 {
+    z-index: 1;
+    position: absolute;
+    bottom: 0%;
+    width: 15%;
+    height: 20%;
+    right: 0%;
+    transition: all .8s linear;
+    opacity: 0;
+}
+
+#roadCrack6.fade-in {
+    opacity: 1;
+    transition-delay: 7.3s;
+}
+
+#rrDamageTruck2.fade-in {
+    transform: translateX(0%);
+    transition-delay: 3s;
+}
+
+#car3 {
+    z-index: 2;
+    position: absolute;
+    bottom: 5%;
+    right: -30%;
+    width: 22%;
+    transition: all 3.5s ease-in;
+    transform: translateX(-700%);
+}
+
+#car3.fade-in {
+    transition-delay: 7s;
+    transform: translateX(0%);
+}
+
+
+/*upper lane*/
+
+#rrDamageTruck3 {
+    z-index: 3;
+    position: absolute;
+    bottom: 38%;
+    right: -50%;
+    width: 30%;
+    transition: all 5s ease-out;
+    transform: translateX(-700%);
+}
+
+#rrDamageTruck3.fade-in {
+    transform: translateX(0%);
+}
+
+#roadCrack2 {
+    z-index: 1;
+    position: absolute;
+    bottom: 48%;
+    left: 45%;
+    width: 10%;
+    opacity: 0;
+    transition: all 1s ease;
+}
+
+#roadCrack2.fade-in {
+    opacity: 1;
+    transition-delay: 2s;
+}
+
+#car4 {
+    z-index: 3;
+    position: absolute;
+    bottom: 38%;
+    width: 22%;
+    right: -30%;
+    width: 22%;
+    transition: all 3.6s ease-in;
+    transform: translateX(-700%);
+}
+
+#car4.fade-in {
+    transition-delay: .8s;
+    transform: translateX(0%);
+}
+
+#car5 {
+    z-index: 3;
+    position: absolute;
+    bottom: 38%;
+    right: -30%;
+    width: 22%;
+    transition: all 3.5s ease-in;
+    transform: translateX(-700%);
+}
+
+#car5.fade-in {
+    transition-delay: 1.5s;
+    transform: translateX(0%);
+}
+
+#rrDamageTruck4 {
+    z-index: 3;
+    position: absolute;
+    bottom: 38%;
+    right: -50%;
+    width: 30%;
+    transition: all 5s ease-out;
+    transform: translateX(-700%);
+}
+
+#rrDamageTruck4.fade-in {
+    transform: translateX(0%);
+    transition-delay: 2.5s;
+}
+
+#roadCrack1 {
+    z-index: 1;
+    position: absolute;
+    bottom: 48%;
+    width: 10%;
+    left: 10%;
+    opacity: 0;
+    transition: all 1s ease;
+}
+
+#roadCrack1.fade-in {
+    opacity: 1;
+    transition-delay: 4s;
+}
+
+
+#rrDamageTruck5 {
+    z-index: 3;
+    position: absolute;
+    bottom: 38%;
+    width: 30%;
+    right: -50%;
+    transition: all 6s ease-in;
+    transform: translateX(-800%);
+}
+
+#rrDamageTruck5.fade-in {
+    transition-delay: 3.5s;
+    transform: translateX(0%);
+}
+
+#roadCrack3 {
+    z-index: 1;
+    position: absolute;
+    bottom: 52%;
+    right: 5%;
+    width: 15%;
+    opacity: 0;
+    transition: all 1s ease;
+}
+
+#roadCrack3.fade-in {
+    opacity: 1;
+    transition-delay: 8.5s;
 }
 
 
