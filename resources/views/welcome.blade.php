@@ -136,8 +136,27 @@
 
         <img id="roadBG" src="images/IECS_illustrated_road_damage_background.svg">
 
+            <img id="car1" src="images/IECS_illustrated_yellowcar.svg">
+            <img id="car2" src="images/IECS_illustrated_taxicar.svg">
+            <img id="car3" src="images/IECS_illustrated_lightgraycar.svg">
+            <img id="car4" src="images/IECS_illustrated_lightbluecar.svg">
+            <img id="car5" src="images/IECS_illustrated_sandcar.svg">
+
+            <img id="rrDamageTruck1" src="images/IECS_illustrated_riprap_truck_damage.svg">
+            <img id="rrDamageTruck2" src="images/IECS_illustrated_riprap_truck_damage.svg">
+            <img id="rrDamageTruck3" src="images/IECS_illustrated_riprap_truck_damage.svg">
+            <img id="rrDamageTruck4" src="images/IECS_illustrated_riprap_truck_damage.svg">
+            <img id="rrDamageTruck5" src="images/IECS_illustrated_riprap_truck_damage.svg">
+
+            <img id="roadCrack1" src="images/IECS_illustrated_roadcrack_1.svg">
+            <img id="roadCrack2" src="images/IECS_illustrated_roadcrack_2.svg">
+            <img id="roadCrack3" src="images/IECS_illustrated_roadcrack_3.svg">
+            <img id="roadCrack4" src="images/IECS_illustrated_roadcrack_4.svg">
+            <img id="roadCrack5" src="images/IECS_illustrated_roadcrack_5.svg">
+            <img id="roadCrack6" src="images/IECS_illustrated_roadcrack_6.svg">
+
     </section>
-    
+
 
     <!––ending summary space-->
 
