@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="/css/main.css">
         <link rel="stylesheet" href="/css/reset.css">
-        <link href="https://fonts.googleapis.com/css?family=Noto+Sans+HK&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c&display=swap" rel="stylesheet">
         <title>IECS Data</title>
     </head>
     <body>
@@ -13,9 +13,9 @@
     <!––main welcome space--> 
 
     <section id="welcomeSpace">
-        <img id="welcomeBg" src="images/IECS_illustrated_headerBackground.svg">
-        <img id="treeHill" src="images/IECS_illustrated_treeonHill.svg">
-        <img id="sun" src="images/IECS_illustrated_theSun.svg">
+        <img id="welcomeBg" src="images/IECS_illustrated_header_Background.svg">
+       <!--<img id="treeHill" src="images/IECS_illustrated_treeonHill.svg">
+        <img id="sun" src="images/IECS_illustrated_theSun.svg">-->
             <div id="logoSpace">
                 <img src="images/iecs_logo.png" alt="IECS logo">
             </div>
@@ -40,6 +40,9 @@
              waterway. He's looking for the most environmentally and economically conscientious
              contract.</p>
         </div>
+        <div id="personaText2">
+            <p>He has 4,000m2 to cover and considers his options with using IECS cable concrete versus rip-rap.</p>
+        </div>
                 
             <div id="clouds1">
                 <img class="cloudfirst" src="images/IECS_illustrated_cloud_1.svg">
@@ -53,7 +56,11 @@
 
         </div>
 
-        <div id="ratio">
+    </section>
+
+    <section id="truckRatio">
+        
+    <div id="ratio">
              <img id ="ratioBkgrd" src="images/IECS_illustrated_ratio_background.svg">
         <div id="ratioRows"> 
           <div id="ratioRow6"><img src="images/IECS_illustrated_ratio_row.svg"></div>
@@ -64,43 +71,62 @@
           <div id="ratioRow1"><img src="images/IECS_illustrated_riprap_trucks_2.svg"></div>
         </div> 
         </div>
+        
+        <div id="ratioText">
+                <h2>IECS would only need <span>1</span> truck of cable concrete for Michael's job, whereas up to <span>18</span> rip-rap trucks would be required for the same delivery.</h2>
+                <p>Let's take a look at the importance of the difference in truck numbers</p>
+        </div>
+
     </section>
 
 
     <!––fuel savings space-->
 
     <section id="fuelSave" class="section">
-    <div id="iecsFuel">
+
         <div id="fuelText">
             <p>“Heavy trucks make up just around 7% of the vehicles on the 
                 road in the U.S., but they consume about 25% of all fuel.”</p>
         </div>
 
-        <div id="fuelText2">          
-                <p>With IECS, Michael will be:</p>
-        </div>
-        
-        <img id="scale1" src="images/IECS_illustrated_scale.svg">   
-        <img id ="fuelAnim1" src="images/IECS_illustrated_fuel.svg">
-        <img id ="fuelDrop1" src="images/IECS_illustrated_fuel_drops.svg">
+    
+      
         <div id="indc1Div">
+            <div id="dollarDiv1">
+                <img id="dollarIcon1" src="images/IECS_illustrated_money_icon.svg">
+                <h2>79.00</h2>
+                <p>SAVINGS</p>
+            </div>
             <img id="iconFuel1" src="images/IECS_illustrated_fuel_icon.svg">
                 <h2>79</h2>
                 <p>LITRES</p>
-            <img id="indicator1" src="images/IECS_illustrated_indicator.svg">
-        </div>
+            <img id="dollarIcon1">
+            <img id="indicator1" src="images/IECS_illustrated_assets_green_indicator.svg">
+        </div>   
+
+
+    <div id="iecsFuel">
+        <img id="scale1" src="images/IECS_illustrated_scale.svg">   
+        <img id ="fuelAnim1" src="images/IECS_illustrated_fuel.svg">
+        <img id ="fuelDrop1" src="images/IECS_illustrated_fuel_drops.svg">
     </div>
+
+    <div id="indc2Div">
+        <div id="dollarDiv2">
+                <img id="dollarIcon2" src="images/IECS_illustrated_money_icon.svg">
+                <h2>79</h2>
+                <p>SAVINGS</p>
+            </div>
+            <img id="iconFuel2" src="images/IECS_illustrated_fuel_icon.svg">
+                <h2>1,422</h2>
+                <p>LITRES</p>
+            <img id="indicator2" src="images/IECS_illustrated_assets_gray_indicator.svg">
+        </div>
 
     <div id="rrFuel">
         <img id="scale2" src="images/IECS_illustrated_scale.svg"> 
         <img id ="fuelAnim2" src="images/IECS_illustrated_fuel.svg">
         <img id ="fuelDrop2" src="images/IECS_illustrated_fuel_drops.svg">
-        <div id="indc2Div">
-            <img id="iconFuel2" src="images/IECS_illustrated_fuel_icon.svg">
-                <h2>1,422</h2>
-                <p>LITRES</p>
-            <img id="indicator2" src="images/IECS_illustrated_indicator.svg">
-        </div>
     </div>
     </section>
 
@@ -109,9 +135,10 @@
     <section id="emissions">
             <p id="emissionsFact">"The commercial road transportation sector produces 
             19% of the total emissions in Canada"</p>
-       <img id="emissionsCloud" src="images/IECS_illustrated_city_clouds.svg">
-       <img id="citytruckRow1" src="images/IECS_illustrated_cityriprap_upper.svg">
-       <img id="citytruckRow2" src="images/IECS_illustrated_cityriprap_lower.svg">
+       <img id="emissionsCloud" src="images/IECS_illustrated_cityscape_clouds.svg">
+       <img id="citytruckRow1" src="images/IECS_illustrated_cityriprap_trucks_2.svg">
+       <img id="citytruckRow2" src="images/IECS_illustrated_cityriprap_trucks_1.svg">
+       <img id="citytruckRow3" src="images/IECS_illustrated_cityriprap_trucks_1.svg">
        
             <img id="iecsSmog" src="images/IECS_illustrated_iecs_smog.svg">
             <div id="iecsSmogData">
@@ -135,6 +162,12 @@
     <section id="roadDamage">
 
         <img id="roadBG" src="images/IECS_illustrated_road_damage_background.svg">
+
+        <div id="damageText">
+            <p>Tax dollars spent on road damage repair from excessive
+                heavy truck traffic is a strain on the economy and can be reduced
+            </p>    
+        </div>
 
             <img id="car1" src="images/IECS_illustrated_yellowcar.svg">
             <img id="car2" src="images/IECS_illustrated_taxicar.svg">

@@ -21,8 +21,16 @@ $(document).ready(function(){
 	})
 	.setPin('#scenario')
     .addTo(controller);
-    
+
     var sectionPinScene2 = new ScrollMagic.Scene({
+      triggerElement: '#truckRatio',
+          triggerHook: 0,
+          duration: '90%'
+    })
+    .setPin('#truckRatio')
+      .addTo(controller);
+    
+    var sectionPinScene3 = new ScrollMagic.Scene({
 		triggerElement: '#fuelSave',
         triggerHook: 0,
         duration: '90%'
@@ -30,7 +38,7 @@ $(document).ready(function(){
 	.setPin('#fuelSave')
     .addTo(controller);
     
-    var sectionPinScene3 = new ScrollMagic.Scene({
+    var sectionPinScene4 = new ScrollMagic.Scene({
 		triggerElement: '#emissions',
         triggerHook: 0,
         duration: '90%'
@@ -38,7 +46,7 @@ $(document).ready(function(){
 	.setPin('#emissions')
     .addTo(controller);
     
-    var sectionPinScene4 = new ScrollMagic.Scene({
+    var sectionPinScene5 = new ScrollMagic.Scene({
 		triggerElement: '#roadDamage',
         triggerHook: 0,
         duration: '90%'
@@ -46,7 +54,7 @@ $(document).ready(function(){
 	.setPin('#roadDamage')
     .addTo(controller);
     
-    var sectionPinScene5 = new ScrollMagic.Scene({
+    var sectionPinScene6 = new ScrollMagic.Scene({
 		triggerElement: '#summary',
         triggerHook: 0,
 	})
@@ -73,6 +81,21 @@ $(document).ready(function(){
             .setClassToggle('#clouds1', 'fade-in')
             .addTo(controller);
 
+          var personaTextScene = new ScrollMagic.Scene({
+            triggerElement: '#personaText',
+            triggerHook: .1,
+            reverse:false
+            })
+            .setClassToggle('#personaText', 'fade-in')
+            .addTo(controller);
+
+          var personaText2Scene = new ScrollMagic.Scene({
+            triggerElement: '#personaText2',
+            triggerHook: .1,
+            reverse:false
+            })
+            .setClassToggle('#personaText2', 'fade-in')
+            .addTo(controller);
 
       /*ratio content animation*/
 
@@ -235,6 +258,14 @@ $(document).ready(function(){
                 reverse:false
               })
                 .setClassToggle('#citytruckRow2', 'fade-in')
+                .addTo(controller);
+
+              var cityTruckRow2Scene = new ScrollMagic.Scene({
+                triggerElement: '#emissions',
+                triggerHook: .5,
+                reverse:false
+              })
+                .setClassToggle('#citytruckRow3', 'fade-in')
                 .addTo(controller);
 
 
