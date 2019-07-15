@@ -196,14 +196,21 @@
     <section id="summary" class="section">
         <div id="dashboard">
             <div class="dashBox1">
-
+                <!-- Fuel  -->
+                <div class="fuelDash">
+                    <h2>Fuel</h2>
+                    <img src="images/IECS_illustrated_assets_fuel_level.svg" alt="fuel level icon">
+                </div>
             </div>
+            <!-- Co2 -->
             <div class="dashBox2">
 
             </div>
+            <!-- Road Damage -->
             <div class="dashBox3">
 
             </div>
+             <!-- Vegetation -->
             <div class="dashBox4">
 
             </div>
