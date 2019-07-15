@@ -14,8 +14,7 @@
 
     <section id="welcomeSpace">
         <img id="welcomeBg" src="images/IECS_illustrated_header_Background.svg">
-       <!--<img id="treeHill" src="images/IECS_illustrated_treeonHill.svg">
-        <img id="sun" src="images/IECS_illustrated_theSun.svg">-->
+
             <div id="logoSpace">
                 <img src="images/iecs_logo.png" alt="IECS logo">
             </div>
@@ -61,7 +60,7 @@
     <section id="truckRatio">
         
     <div id="ratio">
-             <img id ="ratioBkgrd" src="images/IECS_illustrated_ratio_background.svg">
+
         <div id="ratioRows"> 
           <div id="ratioRow6"><img src="images/IECS_illustrated_ratio_row.svg"></div>
           <div id="ratioRow5"><img src="images/IECS_illustrated_ratio_row.svg"></div>
@@ -76,13 +75,14 @@
                 <h2>IECS would only need <span>1</span> truck of cable concrete for Michael's job, whereas up to <span>18</span> rip-rap trucks would be required for the same delivery.</h2>
                 <p>Let's take a look at the importance of the difference in truck numbers</p>
         </div>
+        <img id="iecsTruckratio" src="images/IECS_illustrated_iecs_city_truck.svg">
 
     </section>
 
 
     <!––fuel savings space-->
 
-    <section id="fuelSave" class="section">
+    <section id="fuelSave">
 
         <div id="fuelText">
             <p>“Heavy trucks make up just around 7% of the vehicles on the 
@@ -147,6 +147,7 @@
             </div>
 
             <img id="riprapSmog" src="images/IECS_illustrated_riprap_smog.svg">
+            <img id="riprapSmogSmall" src="images/IECS_illustrated_cityscape_iecs_smallsmog.svg">
                 <div id="riprapSmogData">
                 <h2>5,424g</p>
                 <p>CO2</p>
@@ -187,6 +188,7 @@
             <img id="roadCrack4" src="images/IECS_illustrated_roadcrack_4.svg">
             <img id="roadCrack5" src="images/IECS_illustrated_roadcrack_5.svg">
             <img id="roadCrack6" src="images/IECS_illustrated_roadcrack_6.svg">
+            <img id="potHole" src="images/IECS_illustrated_assets_pothole.svg">
 
     </section>
 

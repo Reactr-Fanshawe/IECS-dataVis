@@ -67,8 +67,8 @@ $(document).ready(function(){
         //persona content animation
 
         var michaelScene = new ScrollMagic.Scene({
-            triggerElement: '#michael',
-            triggerHook: .9,
+            triggerElement: '#persona',
+            triggerHook: .7,
             reverse: false
           })
             .setClassToggle('#michael', 'fade-in')
@@ -293,6 +293,15 @@ $(document).ready(function(){
               })
                 .setClassToggle('#riprapSmog', 'fade-in')
                 .addTo(controller); 
+
+              var rirapSmogScene = new ScrollMagic.Scene({
+                triggerElement: '#emissions',
+                triggerHook: .5,
+                reverse:false
+              })
+                .setClassToggle('#riprapSmogSmall', 'fade-in')
+                .addTo(controller); 
+      
                 
               var riprapSmogDataScene = new ScrollMagic.Scene({
                 triggerElement: '#emissions',
@@ -371,6 +380,14 @@ $(document).ready(function(){
                   reverse:false
                 })
                   .setClassToggle('#roadCrack6', 'fade-in')
+                  .addTo(controller);
+
+                var potHoleScene = new ScrollMagic.Scene({
+                  triggerElement: '#roadDamage',
+                  triggerHook: .7,
+                  reverse:false
+                })
+                  .setClassToggle('#potHole', 'fade-in')
                   .addTo(controller);
 
 
