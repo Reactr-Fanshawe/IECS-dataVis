@@ -147,7 +147,29 @@ $(document).ready(function(){
             .setClassToggle('#ratioRow6', 'fade-in')
             .addTo(controller);  
 
-        
+          var ratioRow6Scene = new ScrollMagic.Scene({
+            triggerElement: '#iecsTruckratio',
+            triggerHook: .6,
+            reverse:false
+          })
+            .setClassToggle('#iecsTruckratio', 'fade-in')
+            .addTo(controller);  
+
+          var lineOneScene = new ScrollMagic.Scene({
+            triggerElement: '#lineOne',
+            triggerHook: .7,
+            reverse:false
+            })
+            .setClassToggle('#lineOne', 'fade-in')
+            .addTo(controller);  
+
+          var lineTwoScene = new ScrollMagic.Scene({
+            triggerElement: '#lineTwo',
+            triggerHook: .7,
+            reverse:false
+            })
+              .setClassToggle('#lineTwo', 'fade-in')
+              .addTo(controller);  
           
           
           
