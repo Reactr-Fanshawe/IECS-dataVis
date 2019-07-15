@@ -72,8 +72,11 @@
         </div>
         
         <div id="ratioText">
-                <h2>IECS would only need <span>1</span> truck of cable concrete for Michael's job, whereas up to <span>18</span> rip-rap trucks would be required for the same delivery.</h2>
-                <p>Let's take a look at the importance of the difference in truck numbers</p>
+                
+                <h2 id="sentenceOne"><span id="lineOne">IECS would only need <span class="number">1</span> truck of cable concrete for Michael's job</span>
+                
+                <span id="lineTwo">, whereas up to <span class="number">18</span> rip-rap trucks would be required for the same delivery.</span></h2>
+                
         </div>
         <img id="iecsTruckratio" src="images/IECS_illustrated_iecs_city_truck.svg">
 
@@ -162,15 +165,9 @@
 
     <section id="roadDamage">
 
-        <img id="roadBG" src="images/IECS_illustrated_road_damage_background.svg">
-
-        <div id="damageText">
-            <p>Tax dollars spent on road damage repair from excessive
-                heavy truck traffic is a strain on the economy and can be reduced
-            </p>    
-        </div>
-
-            <img id="car1" src="images/IECS_illustrated_yellowcar.svg">
+        <div id="street">
+        <img id="streetLine" src="images/IECS_illustrated_road_damage_background.svg">
+        <img id="car1" src="images/IECS_illustrated_yellowcar.svg">
             <img id="car2" src="images/IECS_illustrated_taxicar.svg">
             <img id="car3" src="images/IECS_illustrated_lightgraycar.svg">
             <img id="car4" src="images/IECS_illustrated_lightbluecar.svg">
@@ -189,6 +186,14 @@
             <img id="roadCrack5" src="images/IECS_illustrated_roadcrack_5.svg">
             <img id="roadCrack6" src="images/IECS_illustrated_roadcrack_6.svg">
             <img id="potHole" src="images/IECS_illustrated_assets_pothole.svg">
+        </div>
+
+        <div id="damageText">
+            <p>Tax dollars spent on road damage repair from excessive
+                heavy truck traffic is a strain on the economy and can be reduced
+            </p>    
+        </div>
+
 
     </section>
 
