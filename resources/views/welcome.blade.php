@@ -194,28 +194,27 @@
     <!––ending summary space-->
 
     <section id="summary" class="section">
+        <div id="dashboard">
+            <div class="dashBox1">
 
-    <div id="dashboard">
-        <div class="dashBox">
+            </div>
+            <div class="dashBox2">
+
+            </div>
+            <div class="dashBox3">
+
+            </div>
+            <div class="dashBox4">
+
+            </div>
 
         </div>
-        <div class="dashBox">
+
+        <div id="finale">
+    
+            <img src="images/cableconcrete_result.jpg" alt="Cable Concrete" id="CC_result">
 
         </div>
-        <div class="dashBox">
-
-        </div>
-        <div class="dashBox">
-
-        </div>
-
-    </div>
-
-    <div id="finale">
-  
-        <img src="images/cableconcrete_result.jpg" alt="Cable Concrete" id="CC_result">
-
-    </div>
 
     </section>
 

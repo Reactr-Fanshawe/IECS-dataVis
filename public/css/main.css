@@ -882,6 +882,7 @@ body
 /*road damage styling*/
 
 #roadDamage {
+    overflow: hidden;
     height: 100vh;
     width: 100%;
     background-color: #f2fadb;
@@ -1172,13 +1173,18 @@ body
     display: flex;
 }
 
-.dashBox {
+.dashBox1, .dashBox2, .dashBox3 {
     background-color: #3b945e;
     border-right: 4px solid white;
     width: 25%;
     height: 100%;
 }
 
+.dashBox4 {
+    background-color: #3b945e;
+    width: 25%;
+    height: 100%;
+}
 
 #finale {
     height: 100vh;
