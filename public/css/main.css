@@ -1205,12 +1205,12 @@ body
     flex-direction: row;
     align-items: center;
     padding: 30px;
-    background-color: #3b945e;
+    background-color: #4eae48;
 
 }
 
 .dashBox1, .dashBox2, .dashBox3 {
-    background-color: #3b945e;
+    background-color: #4eae48;
     border-right: 1px solid white;
     width: 25%;
     height: 100%;
@@ -1218,7 +1218,7 @@ body
 }
 
 .dashBox4 {
-    background-color: #3b945e;
+    background-color: #4eae48;
     width: 25%;
     height: 100%;
     padding:30px;
@@ -1237,13 +1237,26 @@ body
     color: white;
 }
 
-#fuel-level-icon {
+#level-icon-1 {
     width: 20%;
     
 }
 
+#level-icon-2{
+    width: 25%;
+}
+
+#level-icon-3 {
+    width: 12%;
+}
+
+#level-icon-4 {
+    width: 11%;
+}
+
+
 .amount-numbers {
-  margin-top: 30px;
+  margin-top: 35px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -1262,15 +1275,42 @@ body
     margin-right: 20px;
 }
 
-#finale {
-    height: 100vh;
-    background-color: #F2F2F2;
-}
-
-
+/* background-size: cover; */
 #finale {
     overflow: hidden;
+    height: 100vh;
+    background: 
+    /* top, transparent red */ 
+    linear-gradient(
+      rgba(60, 136, 55, 0.5), 
+      rgba(60, 136, 55, 0.5)
+    ),
+    /* bottom, image */
+    url(../images/cableconcrete_result.jpg) no-repeat center;
 }
+
+.call-to-action {
+    width: 400px;
+    align-content: center;
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+}
+
+.call-to-action h3 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.call-to-action p {
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 1.2px;
+    line-height: 20px;
+}
+
+.call-to-action p
 
 #CC_result {
     width: 100%;
