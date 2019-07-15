@@ -1,10 +1,16 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-shadow: border-box;
+}
+
 body
 {
     width: 100%;
     height: 100%;
     overflow-x: hidden; 
 }
-
 
 
 /*main welcome page*/
@@ -61,12 +67,11 @@ body
 
 #centerText {
     font-family: 'M PLUS Rounded 1c', sans-serif;
-    position: absolute;
+    margin: 0 auto;
     color: #39423A;
     padding-top: 4%;
-    width: 60%;
+    width: 45%;
     height: 30vw;
-    left: 20%;
     z-index: 1;
     top: 32%;
 }
@@ -154,7 +159,7 @@ body
 #personaText {
     font-family: 'M PLUS Rounded 1c', sans-serif;
     color: #39423A;
-    top: 20%;
+    top: 15%;
     left: 5%;
     position: absolute;
     font-size: 1.8vw;
@@ -174,13 +179,13 @@ body
     width: 30%;
     position: absolute;
     right: 5%;
-    top: 30%;
+    top: 25%;
     font-family: 'M PLUS Rounded 1c', sans-serif;
     color: #39423A;
     font-size: 1.8vw;
     z-index: 1;
     transition: all 2s ease-out;
-    transform: translateY(-400%); 
+    transform: translateY(-500%); 
     line-height: 110%;
 }
 
@@ -198,12 +203,12 @@ body
 #michael {
     position: absolute;
     transition: all 1.5s ease-out;
-    transform: translateX(-700%);
+    transform: translateY(200%);
     bottom: 0px;
 }
 
 #michael.fade-in {
-    transform: translateX(0%);
+    transform: translateY(0%);
 }
 
 #plant {
@@ -291,19 +296,18 @@ body
     justify-content: space-between;
 }
 
-#ratioBkgrd {
-    height: 90%;
+#iecsTruckratio {
     position: absolute;
-    width: 100%;
-    margin: 0 auto;
-    bottom: 1%;
-    z-index: 1;
+    width: 30%;
+    bottom: 35%;
+    right: 10%;
 }
+
 
 #ratioRow1 {
     height: 16.65%;
     width: 46%;
-    margin-left: 10%;
+    margin-left: 11%;
     transition: all 2s ease-out;
     transition-delay: 3.5s;
     transform: translateX(-250%);
@@ -389,10 +393,10 @@ body
 #fuelSave {
     display: flex;
     flex-direction: row;
-    overflow:hidden;
+    overflow: hidden;
     width: 100%;
     height: 100vh;
-    background-color: #f2fadb;
+    background-color: white;
  }
 
 #fuelText {
@@ -417,7 +421,7 @@ body
 
  
  #iecsFuel {
-    background-color: #f2fadb;
+    background-color: white;
     height: 40%;
     width: 20%;
     border-right: 1px solid #001903;
@@ -442,17 +446,17 @@ body
  }
 
  #iconFuel1 {
-     position: absolute;
-     width: 18%;
+    position: absolute;
+    width: 18%;
     left: 9%;
-     top: 62%;
-     z-index: 4;
+    top: 62%;
+    z-index: 4;
  }
 
  #indicator1 {
      z-index: 2;
      position: absolute;
-     widtH: 100%;
+     width: 100%;
      height: 100%;
  }
 
@@ -460,7 +464,6 @@ body
      width: 15%;
      height: 20%;
      position: absolute;
-     display: block;
      left: 5%;
      bottom: 15%;
      transition: all .7s ease-out;
@@ -475,11 +478,11 @@ body
 }
 
 #dollarDiv1 {
-    margin-left: 4%;
-    width: 70%; 
+    left: 10%;
+    width: 65%; 
     height: 50%;
     position: absolute;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid white;
     z-index: 3;
 }
 
@@ -498,14 +501,14 @@ body
 #dollarIcon1 {
     position: absolute;
     z-index: 4;
-    width: 30%;
-    margin-top: 10%;
-    margin-left: 5%;
+    width: 25%;
+    top: 30%;
+    left: 3%;
 }
 
 #indc1Div h2 {
     z-index: 3;
-    color:black;
+    color:white;
     font-weight: bold;
     font-size: 2vw;
     position: absolute;
@@ -516,7 +519,7 @@ body
 
  #indc1Div p {
      z-index: 3;
-     color:black;
+     color:white;
      font-size: 1vw;
      text-align: center;
      position: absolute;
@@ -527,7 +530,7 @@ body
  
 
  #rrFuel {
-    background-color: #f2fadb;
+    background-color: white;
      height: 40%;
      width: 20%;
      overflow: hidden;
@@ -553,9 +556,9 @@ body
 
 #iconFuel2 {
     position: absolute;
-    width: 17%;
-   left: 7%;
-    top: 49%;
+    width: 18%;
+    left: 9%;
+    top: 62%;
     z-index: 4;
 }
 
@@ -570,7 +573,6 @@ body
     width: 15%;
      height: 20%;
      position: absolute;
-     display: block;
      right: 41%;
      bottom: 40%;
      transition: all .7s ease-out;
@@ -589,59 +591,57 @@ body
     color:black;
     font-weight: bold;
     font-size: 2vw;
-    text-align: center;
     position: absolute;
-    top: 44%;
-    left: 25%;
+    bottom: 24%;
+    left: 37%;
     font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
-#indc2Div p {
-    z-index: 3;
-    color:black;
-    text-align: center;
-    position: absolute;
-    top: 59%;
-    left: 36%;
-    font-family: 'M PLUS Rounded 1c', sans-serif;
-    font-size: 1vw;
-}
+ #indc2Div p {
+     z-index: 3;
+     color:black;
+     font-size: 1vw;
+     text-align: center;
+     position: absolute;
+     top: 77%;
+     left: 37%;
+     font-family: 'M PLUS Rounded 1c', sans-serif;
+ }
 
 #dollarDiv2 {
-    margin-left: 4%;
+    left: 10%;
     width: 70%; 
     height: 50%;
     position: absolute;
     border-bottom: 1px solid black;
     z-index: 3;
-    background-color: yellow;
 }
 
 #dollarDiv2 h2 {
-    left: 10%;
+    left: 43%;
     top: 25%;
     position: relative;
 }
 
 #dollarDiv2 p {
-    margin-left: 9%;
-    margin-bottom: 20%;
+    left: 10%;
+    top: 25%;
     position: relative;
 }
 
 #dollarIcon2 {
     position: absolute;
     z-index: 4;
-    width: 30%;
-    top: 50%;
+    width: 25%;
+    top: 30%;
     left: 3%;
 }
 
 #fuelAnim1 {
-    margin-top: 80%;
+    margin-top: 35vh;
     width: 200%;
     transition: all 5s ease;
-    transform: translate(60%, 60%);
+    transform: translate(30%, 30%);
 }
 
 #fuelAnim1.fade-in {
@@ -651,21 +651,21 @@ body
 #fuelDrop1 {
     position: absolute;
     transition: all 1s ease;
-    transform: translateY(100%);
-    bottom: 8%;
+    transform: translateY(200%);
+    top: 32vh;
     width: 5%;
     left: 45%;
     opacity: 0;
 }
 
 #fuelDrop1.fade-in {
-    transform: translateY(-190%);
+    transform: translateY(0%);
     transition-delay: 3.5s;
     opacity: 1;
 }
 
 #fuelAnim2 {
-    margin-top: 10%;
+    margin-top: 4vh;
     width: 200%;
     transition: all 5s ease;
     transform: translate(10%, 60%);
@@ -678,10 +678,10 @@ body
 #fuelDrop2 {
     position: absolute;
     transition: all 1s ease;
-    transform: translateY(1200%);
+    transform: translateY(800%);
     width: 5%;
     right: 50%;
-    top: 1%;
+    top: 0vh;
     opacity: 0;
 }
 
@@ -704,8 +704,8 @@ body
 #emissionsCloud {
     width: 90%;
     position: absolute;
-    top: 10%;
-    z-index: 1;
+    top: 10vh;
+    z-index: 1.5;
     left: 5%;
 }
 
@@ -725,14 +725,13 @@ body
 #emissionsFact.fade-in {
     transition-delay: 6.5s;
     transform: translateY(0%);
-    padding-bottom: 15px;
-    border-bottom: 1px solid black;
+   
 }
 
 #cityForest {
-    position: absolute;
     bottom: 0%;
     width: 100%;
+    position: absolute;
 }
 
 #iecsTruck {
@@ -797,9 +796,9 @@ body
 #iecsSmog {
     position: absolute;
     z-index: 1;
-    width: 5%;
-    bottom: 30%;
-    right: 5%;
+    width: 5vw;
+    bottom: 28%;
+    right: 6.5%;
     opacity: 0;
     transition: all 5s ease;
     transform: translate(40%, 40%) scale(0);
@@ -809,7 +808,7 @@ body
     transform: translate(0%, 0%) scale(1);
     transition-delay: 1s;
     opacity: .8;
-    width: 15vw;
+    width: 10vw;
 }
 
 #iecsSmogData {
@@ -817,8 +816,8 @@ body
     font-size: 2vw;
     font-weight: bold;
     position: absolute;
-    bottom: 53%;
-    right: 10%;
+    bottom: 34%;
+    right: 9%;
     color: white;
     z-index: 3;
     opacity: 0;
@@ -834,11 +833,10 @@ body
     opacity: 1;
 }
 
-
 #riprapSmog {
     position: absolute;
     z-index: 2;
-    width: 0vw;
+    width: 60%;
     bottom: 33%;
     right: 25%;
     opacity: 0;
@@ -849,17 +847,35 @@ body
 #riprapSmog.fade-in {
     transform: translate(0%, 0%) scale(1);
     opacity: .8;
-    width: 50vw;
+    width: 60%;
     transition-delay: 4.5s;
+}
+
+#riprapSmogSmall {
+    position: absolute;
+    z-index: 2;
+    bottom: 60%;
+    left: 8%;
+    width: 15vh;
+    opacity: 0;
+    transition: all 4.5s ease;
+    transform: scale(0);
+}
+
+#riprapSmogSmall.fade-in {
+    transform: scale(1);
+    opacity: .8;
+    width: 10vw;
+    transition-delay: 6s;
 }
 
 #riprapSmogData {
     font-family: 'M PLUS Rounded 1c', sans-serif;
-    font-size: 2.5vw;
+    font-size: 3.5vw;
     font-weight: bold;
     position: absolute;
-    bottom: 67%;
-    left: 47%;
+    bottom: 60%;
+    left: 45%;
     color: white;
     z-index: 3;
     opacity: 0;
@@ -885,6 +901,7 @@ body
     height: 100vh;
     width: 100%;
     background-color: #f2fadb;
+    overflow: hidden;
 }
 
 
@@ -996,6 +1013,22 @@ body
     transform: translateX(-850%);
 }
 
+#potHole {
+    z-index: 1;
+    position: absolute;
+    width: 8%;
+    bottom: 30px;
+    right: 25%;
+    transition: all .8s linear;
+    opacity: 0;
+}
+
+#potHole.fade-in {
+    opacity: 1;
+    transition-delay: 7s;
+}
+
+
 #roadCrack6 {
     z-index: 1;
     position: absolute;
@@ -1052,7 +1085,7 @@ body
 #roadCrack2 {
     z-index: 1;
     position: absolute;
-    bottom: 35%;
+    bottom: 270px;
     left: 45%;
     width: 10%;
     opacity: 0;
@@ -1113,7 +1146,7 @@ body
 #roadCrack1 {
     z-index: 1;
     position: absolute;
-    bottom: 40%;
+    bottom: 285px;
     width: 7%;
     left: 10%;
     opacity: 0;
@@ -1144,7 +1177,7 @@ body
 #roadCrack3 {
     z-index: 1;
     position: absolute;
-    bottom: 40%;
+    bottom: 295px;
     right: 5%;
     width: 13%;
     opacity: 0;
@@ -1195,4 +1228,6 @@ body
     opacity: .8;
 }
 
+
+/* TABLET RESPONSIVE */
 
