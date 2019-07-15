@@ -201,7 +201,7 @@
                 <!-- Fuel  -->
                 <div class="summaryDash">
                     <h2>Fuel</h2>
-                    <img id="fuel-level-icon" src="images/IECS_illustrated_assets_fuel_level.svg" alt="fuel level icon">
+                    <img id="level-icon-1" src="images/IECS_illustrated_assets_fuel_level.svg" alt="fuel level icon">
                 </div>
                 <div class="amount-numbers">
                     <p><span id="amount">79</span>Litres<p> 
@@ -211,7 +211,7 @@
             <div class="dashBox2">
                 <div class="summaryDash">
                         <h2>Co2</h2>
-                        <img id="fuel-level-icon" src="images/IECS_illustrated_assets_fuel_level.svg" alt="fuel level icon">
+                        <img id="level-icon-2" src="images/IECS_illustrated_assets_c02.svg" alt="caron emissions level icon">
                 </div>
                 <div class="amount-numbers">
                     <p><span id="amount">296</span>Grams<p> 
@@ -221,7 +221,7 @@
             <div class="dashBox3">
                     <div class="summaryDash">
                         <h2>Road Damage</h2>
-                        <img id="fuel-level-icon" src="images/IECS_illustrated_assets_fuel_level.svg" alt="fuel level icon">
+                        <img id="level-icon-3" src="images/IECS_illustrated_assets_road_damage.svg" alt="road damage level icon">
                     </div>
                     <div class="amount-numbers">
                         <p><span id="amount">Low</span><p> 
@@ -231,7 +231,7 @@
             <div class="dashBox4">
                     <div class="summaryDash">
                         <h2>Vegetation</h2>
-                        <img id="fuel-level-icon" src="images/IECS_illustrated_assets_fuel_level.svg" alt="fuel level icon">
+                        <img id="level-icon-4" src="images/IECS_illustrated_assets_vegetation.svg" alt="vegetation level icon">
                     </div>
                     <div class="amount-numbers">
                         <p><span id="amount">40%</span><p> 
@@ -240,9 +240,12 @@
         </div>
 
         <div id="finale">
-    
-            <img src="images/cableconcrete_result.jpg" alt="Cable Concrete" id="CC_result">
-
+            <div class="call-to-action">
+                <h3>Now It’s your turn.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Distinctio porro quo officia quis vitae ut ad ipsam deleniti autem commodi consectetur,
+                     perferendis veniam tenetur illo culpa optio exercitationem maxime voluptate?</p>
+            </div>
         </div>
 
     </section>
