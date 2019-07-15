@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="/css/main.css">
         <link rel="stylesheet" href="/css/reset.css">
-        <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c:100,300,400,500,700,800,900display=swap" rel="stylesheet">
         <title>IECS Data</title>
     </head>
     <body>
@@ -196,18 +196,45 @@
     <section id="summary" class="section">
         <div id="dashboard">
             <div class="dashBox1">
-
+                <!-- Fuel  -->
+                <div class="summaryDash">
+                    <h2>Fuel</h2>
+                    <img id="fuel-level-icon" src="images/IECS_illustrated_assets_fuel_level.svg" alt="fuel level icon">
+                </div>
+                <div class="amount-numbers">
+                    <p><span id="amount">79</span>Litres<p> 
+                </div>
             </div>
+            <!-- Co2 -->
             <div class="dashBox2">
-
-            </div>
+                <div class="summaryDash">
+                        <h2>Co2</h2>
+                        <img id="fuel-level-icon" src="images/IECS_illustrated_assets_fuel_level.svg" alt="fuel level icon">
+                </div>
+                <div class="amount-numbers">
+                    <p><span id="amount">296</span>Grams<p> 
+                </div>
+                </div>
+            <!-- Road Damage -->
             <div class="dashBox3">
-
+                    <div class="summaryDash">
+                        <h2>Road Damage</h2>
+                        <img id="fuel-level-icon" src="images/IECS_illustrated_assets_fuel_level.svg" alt="fuel level icon">
+                    </div>
+                    <div class="amount-numbers">
+                        <p><span id="amount">Low</span><p> 
+                    </div>
             </div>
+             <!-- Vegetation -->
             <div class="dashBox4">
-
+                    <div class="summaryDash">
+                        <h2>Vegetation</h2>
+                        <img id="fuel-level-icon" src="images/IECS_illustrated_assets_fuel_level.svg" alt="fuel level icon">
+                    </div>
+                    <div class="amount-numbers">
+                        <p><span id="amount">40%</span><p> 
+                    </div>
             </div>
-
         </div>
 
         <div id="finale">

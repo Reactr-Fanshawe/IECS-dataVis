@@ -1168,22 +1168,65 @@ body
 }
 
 #dashboard {
-    height: 30%;
-    width: 100%;
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 30px;
+    background-color: #3b945e;
+
 }
 
 .dashBox1, .dashBox2, .dashBox3 {
     background-color: #3b945e;
-    border-right: 4px solid white;
+    border-right: 1px solid white;
     width: 25%;
     height: 100%;
+    padding: 30px;
 }
 
 .dashBox4 {
     background-color: #3b945e;
     width: 25%;
     height: 100%;
+    padding:30px;
+}
+
+.summaryDash {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.summaryDash h2 {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 300;
+    font-size: 2.3vw;
+    color: white;
+}
+
+#fuel-level-icon {
+    width: 20%;
+    
+}
+
+.amount-numbers {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.amount-numbers p{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 300;
+    font-size: 1.5vw;
+    color: white;
+}
+
+#amount {
+    font-weight: 600;
+    font-size: 4.5vw;
+    margin-right: 20px;
 }
 
 #finale {
