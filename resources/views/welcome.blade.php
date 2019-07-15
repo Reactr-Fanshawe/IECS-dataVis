@@ -116,7 +116,7 @@
                 <img id="dollarIcon2" src="images/IECS_illustrated_money_icon.svg">
                 <h2>79</h2>
                 <p>SAVINGS</p>
-            </div>
+        </div>
             <img id="iconFuel2" src="images/IECS_illustrated_fuel_icon.svg">
                 <h2>1,422</h2>
                 <p>LITRES</p>
@@ -140,7 +140,7 @@
        <img id="citytruckRow2" src="images/IECS_illustrated_cityriprap_trucks_1.svg">
        <img id="citytruckRow3" src="images/IECS_illustrated_cityriprap_trucks_1.svg">
        
-            <img id="iecsSmog" src="images/IECS_illustrated_iecs_smog.svg">
+            <img id="iecsSmog" src="images/IECS_illustrated_cityscape_iecssmog.svg">
             <div id="iecsSmogData">
                 <h2>298g</p>
                 <p>CO2</p>
