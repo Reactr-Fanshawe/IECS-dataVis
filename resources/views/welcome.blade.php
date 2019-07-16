@@ -76,11 +76,12 @@
                 <h2 id="sentenceOne"><span id="lineOne">IECS would only need <span class="number">1</span> truck of cable concrete for Michael's job</span>
                 
                 <span id="lineTwo">, whereas up to <span class="number">18</span> rip-rap trucks would be required for the same delivery.</span></h2>
-                
+        
+        </div>  
         <img id="iecsTruckratio" src="images/IECS_illustrated_iecs_city_truck.svg">
 
         <img id="scrollBtn2" src="images/IECS_illustrated_scrolldownBtn.svg">
-        </div>
+        
         
     </section>
 
@@ -93,21 +94,24 @@
             <p>“Heavy trucks make up just around <span class="number">7%</span> of the vehicles on the 
                 road in the U.S., but they consume about <span class="number">25%</span> of all fuel.”</p>
         </div>
-
     
       
-        <div id="indc1Div">
+    <div id="indc1Div">
             <div id="dollarDiv1">
-                <img id="dollarIcon1" src="images/IECS_illustrated_money_icon.svg">
-                <h2>110.<span>60</span></h2>
-                <p>FUEL COST</p>
+                <img id="dollarIcon1" src="images/IECS_illustrated_money_icon_white.svg">
+                    <div id="dollarText1">
+                        <h2>110.60</h2>
+                        <p>FUEL COST</p>
+                    </div>
             </div>
-            <img id="iconFuel1" src="images/IECS_illustrated_fuel_icon.svg">
+
+        <div id="fuelDiv1">
+            <img id="iconFuel1" src="images/IECS_illustrated_fuel_icon_white.svg">
                 <h2>79</h2>
                 <p>LITRES</p>
-            <img id="dollarIcon1">
+        </div>
             <img id="indicator1" src="images/IECS_illustrated_assets_green_indicator.svg">
-        </div>   
+    </div>   
 
     <h2 id="iecsFuelTitle">IECS</h2>
     <div id="iecsFuel">
@@ -119,14 +123,19 @@
     <div id="indc2Div">
         <div id="dollarDiv2">
                 <img id="dollarIcon2" src="images/IECS_illustrated_money_icon.svg">
-                <h2>1,990.<span>80</span></h2>
-                <p>FUEL COST</p>
+                <div id="dollarText2">
+                    <h2>1,990.80</h2>
+                    <p>FUEL COST</p>
+                </div>
         </div>
+        
+        <div id="fuelDiv2">
             <img id="iconFuel2" src="images/IECS_illustrated_fuel_icon.svg">
                 <h2>1,422</h2>
                 <p>LITRES</p>
-            <img id="indicator2" src="images/IECS_illustrated_assets_gray_indicator.svg">
         </div>
+            <img id="indicator2" src="images/IECS_illustrated_assets_gray_indicator.svg">
+    </div>
 
     <h2 id="rrFuelTitle">Rip-Rap</h2>
     <div id="rrFuel">
@@ -148,15 +157,13 @@
        
             <img id="iecsSmog" src="images/IECS_illustrated_cityscape_iecssmog.svg">
             <div id="iecsSmogData">
-                <h2>298g</p>
-                <p>CO2</p>
+                <h2>298g</p>    
             </div>
 
             <img id="riprapSmog" src="images/IECS_illustrated_riprap_smog.svg">
             <img id="riprapSmogSmall" src="images/IECS_illustrated_cityscape_iecs_smallsmog.svg">
                 <div id="riprapSmogData">
                 <h2>5,424g</p>
-                <p>CO2</p>
             </div>
       
        <img id="iecsTruck" src="images/IECS_illustrated_iecs_city_truck.svg">
@@ -170,7 +177,8 @@
 
         <div id="street">
         <img id="streetLine" src="images/IECS_illustrated_road_damage_background.svg">
-        <img id="car1" src="images/IECS_illustrated_yellowcar.svg">
+
+            <img id="car1" src="images/IECS_illustrated_yellowcar.svg">
             <img id="car2" src="images/IECS_illustrated_taxicar.svg">
             <img id="car3" src="images/IECS_illustrated_lightgraycar.svg">
             <img id="car4" src="images/IECS_illustrated_lightbluecar.svg">
