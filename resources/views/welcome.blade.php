@@ -2,9 +2,9 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
         <meta charset="utf-8">
+        <link rel="stylesheet" href="/css/reset.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="/css/main.css">
-        <link rel="stylesheet" href="/css/reset.css">
         <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c:100,300,400,500,700,800,900display=swap" rel="stylesheet">
         <title>IECS Data</title>
     </head>
@@ -90,8 +90,8 @@
     <section id="fuelSave">
 
         <div id="fuelText">
-            <p>“Heavy trucks make up just around 7% of the vehicles on the 
-                road in the U.S., but they consume about 25% of all fuel.”</p>
+            <p>“Heavy trucks make up just around <span class="number">7%</span> of the vehicles on the 
+                road in the U.S., but they consume about <span class="number">25%</span> of all fuel.”</p>
         </div>
 
     
@@ -111,7 +111,7 @@
 
     <h2 id="iecsFuelTitle">IECS</h2>
     <div id="iecsFuel">
-        <img id="scale1" src="images/IECS_illustrated_scale.svg">   
+        <img id="scale1" src="images/IECS_illustrated_scale_black.svg">   
         <img id ="fuelAnim1" src="images/IECS_illustrated_fuel.svg">
         <img id ="fuelDrop1" src="images/IECS_illustrated_fuel_drops.svg">
     </div>
@@ -257,6 +257,7 @@
                          perferendis veniam maxime voluptate?</p>
                 </div>
             </div>
+            <div class="actionBtn"><p>Learn More</p></div>
         </div>
 
     </section>
