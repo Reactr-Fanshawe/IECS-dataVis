@@ -67,7 +67,7 @@
           <div id="ratioRow4"><img src="images/IECS_illustrated_ratio_row.svg"></div>
           <div id="ratioRow3"><img src="images/IECS_illustrated_ratio_row.svg"></div>
           <div id="ratioRow2"><img src="images/IECS_illustrated_ratio_row.svg"></div>
-          <div id="ratioRow1"><img src="images/IECS_illustrated_riprap_trucks_2.svg"></div>
+          <div id="ratioRow1"><img src="images/IECS_illustrated_ratio_row.svg"></div>
         </div> 
         </div>
         
@@ -77,9 +77,11 @@
                 
                 <span id="lineTwo">, whereas up to <span class="number">18</span> rip-rap trucks would be required for the same delivery.</span></h2>
                 
-        </div>
         <img id="iecsTruckratio" src="images/IECS_illustrated_iecs_city_truck.svg">
 
+        <img id="scrollBtn2" src="images/IECS_illustrated_scrolldownBtn.svg">
+        </div>
+        
     </section>
 
 
@@ -97,8 +99,8 @@
         <div id="indc1Div">
             <div id="dollarDiv1">
                 <img id="dollarIcon1" src="images/IECS_illustrated_money_icon.svg">
-                <h2>79.00</h2>
-                <p>SAVINGS</p>
+                <h2>110.<span>60</span></h2>
+                <p>FUEL COST</p>
             </div>
             <img id="iconFuel1" src="images/IECS_illustrated_fuel_icon.svg">
                 <h2>79</h2>
@@ -107,7 +109,7 @@
             <img id="indicator1" src="images/IECS_illustrated_assets_green_indicator.svg">
         </div>   
 
-
+    <h2 id="iecsFuelTitle">IECS</h2>
     <div id="iecsFuel">
         <img id="scale1" src="images/IECS_illustrated_scale.svg">   
         <img id ="fuelAnim1" src="images/IECS_illustrated_fuel.svg">
@@ -117,8 +119,8 @@
     <div id="indc2Div">
         <div id="dollarDiv2">
                 <img id="dollarIcon2" src="images/IECS_illustrated_money_icon.svg">
-                <h2>79</h2>
-                <p>SAVINGS</p>
+                <h2>1,990.<span>80</span></h2>
+                <p>FUEL COST</p>
         </div>
             <img id="iconFuel2" src="images/IECS_illustrated_fuel_icon.svg">
                 <h2>1,422</h2>
@@ -126,6 +128,7 @@
             <img id="indicator2" src="images/IECS_illustrated_assets_gray_indicator.svg">
         </div>
 
+    <h2 id="rrFuelTitle">Rip-Rap</h2>
     <div id="rrFuel">
         <img id="scale2" src="images/IECS_illustrated_scale.svg"> 
         <img id ="fuelAnim2" src="images/IECS_illustrated_fuel.svg">

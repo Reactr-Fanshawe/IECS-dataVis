@@ -55,7 +55,7 @@ body
   }
 
 #logoSpace {
-    width: 13%; 
+    width: 14vw; 
     margin: 0 auto;
 }
 
@@ -69,19 +69,22 @@ body
     font-family: 'M PLUS Rounded 1c', sans-serif;
     margin: 0 auto;
     color: #39423A;
-    padding-top: 4%;
+    padding-top: 1%;
     width: 45%;
-    height: 30vw;
+    height: 30vh;
+    bottom: 1%;
     z-index: 1;
     top: 32%;
+    line-height: 4vh;
 }
 
 #title {
     padding-top: 10px;
-    font-size: 3vw;
+    font-size: 4vw;
     font-weight: bold;
     text-align: center;
     padding-bottom: 10px;
+    line-height: 7vh;
 }
 
 
@@ -92,17 +95,23 @@ body
 }
 
 #scrollBtn {
-    width: 6%; 
+    width: 4vw; 
     padding-top: 10%;
+    animation: mover1 1s infinite  alternate;
+}
+
+@keyframes mover1 {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
 }
 
 #begin {
     background-color: #017439;
     font-weight: bold;
-    border-radius: 20px;
+    border-radius: 28px;
     color:white;
     margin: 0 auto;
-    width: 10%;
+    width: 9vw;
     text-align: center;
     font-size: 2vw;
     padding: 2%;
@@ -110,7 +119,7 @@ body
 }
 
 #begin p {
-    font-size: 1.2vw;
+    font-size: 1.7vw;
 }
 
 #centerText img {
@@ -118,9 +127,6 @@ body
     margin: 0 auto;
     padding-top: 8%;
 }
-
-
-
 
 
 /* scenario block styling*/
@@ -263,6 +269,7 @@ body
     border-left: 1px solid #001903;
 }
 
+
 #ratioText h2 {
     position: absolute;
     font-family: 'M PLUS Rounded 1c', sans-serif;
@@ -302,18 +309,17 @@ span .number {
 
 
 #ratioRows {
-    top: 25%;
     height: 100%;
-    width: 100%;
-    justify-content: space-between;
-    padding: 3%;
+    justify-content: space-evenly;
+    background-color: #fafafa;
+
 }
 
 #iecsTruckratio {
     position: absolute;
     width: 30vw;
     bottom: 30vh;
-    right: 11vw;
+    right: 10vw;
     transition: all 1.5s ease-out;
     transform: translateX(-450%);
     opacity: 0;
@@ -326,11 +332,11 @@ span .number {
 
 #ratioRow1 {
     height: 16.65%;
-    width: 46%;
-    margin-left: 11%;
+    width: 74%;
+    margin: 0 auto;
     transition: all 2s ease-out;
     transition-delay: 3.5s;
-    transform: translateX(-250%);
+    transform: translateX(-170%);
 }
 
 #ratioRow1.fade-in {
@@ -405,6 +411,25 @@ span .number {
     transform: translateX(0px);
 }
 
+#scrollBtn2 {
+    position: absolute;
+    bottom: 10vh;
+    width: 5vw;
+    right: 23vw;
+    animation: mover2 1s infinite  alternate;
+    opacity: 0;
+    transition: all .7s ease-out;
+    transition-delay: 4.5s;
+}
+
+#scrollBtn2.fade-in {
+    opacity: 1;
+}
+
+@keyframes mover2 {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
 
 
 
@@ -440,6 +465,16 @@ span .number {
 }
 
  
+#iecsFuelTitle {
+    position: absolute;
+    left: 26vw;
+    top: 35vh;
+    color: #418E3A;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: bold;
+    font-size: 8vh;
+}
+
  #iecsFuel {
     background-color: white;
     height: 40%;
@@ -537,6 +572,10 @@ span .number {
     font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
+#indc1Div, h2 span {
+    font-size: 1.5vw;
+}
+
  #indc1Div p {
      z-index: 3;
      color:white;
@@ -548,6 +587,16 @@ span .number {
      font-family: 'M PLUS Rounded 1c', sans-serif;
  }
  
+
+ #rrFuelTitle {
+    position: absolute;
+    left: 64vw;
+    top: 35vh;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+
+    font-weight: bold;
+    font-size: 6vh;
+}
 
  #rrFuel {
     background-color: white;
@@ -610,11 +659,14 @@ span .number {
     z-index: 3;
     color:black;
     font-weight: bold;
-    font-size: 2vw;
+    font-size: 1.5vw;
     position: absolute;
     bottom: 24%;
-    left: 37%;
+    left: 34%;
     font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+#indc2Div, h2 span {
+    font-size: 1vw;
 }
 
  #indc2Div p {
@@ -1054,7 +1106,7 @@ span .number {
 
 #potHole.fade-in {
     opacity: 1;
-    transition-delay: 7s;
+    transition-delay: 5.5s;
 }
 
 
