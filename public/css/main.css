@@ -226,7 +226,6 @@ p {
 #clouds1 {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
     opacity: 0;
     transition: all 6s ease-out;
     transform: translateX(-40%);
@@ -235,11 +234,13 @@ p {
 }
 
 #clouds1 .cloudfirst {
- width: 10%;
+  width: 10%;
+  margin-left: 25%;
 }
 
 #clouds1 .cloudsecond {
    width: 20%;
+   margin-left: 30%;
 }
 
 #clouds1.fade-in {
@@ -264,9 +265,8 @@ p {
     width: 50%;
     display: flex;
     flex-direction: column;
-    position: relative;
-    overflow: hidden;
     border-left: 1px solid #001903;
+    position: absolute;
 }
 
 
@@ -315,7 +315,6 @@ span .number {
     height: 100%;
     justify-content: space-evenly;
     background-color: #fafafa;
-
 }
 
 #iecsTruckratio {
@@ -454,8 +453,9 @@ span .number {
     top: 8%;
     left: 30%;
     position: absolute;
-    transition: all .7s ease-out;
+    transition: all 1.2s ease-out;
     transform: translateY(-250%);
+    transition-delay: 4s;
 }
 #fuelText p{
     font-family: 'M PLUS Rounded 1c', sans-serif;
@@ -474,7 +474,7 @@ span .number {
  
 #iecsFuelTitle {
     position: absolute;
-    left: 26vw;
+    left: 27vw;
     top: 31vh;
     color: #418E3A;
     font-family: 'M PLUS Rounded 1c', sans-serif;
@@ -563,7 +563,7 @@ span .number {
      bottom: 9%;
      transition: all .7s ease-out;
      transform: translateY(30%);
-     transition-delay: 5s;
+     transition-delay: 3s;
      opacity: 0;
      display: flex;
      flex-direction: column;
@@ -620,7 +620,7 @@ span .number {
 
  #rrFuelTitle {
     position: absolute;
-    left: 62vw;
+    right: 25vw;
     top: 31vh;
     font-family: 'M PLUS Rounded 1c', sans-serif;
     font-weight: 700;
@@ -676,7 +676,7 @@ span .number {
      bottom: 40%;
      transition: all .7s ease-out;
      transform: translateY(50%);
-     transition-delay: 5s;
+     transition-delay: 3s;
      opacity: 0;
 }
 
@@ -758,7 +758,7 @@ span .number {
 #fuelAnim1 {
     margin-top: 35vh;
     width: 200%;
-    transition: all 5s ease;
+    transition: all 4s ease;
     transform: translate(30%, 30%);
 }
 
@@ -785,7 +785,7 @@ span .number {
 #fuelAnim2 {
     margin-top: 4vh;
     width: 200%;
-    transition: all 5s ease;
+    transition: all 4s ease;
     transform: translate(10%, 60%);
 }
 
