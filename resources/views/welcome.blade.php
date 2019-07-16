@@ -245,11 +245,14 @@
         </div>
 
         <div id="finale">
-            <div class="call-to-action">
-                <h3>Now It’s your turn.</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Distinctio porro quo officia quis vitae ut ad ipsam deleniti autem commodi consectetur,
-                     perferendis veniam tenetur illo culpa optio exercitationem maxime voluptate?</p>
+            <div class="call-to-actionCon">
+                <div class="call-to-action">
+                    <h3>Now It’s your turn.</h3>
+                    <div class="keyLine"></div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Distinctio porro quo officia quis vitae ut ad ipsam deleniti autem commodi consectetur,
+                         perferendis veniam maxime voluptate?</p>
+                </div>
             </div>
         </div>
 

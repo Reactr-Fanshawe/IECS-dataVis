@@ -7,6 +7,7 @@
 
 body
 {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
     width: 100%;
     height: 100%;
     overflow-x: hidden; 
@@ -1225,6 +1226,7 @@ span .number {
     flex-direction: column;
     height: 100vh;
     background-color: #E8FFD4;
+    border-top: 1px solid white;
 }
 
 #dashboard {
@@ -1309,32 +1311,49 @@ span .number {
     background: 
     /* top, transparent red */ 
     linear-gradient(
-      rgba(60, 136, 55, 0.5), 
-      rgba(60, 136, 55, 0.5)
+      rgba(10, 90, 4, 0.84), 
+      rgba(10, 90, 4, 0.84)
     ),
     /* bottom, image */
     url(../images/cableconcrete_result.jpg) no-repeat center;
 }
 
+.call-to-actionCon {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
 .call-to-action {
-    width: 400px;
+    width: 50%;
     align-content: center;
     text-align: center;
-    margin: 0 auto;
     color: white;
+    margin-top: 20vh;
+}
+
+.call-to-action div {
+    width: 6vw;
+    height: 1px;
+    background-color: #c0e74d;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 .call-to-action h3 {
-    font-size: 28px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 6vh;
     font-weight: 600;
     margin-bottom: 20px;
 }
 
 .call-to-action p {
-    font-size: 14px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 2vh;
     font-weight: 300;
     letter-spacing: 1.2px;
-    line-height: 20px;
+    line-height: 30px;
 }
 
 .call-to-action p
