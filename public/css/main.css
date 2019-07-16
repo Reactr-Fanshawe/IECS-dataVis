@@ -5,6 +5,7 @@
     box-shadow: border-box;
 }
 
+/*  Global font selection */
 body
 {
     font-family: 'M PLUS Rounded 1c', sans-serif;
@@ -13,9 +14,12 @@ body
     overflow-x: hidden; 
 }
 
+/*  Set letter spacing  */
+p {
+    letter-spacing: 1.2px;
+}
 
 /*main welcome page*/
-
 #welcomeSpace {
     width: 100%;
     height: 100vh;
@@ -82,7 +86,7 @@ body
 #title {
     padding-top: 10px;
     font-size: 4vw;
-    font-weight: bold;
+    font-weight: 700;
     text-align: center;
     padding-bottom: 10px;
     line-height: 7vh;
@@ -96,7 +100,7 @@ body
 }
 
 #scrollBtn {
-    width: 4vw; 
+    width: 3vw; 
     padding-top: 10%;
     animation: mover1 1s infinite  alternate;
 }
@@ -107,20 +111,18 @@ body
 }
 
 #begin {
-    background-color: #017439;
-    font-weight: bold;
-    border-radius: 28px;
-    color:white;
+    border-radius: 50px;
+    color:#017439;
     margin: 0 auto;
     width: 9vw;
-    text-align: center;
-    font-size: 2vw;
     padding: 2%;
     margin-top: 10%;
 }
 
 #begin p {
-    font-size: 1.7vw;
+    text-align: center;
+    font-size: 1vw;
+    font-weight: 700;
 }
 
 #centerText img {
@@ -143,10 +145,6 @@ body
    height: 100vh;
    overflow: hidden;
 }
-
-
-
-
 
 /* persona styling*/
 
@@ -174,7 +172,7 @@ body
     z-index: 1;
     transition: all 2s ease-out;
     transform: translateY(-300%);
-    line-height: 110%; 
+    line-height: 4vh; 
 }
 
 #personaText.fade-in {
@@ -183,13 +181,14 @@ body
 }
 
 #personaText2 {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 1.8vw;
+    color: #39423A;
     width: 30%;
     position: absolute;
+    line-height: 4vh; 
     right: 5%;
     top: 25%;
-    font-family: 'M PLUS Rounded 1c', sans-serif;
-    color: #39423A;
-    font-size: 1.8vw;
     z-index: 1;
     transition: all 2s ease-out;
     transform: translateY(-500%); 
@@ -202,7 +201,7 @@ body
 }
 
 #thisMichael {
-    font-weight: bold;
+    font-weight: 700;
     margin-bottom: 10%;
     font-size: 2.5vw;
 }
@@ -284,10 +283,11 @@ body
 
 span .number {
     font-size: 3vw;
-    font-weight: bold;
+    font-weight: 700;
 }
 
 #lineOne {
+    font-size: 2.5vw;
     opacity: 0;
     transition: all 1s ease;
     font-size: 2.3vw;
@@ -298,6 +298,7 @@ span .number {
 }
 
 #lineTwo {
+    font-size: 2.5vw;
     opacity: 0;
     transition: all 1s ease;
     transition-delay: 3s;
@@ -416,7 +417,7 @@ span .number {
 #scrollBtn2 {
     position: absolute;
     bottom: 10vh;
-    width: 5vw;
+    width: 3vw;
     right: 23vw;
     animation: mover2 1s infinite  alternate;
     opacity: 0;
@@ -449,17 +450,21 @@ span .number {
 #fuelText {
     width: 40%;
     margin: 0 auto;
-    text-align: center;
-    font-family: 'M PLUS Rounded 1c', sans-serif;
-    color: black;
-    font-size: 1.9vw;
+    color: #39423A;
     top: 8%;
     left: 30%;
     position: absolute;
     transition: all .7s ease-out;
     transform: translateY(-250%);
 }
+#fuelText p{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 400;
+    font-size: 1.9vw;
+    line-height: 5vh;
+    text-align: center;
 
+}
 
 #fuelText.fade-in {
     transform: translateY(0%);
@@ -473,8 +478,8 @@ span .number {
     top: 31vh;
     color: #418E3A;
     font-family: 'M PLUS Rounded 1c', sans-serif;
-    font-weight: bold;
-    font-size: 8vh;
+    font-weight: 700;
+    font-size: 5vh;
 }
 
  #iecsFuel {
@@ -618,17 +623,18 @@ span .number {
     left: 62vw;
     top: 31vh;
     font-family: 'M PLUS Rounded 1c', sans-serif;
-    font-weight: bold;
-    font-size: 8vh;
+    font-weight: 700;
+    font-size: 5vh;
+    color: #39423A;
 }
 
  #rrFuel {
     background-color: white;
-     height: 40%;
-     width: 20%;
-     overflow: hidden;
-     display: block;
-     right: 20%;
+    height: 40%;
+    width: 20%;
+    overflow: hidden;
+    display: block;
+    right: 20%;
     top: 45%;
     position: absolute;
     border-bottom-right-radius: 7%;
@@ -690,8 +696,8 @@ span .number {
  #fuelDiv2 h2 {
     z-index: 3;
     color:black;
-    font-weight: bold;
-    font-size: 1.7vw;
+    font-weight: 700;
+    font-size: 1.5vw;
     position: absolute;
     bottom: 40%;
     left: 40%;
@@ -808,6 +814,7 @@ span .number {
 /*emissions section styling*/
 
  #emissions {
+    display: flex;
     width: 100%;
     height: 100vh;
     overflow: hidden;
@@ -824,20 +831,22 @@ span .number {
 
 #emissionsFact {
     font-family: 'M PLUS Rounded 1c', sans-serif;
-
-    font-size: 2.5vw;
+    font-weight: 400;
+    font-size: 1.4vw;
+    text-align: center;
     z-index: 1;
-    width: 60%;
-    left: 5%;
-    top: 5%;
+    width: 40%;
+    line-height: 4vh;
     transition: all 1s ease;
     transition-delay: 3s;
     transform: translateY(-200%);
 }
 
 #emissionsFact.fade-in {
+    top: 10%;
     transition-delay: 6.5s;
     transform: translateY(0%);
+    margin: 0 auto;
 }
 
 #cityForest {
@@ -926,7 +935,7 @@ span .number {
 #iecsSmogData {
     font-family: 'M PLUS Rounded 1c', sans-serif;
     font-size: 2vw;
-    font-weight: bold;
+    font-weight: 700;
     position: absolute;
     bottom: 35vh;
     right: 9vw;
@@ -983,8 +992,8 @@ span .number {
 
 #riprapSmogData {
     font-family: 'M PLUS Rounded 1c', sans-serif;
-    font-size: 3.7vw;
-    font-weight: bold;
+    font-size: 3.5vw;
+    font-weight: 700;
     position: absolute;
     bottom: 65vh;
     left: 39vw;
@@ -1002,10 +1011,6 @@ span .number {
     transition-delay: 8.5s;
     opacity: 1;
 }
-
-
-
-
 
 /*road damage styling*/
 
@@ -1033,14 +1038,14 @@ span .number {
 }
 
 #damageText {
+    width: 50%;
     font-family: 'M PLUS Rounded 1c', sans-serif;
-    font-size: 2.5vw;
-    position: absolute;
+    font-size: 1.9vw;
+    font-weight: 400;
+    line-height: 5vh;
+    text-align: center;
     z-index: 4;
     margin: 0 auto;
-    top: 7%;
-    left: 4%;
-    width: 50%;
 }
 
 
@@ -1325,12 +1330,12 @@ span .number {
     flex-direction: row;
     align-items: center;
     padding: 30px;
-    background-color: #4eae48;
+    background-color: #247b08;
 
 }
 
 .dashBox1, .dashBox2, .dashBox3 {
-    background-color: #4eae48;
+    background-color: #247b08;
     border-right: 1px solid white;
     width: 25%;
     height: 100%;
@@ -1338,7 +1343,7 @@ span .number {
 }
 
 .dashBox4 {
-    background-color: #4eae48;
+    background-color: #247b08;
     width: 25%;
     height: 100%;
     padding:30px;
@@ -1373,7 +1378,6 @@ span .number {
 #level-icon-4 {
     width: 11%;
 }
-
 
 .amount-numbers {
   margin-top: 35px;
@@ -1416,11 +1420,12 @@ span .number {
 }
 
 .call-to-action {
-    width: 50%;
+    width: 30vw;
     align-content: center;
     text-align: center;
     color: white;
     margin-top: 20vh;
+    margin-bottom: 5vh;
 }
 
 .call-to-action div {
@@ -1443,11 +1448,25 @@ span .number {
     font-family: 'M PLUS Rounded 1c', sans-serif;
     font-size: 2vh;
     font-weight: 300;
-    letter-spacing: 1.2px;
-    line-height: 30px;
+    line-height: 4vh;
 }
 
-.call-to-action p
+.actionBtn {
+    border: 2px solid #c0e74d;
+    border-radius: 50px;
+    color: white;
+    width: 12vw;
+    padding: 1%;
+    margin-top: 50px;
+    margin: 0 auto;
+}
+
+
+.actionBtn p{
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.3vw;
+}
 
 #CC_result {
     width: 100%;
