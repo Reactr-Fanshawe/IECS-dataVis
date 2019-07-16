@@ -250,7 +250,7 @@
                         <img id="level-icon-4" src="images/IECS_illustrated_assets_vegetation.svg" alt="vegetation level icon">
                     </div>
                     <div class="amount-numbers">
-                        <p><span id="amount">40%</span><p> 
+                        <p><span id="amount">40%</span> Regrowth<p> 
                     </div>
             </div>
         </div>
