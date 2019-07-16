@@ -155,6 +155,14 @@ $(document).ready(function(){
             .setClassToggle('#iecsTruckratio', 'fade-in')
             .addTo(controller);  
 
+          var scrollBtn2Scene = new ScrollMagic.Scene({
+            triggerElement: '#scrollBtn2',
+            triggerHook: 1,
+            reverse:false
+          })
+            .setClassToggle('#scrollBtn2', 'fade-in')
+            .addTo(controller); 
+
           var lineOneScene = new ScrollMagic.Scene({
             triggerElement: '#lineOne',
             triggerHook: .7,
