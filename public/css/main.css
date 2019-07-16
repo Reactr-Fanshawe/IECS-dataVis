@@ -137,10 +137,7 @@ p {
 #scenario {
    display: flex;
    flex-direction: row;
-   border-top: 1px solid #001903;
-   -webkit-box-shadow: 0 -5px 5px -5px #333;
-   -moz-box-shadow:    0 -5px 5px -5px #333;
-   box-shadow:         0 -5px 5px -5px #333;
+   border-top: 1px solid #39423A;
    width: 100%;
    height: 100vh;
    overflow: hidden;
@@ -258,6 +255,7 @@ p {
     width: 100%;
     height: 100vh;
     background-color: #E7FFD8;
+    border-top: 1px solid #39423A;
 }
 
 #ratio {
@@ -1424,7 +1422,7 @@ span .number {
     align-content: center;
     text-align: center;
     color: white;
-    margin-top: 20vh;
+    margin-top: 15vh;
     margin-bottom: 5vh;
 }
 
