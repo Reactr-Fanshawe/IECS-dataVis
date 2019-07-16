@@ -91,8 +91,13 @@
     <section id="fuelSave">
 
         <div id="fuelText">
+<<<<<<< HEAD
             <p>“Heavy trucks make up just around 7% of the vehicles on the 
             road in the U.S., but they consume about 25% of all fuel.”</p>
+=======
+            <p>“Heavy trucks make up just around <span class="number">7%</span> of the vehicles on the 
+                road in the U.S., but they consume about <span class="number">25%</span> of all fuel.”</p>
+>>>>>>> 7b32e93df97fde2701e2b0286a82e5e776bb3e09
         </div>
     
       
