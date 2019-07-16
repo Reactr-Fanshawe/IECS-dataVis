@@ -236,7 +236,7 @@ $(document).ready(function(){
   
         var indc1Scene = new ScrollMagic.Scene({
           triggerElement: '#rrFuel',
-          triggerHook: .4,
+          triggerHook: .8,
           reverse:false
         })
           .setClassToggle('#indc1Div', 'fade-in')
@@ -245,7 +245,7 @@ $(document).ready(function(){
 
         var indc2Scene = new ScrollMagic.Scene({
           triggerElement: '#rrFuel',
-          triggerHook: .4,
+          triggerHook: .8,
           reverse:false
           })
            .setClassToggle('#indc2Div', 'fade-in')

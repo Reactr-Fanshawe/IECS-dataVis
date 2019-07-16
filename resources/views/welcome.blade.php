@@ -69,7 +69,8 @@
           <div id="ratioRow2"><img src="images/IECS_illustrated_ratio_row.svg"></div>
           <div id="ratioRow1"><img src="images/IECS_illustrated_ratio_row.svg"></div>
         </div> 
-        </div>
+
+    </div>
         
         <div id="ratioText">
                 
@@ -77,12 +78,12 @@
                 
                 <span id="lineTwo">, whereas up to <span class="number">18</span> rip-rap trucks would be required for the same delivery.</span></h2>
         
+                <img id="iecsTruckratio" src="images/IECS_illustrated_iecs_city_truck.svg">
+           
+                <img id="scrollBtn2" src="images/IECS_illustrated_scrolldownBtn.svg">
         </div>  
-        <img id="iecsTruckratio" src="images/IECS_illustrated_iecs_city_truck.svg">
 
-        <img id="scrollBtn2" src="images/IECS_illustrated_scrolldownBtn.svg">
-        
-        
+             
     </section>
 
 
