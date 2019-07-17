@@ -153,7 +153,7 @@
 
     <section id="emissions">
             <p id="emissionsFact">"The commercial road transportation sector produces 
-            19% of the total emissions in Canada"</p>
+            19% of the total carbon emissions in Canada"</p>
        <img id="emissionsCloud" src="images/IECS_illustrated_cityscape_clouds.svg">
        <img id="citytruckRow1" src="images/IECS_illustrated_cityriprap_trucks_2.svg">
        <img id="citytruckRow2" src="images/IECS_illustrated_cityriprap_trucks_1.svg">
@@ -254,7 +254,7 @@
                         <img id="level-icon-4" src="images/IECS_illustrated_assets_vegetation.svg" alt="vegetation level icon">
                     </div>
                     <div class="amount-numbers">
-                        <p><span id="amount">40%</span> Regrowth<p> 
+                        <p><span id="amount">40%</span> Open space<p> 
                     </div>
             </div>
         </div>

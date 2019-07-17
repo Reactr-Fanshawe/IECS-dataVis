@@ -100,7 +100,7 @@ p {
 }
 
 #scrollBtn {
-    width: 3vw; 
+    width: 3vw;
     padding-top: 10%;
     animation: mover1 1s infinite  alternate;
 }
@@ -855,7 +855,7 @@ span .number {
     z-index: 2;
     position: absolute;
     width: 15%;
-    bottom: 17%;
+    bottom: 14%;
     right: 6%;
     transition: all 2s ease;
     transform: translateX(-600%);
@@ -898,7 +898,7 @@ span .number {
 #citytruckRow3 {
     z-index: 3;
     position: absolute;
-    bottom: 17%;
+    bottom: 14%;
     right: 23%;
     width: 75%;
     transition: all 3.5s ease;
@@ -914,8 +914,8 @@ span .number {
     position: absolute;
     z-index: 1;
     width: 5vw;
-    bottom: 28vh;
-    right: 6.5%;
+    bottom: 23vh;
+    right: 7.5%;
     opacity: 0;
     transition: all 2s ease;
     transform: translate(40%, 40%) scale(0);
@@ -933,8 +933,8 @@ span .number {
     font-size: 2vw;
     font-weight: 700;
     position: absolute;
-    bottom: 35vh;
-    right: 9vw;
+    bottom: 29vh;
+    right: 10vw;
     color: white;
     z-index: 3;
     opacity: 0;
@@ -954,7 +954,7 @@ span .number {
     position: absolute;
     z-index: 2;
     width: 60vw;
-    bottom: 28vh;
+    bottom: 23vh;
     right: 21vw;
     opacity: 0;
     transition: all 4.5s ease;
@@ -971,8 +971,8 @@ span .number {
 #riprapSmogSmall {
     position: absolute;
     z-index: 2;
-    bottom: 60vh;
-    left: 8vw;
+    bottom: 50vh;
+    left: 14vw;
     width: 15vh;
     opacity: 0;
     transition: all 4.5s ease;
@@ -988,11 +988,11 @@ span .number {
 
 #riprapSmogData {
     font-family: 'M PLUS Rounded 1c', sans-serif;
-    font-size: 3.5vw;
+    font-size: 5.5vw;
     font-weight: 700;
     position: absolute;
-    bottom: 56vh;
-    left: 45vw;
+    bottom: 51vh;
+    left: 42vw;
     color: white;
     z-index: 3;
     opacity: 0;
