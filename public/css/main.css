@@ -152,8 +152,8 @@ p {
 }
 
 #personaScene {
-    left: 40%;
-    width: 21%;
+    left: 10vw;
+    width: 18%;
     position: absolute;
     bottom: 0px;
 }
@@ -161,7 +161,7 @@ p {
 #personaText {
     font-family: 'M PLUS Rounded 1c', sans-serif;
     color: #39423A;
-    top: 15%;
+    top: 10vh;
     left: 5%;
     position: absolute;
     font-size: 1.8vw;
@@ -173,31 +173,39 @@ p {
 }
 
 #personaText.fade-in {
-    transition-delay: 1s;
     transform: translateY(0%); 
 }
 
-#personaText2 {
+#scenarioText {
     font-family: 'M PLUS Rounded 1c', sans-serif;
     font-size: 1.8vw;
     color: #39423A;
-    width: 30%;
+    width: 35vw;
     position: absolute;
     line-height: 4vh; 
     right: 5%;
-    top: 25%;
+    top: 22vh;
     z-index: 1;
     transition: all 2s ease-out;
     transform: translateY(-500%); 
     line-height: 110%;
 }
 
-#personaText2.fade-in {
-    transition-delay: 1.5s;
+#scenarioText.fade-in {
+    transition-delay: 2s;
     transform: translateY(0%); 
 }
 
-#thisMichael {
+#scenarioDetail {
+    background-color: white;
+    position: absolute;
+    width: 35vw;
+    height: 55vh;
+    top: 40vh;
+    left: 60vw;
+}
+
+#michaelText {
     font-weight: 700;
     margin-bottom: 10%;
     font-size: 2.5vw;
@@ -1310,6 +1318,14 @@ span .number {
     transition-delay: 8.5s;
 }
 
+/* vegetation styling */
+
+#vegetation {
+    height: 100vh;
+    background-color: #E8FFD4;
+}
+
+
 
 /* summary styling */
 
@@ -1327,7 +1343,7 @@ span .number {
     align-items: center;
     padding: 30px;
     background-color: #247b08;
-
+    height: 30vh;
 }
 
 .dashBox1, .dashBox2, .dashBox3 {

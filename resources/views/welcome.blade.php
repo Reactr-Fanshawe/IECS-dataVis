@@ -34,13 +34,16 @@
         <div id="persona">
 
         <div id="personaText">
-            <p id="thisMichael">This is Michael.</p>
+            <p id="michaelText">This is Michael.</p>
             <p>He wants to provide erosion control for his local 
              waterway. He's looking for the most environmentally and economically conscientious
              contract.</p>
         </div>
-        <div id="personaText2">
+        <div id="scenarioText">
             <p>He has 4,000m2 to cover and considers his options with using IECS cable concrete versus rip-rap.</p>
+        </div>
+        <div id="scenarioDetail">
+            <p>Scenario details go here!</p>
         </div>
                 
             <div id="clouds1">
@@ -204,11 +207,17 @@
         </div>
 
         <div id="damageText">
-            <p>Tax dollars spent on road damage repair from excessive
+          <!--  <p>Tax dollars spent on road damage repair from excessive
                 heavy truck traffic is a strain on the economy and can be reduced
-            </p>    
+            </p>   -->
         </div>
 
+
+    </section>
+
+    <section id="vegetation">
+
+              
 
     </section>
 
