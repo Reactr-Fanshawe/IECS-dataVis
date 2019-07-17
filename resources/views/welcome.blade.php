@@ -34,13 +34,16 @@
         <div id="persona">
 
         <div id="personaText">
-            <p id="thisMichael">This is Michael.</p>
+            <p id="michaelText">This is Michael.</p>
             <p>He wants to provide erosion control for his local 
              waterway. He's looking for the most environmentally and economically conscientious
              contract.</p>
         </div>
-        <div id="personaText2">
+        <div id="scenarioText">
             <p>He has 4,000m2 to cover and considers his options with using IECS cable concrete versus rip-rap.</p>
+        </div>
+        <div id="scenarioDetail">
+            <p>Scenario details go here!</p>
         </div>
                 
             <div id="clouds1">
@@ -153,7 +156,7 @@
 
     <section id="emissions">
             <p id="emissionsFact">"The commercial road transportation sector produces 
-            19% of the total emissions in Canada"</p>
+            19% of the total carbon emissions in Canada"</p>
        <img id="emissionsCloud" src="images/IECS_illustrated_cityscape_clouds.svg">
        <img id="citytruckRow1" src="images/IECS_illustrated_cityriprap_trucks_2.svg">
        <img id="citytruckRow2" src="images/IECS_illustrated_cityriprap_trucks_1.svg">
@@ -204,11 +207,17 @@
         </div>
 
         <div id="damageText">
-            <p>Tax dollars spent on road damage repair from excessive
+          <!--  <p>Tax dollars spent on road damage repair from excessive
                 heavy truck traffic is a strain on the economy and can be reduced
-            </p>    
+            </p>   -->
         </div>
 
+
+    </section>
+
+    <section id="vegetation">
+
+              
 
     </section>
 

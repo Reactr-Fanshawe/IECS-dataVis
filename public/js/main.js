@@ -46,13 +46,24 @@ $(document).ready(function(){
 	.setPin('#emissions')
     .addTo(controller);
     
+    
     var sectionPinScene5 = new ScrollMagic.Scene({
 		triggerElement: '#roadDamage',
         triggerHook: 0,
         duration: '90%'
-	})
+  })
+  
 	.setPin('#roadDamage')
     .addTo(controller);
+
+    var sectionPinScene5 = new ScrollMagic.Scene({
+      triggerElement: '#vegetation',
+          triggerHook: 0,
+          duration: '90%'
+    })
+    
+    .setPin('#vegetation')
+      .addTo(controller);
     
     var sectionPinScene6 = new ScrollMagic.Scene({
 		triggerElement: '#summary',
@@ -89,12 +100,12 @@ $(document).ready(function(){
             .setClassToggle('#personaText', 'fade-in')
             .addTo(controller);
 
-          var personaText2Scene = new ScrollMagic.Scene({
-            triggerElement: '#personaText2',
+          var scenarioTextScene = new ScrollMagic.Scene({
+            triggerElement: '#scenarioText',
             triggerHook: .1,
             reverse:false
             })
-            .setClassToggle('#personaText2', 'fade-in')
+            .setClassToggle('#scenarioText', 'fade-in')
             .addTo(controller);
 
       /*ratio content animation*/
