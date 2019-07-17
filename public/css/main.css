@@ -245,10 +245,6 @@ p {
     transform: translateX(0px);
 }
 
-
-
-
-
 /* ratio styling*/
 
 #truckRatio {
@@ -956,8 +952,8 @@ span .number {
     position: absolute;
     z-index: 2;
     width: 60vw;
-    bottom: 33vh;
-    right: 25vw;
+    bottom: 28vh;
+    right: 21vw;
     opacity: 0;
     transition: all 4.5s ease;
     transform: translate(40%, 60%) scale(0);
@@ -993,8 +989,8 @@ span .number {
     font-size: 3.5vw;
     font-weight: 700;
     position: absolute;
-    bottom: 65vh;
-    left: 39vw;
+    bottom: 56vh;
+    left: 45vw;
     color: white;
     z-index: 3;
     opacity: 0;
