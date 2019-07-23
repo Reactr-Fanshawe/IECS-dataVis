@@ -67,7 +67,7 @@
             </div> 
         </div>  
         <div id="ratioText">       
-                <h2 id="sentenceOne"><span id="lineOne">IECS would only need <span class="number">1</span> truck of cable concrete for Michael's job</span>
+                <h2 id="sentenceOne"><span id="lineOne">IECS would only need <span class="numberGreen">1</span> truck of cable concrete for Michael's job</span>
                 <span id="lineTwo">, whereas up to <span class="number">18</span> rip-rap trucks would be required for the same delivery.</span></h2>
         </div>  
         <div id="iecsTruckratioOverflow">
@@ -81,6 +81,9 @@
 
     <section id="fuelSave">
         <div id="fuelText">
+            <h2>Less fuel consumption means more savings and less waste</h2>
+        </div>
+        <div id="fuelFact">
             <p>“Heavy trucks make up just around <span class="number">7%</span> of the vehicles on the 
                 road in the U.S., but they consume about <span class="number">25%</span> of all fuel.”</p>
         </div>
@@ -98,12 +101,13 @@
                 <p>LITRES</p>
         </div>
             <img id="indicator1" src="images/IECS_illustrated_assets_green_indicator.svg">
-    </div>   
-    <h2 id="iecsFuelTitle">IECS</h2>
+    </div>
+    <div id="iecsFuelTitle">
+        <h2>IECS</h2>
+    </div>
     <div id="iecsFuel">
         <img id="scale1" src="images/IECS_illustrated_scale_black.svg">   
         <img id ="fuelAnim1" src="images/IECS_illustrated_fuel.svg">
-        <img id ="fuelDrop1" src="images/IECS_illustrated_fuel_drops.svg">
     </div>
     <div id="indc2Div">
         <div id="dollarDiv2">
@@ -120,11 +124,12 @@
         </div>
             <img id="indicator2" src="images/IECS_illustrated_assets_gray_indicator.svg">
     </div>
-    <h2 id="rrFuelTitle">Rip-Rap</h2>
+    <div id="rrFuelTitle">
+        <h2>Rip-Rap</h2>
+    </div>
     <div id="rrFuel">
         <img id="scale2" src="images/IECS_illustrated_scale.svg"> 
         <img id ="fuelAnim2" src="images/IECS_illustrated_fuel.svg">
-        <img id ="fuelDrop2" src="images/IECS_illustrated_fuel_drops.svg">
     </div>
     </section>
 
@@ -132,7 +137,7 @@
 
     <section id="emissions">
             <p id="emissionsFact">"The commercial road transportation sector produces 
-            19% of the total carbon emissions in Canada"</p>
+            <span class="number">19%</span> of the total carbon emissions in Canada"</p>
        <img id="emissionsCloud" src="images/IECS_illustrated_cityscape_clouds.svg">
        <img id="citytruckRow1" src="images/IECS_illustrated_cityriprap_trucks_2.svg">
        <img id="citytruckRow2" src="images/IECS_illustrated_cityriprap_trucks_1.svg">

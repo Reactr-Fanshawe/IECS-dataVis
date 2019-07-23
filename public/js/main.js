@@ -202,12 +202,12 @@ $(document).ready(function(){
             .setClassToggle('#fuelText', 'fade-in')
             .addTo(controller);  
 
-          var fuelTextScene2 = new ScrollMagic.Scene({
+          var fuelFactScene = new ScrollMagic.Scene({
             triggerElement: '#iecsFuel',
-            triggerHook: .5,
+            triggerHook: .6,
             reverse:false
           })
-            .setClassToggle('#fuelText2', 'fade-in')
+            .setClassToggle('#fuelFact', 'fade-in')
             .addTo(controller);  
 
 
@@ -228,22 +228,6 @@ $(document).ready(function(){
           .setClassToggle('#fuelAnim2', 'fade-in')
           .addTo(controller); 
 
-
-        var fuelDrop1Scene = new ScrollMagic.Scene({
-          triggerElement: '#rrFuel',
-          triggerHook: .6,
-          reverse:false
-        })
-          .setClassToggle('#fuelDrop1', 'fade-in')
-          .addTo(controller); 
-
-        var fuelDrop2Scene = new ScrollMagic.Scene({
-          triggerElement: '#rrFuel',
-          triggerHook: .6,
-          reverse:false
-        })
-          .setClassToggle('#fuelDrop2', 'fade-in')
-          .addTo(controller); 
   
         var indc1Scene = new ScrollMagic.Scene({
           triggerElement: '#rrFuel',
