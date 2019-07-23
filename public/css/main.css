@@ -1461,7 +1461,7 @@ span .number {
     align-items: center;
     padding: 30px;
     background-color: #247b08;
-    height: 20vh;
+    height: 25vh;
 }
 
 .dashBox1, .dashBox2, .dashBox3 {
@@ -1513,6 +1513,7 @@ span .number {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  width: 100%;
 }
 
 .amount-numbers p{
