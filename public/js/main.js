@@ -3,20 +3,14 @@
 
 $(document).ready(function(){
 
-  /*countdown summary animation*/
-
-  function countDownFuel(){
-
-    var cont = { val:700 },
-      newVal = 79;
-  
-    TweenLite.to(cont, 2, { val:newVal, roundProps:"val", onUpdate:function(){document.getElementById("amount").innerHTML=Cont.val}});
-  }
 
 
     /*scrollmagic animation*/
 
     var controller = new ScrollMagic.Controller();
+
+  
+   /*countdown summary animation functions*/  
 
    //scene pins for every section as you scroll through page
    
@@ -513,7 +507,63 @@ $(document).ready(function(){
                 .setClassToggle('.repairFade', 'fade-in')
                 .addTo(controller);
 
+
+            /*summary trigger animations*/
+
+        
 });
 
+
+/*isolated scrollMagic and tweenMax function for summary counter*/
+
+$(document).ready(function(){
+
+  
+  
+  var countMagic = new ScrollMagic.Controller();
+
+
+  function countDownFuel(){
+
+    var cont = { val: 700 },
+      newVal = 79;
+  
+    TweenLite.to(cont, 3, { val:newVal, roundProps:"val", onUpdate:function(){document.getElementById("amount1").innerHTML=cont.val}});
+
+  }
+
+  function countDownEmissions(){
+
+    var cont = { val: 5424 },
+      newVal = 298;
+  
+    TweenMax.to(cont, 3, { val:newVal, roundProps:"val", onUpdate:function(){document.getElementById("amount2").innerHTML=cont.val}});
+
+  }
+
+  function countUpVeg(){
+
+    var cont = { val: 0 },
+      newVal = 40;
+  
+    TweenMax.to(cont, 3, { val:newVal, roundProps:"val", onUpdate:function(){document.getElementById("amount4").innerHTML=cont.val}});
+
+  }
+
+  function Counter(){
+    countDownFuel();
+    countDownEmissions();
+    countUpVeg();
+  }
+
+  var countDownScene = new ScrollMagic.Scene({
+    triggerElement: '#finale',
+    triggerHook: .3,
+    reverse:false
+  })
+    .setTween(Counter())
+    .addTo(countMagic);
+
+});
 
 

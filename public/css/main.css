@@ -1521,7 +1521,7 @@ span .number {
     color: white;
 }
 
-#amount {
+.amount {
     font-weight: 700;
     font-size: 4.5vw;
     margin-right: 20px;
