@@ -219,7 +219,7 @@
                     <img id="level-icon-1" src="images/IECS_illustrated_assets_fuel_level.svg" alt="fuel level icon">
                 </div>
                 <div class="amount-numbers">
-                    <p><span id="amount">79</span>Litres<p> 
+                    <p><span id="amount1" class="amount">700</span>Litres<p> 
                 </div>
             </div>
             <!-- Co2 -->
@@ -229,7 +229,7 @@
                         <img id="level-icon-2" src="images/IECS_illustrated_assets_c02.svg" alt="caron emissions level icon">
                 </div>
                 <div class="amount-numbers">
-                    <p><span id="amount">296</span>Grams<p> 
+                    <p><span id="amount2" class="amount">296</span>Grams<p> 
                 </div>
                 </div>
             <!-- Road Damage -->
@@ -239,7 +239,7 @@
                         <img id="level-icon-3" src="images/IECS_illustrated_assets_road_damage.svg" alt="road damage level icon">
                     </div>
                     <div class="amount-numbers">
-                        <p><span id="amount">Low</span><p> 
+                        <p><span id="amount3" class="amount">Low</span><p> 
                     </div>
             </div>
              <!-- Vegetation -->
@@ -249,7 +249,7 @@
                         <img id="level-icon-4" src="images/IECS_illustrated_assets_vegetation.svg" alt="vegetation level icon">
                     </div>
                     <div class="amount-numbers">
-                        <p><span id="amount">40%</span> Open space<p> 
+                        <p><span id="amount4" class="amount">0</span><span class="amount">%</span>Open space<p> 
                     </div>
             </div>
         </div>
@@ -269,8 +269,9 @@
 
     </section>
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenLite.min.js"></script>
-    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+        
+
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
