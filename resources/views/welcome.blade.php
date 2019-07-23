@@ -136,8 +136,12 @@
     <!––co2 emissions space-->
 
     <section id="emissions">
-            <p id="emissionsFact">"The commercial road transportation sector produces 
-            <span class="number">19%</span> of the total carbon emissions in Canada"</p>
+        <div id="emissionsFact">
+            <h2>Title goes here</h2>
+            <p>"The commercial road transportation sector produces 
+                        <span class="number">19%</span> of the total carbon emissions in Canada"</p>
+                        <p class="source"><a href="https://www.nrcan.gc.ca/energy/efficiency/transportation/commercial-vehicles/reports/7607" target="_blank">Source: Learn More</a></p>
+        </div>
        <img id="emissionsCloud" src="images/IECS_illustrated_cityscape_clouds.svg">
        <img id="citytruckRow1" src="images/IECS_illustrated_cityriprap_trucks_2.svg">
        <img id="citytruckRow2" src="images/IECS_illustrated_cityriprap_trucks_1.svg">
