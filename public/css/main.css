@@ -1,3 +1,9 @@
+@charset "UTF-8";
+
+.hidden {
+    display: none;
+}
+
 *
 {
     margin: 0;
@@ -301,6 +307,10 @@ span .number {
 .numberGreen {
     font-size: 3vw;
     font-weight: 700;
+    color: rgb(54, 116, 49);
+}
+
+.textGreen {
     color: rgb(54, 116, 49);
 }
 
@@ -1046,6 +1056,28 @@ span .number {
 
 /*road damage styling*/
 
+.roadDamage-Description{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+    height: 44vh;
+}
+
+.roadDamage-column-1 h3, .roadDamage-column-2 h3{
+    font-weight: 700;
+    font-size: 2vw;
+    margin-bottom: 3vh;
+}
+
+.roadDamage-Description p{
+    font-size: 2vh;
+    line-height: 4vh;
+    width: 85%;
+}
+
 #roadDamage {
     overflow: hidden;
     height: 100vh;
@@ -1574,48 +1606,47 @@ span .number {
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) {
 
-
-/*road damage for tablet*/
-#repairTruck {
+    /*road damage for tablet*/
+    #repairTruck {
     right: 43vw;
-}
+    }
 
-#potHole {
+    #potHole {
     width: 10vw;
-}
+    }
 
-/*emissions for tablet*/
+    /*emissions for tablet*/
 
-#citytruckRow1 {
+    #citytruckRow1 {
     bottom: 20vh;
-}
+    }
 
-#citytruckRow2 {
+    #citytruckRow2 {
     bottom: 16vh;
-}
+    }
 
-#riprapSmog {
+    #riprapSmog {
     bottom: 18vh;
-}
+    }
 
-#riprapSmogSmall {
+    #riprapSmogSmall {
     bottom: 32vh;
-}
+    }
 
-#riprapSmogData {
+    #riprapSmogData {
     bottom: 34vh;
-}
+    }
 
-#emissionsFact {
+    #emissionsFact {
     top: 31vh;
-}
+    }
 
-#iecsSmog {
+    #iecsSmog {
     bottom: 18vh;
-}
+    }
 
-#iecsSmogData {
+    #iecsSmogData {
     bottom: 22.5vh;
-}
-    
+    }
+
 }

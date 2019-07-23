@@ -81,7 +81,7 @@
 
     <section id="fuelSave">
         <div id="fuelText">
-            <h2>Less fuel consumption means more savings and less waste</h2>
+            <h2>Less <span class="textGreen">fuel consumption</span> means more savings and less waste</h2>
         </div>
         <div id="fuelFact">
             <p>“Heavy trucks make up just around <span class="number">7%</span> of the vehicles on the 
@@ -162,7 +162,27 @@
     <!––road damage space-->
 
     <section id="roadDamage">
-
+        <h2 class="hidden">Road Damage</h2>
+        <div class="roadDamage-Description">
+            <!-- column 1 title -->
+            <div class="roadDamage-column-1">
+                <h3>Title Here</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, 
+                    aperiam! Voluptate reprehenderit quas error natus
+                     aut quod magnam atque recusandae autem ut, animi, 
+                     inventore blanditiis et laudantium illum placeat laborum.
+               </p>  
+            </div>
+            <!-- column 2 title -->
+            <div class="roadDamage-column-2">
+                <h3>Title Here</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, 
+                    aperiam! Voluptate reprehenderit quas error natus
+                     aut quod magnam atque recusandae autem ut, animi, 
+                     inventore blanditiis et laudantium illum placeat laborum.
+               </p>  
+            </div>
+        </div>
         <div id="street">
         <img id="streetLine" src="images/IECS_illustrated_road_damage_background.svg">
 
