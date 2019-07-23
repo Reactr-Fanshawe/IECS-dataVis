@@ -520,7 +520,7 @@ span .number {
     top: 11%;
     left: 25%;
     position: absolute;
-    transition: all 1.2s ease-out;
+    transition: all 0.5s ease-out;
     transform: translateY(-250%);
     transition-delay: 6s;
     opacity: 0;
@@ -876,8 +876,9 @@ span .number {
 .source a{
     color: rgb(54, 116, 49);
 }
+
 #emissionsFact.fade-in {
-    transition-delay: 6.5s;
+    transition-delay: 11.5s;
     transform: translateY(0%);
     margin: 0 auto;
 }
@@ -1039,7 +1040,7 @@ span .number {
 }
 
 #riprapSmogData.fade-in {
-    transition-delay: 8.5s;
+    transition-delay: 9.5s;
     opacity: 1;
 }
 
