@@ -863,8 +863,8 @@ span .number {
     z-index: 2;
     position: absolute;
     width: 15%;
-    bottom: 14%;
-    right: 6%;
+    bottom: 11vh;
+    right: 6vw;
     transition: all 2s ease;
     transform: translateX(-600%);
 }
@@ -875,7 +875,7 @@ span .number {
 
 #citytruckRow1 {
     position: absolute;
-    bottom: 30%;
+    bottom: 26vh;
     left: 10%;
     width: 52%;
     z-index: 2;
@@ -891,7 +891,7 @@ span .number {
 #citytruckRow2 {
     z-index: 3;
     position: absolute;
-    bottom: 24%;
+    bottom: 19vh;
     left: 4%;
     width: 65%;
     transition: all 3.5s ease;
@@ -906,7 +906,7 @@ span .number {
 #citytruckRow3 {
     z-index: 3;
     position: absolute;
-    bottom: 14%;
+    bottom: 11vh;
     right: 23%;
     width: 75%;
     transition: all 3.5s ease;
@@ -923,7 +923,7 @@ span .number {
     z-index: 1;
     width: 5vw;
     bottom: 23vh;
-    right: 7.5%;
+    right: 7.5vw;
     opacity: 0;
     transition: all 2s ease;
     transform: translate(40%, 40%) scale(0);
@@ -1343,7 +1343,7 @@ span .number {
     align-items: center;
     padding: 30px;
     background-color: #247b08;
-    height: 30vh;
+    height: 20vh;
 }
 
 .dashBox1, .dashBox2, .dashBox3 {
@@ -1488,3 +1488,9 @@ span .number {
 
 /* TABLET RESPONSIVE */
 
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+
+    
+}
