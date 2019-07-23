@@ -3,6 +3,19 @@
 
 $(document).ready(function(){
 
+  /*countdown summary animation*/
+
+  function countDownFuel(){
+
+    var cont = { val:01700 },
+      newVal = 79;
+  
+    TweenLite.to(cont, 2, { val:newVal, roundProps:"val", onUpdate:function(){number.innerHTML=Math.floor(cont.val)}});
+  }
+
+
+    /*scrollmagic animation*/
+
     var controller = new ScrollMagic.Controller();
 
    //scene pins for every section as you scroll through page
@@ -481,6 +494,25 @@ $(document).ready(function(){
               })
                 .setClassToggle('#roadCrack3', 'fade-in')
                 .addTo(controller);
+
+              /*construction truck animation*/ 
+
+              var repairTruckScene = new ScrollMagic.Scene({
+                triggerElement: '#roadDamage',
+                triggerHook: .7,
+                reverse:false
+              })
+                .setClassToggle('#repairTruck', 'fade-in')
+                .addTo(controller);
+
+              var repairFadeScene = new ScrollMagic.Scene({
+                triggerElement: '#roadDamage',
+                triggerHook: .7,
+                reverse:false
+              })
+                .setClassToggle('.repairFade', 'fade-in')
+                .addTo(controller);
+
 });
 
 
