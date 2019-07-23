@@ -95,9 +95,11 @@ p {
 
 
 #message {
+    width: 34vw;
     padding: 2%;
     font-size: 1.5vw;
     text-align: center;
+    margin: 0 auto;
 }
 
 #scrollBtn {
