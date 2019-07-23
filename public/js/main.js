@@ -7,10 +7,10 @@ $(document).ready(function(){
 
   function countDownFuel(){
 
-    var cont = { val:01700 },
+    var cont = { val:700 },
       newVal = 79;
   
-    TweenLite.to(cont, 2, { val:newVal, roundProps:"val", onUpdate:function(){number.innerHTML=Math.floor(cont.val)}});
+    TweenLite.to(cont, 2, { val:newVal, roundProps:"val", onUpdate:function(){document.getElementById("amount").innerHTML=Cont.val}});
   }
 
 
@@ -244,7 +244,7 @@ $(document).ready(function(){
   
         var indc1Scene = new ScrollMagic.Scene({
           triggerElement: '#rrFuel',
-          triggerHook: .8,
+          triggerHook: 1,
           reverse:false
         })
           .setClassToggle('#indc1Div', 'fade-in')
@@ -253,7 +253,7 @@ $(document).ready(function(){
 
         var indc2Scene = new ScrollMagic.Scene({
           triggerElement: '#rrFuel',
-          triggerHook: .8,
+          triggerHook: 1,
           reverse:false
           })
            .setClassToggle('#indc2Div', 'fade-in')
