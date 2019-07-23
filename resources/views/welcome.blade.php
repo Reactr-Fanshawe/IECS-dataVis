@@ -81,7 +81,7 @@
 
     <section id="fuelSave">
         <div id="fuelText">
-            <h2>Less <span class="textGreen">fuel consumption</span> means more savings and less waste</h2>
+            <h2>Less fuel consumption means <span class="textGreen">more savings</span> and <span class="textGreen">less waste</span></h2>
         </div>
         <div id="fuelFact">
             <p>“Heavy trucks make up just around <span class="number">7%</span> of the vehicles on the 
