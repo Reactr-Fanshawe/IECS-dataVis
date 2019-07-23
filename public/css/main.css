@@ -60,14 +60,15 @@ p {
   }
 
 #logoSpace {
-    width: 14vw; 
+    width: 18vw; 
     margin: 0 auto;
 }
 
 #logoSpace img {
     width: 100%;
     margin: 0 auto;
-    margin-top: 15%;
+    margin-top: 10vh;
+    margin-bottom: 6vh;
 }
 
 #centerText {
@@ -285,8 +286,26 @@ p {
     line-height: 7vh;
 }
 
+/*number spans for entire webpage*/
+
 span .number {
     font-size: 3vw;
+    font-weight: 700;
+}
+
+.numberGreen {
+    font-size: 3vw;
+    font-weight: 700;
+    color: rgb(54, 116, 49);
+}
+
+#fuelFact .number {
+    font-size: 1.7vw;
+    font-weight: 700;
+}
+
+#emissionsFact .number {
+    font-size: 1.7vw;
     font-weight: 700;
 }
 
@@ -314,6 +333,7 @@ span .number {
     opacity: 1;
 }
 
+/*ratio styling cont.*/
 
 #ratioRows {
     height: 100%;
@@ -451,23 +471,24 @@ span .number {
  }
 
 #fuelText {
-    width: 40%;
+    width: 80%;
     margin: 0 auto;
     color: #39423A;
-    top: 8%;
-    left: 30%;
+    top: 5%;
+    left: 11%;
     position: absolute;
-    transition: all 1.2s ease-out;
+    transition: all 2s ease-out;
     transform: translateY(-250%);
     transition-delay: 4s;
-}
-#fuelText p{
-    font-family: 'M PLUS Rounded 1c', sans-serif;
-    font-weight: 400;
-    font-size: 1.9vw;
-    line-height: 5vh;
     text-align: center;
+}
 
+#fuelText h2 {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 600;
+    font-size: 2.5vw;
+    text-align: center;
+    margin-bottom: 3%;
 }
 
 #fuelText.fade-in {
@@ -475,15 +496,40 @@ span .number {
     padding-bottom: 10px;
 }
 
- 
+#fuelFact {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 400;
+    font-size: 1.5vw;
+    line-height: 5vh;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    color: #39423A;
+    top: 15%;
+    left: 25%;
+    position: absolute;
+    transition: all 1.2s ease-out;
+    transform: translateY(-250%);
+    transition-delay: 6s;
+    opacity: 0;
+}
+
+#fuelFact.fade-in {
+    transform: translateY(0%);
+    opacity: 1;
+}
+
+
 #iecsFuelTitle {
     position: absolute;
-    left: 27vw;
-    top: 31vh;
+    left: 25.2%;
+    top: 38vh;
     color: #418E3A;
     font-family: 'M PLUS Rounded 1c', sans-serif;
     font-weight: 700;
     font-size: 5vh;
+    width: 10%;
+    text-align: center;
 }
 
  #iecsFuel {
@@ -494,7 +540,7 @@ span .number {
     overflow: hidden;
     display: block;
     left: 20%;
-    top: 45%;
+    top: 50%;
     position: absolute;
     border-bottom-right-radius: 7%;
     border-bottom-left-radius: 7%;
@@ -564,7 +610,7 @@ span .number {
      height: 10vw;
      position: absolute;
      left: 6%;
-     bottom: 9%;
+     bottom: 4%;
      transition: all .7s ease-out;
      transform: translateY(30%);
      transition-delay: 3s;
@@ -624,12 +670,14 @@ span .number {
 
  #rrFuelTitle {
     position: absolute;
-    right: 25vw;
-    top: 31vh;
+    right: 23%;
+    top: 38vh;
     font-family: 'M PLUS Rounded 1c', sans-serif;
     font-weight: 700;
     font-size: 5vh;
     color: #39423a;
+    text-align: center;
+    width: 15%;
 }
 
  #rrFuel {
@@ -639,7 +687,7 @@ span .number {
     overflow: hidden;
     display: block;
     right: 20%;
-    top: 45%;
+    top: 50%;
     position: absolute;
     border-bottom-right-radius: 7%;
     border-bottom-left-radius: 7%;
@@ -677,7 +725,7 @@ span .number {
     height: 10vw;
      position: absolute;
      right: 41%;
-     bottom: 40%;
+     bottom: 36%;
      transition: all .7s ease-out;
      transform: translateY(50%);
      transition-delay: 3s;
@@ -770,21 +818,6 @@ span .number {
     transform: translate(-30%, 0%);
 }
 
-#fuelDrop1 {
-    position: absolute;
-    transition: all 1s ease;
-    transform: translateY(200%);
-    top: 32vh;
-    width: 5%;
-    left: 45%;
-    opacity: 0;
-}
-
-#fuelDrop1.fade-in {
-    transform: translateY(0%);
-    transition-delay: 3.5s;
-    opacity: 1;
-}
 
 #fuelAnim2 {
     margin-top: 4vh;
@@ -796,23 +829,6 @@ span .number {
 #fuelAnim2.fade-in {
     transform: translate(-40%, 0%);
 }
-
-#fuelDrop2 {
-    position: absolute;
-    transition: all 1s ease;
-    transform: translateY(800%);
-    width: 5%;
-    right: 50%;
-    top: 0vh;
-    opacity: 0;
-}
-
-#fuelDrop2.fade-in {
-    transform: translateY(0%);
-    transition-delay: 3.5s;
-    opacity: 1;
-}
-
 
 
 /*emissions section styling*/
@@ -843,11 +859,13 @@ span .number {
     line-height: 4vh;
     transition: all 1s ease;
     transition-delay: 3s;
-    transform: translateY(-200%);
+    transform: translateY(-400%);
+    top: 17vh;
+    position: absolute;
+    left: 30vw;
 }
 
 #emissionsFact.fade-in {
-    top: 10%;
     transition-delay: 6.5s;
     transform: translateY(0%);
     margin: 0 auto;
@@ -864,7 +882,7 @@ span .number {
     position: absolute;
     width: 15%;
     bottom: 11vh;
-    right: 6vw;
+    right: 4vw;
     transition: all 2s ease;
     transform: translateX(-600%);
 }
@@ -922,8 +940,8 @@ span .number {
     position: absolute;
     z-index: 1;
     width: 5vw;
-    bottom: 23vh;
-    right: 7.5vw;
+    bottom: 20.3vh;
+    right: 5vw;
     opacity: 0;
     transition: all 2s ease;
     transform: translate(40%, 40%) scale(0);
@@ -931,7 +949,7 @@ span .number {
 
 #iecsSmog.fade-in {
     transform: translate(0%, 0%) scale(1);
-    transition-delay: 1s;
+    transition-delay: 1.5s;
     opacity: .8;
     width: 10vw;
 }
@@ -941,8 +959,8 @@ span .number {
     font-size: 2vw;
     font-weight: 700;
     position: absolute;
-    bottom: 29vh;
-    right: 10vw;
+    bottom: 27vh;
+    right: 7vw;
     color: white;
     z-index: 3;
     opacity: 0;
@@ -962,7 +980,7 @@ span .number {
     position: absolute;
     z-index: 2;
     width: 60vw;
-    bottom: 23vh;
+    bottom: 20vh;
     right: 21vw;
     opacity: 0;
     transition: all 4.5s ease;
@@ -972,16 +990,16 @@ span .number {
 #riprapSmog.fade-in {
     transform: translate(0%, 0%) scale(1);
     opacity: .8;
-    width: 60%;
+    width: 55%;
     transition-delay: 4.5s;
 }
 
 #riprapSmogSmall {
     position: absolute;
     z-index: 2;
-    bottom: 50vh;
-    left: 14vw;
-    width: 15vh;
+    bottom: 41vh;
+    left: 8vw;
+    width: 16vh;
     opacity: 0;
     transition: all 4.5s ease;
     transform: scale(0);
@@ -990,16 +1008,16 @@ span .number {
 #riprapSmogSmall.fade-in {
     transform: scale(1);
     opacity: .8;
-    width: 10vw;
+    width: 13vw;
     transition-delay: 6s;
 }
 
 #riprapSmogData {
     font-family: 'M PLUS Rounded 1c', sans-serif;
-    font-size: 5.5vw;
+    font-size: 5.3vw;
     font-weight: 700;
     position: absolute;
-    bottom: 51vh;
+    bottom: 45vh;
     left: 42vw;
     color: white;
     z-index: 3;
@@ -1492,5 +1510,39 @@ span .number {
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) {
 
+
+/*emissions for tablet*/
+
+#citytruckRow1 {
+    bottom: 20vh;
+}
+
+#citytruckRow2 {
+    bottom: 16vh;
+}
+
+#riprapSmog {
+    bottom: 18vh;
+}
+
+#riprapSmogSmall {
+    bottom: 32vh;
+}
+
+#riprapSmogData {
+    bottom: 34vh;
+}
+
+#emissionsFact {
+    top: 31vh;
+}
+
+#iecsSmog {
+    bottom: 18vh;
+}
+
+#iecsSmogData {
+    bottom: 22.5vh;
+}
     
 }
