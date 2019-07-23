@@ -42,7 +42,9 @@
             <p>He has 4,000m2 to cover and considers his options with using IECS cable concrete versus rip-rap.</p>
         </div>
         <div id="scenarioDetail">
-            <p>Scenario details go here!</p>
+            <img id="rrThumb" src="images/rrThumb.png">
+            <p>vs</p>
+            <img id="ccThumb" src="images/ccThumb.jpg">
         </div>    
             <div id="clouds1">
                 <img class="cloudfirst" src="images/IECS_illustrated_cloud_1.svg">
