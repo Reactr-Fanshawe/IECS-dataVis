@@ -19,6 +19,10 @@ p {
     letter-spacing: 1.2px;
 }
 
+a:link {
+    text-decoration: none;
+  }
+
 /*main welcome page*/
 #welcomeSpace {
     width: 100%;
@@ -279,13 +283,12 @@ p {
 
 #ratioText h2 {
     position: absolute;
-    font-family: 'M PLUS Rounded 1c', sans-serif;
+    width: 40%;
     color: #39423A;
     font-size: 2.5vw;
+    line-height: 7vh;
     right: 5%;
     top: 7%;
-    width: 40%;
-    line-height: 7vh;
 }
 
 /*number spans for entire webpage*/
@@ -309,6 +312,14 @@ span .number {
 #emissionsFact .number {
     font-size: 1.7vw;
     font-weight: 700;
+}
+
+#emissionsFact h2 {
+    font-weight: 700;
+    font-size: 2vw;
+    text-align: center;
+    margin-bottom: 3vh;
+
 }
 
 #lineOne {
@@ -486,11 +497,10 @@ span .number {
 }
 
 #fuelText h2 {
-    font-family: 'M PLUS Rounded 1c', sans-serif;
-    font-weight: 600;
-    font-size: 2.5vw;
+    font-weight: 700;
+    font-size: 2vw;
     text-align: center;
-    margin-bottom: 3%;
+    margin-bottom: 1vh;
 }
 
 #fuelText.fade-in {
@@ -507,7 +517,7 @@ span .number {
     width: 50%;
     margin: 0 auto;
     color: #39423A;
-    top: 15%;
+    top: 11%;
     left: 25%;
     position: absolute;
     transition: all 1.2s ease-out;
@@ -835,7 +845,7 @@ span .number {
 
 /*emissions section styling*/
 
- #emissions {
+#emissions {
     display: flex;
     width: 100%;
     height: 100vh;
@@ -855,16 +865,24 @@ span .number {
     font-family: 'M PLUS Rounded 1c', sans-serif;
     font-weight: 400;
     font-size: 1.4vw;
+    line-height: 4vh;
     text-align: center;
     z-index: 1;
-    width: 40%;
-    line-height: 4vh;
-    transition: all 1s ease;
-    transition-delay: 3s;
-    transform: translateY(-400%);
-    top: 17vh;
     position: absolute;
+    width: 40%;
+    transition-delay: 3s;
+    top: 9vh;
     left: 30vw;
+    transform: translateY(-400%);
+    transition: all 1s ease;
+}
+
+.source {
+    font-size: 0.8vw;
+    font-weight: 500;
+    text-decoration: none;
+    z-index: 2;
+    color: rgb(54, 116, 49);
 }
 
 #emissionsFact.fade-in {
@@ -1426,7 +1444,7 @@ span .number {
 }
 
 #amount {
-    font-weight: 600;
+    font-weight: 700;
     font-size: 4.5vw;
     margin-right: 20px;
 }
@@ -1472,7 +1490,7 @@ span .number {
 .call-to-action h3 {
     font-family: 'M PLUS Rounded 1c', sans-serif;
     font-size: 6vh;
-    font-weight: 600;
+    font-weight: 700;
     margin-bottom: 20px;
 }
 
