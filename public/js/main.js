@@ -3,8 +3,6 @@
 
 $(document).ready(function(){
 
-
-
     /*scrollmagic animation*/
 
     var controller = new ScrollMagic.Controller();
@@ -550,7 +548,7 @@ $(document).ready(function(){
 
   }
 
-  function Counter(){
+  function Counter() {
     countDownFuel();
     countDownEmissions();
     countUpVeg();
@@ -558,12 +556,11 @@ $(document).ready(function(){
 
   var countDownScene = new ScrollMagic.Scene({
     triggerElement: '#finale',
-    triggerHook: .3,
+    triggerHook: 1,
     reverse:false
   })
-    .setTween(Counter())
+    .setTween(Counter)
     .addTo(countMagic);
-
 });
 
 

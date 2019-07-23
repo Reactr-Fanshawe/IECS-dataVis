@@ -239,7 +239,7 @@
                     <img id="level-icon-1" src="images/IECS_illustrated_assets_fuel_level.svg" alt="fuel level icon">
                 </div>
                 <div class="amount-numbers">
-                    <p><span id="amount1" class="amount">700</span>Litres<p> 
+                    <p><span id="amount1" class="amount">1422</span>Litres<p> 
                 </div>
             </div>
             <!-- Co2 -->
@@ -249,7 +249,7 @@
                         <img id="level-icon-2" src="images/IECS_illustrated_assets_c02.svg" alt="caron emissions level icon">
                 </div>
                 <div class="amount-numbers">
-                    <p><span id="amount2" class="amount">296</span>Grams<p> 
+                    <p><span id="amount2" class="amount">5424</span>Grams<p> 
                 </div>
                 </div>
             <!-- Road Damage -->
@@ -295,8 +295,12 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+        
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"></script>
+
+
 
         <script src="js/main.js"></script>
     </body>
