@@ -185,6 +185,11 @@
             <img id="roadCrack5" src="images/IECS_illustrated_roadcrack_5.svg">
             <img id="roadCrack6" src="images/IECS_illustrated_roadcrack_6.svg">
             <img id="potHole" src="images/IECS_illustrated_assets_pothole.svg">
+            <img id="repairTruck" src="images/IECS_illustrated_tarmac_roller.svg">
+            <img id="pylon1" class="repairFade" src="images/IECS_illustrated_construction_cone.svg">
+            <img id="pylon2" class="repairFade" src="images/IECS_illustrated_construction_cone.svg">
+            <img id="roadBlock1" class="repairFade" src="images/IECS_illustrated_construction_barrier.svg">
+            <img id="roadBlock2" class="repairFade" src="images/IECS_illustrated_construction_barrier.svg">
         </div>
 
         <div id="damageText">
@@ -264,6 +269,7 @@
 
     </section>
 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenLite.min.js"></script>
     
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>

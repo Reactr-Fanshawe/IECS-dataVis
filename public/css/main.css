@@ -71,12 +71,12 @@ a:link {
 #logoSpace img {
     width: 100%;
     margin: 0 auto;
-    margin-top: 10vh;
+    margin-top: 9vh;
     margin-bottom: 6vh;
 }
 
 #centerText {
-    font-family: 'M PLUS Rounded 1c', sans-serif;
+    
     margin: 0 auto;
     color: #39423A;
     padding-top: 1%;
@@ -166,7 +166,7 @@ a:link {
 }
 
 #personaText {
-    font-family: 'M PLUS Rounded 1c', sans-serif;
+   
     color: #39423A;
     top: 10vh;
     left: 5%;
@@ -184,7 +184,7 @@ a:link {
 }
 
 #scenarioText {
-    font-family: 'M PLUS Rounded 1c', sans-serif;
+   
     font-size: 1.8vw;
     color: #39423A;
     width: 35vw;
@@ -283,7 +283,6 @@ a:link {
 
 #ratioText h2 {
     position: absolute;
-    width: 40%;
     color: #39423A;
     font-size: 2.5vw;
     line-height: 7vh;
@@ -497,6 +496,7 @@ span .number {
 }
 
 #fuelText h2 {
+
     font-weight: 700;
     font-size: 2vw;
     text-align: center;
@@ -509,7 +509,6 @@ span .number {
 }
 
 #fuelFact {
-    font-family: 'M PLUS Rounded 1c', sans-serif;
     font-weight: 400;
     font-size: 1.5vw;
     line-height: 5vh;
@@ -534,10 +533,9 @@ span .number {
 
 #iecsFuelTitle {
     position: absolute;
-    left: 25.2%;
+    left: 32%;
     top: 38vh;
     color: #418E3A;
-    font-family: 'M PLUS Rounded 1c', sans-serif;
     font-weight: 700;
     font-size: 5vh;
     width: 10%;
@@ -551,7 +549,7 @@ span .number {
     border-right: 1px solid #001903;
     overflow: hidden;
     display: block;
-    left: 20%;
+    left: 27%;
     top: 50%;
     position: absolute;
     border-bottom-right-radius: 7%;
@@ -594,7 +592,6 @@ span .number {
     position: absolute;
     bottom: 45%;
     left: 47%;
-    font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
 #fuelDiv1 p {
@@ -605,7 +602,6 @@ span .number {
     position: absolute;
     bottom: 20%;
     left: 45%;
-    font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
 
@@ -621,7 +617,7 @@ span .number {
      width: 13vw;
      height: 10vw;
      position: absolute;
-     left: 6%;
+     left: 13%;
      bottom: 4%;
      transition: all .7s ease-out;
      transform: translateY(30%);
@@ -665,7 +661,6 @@ span .number {
     position: absolute;
     bottom: 35%;
     left: 33%;
-    font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
 #dollarText1 p {
@@ -676,15 +671,13 @@ span .number {
     position: absolute;
     bottom: 7%;
     left: 37%;
-    font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
 
  #rrFuelTitle {
     position: absolute;
-    right: 23%;
+    right: 29.5%;
     top: 38vh;
-    font-family: 'M PLUS Rounded 1c', sans-serif;
     font-weight: 700;
     font-size: 5vh;
     color: #39423a;
@@ -698,7 +691,7 @@ span .number {
     width: 20%;
     overflow: hidden;
     display: block;
-    right: 20%;
+    right: 27%;
     top: 50%;
     position: absolute;
     border-bottom-right-radius: 7%;
@@ -712,7 +705,7 @@ span .number {
  #scale2 {
     position: absolute;
     bottom:0;
-    left: 0%;
+    right: 0%;
     z-index: 1;
     height: 100%;
 }
@@ -735,13 +728,13 @@ span .number {
 #indc2Div {
     width: 13vw;
     height: 10vw;
-     position: absolute;
-     right: 41%;
-     bottom: 36%;
-     transition: all .7s ease-out;
-     transform: translateY(50%);
-     transition-delay: 3s;
-     opacity: 0;
+    position: absolute;
+    right: 13%;
+    bottom: 36%;
+    transition: all .7s ease-out;
+    transform: translateY(50%);
+    transition-delay: 3s;
+    opacity: 0;
 }
 
 #indc2Div.fade-in {
@@ -750,7 +743,7 @@ span .number {
 }
 
  #fuelDiv2 {
-    margin-left: 3%;
+    margin-left: 13%;
     width: 83%;
     height: 50%;
     position: absolute;
@@ -765,7 +758,6 @@ span .number {
     position: absolute;
     bottom: 40%;
     left: 40%;
-    font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
 #fuelDiv2 p {
@@ -776,11 +768,10 @@ span .number {
     position: absolute;
     bottom: 20%;
     left: 45%;
-    font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
 #dollarDiv2 {
-   margin-left: 3%;
+   margin-left: 13%;
     width: 83%;
     height: 50%;
     top: 0%;
@@ -797,7 +788,6 @@ span .number {
     position: absolute;
     bottom: 42%;
     left: 35%;
-    font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
 #dollarText2 p {
@@ -808,7 +798,6 @@ span .number {
     position: absolute;
     bottom: 14%;
     left: 38%;
-    font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
 #dollarIcon2 {
@@ -862,7 +851,6 @@ span .number {
 }
 
 #emissionsFact {
-    font-family: 'M PLUS Rounded 1c', sans-serif;
     font-weight: 400;
     font-size: 1.4vw;
     line-height: 4vh;
@@ -975,7 +963,6 @@ span .number {
 }
 
 #iecsSmogData {
-    font-family: 'M PLUS Rounded 1c', sans-serif;
     font-size: 2vw;
     font-weight: 700;
     position: absolute;
@@ -1033,7 +1020,6 @@ span .number {
 }
 
 #riprapSmogData {
-    font-family: 'M PLUS Rounded 1c', sans-serif;
     font-size: 5.3vw;
     font-weight: 700;
     position: absolute;
@@ -1081,7 +1067,6 @@ span .number {
 
 #damageText {
     width: 50%;
-    font-family: 'M PLUS Rounded 1c', sans-serif;
     font-size: 1.9vw;
     font-weight: 400;
     line-height: 5vh;
@@ -1184,9 +1169,9 @@ span .number {
 #potHole {
     z-index: 1;
     position: absolute;
-    width: 8%;
-    bottom: 30px;
-    right: 25%;
+    width: 6vw;
+    bottom: 7vh;
+    right: 27vw;
     transition: all .8s linear;
     opacity: 0;
 }
@@ -1356,6 +1341,65 @@ span .number {
     transition-delay: 8.5s;
 }
 
+/*construction truck animation*/
+
+#repairTruck {
+    z-index: 2;
+    position: absolute;
+    bottom: 3%;
+    width: 40vh;
+    right: 36vw;
+    transition: all 6s linear;
+    transform: translateX(-1200%);
+}
+
+#repairTruck.fade-in {
+    transform: translateX(0%);
+    transition-delay: 6s;
+}
+
+#pylon1 {
+    z-index: 2;
+    position: absolute;
+    bottom: 2%;
+    width: 7vh;
+    right: 19vw;
+}
+
+#pylon2 {
+    z-index: 2;
+    position: absolute;
+    bottom: 33%;
+    width: 7vh;
+    right: 19vw;
+}
+
+#roadBlock1 {
+    z-index: 2;
+    position: absolute;
+    bottom: 2%;
+    width: 20vh;
+    right: 25vw;
+}
+
+#roadBlock2 {
+    z-index: 2;
+    position: absolute;
+    bottom: 34%;
+    width: 20vh;
+    right: 25vw;
+}
+
+.repairFade {
+    opacity: 0;
+    transition: all 1s linear;
+}
+
+.repairFade.fade-in {
+    opacity: 1;
+    transition-delay: 12.5s;
+} 
+
 /* vegetation styling */
 
 #vegetation {
@@ -1406,7 +1450,6 @@ span .number {
 }
 
 .summaryDash h2 {
-    font-family: 'M PLUS Rounded 1c', sans-serif;
     font-weight: 300;
     font-size: 2.3vw;
     color: white;
@@ -1437,7 +1480,6 @@ span .number {
 }
 
 .amount-numbers p{
-    font-family: 'M PLUS Rounded 1c', sans-serif;
     font-weight: 300;
     font-size: 1.5vw;
     color: white;
@@ -1488,14 +1530,12 @@ span .number {
 }
 
 .call-to-action h3 {
-    font-family: 'M PLUS Rounded 1c', sans-serif;
     font-size: 6vh;
     font-weight: 700;
     margin-bottom: 20px;
 }
 
 .call-to-action p {
-    font-family: 'M PLUS Rounded 1c', sans-serif;
     font-size: 2vh;
     font-weight: 300;
     line-height: 4vh;
@@ -1530,6 +1570,15 @@ span .number {
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) {
 
+
+/*road damage for tablet*/
+#repairTruck {
+    right: 43vw;
+}
+
+#potHole {
+    width: 10vw;
+}
 
 /*emissions for tablet*/
 
