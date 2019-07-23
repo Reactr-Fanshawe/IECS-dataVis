@@ -20,8 +20,8 @@
             </div>
   
         <div id="centerText">
-            <p id="title">IECS is tackling carbon emissions</p>
-            <p id="message">We want to show you how we are reducing our carbon footprint one job at a time.</p>
+            <p id="title">Cable Concrete is environmentally-friendly</p>
+            <p id="message">See how you can be a part of the solution to reducing your ecological footprint within the construction industry.</p>
             <div id="begin"><p>SCROLL</p></div>
             <img id="scrollBtn" src="images/IECS_illustrated_scrolldownBtn.svg">
         </div>
@@ -32,78 +32,59 @@
 
     <section id="scenario" class="section">
         <div id="persona">
-
-        <div id="personaText">
-            <p id="michaelText">This is Michael.</p>
-            <p>He wants to provide erosion control for his local 
-             waterway. He's looking for the most environmentally and economically conscientious
-             contract.</p>
-        </div>
+            <div id="personaText">
+                <p id="michaelText">This is Michael.</p>
+                    <p>He wants to provide erosion control for his local 
+                    waterway. He's looking for the most environmentally and economically conscientious
+                    contract.</p>
+            </div>
         <div id="scenarioText">
             <p>He has 4,000m2 to cover and considers his options with using IECS cable concrete versus rip-rap.</p>
         </div>
         <div id="scenarioDetail">
             <p>Scenario details go here!</p>
-        </div>
-                
+        </div>    
             <div id="clouds1">
                 <img class="cloudfirst" src="images/IECS_illustrated_cloud_1.svg">
                 <img class="cloudsecond" src="images/IECS_illustrated_cloud_2.svg">
             </div>
-
             <div id="personaScene">
                 <img id="michael" src="images/IECS_illustrated_michael.svg">
                 <img id="plant" src="images/IECS_illustrated_vegetation.svg">      
             </div>
-
         </div>
-
     </section>
 
     <section id="truckRatio">
-        
-    <div id="ratio">
-
-        <div id="ratioRows"> 
-          <div id="ratioRow6"><img src="images/IECS_illustrated_ratio_row.svg"></div>
-          <div id="ratioRow5"><img src="images/IECS_illustrated_ratio_row.svg"></div>
-          <div id="ratioRow4"><img src="images/IECS_illustrated_ratio_row.svg"></div>
-          <div id="ratioRow3"><img src="images/IECS_illustrated_ratio_row.svg"></div>
-          <div id="ratioRow2"><img src="images/IECS_illustrated_ratio_row.svg"></div>
-          <div id="ratioRow1"><img src="images/IECS_illustrated_ratio_row.svg"></div>
-        </div> 
-
-    </div>
-        
-        <div id="ratioText">
-                
-                <h2 id="sentenceOne"><span id="lineOne">IECS would only need <span class="number">1</span> truck of cable concrete for Michael's job</span>
-                
-                <span id="lineTwo">, whereas up to <span class="number">18</span> rip-rap trucks would be required for the same delivery.</span></h2>
-        
+        <div id="ratio">
+            <div id="ratioRows"> 
+                <div id="ratioRow6"><img src="images/IECS_illustrated_ratio_row.svg"></div>
+                <div id="ratioRow5"><img src="images/IECS_illustrated_ratio_row.svg"></div>
+                <div id="ratioRow4"><img src="images/IECS_illustrated_ratio_row.svg"></div>
+                <div id="ratioRow3"><img src="images/IECS_illustrated_ratio_row.svg"></div>
+                <div id="ratioRow2"><img src="images/IECS_illustrated_ratio_row.svg"></div>
+                <div id="ratioRow1"><img src="images/IECS_illustrated_ratio_row.svg"></div>
+            </div> 
         </div>  
-
+        <div id="ratioText">       
+                <h2 id="sentenceOne"><span id="lineOne">IECS would only need <span class="number">1</span> truck of cable concrete for Michael's job</span>
+                <span id="lineTwo">, whereas up to <span class="number">18</span> rip-rap trucks would be required for the same delivery.</span></h2>
+        </div>  
         <div id="iecsTruckratioOverflow">
             <img id="iecsTruckratio" src="images/IECS_illustrated_iecs_city_truck.svg">
-        </div>
-            
-           <img id="scrollBtn2" src="images/IECS_illustrated_scrolldownBtn.svg">
-
-             
+        </div>  
+           <img id="scrollBtn2" src="images/IECS_illustrated_scrolldownBtn.svg">    
     </section>
 
 
     <!––fuel savings space-->
 
     <section id="fuelSave">
-
         <div id="fuelText">
             <p>“Heavy trucks make up just around <span class="number">7%</span> of the vehicles on the 
                 road in the U.S., but they consume about <span class="number">25%</span> of all fuel.”</p>
         </div>
-    
-      
-    <div id="indc1Div">
+        <div id="indc1Div">
             <div id="dollarDiv1">
                 <img id="dollarIcon1" src="images/IECS_illustrated_money_icon_white.svg">
                     <div id="dollarText1">
@@ -111,7 +92,6 @@
                         <p>FUEL COST</p>
                     </div>
             </div>
-
         <div id="fuelDiv1">
             <img id="iconFuel1" src="images/IECS_illustrated_fuel_icon_white.svg">
                 <h2>79</h2>
@@ -119,14 +99,12 @@
         </div>
             <img id="indicator1" src="images/IECS_illustrated_assets_green_indicator.svg">
     </div>   
-
     <h2 id="iecsFuelTitle">IECS</h2>
     <div id="iecsFuel">
         <img id="scale1" src="images/IECS_illustrated_scale_black.svg">   
         <img id ="fuelAnim1" src="images/IECS_illustrated_fuel.svg">
         <img id ="fuelDrop1" src="images/IECS_illustrated_fuel_drops.svg">
     </div>
-
     <div id="indc2Div">
         <div id="dollarDiv2">
                 <img id="dollarIcon2" src="images/IECS_illustrated_money_icon.svg">
@@ -135,7 +113,6 @@
                     <p>FUEL COST</p>
                 </div>
         </div>
-        
         <div id="fuelDiv2">
             <img id="iconFuel2" src="images/IECS_illustrated_fuel_icon.svg">
                 <h2>1,422</h2>
@@ -143,7 +120,6 @@
         </div>
             <img id="indicator2" src="images/IECS_illustrated_assets_gray_indicator.svg">
     </div>
-
     <h2 id="rrFuelTitle">Rip-Rap</h2>
     <div id="rrFuel">
         <img id="scale2" src="images/IECS_illustrated_scale.svg"> 
@@ -161,22 +137,18 @@
        <img id="citytruckRow1" src="images/IECS_illustrated_cityriprap_trucks_2.svg">
        <img id="citytruckRow2" src="images/IECS_illustrated_cityriprap_trucks_1.svg">
        <img id="citytruckRow3" src="images/IECS_illustrated_cityriprap_trucks_1.svg">
-       
             <img id="iecsSmog" src="images/IECS_illustrated_cityscape_iecssmog.svg">
             <div id="iecsSmogData">
                 <h2>298g</p>    
             </div>
-
             <img id="riprapSmog" src="images/IECS_illustrated_riprap_smog.svg">
             <img id="riprapSmogSmall" src="images/IECS_illustrated_cityscape_iecs_smallsmog.svg">
                 <div id="riprapSmogData">
                 <h2>5,424g</p>
             </div>
-      
        <img id="iecsTruck" src="images/IECS_illustrated_iecs_city_truck.svg">
        <img id="cityForest" src="images/IECS_illustrated_cityscape_background.svg">
     </section>
-
 
     <!––road damage space-->
 
