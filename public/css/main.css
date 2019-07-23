@@ -211,12 +211,13 @@ a:link {
 
 #scenarioDetail {
     position: absolute;
-    width: 40vw;
-    height: 55vh;
-    top: 40vh;
-    left: 58vw;
     display: flex;
     flex-direction: row;
+    width: 40vw;
+    top: 30vh;
+    left: 58vw;
+    height: 55vh;
+    align-items: center;
 }
 
 #scenarioDetail p {
