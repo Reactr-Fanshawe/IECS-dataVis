@@ -65,6 +65,7 @@
         </div>
     </section>
 
+    <section id="truckRatio">
         <div id="ratio">
             <div id="ratioRows"> 
                 <div id="ratioRow6"><img src="images/IECS_illustrated_ratio_row.svg"></div>

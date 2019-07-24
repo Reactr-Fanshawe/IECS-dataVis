@@ -575,7 +575,7 @@ $(document).ready(function(){
 
   var countDownScene = new ScrollMagic.Scene({
     triggerElement: '#finale',
-    triggerHook: .5,
+    triggerHook: 1,
     reverse:true
   })
     .setTween(Counter)
@@ -583,7 +583,7 @@ $(document).ready(function(){
 
     var dashboardScene = new ScrollMagic.Scene({
       triggerElement: '#finale',
-      triggerHook: .5,
+      triggerHook: 1,
       reverse:true
     })
       .setClassToggle('#dashboard', 'fade-in')
