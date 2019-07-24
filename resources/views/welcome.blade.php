@@ -276,15 +276,6 @@
                     </div>
             </div>
              <!-- Vegetation -->
-            <div class="dashBox4">
-                    <div class="summaryDash">
-                        <h2>Vegetation</h2>
-                        <img id="level-icon-4" src="images/IECS_illustrated_assets_vegetation.svg" alt="vegetation level icon">
-                    </div>
-                    <div class="amount-numbers">
-                        <p><span id="amount4" class="amount">0</span><span class="amount">%</span>Open space<p> 
-                    </div>
-            </div>
         </div>
 
         <div id="finale">
