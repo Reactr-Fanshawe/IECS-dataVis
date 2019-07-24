@@ -222,13 +222,15 @@ a:link {
 
 #scenarioDetail {
     position: absolute;
-    width: 40vw;
+    width: 36vw;
     height: 55vh;
-    top: 50vh;
-    left: 58vw;
+    top: 36vh;
+    left: 56vw;
     display: flex;
     flex-direction: row;
     transition: all 1s ease-out;
+    justify-content: space-evenly;
+    align-items: center;
     opacity: 0;
 }
 
@@ -237,12 +239,6 @@ a:link {
     opacity: 1;
 }
 
-#scenarioDetail p {
-    padding: 7vh;
-    font-weight: 700;
-    font-size: 2vw;
-
-}
 
 #rrThumb {
     width: 13vw;
