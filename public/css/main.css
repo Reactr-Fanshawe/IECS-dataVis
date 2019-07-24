@@ -363,6 +363,7 @@ span .number {
     font-weight: 700;
     font-size: 2vw;
     text-align: center;
+    line-height: 5vh;
     margin-bottom: 3vh;
 
 }
@@ -514,8 +515,6 @@ span .number {
     0% { transform: translateY(0); }
     100% { transform: translateY(-20px); }
 }
-
-
 
 /* fuel save styling*/
 
@@ -1479,8 +1478,6 @@ span .number {
     background-color: #E8FFD4;
 }
 
-
-
 /* summary styling */
 
 #summary {
@@ -1491,13 +1488,29 @@ span .number {
     border-top: 1px solid white;
 }
 
+/*  parent for summary */
+.summary-title {
+    display: flex;
+    justify-content: center;
+    padding: 4vh;
+    background-color: #247b08;
+    border-bottom: 1px solid white;
+
+}
+
+.summary-title h3 {
+    color: white;
+    font-size: 4vw;
+    font-weight: 700;
+}
+
 #dashboard {
     display: flex;
     flex-direction: row;
     align-items: center;
     padding: 5vh;
     background-color: #5B6B4E;
-    height: 20vh;
+    /* height: 20vh; */
     transition: all 2s linear;
 }
 
@@ -1549,11 +1562,11 @@ span .number {
 }
 
 .amount-numbers {
-  margin-top: 35px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 4px;
 }
 
 .amount-numbers p{

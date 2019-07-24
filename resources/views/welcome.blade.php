@@ -65,7 +65,6 @@
         </div>
     </section>
 
-    <section id="truckRatio">
         <div id="ratio">
             <div id="ratioRows"> 
                 <div id="ratioRow6"><img src="images/IECS_illustrated_ratio_row.svg"></div>
@@ -242,8 +241,10 @@
 
 
     <!––ending summary space-->
-
     <section id="summary" class="section">
+        <div class="summary-title">
+            <h3>Summary</h3>
+        </div>
         <div id="dashboard">
             <div class="dashBox1">
                 <!-- Fuel  -->
@@ -290,7 +291,6 @@
             </div>
             <div class="actionBtn"><p>Learn More</p></div>
         </div>
-
     </section>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
