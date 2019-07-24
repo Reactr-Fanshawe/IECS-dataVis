@@ -39,7 +39,7 @@
                     contract.</p>
             </div>
         <div id="scenarioText">
-            <p>He has 215m2 to cover and considers the benefits of using cable concrete versus using rip rap.</p>
+            <p>He has 215m<sup>2</sup> to cover and considers the benefits of using cable concrete versus using rip rap.</p>
         </div>
         <div id="scenarioDetail">
             <div class="imageThumb">
@@ -293,6 +293,9 @@
             <div class="actionBtn"><p>Learn More</p></div>
         </div>
     </section>
+    <footer>
+        
+    </footer>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
         
