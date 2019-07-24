@@ -953,7 +953,7 @@ span .number {
     position: absolute;
     bottom: 26vh;
     left: 18%;
-    width: 43%;
+    width: 41%;
     z-index: 2;
     transition: all 3.5s ease;
     transform: translateX(-600%);
