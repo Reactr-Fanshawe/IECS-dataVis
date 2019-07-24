@@ -42,9 +42,17 @@
             <p>He has 215m2 to cover and considers the benefits of using cable concrete versus using rip rap.</p>
         </div>
         <div id="scenarioDetail">
-            <img id="rrThumb" src="images/rrThumb.png">
-            <p>vs</p>
-            <img id="ccThumb" src="images/ccThumb.jpg">
+            <div class="imageThumb">
+                <p id="scenario-title-text">Rip-Rap</p>
+                <img id="rrThumb" src="images/rrThumb.png">
+            </div>
+                <div>
+                    <p class="versus">vs</p>
+                </div>
+            <div class="imageThumb">
+                <p id="scenario-title-text">Cable Concrete</p>
+                <img id="ccThumb" src="images/ccThumb.jpg">
+            </div>
         </div>    
             <div id="clouds1">
                 <img class="cloudfirst" src="images/IECS_illustrated_cloud_1.svg">
