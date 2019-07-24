@@ -1508,7 +1508,7 @@ span .number {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 5vh;
+    padding: 2%;
     background-color: #5B6B4E;
     height: 250px;
     transition: all 2s linear;
