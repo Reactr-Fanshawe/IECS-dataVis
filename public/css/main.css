@@ -1500,7 +1500,7 @@ span .number {
 
 .summary-title h3 {
     color: white;
-    font-size: 4vw;
+    font-size: 8vh;
     font-weight: 700;
 }
 
@@ -1510,7 +1510,7 @@ span .number {
     align-items: center;
     padding: 2%;
     background-color: #5B6B4E;
-
+    height: 250px;
     transition: all 2s linear;
 }
 
