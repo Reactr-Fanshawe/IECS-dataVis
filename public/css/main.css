@@ -203,7 +203,7 @@ a:link {
 
 #scenarioText {
     font-size: 1.8vw;
-    color: #39423A;
+  color: #39423A;
     width: 35vw;
     position: absolute;
     line-height: 4vh; 
@@ -366,12 +366,17 @@ span .number {
 }
 
 #emissionsFact h2 {
+    color: #39423A;
     font-weight: 700;
     font-size: 2vw;
     text-align: center;
     line-height: 5vh;
     margin-bottom: 3vh;
 
+}
+
+#emissionsFact p {
+    color: #39423A;
 }
 
 #lineOne {
