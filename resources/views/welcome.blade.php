@@ -235,22 +235,32 @@
     </section>
 
     <section id="vegetation">
+        
+        <div id="ccVegDiv">
+            <div id="ccVegIMG">
 
+            </div>
+        </div>
+
+        <div id="rrVegDiv">
+            <div id="rrVegIMG">
+                
+            </div>
+        </div>
               
-
     </section>
 
 
     <!––ending summary space-->
     <section id="summary" class="section">
         <div class="summary-title">
-            <h3>Summary</h3>
+            <h3>Client overview</h3>
         </div>
         <div id="dashboard">
             <div class="dashBox1">
                 <!-- Fuel  -->
                 <div class="summaryDash">
-                    <h2>Fuel</h2>
+                    <h2>Fuel used</h2>
                     <img id="level-icon-1" src="images/IECS_illustrated_assets_fuel_level.svg" alt="fuel level icon">
                 </div>
                 <div class="amount-numbers">
@@ -260,7 +270,7 @@
             <!-- Co2 -->
             <div class="dashBox2">
                 <div class="summaryDash">
-                        <h2>Co2</h2>
+                        <h2>Co2 emitted</h2>
                         <img id="level-icon-2" src="images/IECS_illustrated_assets_c02.svg" alt="caron emissions level icon">
                 </div>
                 <div class="amount-numbers">
@@ -280,7 +290,7 @@
              <!-- Vegetation -->
         </div>
 
-        <div id="finale">
+        <div id="finale" class="ccFinale">
             <div class="call-to-actionCon">
                 <div class="call-to-action">
                     <h3>Now It’s your turn.</h3>

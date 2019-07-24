@@ -535,7 +535,7 @@ $(document).ready(function(){
     var cont = { val: 1422 },
       newVal = 79;
   
-    TweenLite.to(cont, 3, { val:newVal, roundProps:"val",  delay: 1, onUpdate:function(){document.getElementById("amount1").innerHTML=cont.val}});
+    TweenLite.to(cont, 3, { val:newVal, roundProps:"val",  delay: 4, onUpdate:function(){document.getElementById("amount1").innerHTML=cont.val}});
 
   }
 
@@ -544,7 +544,7 @@ $(document).ready(function(){
     var cont = { val: 5424 },
       newVal = 298;
   
-    TweenMax.to(cont, 3, { val:newVal, roundProps:"val",  delay: 1, onUpdate:function(){document.getElementById("amount2").innerHTML=cont.val}});
+    TweenMax.to(cont, 3, { val:newVal, roundProps:"val",  delay: 4, onUpdate:function(){document.getElementById("amount2").innerHTML=cont.val}});
 
   }
 
@@ -562,7 +562,7 @@ $(document).ready(function(){
     var cont = { val: 0 },
       newVal = 40;
   
-    TweenMax.to(cont, 3, { val:newVal, roundProps:"val",  delay: 1, onUpdate:function(){document.getElementById("amount4").innerHTML=cont.val}});
+    TweenMax.to(cont, 3, { val:newVal, roundProps:"val",  delay: 4, onUpdate:function(){document.getElementById("amount4").innerHTML=cont.val}});
 
   }
 
@@ -581,13 +581,16 @@ $(document).ready(function(){
     .setTween(Counter)
     .addTo(countMagic);
 
-    var dashboardScene = new ScrollMagic.Scene({
-      triggerElement: '#finale',
-      triggerHook: 1,
-      reverse:true
-    })
-      .setClassToggle('#dashboard', 'fade-in')
-      .addTo(countMagic);
+
+    
+  var dashboardScene = new ScrollMagic.Scene({
+    triggerElement: '#finale',
+    triggerHook: 1,
+    reverse:true
+  })
+    .setClassToggle('#dashboard', 'fade-in')
+    .addTo(countMagic);
+
 });
 
 
