@@ -103,7 +103,6 @@ a:link {
     line-height: 7vh;
 }
 
-
 #message {
     width: 34vw;
     padding: 2%;
@@ -171,8 +170,21 @@ a:link {
     bottom: 0px;
 }
 
+.imageThumb {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#scenario-title-text {
+    color: #39423A;
+    font-weight: 500;
+    font-size:1.5vw;
+    margin-bottom: 3vh;
+}
+
 #personaText {
-   
     color: #39423A;
     top: 10vh;
     left: 5%;
@@ -190,13 +202,12 @@ a:link {
 }
 
 #scenarioText {
-   
     font-size: 1.8vw;
     color: #39423A;
     width: 35vw;
     position: absolute;
     line-height: 4vh; 
-    right: 5%;
+    right: 7%;
     top: 22vh;
     z-index: 1;
     transition: all 2s ease-out;
@@ -211,18 +222,15 @@ a:link {
 
 #scenarioDetail {
     position: absolute;
-    width: 40vw;
-    height: 55vh;
-    top: 40vh;
-    left: 58vw;
     display: flex;
     flex-direction: row;
-}
-
-#scenarioDetail p {
-    padding: 7vh;
-    font-weight: 700;
-    font-size: 2vw;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 36vw;
+    top: 36vh;
+    left: 54vw;
+    height: 55vh;
+    padding: 3vh;
 }
 
 #rrThumb {
