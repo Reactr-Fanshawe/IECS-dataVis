@@ -113,6 +113,15 @@ $(document).ready(function(){
             .setClassToggle('#scenarioText', 'fade-in')
             .addTo(controller);
 
+          
+          var scenarioDetailScene = new ScrollMagic.Scene({
+            triggerElement: '#scenarioDetail',
+            triggerHook: 1,
+            reverse:false
+            })
+            .setClassToggle('#scenarioDetail', 'fade-in')
+            .addTo(controller);
+
       /*ratio content animation*/
 
           var ratioRow1Scene = new ScrollMagic.Scene({
@@ -218,8 +227,8 @@ $(document).ready(function(){
 
         var fuelAnim1Scene = new ScrollMagic.Scene({
           triggerElement: '#iecsFuel',
-          triggerHook: .6,
-          reverse:false
+          triggerHook: .8,
+          reverse:true
         })
           .setClassToggle('#fuelAnim1', 'fade-in')
           .addTo(controller);  
@@ -227,8 +236,8 @@ $(document).ready(function(){
 
         var fuelAnim1Scene = new ScrollMagic.Scene({
           triggerElement: '#rrFuel',
-          triggerHook: .6,
-          reverse:false
+          triggerHook: .8,
+          reverse:true
         })
           .setClassToggle('#fuelAnim2', 'fade-in')
           .addTo(controller); 
@@ -236,8 +245,8 @@ $(document).ready(function(){
   
         var indc1Scene = new ScrollMagic.Scene({
           triggerElement: '#rrFuel',
-          triggerHook: 1,
-          reverse:false
+          triggerHook: .8,
+          reverse:true
         })
           .setClassToggle('#indc1Div', 'fade-in')
           .addTo(controller); 
@@ -245,8 +254,8 @@ $(document).ready(function(){
 
         var indc2Scene = new ScrollMagic.Scene({
           triggerElement: '#rrFuel',
-          triggerHook: 1,
-          reverse:false
+          triggerHook: .8,
+          reverse:true
           })
            .setClassToggle('#indc2Div', 'fade-in')
            .addTo(controller); 
@@ -269,7 +278,7 @@ $(document).ready(function(){
               var iecsSmogTruckScene = new ScrollMagic.Scene({
                 triggerElement: '#emissions',
                 triggerHook: .5,
-                reverse:false
+                reverse:true
               })
                 .setClassToggle('#iecsTruck', 'fade-in')
                 .addTo(controller);
@@ -277,7 +286,7 @@ $(document).ready(function(){
               var cityTruckRow1Scene = new ScrollMagic.Scene({
                 triggerElement: '#emissions',
                 triggerHook: .5,
-                reverse:false
+                reverse:true
               })
                 .setClassToggle('#citytruckRow1', 'fade-in')
                 .addTo(controller);
@@ -285,7 +294,7 @@ $(document).ready(function(){
               var cityTruckRow2Scene = new ScrollMagic.Scene({
                 triggerElement: '#emissions',
                 triggerHook: .5,
-                reverse:false
+                reverse:true
               })
                 .setClassToggle('#citytruckRow2', 'fade-in')
                 .addTo(controller);
@@ -293,7 +302,7 @@ $(document).ready(function(){
               var cityTruckRow2Scene = new ScrollMagic.Scene({
                 triggerElement: '#emissions',
                 triggerHook: .5,
-                reverse:false
+                reverse:true
               })
                 .setClassToggle('#citytruckRow3', 'fade-in')
                 .addTo(controller);
@@ -302,7 +311,7 @@ $(document).ready(function(){
               var iecsSmogScene = new ScrollMagic.Scene({
                 triggerElement: '#emissions',
                 triggerHook: .5,
-                reverse:false
+                reverse:true
               })
                 .setClassToggle('#iecsSmog', 'fade-in')
                 .addTo(controller);
@@ -311,7 +320,7 @@ $(document).ready(function(){
               var iecsSmogDataScene = new ScrollMagic.Scene({
                 triggerElement: '#emissions',
                 triggerHook: .5,
-                reverse:false
+                reverse:true
               })
                 .setClassToggle('#iecsSmogData', 'fade-in')
                 .addTo(controller);
@@ -319,7 +328,7 @@ $(document).ready(function(){
               var rirapSmogScene = new ScrollMagic.Scene({
                 triggerElement: '#emissions',
                 triggerHook: .5,
-                reverse:false
+                reverse:true
               })
                 .setClassToggle('#riprapSmog', 'fade-in')
                 .addTo(controller); 
@@ -327,7 +336,7 @@ $(document).ready(function(){
               var rirapSmogScene = new ScrollMagic.Scene({
                 triggerElement: '#emissions',
                 triggerHook: .5,
-                reverse:false
+                reverse:true
               })
                 .setClassToggle('#riprapSmogSmall', 'fade-in')
                 .addTo(controller); 
@@ -336,7 +345,7 @@ $(document).ready(function(){
               var riprapSmogDataScene = new ScrollMagic.Scene({
                 triggerElement: '#emissions',
                 triggerHook: .5,
-                reverse:false
+                reverse:true
               })
                 .setClassToggle('#riprapSmogData', 'fade-in')
                 .addTo(controller);
@@ -523,10 +532,10 @@ $(document).ready(function(){
 
   function countDownFuel(){
 
-    var cont = { val: 700 },
+    var cont = { val: 1422 },
       newVal = 79;
   
-    TweenLite.to(cont, 3, { val:newVal, roundProps:"val", onUpdate:function(){document.getElementById("amount1").innerHTML=cont.val}});
+    TweenLite.to(cont, 3, { val:newVal, roundProps:"val",  delay: 1, onUpdate:function(){document.getElementById("amount1").innerHTML=cont.val}});
 
   }
 
@@ -535,32 +544,50 @@ $(document).ready(function(){
     var cont = { val: 5424 },
       newVal = 298;
   
-    TweenMax.to(cont, 3, { val:newVal, roundProps:"val", onUpdate:function(){document.getElementById("amount2").innerHTML=cont.val}});
+    TweenMax.to(cont, 3, { val:newVal, roundProps:"val",  delay: 1, onUpdate:function(){document.getElementById("amount2").innerHTML=cont.val}});
 
   }
+
+  /*function wordChangeRoad(){
+
+    var cont = { val: High },
+      newVal = Low ;
+  
+    TweenMax.to(cont, 3, { val:newVal, roundProps:"val",  delay: 1, onUpdate:function(){document.getElementById("amount3").innerHTML=cont.val}});
+
+  }*/
 
   function countUpVeg(){
 
     var cont = { val: 0 },
       newVal = 40;
   
-    TweenMax.to(cont, 3, { val:newVal, roundProps:"val", onUpdate:function(){document.getElementById("amount4").innerHTML=cont.val}});
+    TweenMax.to(cont, 3, { val:newVal, roundProps:"val",  delay: 1, onUpdate:function(){document.getElementById("amount4").innerHTML=cont.val}});
 
   }
 
   function Counter() {
     countDownFuel();
     countDownEmissions();
+    /*wordChangeRoad();*/
     countUpVeg();
   }
 
   var countDownScene = new ScrollMagic.Scene({
     triggerElement: '#finale',
-    triggerHook: 1,
-    reverse:false
+    triggerHook: .5,
+    reverse:true
   })
     .setTween(Counter)
     .addTo(countMagic);
+
+    var dashboardScene = new ScrollMagic.Scene({
+      triggerElement: '#finale',
+      triggerHook: .5,
+      reverse:true
+    })
+      .setClassToggle('#dashboard', 'fade-in')
+      .addTo(countMagic);
 });
 
 

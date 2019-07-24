@@ -190,7 +190,6 @@ a:link {
 }
 
 #scenarioText {
-   
     font-size: 1.8vw;
     color: #39423A;
     width: 35vw;
@@ -213,10 +212,17 @@ a:link {
     position: absolute;
     width: 40vw;
     height: 55vh;
-    top: 40vh;
+    top: 50vh;
     left: 58vw;
     display: flex;
     flex-direction: row;
+    transition: all 1s ease-out;
+    opacity: 0;
+}
+
+#scenarioDetail.fade-in {
+    transition-delay: 4s;
+    opacity: 1;
 }
 
 #scenarioDetail p {
@@ -297,6 +303,7 @@ a:link {
     border-top: 1px solid #39423A;
 }
 
+
 #ratio {
     height: 100vh;
     width: 50%;
@@ -311,11 +318,10 @@ a:link {
 #ratioText h2 {
     position: absolute;
     color: #39423A;
-    font-size: 2.5vw;
     line-height: 7vh;
-    right: 5%;
-    top: 7%;
-    width: 40vw;
+    right: 0vw;
+    padding: 6.5vw;
+    width: 35vw;
 }
 
 /*number spans for entire webpage*/
@@ -354,10 +360,10 @@ span .number {
 }
 
 #lineOne {
-    font-size: 2.5vw;
+    font-size: 1.5vw;
     opacity: 0;
     transition: all 1s ease;
-    font-size: 2.3vw;
+
 }
 
 #lineOne.fade-in {
@@ -365,11 +371,10 @@ span .number {
 }
 
 #lineTwo {
-    font-size: 2.5vw;
+    font-size: 1.5vw;
     opacity: 0;
     transition: all 1s ease;
     transition-delay: 3s;
-    font-size: 2.3vw;
 }
 
 #lineTwo.fade-in {
@@ -381,15 +386,16 @@ span .number {
 
 #ratioRows {
     height: 100%;
-    justify-content: space-evenly;
     background-color: #fafafa;
+    padding-bottom: 10%;
+    padding-top: 10%;
 }
 
 #iecsTruckratio {
     position: absolute;
-    width: 30vw;
-    bottom: 30vh;
-    right: 10vw;
+    width: 17vw;
+    bottom: 38vh;
+    right: 15vw;
     transition: all 1.5s ease-out;
     transform: translateX(-450%);
     opacity: 0;
@@ -402,7 +408,7 @@ span .number {
 
 #ratioRow1 {
     height: 16.65%;
-    width: 74%;
+    width: 66%;
     margin: 0 auto;
     transition: all 2s ease-out;
     transition-delay: 3.5s;
@@ -415,7 +421,7 @@ span .number {
 
 #ratioRow2 {
     height: 16.65%;
-    width: 74%;
+    width: 66%;
     margin: 0 auto;
     transition: all 2s ease-out;
     transition-delay: 3.2s;
@@ -429,7 +435,7 @@ span .number {
 
 #ratioRow3 {
     height: 16.65%;
-    width: 74%;
+    width: 66%;
     margin: 0 auto;
     transition: all 2s ease-out;
     transition-delay: 2.9s;
@@ -442,7 +448,7 @@ span .number {
 
 #ratioRow4 {
     height: 16.65%;
-    width: 74%;
+    width: 66%;
     margin: 0 auto;
     transition: all 2s ease-out;
     transition-delay: 2.6s;
@@ -455,7 +461,7 @@ span .number {
 
 #ratioRow5 {
     height: 16.65%;
-    width: 74%;
+    width: 66%;
     margin: 0 auto;
     transition: all 2s ease-out;
     transition-delay: 2.3s;
@@ -469,7 +475,7 @@ span .number {
 
 #ratioRow6 {
     height: 16.65%;
-    width: 74%;
+    width: 66%;
     margin: 0 auto;
     transition: all 2s ease-out;
     transform: translateX(-170%);
@@ -483,7 +489,7 @@ span .number {
 
 #scrollBtn2 {
     position: absolute;
-    bottom: 10vh;
+    bottom: 15vh;
     width: 3vw;
     right: 23vw;
     animation: mover2 1s infinite  alternate;
@@ -518,11 +524,11 @@ span .number {
     width: 80%;
     margin: 0 auto;
     color: #39423A;
-    top: 5%;
+    top: 9%;
     left: 11%;
     position: absolute;
     transition: all 2s ease-out;
-    transform: translateY(-250%);
+    transform: translateY(-350%);
     transition-delay: 4s;
     text-align: center;
 }
@@ -542,18 +548,18 @@ span .number {
 
 #fuelFact {
     font-weight: 400;
-    font-size: 1.5vw;
+    font-size: 1.3vw;
     line-height: 5vh;
     text-align: center;
     width: 50%;
     margin: 0 auto;
     color: #39423A;
-    top: 11%;
+    top: 16vh;
     left: 25%;
     position: absolute;
-    transition: all 0.5s ease-out;
-    transform: translateY(-250%);
-    transition-delay: 6s;
+    transition: all .8s ease-out;
+    transform: translateY(-280%);
+    transition-delay: 6.5s;
     opacity: 0;
 }
 
@@ -566,10 +572,10 @@ span .number {
 #iecsFuelTitle {
     position: absolute;
     left: 32%;
-    top: 38vh;
+    top: 32vh;
     color: #418E3A;
     font-weight: 700;
-    font-size: 5vh;
+    font-size: 4vh;
     width: 10%;
     text-align: center;
 }
@@ -582,7 +588,7 @@ span .number {
     overflow: hidden;
     display: block;
     left: 27%;
-    top: 50%;
+    top: 45%;
     position: absolute;
     border-bottom-right-radius: 7%;
     border-bottom-left-radius: 7%;
@@ -649,8 +655,8 @@ span .number {
      width: 13vw;
      height: 10vw;
      position: absolute;
-     left: 13%;
-     bottom: 4%;
+    left: 13%;
+     bottom: 8%;
      transition: all .7s ease-out;
      transform: translateY(30%);
      transition-delay: 3s;
@@ -709,9 +715,9 @@ span .number {
  #rrFuelTitle {
     position: absolute;
     right: 29.5%;
-    top: 38vh;
+    top: 33vh;
     font-weight: 700;
-    font-size: 5vh;
+    font-size: 4vh;
     color: #39423a;
     text-align: center;
     width: 15%;
@@ -724,7 +730,7 @@ span .number {
     overflow: hidden;
     display: block;
     right: 27%;
-    top: 50%;
+    top: 45%;
     position: absolute;
     border-bottom-right-radius: 7%;
     border-bottom-left-radius: 7%;
@@ -737,7 +743,7 @@ span .number {
  #scale2 {
     position: absolute;
     bottom:0;
-    right: 0%;
+    left: 0%;
     z-index: 1;
     height: 100%;
 }
@@ -762,7 +768,7 @@ span .number {
     height: 10vw;
     position: absolute;
     right: 13%;
-    bottom: 36%;
+    bottom: 42%;
     transition: all .7s ease-out;
     transform: translateY(50%);
     transition-delay: 3s;
@@ -853,7 +859,7 @@ span .number {
 
 
 #fuelAnim2 {
-    margin-top: 4vh;
+    margin-top: 2vh;
     width: 200%;
     transition: all 4s ease;
     transform: translate(10%, 60%);
@@ -884,17 +890,23 @@ span .number {
 
 #emissionsFact {
     font-weight: 400;
-    font-size: 1.4vw;
+    font-size: 1.3vw;
     line-height: 4vh;
     text-align: center;
     z-index: 1;
     position: absolute;
-    width: 40%;
+    width: 45%;
     transition-delay: 3s;
-    top: 9vh;
-    left: 30vw;
+    top: 7vh;
+    left: 27vw;
     transform: translateY(-400%);
     transition: all 1s ease;
+}
+
+#emissionsFact.fade-in {
+    transition-delay: 7s;
+    transform: translateY(0%);
+    margin: 0 auto;
 }
 
 .source {
@@ -908,11 +920,6 @@ span .number {
     color: rgb(54, 116, 49);
 }
 
-#emissionsFact.fade-in {
-    transition-delay: 11.5s;
-    transform: translateY(0%);
-    margin: 0 auto;
-}
 
 #cityForest {
     bottom: 0%;
@@ -923,9 +930,9 @@ span .number {
 #iecsTruck {
     z-index: 2;
     position: absolute;
-    width: 15%;
+    width: 13%;
     bottom: 11vh;
-    right: 4vw;
+    right: 8vw;
     transition: all 2s ease;
     transform: translateX(-600%);
 }
@@ -937,15 +944,15 @@ span .number {
 #citytruckRow1 {
     position: absolute;
     bottom: 26vh;
-    left: 10%;
-    width: 52%;
+    left: 18%;
+    width: 43%;
     z-index: 2;
     transition: all 3.5s ease;
     transform: translateX(-600%);
 }
 
 #citytruckRow1.fade-in {
-    transition-delay: 2.2s;
+    transition-delay: 1.7s;
     transform: translateX(0%);
 }
 
@@ -953,14 +960,14 @@ span .number {
     z-index: 3;
     position: absolute;
     bottom: 19vh;
-    left: 4%;
-    width: 65%;
+    left: 12%;
+    width: 55%;
     transition: all 3.5s ease;
     transform: translateX(-600%);
 }
 
 #citytruckRow2.fade-in {
-    transition-delay: 1.7s;
+    transition-delay: 1.2s;
     transform: translateX(0%);
 }
 
@@ -968,14 +975,14 @@ span .number {
     z-index: 3;
     position: absolute;
     bottom: 11vh;
-    right: 23%;
-    width: 75%;
+    left: 7%;
+    width: 66%;
     transition: all 3.5s ease;
     transform: translateX(-600%);
 }
 
 #citytruckRow3.fade-in {
-    transition-delay: 1.7s;
+    transition-delay: 1.2s;
     transform: translateX(0%);
 }
 
@@ -984,9 +991,9 @@ span .number {
     z-index: 1;
     width: 5vw;
     bottom: 20.3vh;
-    right: 5vw;
+    right: 9vw;
     opacity: 0;
-    transition: all 2s ease;
+    transition: all 1s ease;
     transform: translate(40%, 40%) scale(0);
 }
 
@@ -1002,7 +1009,7 @@ span .number {
     font-weight: 700;
     position: absolute;
     bottom: 27vh;
-    right: 7vw;
+    right: 11.5vw;
     color: white;
     z-index: 3;
     opacity: 0;
@@ -1014,7 +1021,7 @@ span .number {
 }
 
 #iecsSmogData.fade-in {
-    transition-delay: 3s;
+    transition-delay: 2s;
     opacity: 1;
 }
 
@@ -1023,9 +1030,9 @@ span .number {
     z-index: 2;
     width: 60vw;
     bottom: 20vh;
-    right: 21vw;
+    right: 24.5vw;
     opacity: 0;
-    transition: all 4.5s ease;
+    transition: all 2.5s ease;
     transform: translate(40%, 60%) scale(0);
 }
 
@@ -1033,7 +1040,7 @@ span .number {
     transform: translate(0%, 0%) scale(1);
     opacity: .8;
     width: 55%;
-    transition-delay: 4.5s;
+    transition-delay: 4s;
 }
 
 #riprapSmogSmall {
@@ -1041,7 +1048,7 @@ span .number {
     z-index: 2;
     bottom: 41vh;
     left: 8vw;
-    width: 16vh;
+    width: 3vh;
     opacity: 0;
     transition: all 4.5s ease;
     transform: scale(0);
@@ -1051,7 +1058,7 @@ span .number {
     transform: scale(1);
     opacity: .8;
     width: 13vw;
-    transition-delay: 6s;
+    transition-delay: 5s;
 }
 
 #riprapSmogData {
@@ -1059,7 +1066,7 @@ span .number {
     font-weight: 700;
     position: absolute;
     bottom: 45vh;
-    left: 42vw;
+    left: 40vw;
     color: white;
     z-index: 3;
     opacity: 0;
@@ -1071,7 +1078,7 @@ span .number {
 }
 
 #riprapSmogData.fade-in {
-    transition-delay: 9.5s;
+    transition-delay: 6s;
     opacity: 1;
 }
 
@@ -1481,12 +1488,17 @@ span .number {
     flex-direction: row;
     align-items: center;
     padding: 30px;
+    background-color: #5B6B4E;
+    height: 20%;
+    transition: all 2s linear;
+}
+
+#dashboard.fade-in {
     background-color: #247b08;
-    height: 25vh;
+    transition-delay: 1s;
 }
 
 .dashBox1, .dashBox2, .dashBox3 {
-    background-color: #247b08;
     border-right: 1px solid white;
     width: 25%;
     height: 100%;
@@ -1494,7 +1506,6 @@ span .number {
 }
 
 .dashBox4 {
-    background-color: #247b08;
     width: 25%;
     height: 100%;
     padding:30px;
@@ -1660,7 +1671,7 @@ and (max-device-width : 1024px) {
     }
 
     #emissionsFact {
-    top: 31vh;
+    top: 20vh;
     }
 
     #iecsSmog {

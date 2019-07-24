@@ -39,7 +39,7 @@
                     contract.</p>
             </div>
         <div id="scenarioText">
-            <p>He has 4,000m2 to cover and considers his options with using IECS cable concrete versus rip-rap.</p>
+            <p>He has 215m2 to cover and considers the benefits of using cable concrete versus using rip rap.</p>
         </div>
         <div id="scenarioDetail">
             <img id="rrThumb" src="images/rrThumb.png">
@@ -68,14 +68,16 @@
                 <div id="ratioRow1"><img src="images/IECS_illustrated_ratio_row.svg"></div>
             </div> 
         </div>  
-        <div id="ratioText">       
-                <h2 id="sentenceOne"><span id="lineOne">IECS would only need <span class="numberGreen">1</span> truck of cable concrete for Michael's job</span>
-                <span id="lineTwo">, whereas up to <span class="number">18</span> rip-rap trucks would be required for the same delivery.</span></h2>
+        <div id="ratioStatement">
+            <div id="ratioText">       
+                    <h2 id="sentenceOne"><span id="lineOne">IECS would only need <span class="numberGreen">1</span> truck of cable concrete for Michael's job</span>
+                    <span id="lineTwo">, whereas up to <span class="number">18</span> rip-rap trucks would be required for the same delivery.</span></h2>
+            </div>  
+            <div id="iecsTruckratioOverflow">
+                <img id="iecsTruckratio" src="images/IECS_illustrated_iecs_city_truck.svg">
         </div>  
-        <div id="iecsTruckratioOverflow">
-            <img id="iecsTruckratio" src="images/IECS_illustrated_iecs_city_truck.svg">
+           <img id="scrollBtn2" src="images/IECS_illustrated_scrolldownBtn.svg">  
         </div>  
-           <img id="scrollBtn2" src="images/IECS_illustrated_scrolldownBtn.svg">    
     </section>
 
 
@@ -83,11 +85,12 @@
 
     <section id="fuelSave">
         <div id="fuelText">
-            <h2>Less fuel consumption means <span class="textGreen">more savings</span> and <span class="textGreen">less waste</span></h2>
+            <h2>Reduced fuel consumption means <span class="textGreen">more savings</span> and <span class="textGreen">less waste</span></h2>
         </div>
         <div id="fuelFact">
             <p>“Heavy trucks make up just around <span class="number">7%</span> of the vehicles on the 
                 road in the U.S., but they consume about <span class="number">25%</span> of all fuel.”</p>
+                <p class="source"><a href="https://thinkprogress.org/big-trucks-emit-huge-amounts-of-carbon-every-year-the-epa-is-about-to-do-something-about-it-5c402732888/" target="_blank">Source: Learn More</a></p>
         </div>
         <div id="indc1Div">
             <div id="dollarDiv1">
@@ -105,7 +108,7 @@
             <img id="indicator1" src="images/IECS_illustrated_assets_green_indicator.svg">
     </div>
     <div id="iecsFuelTitle">
-        <h2>IECS</h2>
+        <h2>Cable Concrete</h2>
     </div>
     <div id="iecsFuel">
         <img id="scale1" src="images/IECS_illustrated_scale_black.svg">   
@@ -139,7 +142,7 @@
 
     <section id="emissions">
         <div id="emissionsFact">
-            <h2>Title goes here</h2>
+            <h2>Excess transporter travel raises CO2 emissions, creating air pollution</h2>
             <p>"The commercial road transportation sector produces 
                         <span class="number">19%</span> of the total carbon emissions in Canada"</p>
                         <p class="source"><a href="https://www.nrcan.gc.ca/energy/efficiency/transportation/commercial-vehicles/reports/7607" target="_blank">Source: Learn More</a></p>
