@@ -40,7 +40,7 @@
             </div>
         <div id="scenarioText">
             <p>He has <span class="number">215m<sup>2</sup></span> to cover. He would require 
-            <span class="number">114mm</span> deep CC<sup>35</sup> Cable Concrete blocks compared to  <span class="number">475mm</span> deep of Riprap. From this, he looks 
+            <span class="number">114mm</span> deep CC<sup>35</sup> Cable Concrete blocks compared to  <span class="number">475mm</span> deep of Riprap. He looks 
             deeper into this comparison for his job assuming a <span class="number">200km</span> round trip.</p>
         </div>
         <div id="scenarioDetail">
@@ -80,7 +80,7 @@
         </div>  
         <div id="ratioStatement">
             <div id="ratioText">       
-                    <h2 id="sentenceOne"><span id="lineOne">For Michael's job, IECS would only need <span class="numberGreen">1</span> truck of cable concrete for Michael's job</span>
+                    <h2 id="sentenceOne"><span id="lineOne">For Michael's job, IECS would only need <span class="numberGreen">1</span> truck of cable concrete</span>
                     <span id="lineTwo">, whereas up to <span class="number">18</span> rip-rap trucks would be required for the same delivery.</span></h2>
             </div>  
             <div id="iecsTruckratioOverflow">

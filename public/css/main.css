@@ -189,7 +189,7 @@ a:link {
     top: 7vh;
     left: 5%;
     position: absolute;
-    font-size: 1.6vw;
+    font-size: 1.5vw;
     width: 35%;
     z-index: 1;
     transition: all 2s ease-out;
@@ -202,9 +202,9 @@ a:link {
 }
 
 #scenarioText {
-    font-size: 1.6vw;
+    font-size: 1.5vw;
     color: #39423A;
-    width: 35vw;
+    width: 38vw;
     position: absolute;
     line-height: 5.5vh; 
     right: 7%;
