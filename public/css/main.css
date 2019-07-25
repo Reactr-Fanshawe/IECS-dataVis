@@ -1684,16 +1684,37 @@ span .number {
 /* background-size: cover; */
 
 #finale {
-    z-index: 2;
+    z-index: 1;
     height: 100vh; 
-    background: rgb(36,123,8);
-    background: linear-gradient(0deg, rgba(36,123,8,0.9865079820990896) 7%, rgba(25,83,6,0.75401498490021) 100%); 
+    background: linear-gradient(0deg, rgba(36,123,8,1) 27%, rgba(25,83,6,0.815639634760154) 93%);
 }
+
+#finale.fade-in {
+    animation-name: gradientChange;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+    animation-duration: 7s;
+}
+
+@keyframes gradientChange {
+    0% {background: linear-gradient(0deg, rgba(61,72,52,1) 4%, rgba(97,116,81,0.9640990185136554) 78%);}
+    60% {background: linear-gradient(0deg, rgba(61,72,52,1) 4%, rgba(97,116,81,0.9640990185136554) 78%); opacity: .7;}
+    65% {background: linear-gradient(0deg, rgba(36,123,8,1) 27%, rgba(25,83,6,0.815639634760154) 93%); opacity: .5;}
+    100% {background: linear-gradient(0deg, rgba(36,123,8,1) 27%, rgba(25,83,6,0.815639634760154) 93%);}
+  }
+
 
 #finaleBGrr {
     width: 100%;
     position: absolute;
     z-index: -2;
+    opacity: .25;
+    transition: all 3s ease-out;   
+}
+
+#finaleBGrr.fade-in {
+    transition-delay: 3s;
+    opacity: 0;
 }
 
 
@@ -1703,13 +1724,12 @@ span .number {
     z-index: -3;
     transition: all 5s ease-out;
     opacity: 0;
-    
 }
 
 #finaleBGcc.fade-in {
     z-index: -1;
     transition-delay: 3s;
-    opacity: 1;
+    opacity: .25;
 }
 
 

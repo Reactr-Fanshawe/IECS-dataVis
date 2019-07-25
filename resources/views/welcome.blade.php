@@ -298,7 +298,7 @@
              <!-- Vegetation -->
         </div>
 
-        <div id="finale">
+        <div id="finale" class="finaleClass">
             <img id="finaleBGrr" src ="images/riprap_result.jpg">
             <img id="finaleBGcc" src ="images/cableconcrete_result.jpg">
             <div class="call-to-actionCon">

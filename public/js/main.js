@@ -598,8 +598,24 @@ $(document).ready(function(){
     })
       .setClassToggle('#finaleBGcc', 'fade-in')
       .addTo(countMagic);
- 
 
+      
+    var bgLinearfadeScene = new ScrollMagic.Scene({
+      triggerElement: '#finale',
+      triggerHook: 1,
+      reverse:true
+    })
+      .setClassToggle('#finale', 'fade-in')
+      .addTo(countMagic);
+ 
+    var bgIMGfadeOutScene = new ScrollMagic.Scene({
+      triggerElement: '#finale',
+      triggerHook: 1,
+      reverse:true
+    })
+      .setClassToggle('#finaleBGrr', 'fade-in')
+      .addTo(countMagic);
+   
 });
 
 
