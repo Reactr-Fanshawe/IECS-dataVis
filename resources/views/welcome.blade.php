@@ -253,9 +253,9 @@
 
     <!––ending summary space-->
     <section id="summary" class="section">
-        <div class="summary-title">
+        <!-- <div class="summary-title">
             <h3>Client overview</h3>
-        </div>
+        </div> -->
         <div id="dashboard">
             <div class="dashBox1">
                 <!-- Fuel  -->
@@ -291,6 +291,8 @@
         </div>
 
         <div id="finale">
+            <img id="finaleBGrr" src ="images/riprap_result.jpg">
+            <img id="finaleBGcc" src ="images/cableconcrete_result.jpg">
             <div class="call-to-actionCon">
                 <div class="call-to-action">
                     <h3>Now It’s your turn.</h3>
