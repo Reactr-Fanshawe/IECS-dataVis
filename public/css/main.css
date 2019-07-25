@@ -1828,17 +1828,6 @@ span .number {
     opacity: .8;
 }
 
-/*  footer section */
-footer {
-    position: absolute;
-    width: 100%;
-    height: 4vh;
-    color: white;
-    padding:3vh;
-    background-color: black;
-    z-index: 1;
-}
-
 /* TABLET RESPONSIVE */
 
 @media only screen 
