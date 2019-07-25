@@ -1733,6 +1733,7 @@ span .number {
     z-index: -2;
     opacity: .25;
     transition: all 3s ease-out;   
+    filter: grayscale(100%);
 }
 
 #finaleBGrr.fade-in {
@@ -1827,6 +1828,7 @@ span .number {
     width: 100%;
     opacity: .8;
 }
+
 
 /* TABLET RESPONSIVE */
 
