@@ -230,27 +230,35 @@
                 heavy truck traffic is a strain on the economy and can be reduced
             </p>   -->
         </div>
-
-
     </section>
 
+    <!-- Vegetation section -->
     <section id="vegetation">
-        
+        <!-- Title description  -->
         <div id="ccVegDiv">
+            <div class="ccCon">
+                <h3>Title here</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut nam ullam placeat corrupti perspiciatis incidunt necessitatibus ratione amet reiciendis vero assumenda expedita, rerum aliquid voluptas minus dolorem quis tenetur culpa.</p>
+            </div>
             <div id="ccVegIMG">
-
+                <img id="cableConcrete-phase-1" src="images/cable&concrete_phase_2.jpg" alt="cable & concrete onsight images">
+                <img id="cableConcrete-phase-2" src="images/cable&concrete_phase_2.jpg" alt="cable & concrete onsight images">
+                <img id="cableConcrete-phase-3" src="images/cable&concrete_phase_3.jpg" alt="cable & concrete onsight images">
             </div>
         </div>
-
+        <!-- Title description -->
         <div id="rrVegDiv">
+            <div class="rrCon">
+                <h3>Title here</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut nam ullam placeat corrupti perspiciatis incidunt necessitatibus ratione amet reiciendis vero assumenda expedita, rerum aliquid voluptas minus dolorem quis tenetur culpa.</p>
+            </div>
             <div id="rrVegIMG">
-                
+                <img id="cableConcrete-phase-1" src="images/cable&concrete_phase_2.jpg" alt="rip-rap onsight images">
+                <img id="cableConcrete-phase-2" src="images/cable&concrete_phase_2.jpg" alt="rip-rap onsight images">
+                <img id="cableConcrete-phase-3" src="images/cable&concrete_phase_3.jpg" alt="rip-rap onsight images">
             </div>
         </div>
-              
     </section>
-
-
     <!––ending summary space-->
     <section id="summary" class="section">
         <div class="summary-title">
