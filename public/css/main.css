@@ -1125,6 +1125,21 @@ span .number {
     margin-bottom: 3vh;
 }
 
+.roadDamage-column-1, .roadDamage-column-2 {
+    opacity: 0;
+    transition: all 2s ease-out;
+}
+
+.roadDamage-column-1.fade-in {
+    opacity: 1;
+    transition-delay: 3s;
+}
+
+.roadDamage-column-2.fade-in {
+    opacity: 1;
+    transition-delay: 8s;
+}
+
 .roadDamage-Description p{
     color: #39423A;
     font-size: 2vh;
@@ -1746,6 +1761,13 @@ span .number {
     justify-content: center;
     align-content: center;
     padding: 10vh;
+    opacity: 0;
+    transition: all 4s ease-out;
+}
+
+.call-to-actionCon.fade-in {
+    opacity: 1;
+    transition-delay: 6s;
 }
 
 .call-to-action {
@@ -1785,6 +1807,8 @@ span .number {
     padding: 1%;
     margin-top: 50px;
     margin: 0 auto;
+    opacity: 0;
+    transition: all 3s ease-out;
 }
 
 
@@ -1792,6 +1816,11 @@ span .number {
     text-align: center;
     font-weight: 400;
     font-size: 1.3vw;
+}
+
+.actionBtn.fade-in {
+    opacity: 1;
+    transition-delay: 8s;
 }
 
 #CC_result {
