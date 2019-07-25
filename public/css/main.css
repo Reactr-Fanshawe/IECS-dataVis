@@ -186,15 +186,15 @@ a:link {
 
 #personaText {
     color: #39423A;
-    top: 10vh;
+    top: 7vh;
     left: 5%;
     position: absolute;
-    font-size: 1.8vw;
+    font-size: 1.6vw;
     width: 35%;
     z-index: 1;
     transition: all 2s ease-out;
     transform: translateY(-300%);
-    line-height: 4vh; 
+    line-height: 5.5vh; 
 }
 
 #personaText.fade-in {
@@ -202,17 +202,17 @@ a:link {
 }
 
 #scenarioText {
-    font-size: 1.8vw;
-  color: #39423A;
+    font-size: 1.6vw;
+    color: #39423A;
     width: 35vw;
     position: absolute;
-    line-height: 4vh; 
+    line-height: 5.5vh; 
     right: 7%;
-    top: 22vh;
+    top: 12vh;
     z-index: 1;
     transition: all 2s ease-out;
     transform: translateY(-500%); 
-    line-height: 110%;
+
 }
 
 #scenarioText.fade-in {
@@ -230,7 +230,7 @@ sup {
     position: absolute;
     width: 36vw;
     height: 55vh;
-    top: 36vh;
+    top: 42vh;
     left: 56vw;
     display: flex;
     flex-direction: row;
@@ -263,7 +263,7 @@ sup {
 #michaelText {
     font-weight: 700;
     margin-bottom: 10%;
-    font-size: 2.5vw;
+    font-size: 2.2vw;
 }
 
 #michael {
@@ -341,7 +341,7 @@ sup {
 /*number spans for entire webpage*/
 
 span .number {
-    font-size: 3vw;
+    font-size: 2.2vw;
     font-weight: 700;
 }
 
@@ -356,6 +356,11 @@ span .number {
 }
 
 #fuelFact .number {
+    font-size: 1.7vw;
+    font-weight: 700;
+}
+
+#scenarioText .number {
     font-size: 1.7vw;
     font-weight: 700;
 }
@@ -1510,6 +1515,7 @@ span .number {
 #rrVegIMG {
     height: 100%;
     width: 65%;
+    float: right;
     background-color: white;
 }
 
