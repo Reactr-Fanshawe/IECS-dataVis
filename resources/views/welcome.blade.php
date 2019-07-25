@@ -313,12 +313,6 @@
             <div class="actionBtn"><p>Learn More</p></div>
         </div>
     </section>
-    <footer>
-        <h2 class="hidden">Footer</h2>
-            <div class="copyright">
-                <p>IECS All Rights Reserved</p>
-            </div>
-    </footer>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
         
