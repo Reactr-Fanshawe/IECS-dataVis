@@ -153,7 +153,7 @@
             <h2>Excess transporter travel raises CO2 emissions, creating air pollution</h2>
             <p>"The commercial road transportation sector produces 
                         <span class="number">19%</span> of the total carbon emissions in Canada"</p>
-                        <p class="source"><a href="https://www.nrcan.gc.ca/energy/efficiency/transportation/commercial-vehicles/reports/7607" target="_blank">Source: Learn More</a></p>
+                        <p class="source"><a href="https://www.nrcan.gc.ca/energy/efficiency/transportation/commercial-vehicles/reports/7607" target="_blank">Source: Natural Resources Canada</a></p>
         </div>
        <img id="emissionsCloud" src="images/IECS_illustrated_cityscape_clouds.svg">
        <img id="citytruckRow1" src="images/IECS_illustrated_cityriprap_trucks_2.svg">
