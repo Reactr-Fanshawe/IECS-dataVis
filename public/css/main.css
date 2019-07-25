@@ -290,17 +290,17 @@ sup {
     transition: all 6s ease-out;
     transform: translateX(-40%);
     position: relative;
-    top: 10vh;
+    top: 40vh;
 }
 
 #clouds1 .cloudfirst {
-  width: 10%;
-  margin-left: 75vh;
-  margin-top: 10vh;
+    width: 6%;
+    margin-left: 14vh;
+    margin-top: 10vh;
 }
 
 #clouds1 .cloudsecond {
-   width: 40vh;
+   width: 23vh;
    margin-left: 25vh;
 }
 
@@ -1268,7 +1268,6 @@ span .number {
     transition-delay: 5.5s;
 }
 
-
 #roadCrack6 {
     z-index: 1;
     position: absolute;
@@ -1494,32 +1493,91 @@ span .number {
     background-color: #E8FFD4;
 }
 
+/* cable & concrete */
 #ccVegDiv {
+    display: flex;
+    flex-direction: row-reverse;
     width: 100%;
     height: 50%;
-    background-color: slateblue;
+    background-color: #f2fadb;
+}
+
+.ccCon {
+    width: 30%;
+    padding: 3%;
+    height: auto;
+}
+
+.ccCon h3 {
+    font-weight: 700;
+    font-size: 2vw;
+    margin-bottom: 3vh;
+}
+
+.ccCon p {
+    font-size: 2vh;
+    line-height: 4vh;
+    width: 85%;
 }
 
 #ccVegIMG {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
     height: 100%;
+    overflow: hidden;
     width: 65%;
-    background-color: orange;
+    background-color: #f2fadb;
 }
 
+#cableConcrete-phase-1, #cableConcrete-phase-2, #cableConcrete-phase-3 {
+    width: 29%;
+    height: 72%;
+}
+
+/* rip-rap section */
+
+.rrCon {
+    width: 30%;
+    padding: 3%;
+    height: auto;
+}
+
+.rrCon h3 {
+    font-weight: 700;
+    font-size: 2vw;
+    margin-bottom: 3vh;
+}
+
+.rrCon p {
+    font-size: 2vh;
+    line-height: 4vh;
+    width: 85%;
+}
 #rrVegDiv {
+    display: flex;
+    flex-direction: row;
     width: 100%;
     height: 50%;
-    background-color: gray;
+    background-color: #d2d2d2;
 }
 
 #rrVegIMG {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
     height: 100%;
     width: 65%;
     float: right;
-    background-color: white;
+    background-color: #d2d2d2;
 }
 
-
+#ripRap-phase-1, #ripRap-phase-2, #ripRap-phase-3 {
+    width: 29%;
+    height: 72%;
+}
 
 /* summary styling */
 
@@ -1748,4 +1806,16 @@ and (max-device-width : 1024px) {
     bottom: 22.5vh;
     }
 
+    /* vegetation section */
+    #cableConcrete-phase-1, #cableConcrete-phase-2, #cableConcrete-phase-3 {
+        width: 20vw;
+        height: 49%;
+    }
+
+    #ripRap-phase-1, #ripRap-phase-2, #ripRap-phase-3 {
+        width: 20vw;
+        height: 49%;
+    }
+    
+    
 }
