@@ -360,6 +360,22 @@ $(document).ready(function(){
                   triggerHook: .7,
                   reverse:false
                 })
+                  .setClassToggle('.roadDamage-column-1', 'fade-in')
+                  .addTo(controller);
+
+                var car1Scene = new ScrollMagic.Scene({
+                  triggerElement: '#roadDamage',
+                  triggerHook: .7,
+                  reverse:false
+                })
+                  .setClassToggle('.roadDamage-column-2', 'fade-in')
+                  .addTo(controller); 
+
+                var car1Scene = new ScrollMagic.Scene({
+                  triggerElement: '#roadDamage',
+                  triggerHook: .7,
+                  reverse:false
+                })
                   .setClassToggle('#car1', 'fade-in')
                   .addTo(controller);
 
@@ -615,7 +631,21 @@ $(document).ready(function(){
     })
       .setClassToggle('#finaleBGrr', 'fade-in')
       .addTo(countMagic);
-   
-});
 
+    var bgIMGfadeOutScene = new ScrollMagic.Scene({
+      triggerElement: '#finale',
+      triggerHook: 1,
+      reverse:true
+    })
+      .setClassToggle('.call-to-actionCon', 'fade-in')
+      .addTo(countMagic);
+   
+    var bgIMGfadeOutScene = new ScrollMagic.Scene({
+      triggerElement: '#finale',
+      triggerHook: 1,
+      reverse:true
+    })
+      .setClassToggle('.actionBtn', 'fade-in')
+      .addTo(countMagic);
+});
 
