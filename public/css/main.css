@@ -1118,7 +1118,8 @@ span .number {
     height: 44vh;
 }
 
-.roadDamage-column-1 h3, .roadDamage-column-2 h3 {
+.roadDamage-column-1 h3, .roadDamage-column-2 h3{
+    color: #39423A;
     font-weight: 700;
     font-size: 2vw;
     margin-bottom: 3vh;
@@ -1140,6 +1141,7 @@ span .number {
 }
 
 .roadDamage-Description p{
+    color: #39423A;
     font-size: 2vh;
     line-height: 4vh;
     width: 85%;
@@ -1513,6 +1515,7 @@ span .number {
 #ccVegDiv {
     display: flex;
     flex-direction: row-reverse;
+    align-items: center;
     width: 100%;
     height: 50%;
     background-color: #f2fadb;
@@ -1525,12 +1528,14 @@ span .number {
 }
 
 .ccCon h3 {
+    color: #39423A;
     font-weight: 700;
     font-size: 2vw;
     margin-bottom: 3vh;
 }
 
 .ccCon p {
+    color: #39423A;
     font-size: 2vh;
     line-height: 4vh;
     width: 85%;
@@ -1561,12 +1566,14 @@ span .number {
 }
 
 .rrCon h3 {
+    color: #39423A;
     font-weight: 700;
     font-size: 2vw;
     margin-bottom: 3vh;
 }
 
 .rrCon p {
+    color: #39423A;
     font-size: 2vh;
     line-height: 4vh;
     width: 85%;
@@ -1574,6 +1581,7 @@ span .number {
 #rrVegDiv {
     display: flex;
     flex-direction: row;
+    align-items: center;
     width: 100%;
     height: 50%;
     background-color: #d2d2d2;
@@ -1820,6 +1828,16 @@ span .number {
     opacity: .8;
 }
 
+/*  footer section */
+footer {
+    position: absolute;
+    width: 100%;
+    height: 4vh;
+    color: white;
+    padding:3vh;
+    background-color: black;
+    z-index: 1;
+}
 
 /* TABLET RESPONSIVE */
 
