@@ -591,6 +591,15 @@ $(document).ready(function(){
     .setClassToggle('#dashboard', 'fade-in')
     .addTo(countMagic);
 
+    var bgIMGfadeScene = new ScrollMagic.Scene({
+      triggerElement: '#finale',
+      triggerHook: 1,
+      reverse:true
+    })
+      .setClassToggle('#finaleBGcc', 'fade-in')
+      .addTo(countMagic);
+ 
+
 });
 
 
