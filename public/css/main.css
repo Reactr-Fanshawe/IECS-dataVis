@@ -1733,6 +1733,7 @@ span .number {
     z-index: -2;
     opacity: .25;
     transition: all 3s ease-out;   
+    filter: grayscale(100%);
 }
 
 #finaleBGrr.fade-in {
@@ -1828,16 +1829,7 @@ span .number {
     opacity: .8;
 }
 
-/*  footer section */
-footer {
-    position: absolute;
-    width: 100%;
-    height: 4vh;
-    color: white;
-    padding:3vh;
-    background-color: black;
-    z-index: 1;
-}
+
 
 /* TABLET RESPONSIVE */
 
