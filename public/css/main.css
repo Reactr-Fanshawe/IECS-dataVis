@@ -187,7 +187,7 @@ a:link {
 #personaText {
     color: #39423A;
     top: 7vh;
-    left: 5%;
+    left: 7vw;
     position: absolute;
     font-size: 1.5vw;
     width: 35%;
@@ -204,11 +204,11 @@ a:link {
 #scenarioText {
     font-size: 1.5vw;
     color: #39423A;
-    width: 38vw;
+    width: 42vw;
     position: absolute;
     line-height: 5.5vh; 
     right: 7%;
-    top: 12vh;
+    top: 9vh;
     z-index: 1;
     transition: all 2s ease-out;
     transform: translateY(-500%); 
@@ -230,8 +230,8 @@ sup {
     position: absolute;
     width: 36vw;
     height: 55vh;
-    top: 42vh;
-    left: 56vw;
+    top: 37vh;
+    left: 52vw;
     display: flex;
     flex-direction: row;
     transition: all 1s ease-out;
@@ -262,7 +262,7 @@ sup {
 
 #michaelText {
     font-weight: 700;
-    margin-bottom: 10%;
+    margin-bottom: 4vh;
     font-size: 2.2vw;
 }
 
@@ -1536,7 +1536,7 @@ span .number {
     display: flex;
     justify-content: center;
     padding: 4vh;
-    background-color: #247b08;
+    background-color: #247b08; 
     border-bottom: 1px solid white;
 }
 
@@ -1550,9 +1550,9 @@ span .number {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 2%;
+    padding: 1%;
     background-color: #5B6B4E;
-    height: 250px;
+
     transition: all 2s linear;
 }
 
@@ -1564,14 +1564,14 @@ span .number {
 .dashBox1, .dashBox2 {
     border-right: 1px solid white;
     width: 33.33%;
-    height: 100%;
-    padding: 30px;
+ 
+    padding: 20px;
 }
 
 .dashBox3 {
     width: 33.33%;
-    height: 100%;
-    padding:30px;
+ 
+    padding:20px;
 }
 
 .summaryDash {
@@ -1637,17 +1637,14 @@ span .number {
     url(../images/cableconcrete_result.jpg) no-repeat center;
 }
 
-#ccFinale {
-    background: url(../images/ccthumb.jpg) no-repeat center;
-    position: relative;
-    z-index: 2;
-    height: 100vh;
-}
+
 
 .call-to-actionCon {
     display: flex;
     justify-content: center;
     align-content: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
 }
 
 .call-to-action {
@@ -1655,8 +1652,7 @@ span .number {
     align-content: center;
     text-align: center;
     color: white;
-    margin-top: 15vh;
-    margin-bottom: 5vh;
+    margin-bottom: 1vh;
 }
 
 .call-to-action div {

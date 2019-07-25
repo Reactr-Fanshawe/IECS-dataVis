@@ -35,13 +35,13 @@
             <div id="personaText">
                 <p id="michaelText">This is Michael.</p>
                     <p>He wants to provide erosion control for his local 
-                    waterway. He's looking for the most environmentally and 
+                    waterway and is looking for the most environmentally and 
                     economically conscientious contract.</p>
             </div>
         <div id="scenarioText">
-            <p>He has <span class="number">215m<sup>2</sup></span> to cover. He would require 
-            <span class="number">114mm</span> deep CC<sup>35</sup> Cable Concrete blocks compared to  <span class="number">475mm</span> deep of Riprap. He looks 
-            deeper into this comparison for his job assuming a <span class="number">200km</span> round trip.</p>
+            <p>He has <span class="number">215m<sup>2</sup></span> to cover, and the terrain would require 
+            <span class="number">114mm</span> deep of CC<sup>35</sup> Cable Concrete blocks compared to  <span class="number">475mm</span> deep of Riprap. He examines 
+            this comparison further, assuming a <span class="number">200km</span> round trip for his job.</p>
         </div>
         <div id="scenarioDetail">
             <div class="imageThumb">
@@ -181,20 +181,18 @@
         <div class="roadDamage-Description">
             <!-- column 1 title -->
             <div class="roadDamage-column-1">
-                <h3>Title Here</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, 
-                    aperiam! Voluptate reprehenderit quas error natus
-                     aut quod magnam atque recusandae autem ut, animi, 
-                     inventore blanditiis et laudantium illum placeat laborum.
+                <h3>More traffic</h3>
+                <p>A delivery of riprap would put 17 more trucks on the road. This causes
+                    an uneccesarry amount of traffic, creating more risk and inconvenience
+                    for other drivers on the road
                </p>  
             </div>
             <!-- column 2 title -->
             <div class="roadDamage-column-2">
-                <h3>Title Here</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, 
-                    aperiam! Voluptate reprehenderit quas error natus
-                     aut quod magnam atque recusandae autem ut, animi, 
-                     inventore blanditiis et laudantium illum placeat laborum.
+                <h3>More damage</h3>
+                <p>The weight of a transport truck causes a significantly larger amount of damage
+                    the roads. Tax dollars spent on road repairs is already high, so less heavy
+                    trucks is better.
                </p>  
             </div>
         </div>
@@ -292,7 +290,7 @@
              <!-- Vegetation -->
         </div>
 
-        <div id="finale" class="ccFinale">
+        <div id="finale">
             <div class="call-to-actionCon">
                 <div class="call-to-action">
                     <h3>Now It’s your turn.</h3>
