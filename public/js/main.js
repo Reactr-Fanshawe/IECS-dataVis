@@ -73,6 +73,7 @@ $(document).ready(function(){
     var sectionPinScene6 = new ScrollMagic.Scene({
 		triggerElement: '#summary',
         triggerHook: 0,
+        duration: '90%'
 	})
 	.setPin('#summary')
 	.addTo(controller);
@@ -354,7 +355,7 @@ $(document).ready(function(){
 
               /*road damage content animations*/
               
-              /*bottom lane*/
+            
                 var car1Scene = new ScrollMagic.Scene({
                   triggerElement: '#roadDamage',
                   triggerHook: .7,
@@ -363,6 +364,7 @@ $(document).ready(function(){
                   .setClassToggle('.roadDamage-column-1', 'fade-in')
                   .addTo(controller);
 
+        
                 var car1Scene = new ScrollMagic.Scene({
                   triggerElement: '#roadDamage',
                   triggerHook: .7,
@@ -371,6 +373,7 @@ $(document).ready(function(){
                   .setClassToggle('.roadDamage-column-2', 'fade-in')
                   .addTo(controller); 
 
+              /*bottom lane*/ 
                 var car1Scene = new ScrollMagic.Scene({
                   triggerElement: '#roadDamage',
                   triggerHook: .7,
@@ -446,23 +449,19 @@ $(document).ready(function(){
                   .addTo(controller);
 
 
-                /*upper lane*/
+                /*upper lane traffic loop*/
 
-                var rrDmgTruck3Scene = new ScrollMagic.Scene({
-                  triggerElement: '#roadDamage',
-                  triggerHook: .7,
-                  reverse:false
-                })
-                  .setClassToggle('#rrDamageTruck3', 'fade-in')
-                  .addTo(controller);
+              
+              
+            function carLoop() {   
 
-                var roadCrack2Scene = new ScrollMagic.Scene({
-                  triggerElement: '#roadDamage',
-                  triggerHook: .7,
-                  reverse:false
-                })
-                  .setClassToggle('#roadCrack2', 'fade-in')
-                  .addTo(controller);
+              var rrDmgTruck3Scene = new ScrollMagic.Scene({
+                triggerElement: '#roadDamage',
+                triggerHook: .7,
+                reverse:false
+              })
+                .setClassToggle('#rrDamageTruck3', 'fade-in')
+                .addTo(controller);
 
               var car4Scene = new ScrollMagic.Scene({
                 triggerElement: '#roadDamage',
@@ -488,6 +487,29 @@ $(document).ready(function(){
                 .setClassToggle('#rrDamageTruck4', 'fade-in')
                 .addTo(controller);
 
+              var rrDmgTruck5Scene = new ScrollMagic.Scene({
+                triggerElement: '#roadDamage',
+                triggerHook: .7,
+               
+              })
+                .setClassToggle('#rrDamageTruck5', 'fade-in')
+                .addTo(controller);
+
+            }
+
+            timeLoop = setInterval(carLoop(), 3000);
+          
+
+
+            /*upper lane damage*/
+              var roadCrack3Scene = new ScrollMagic.Scene({
+                triggerElement: '#roadDamage',
+                triggerHook: .7,
+                reverse:false
+              })
+                .setClassToggle('#roadCrack3', 'fade-in')
+                .addTo(controller);
+
               var roadCrack1Scene = new ScrollMagic.Scene({
                 triggerElement: '#roadDamage',
                 triggerHook: .7,
@@ -496,21 +518,14 @@ $(document).ready(function(){
                 .setClassToggle('#roadCrack1', 'fade-in')
                 .addTo(controller);
 
-              var rrDmgTruck5Scene = new ScrollMagic.Scene({
+              var roadCrack2Scene = new ScrollMagic.Scene({
                 triggerElement: '#roadDamage',
                 triggerHook: .7,
                 reverse:false
               })
-                .setClassToggle('#rrDamageTruck5', 'fade-in')
+                .setClassToggle('#roadCrack2', 'fade-in')
                 .addTo(controller);
-
-              var roadCrack3Scene = new ScrollMagic.Scene({
-                triggerElement: '#roadDamage',
-                triggerHook: .7,
-                reverse:false
-              })
-                .setClassToggle('#roadCrack3', 'fade-in')
-                .addTo(controller);
+  
 
               /*construction truck animation*/ 
 
