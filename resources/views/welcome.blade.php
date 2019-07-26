@@ -41,7 +41,7 @@
         <div id="scenarioText">
             <p>He has <span class="number">215m<sup>2</sup></span> to cover, and the terrain would require 
             <span class="number">114mm</span> deep of CC<sup>35</sup> Cable Concrete blocks compared to  <span class="number">475mm</span> deep of Riprap. He examines 
-            this comparison further, assuming a <span class="number">200km</span> round trip for his job.</p>
+            this comparison further, assuming a <span class="number">200km</span> round trip delivery for his job.</p>
         </div>
         <div id="scenarioDetail">
             <div class="imageThumb">
@@ -100,7 +100,7 @@
         <div id="fuelFact">
             <p>“Heavy trucks make up just around <span class="number">7%</span> of the vehicles on the 
                 road in the U.S., but they consume about <span class="number">25%</span> of all fuel.”</p>
-                <p class="source"><a href="https://thinkprogress.org/big-trucks-emit-huge-amounts-of-carbon-every-year-the-epa-is-about-to-do-something-about-it-5c402732888/" target="_blank">Source: Learn More</a></p>
+                <p class="source"><a href="https://thinkprogress.org/big-trucks-emit-huge-amounts-of-carbon-every-year-the-epa-is-about-to-do-something-about-it-5c402732888/" target="_blank">Source: Thinkprogress</a></p>
         </div>
         <div id="indc1Div">
             <div id="dollarDiv1">
@@ -237,25 +237,27 @@
         <!-- Title description  -->
         <div id="ccVegDiv">
             <div class="ccCon">
-                <h3>Title here</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut nam ullam placeat corrupti perspiciatis incidunt necessitatibus ratione amet reiciendis vero assumenda expedita, rerum aliquid voluptas minus dolorem quis tenetur culpa.</p>
+                <h3>Cable Concrete</h3>
+                <p>The 40% of gapped space between concrete blocks leave room for vegetation to emerge and settle. 
+This improves overall appearance, allows for pedestrian traffic and yard maintainence, as well as wildlife habitation and added protection from erosion.
+</p>
             </div>
             <div id="ccVegIMG">
-                <img id="cableConcrete-phase-1" src="images/cable&concrete_phase_2.jpg" alt="cable & concrete onsight images">
-                <img id="cableConcrete-phase-2" src="images/cable&concrete_phase_2.jpg" alt="cable & concrete onsight images">
-                <img id="cableConcrete-phase-3" src="images/cable&concrete_phase_3.jpg" alt="cable & concrete onsight images">
+                <img id="cableConcrete-phase-1" class="rrPhase" src="images/cable&concrete_phase_2.jpg" alt="cable & concrete onsight images">
+                <img id="cableConcrete-phase-2" class="rrPhase" src="images/cable&concrete_phase_2.jpg" alt="cable & concrete onsight images">
+                <img id="cableConcrete-phase-3" class="rrPhase" src="images/cable&concrete_phase_3.jpg" alt="cable & concrete onsight images">
             </div>
         </div>
         <!-- Title description -->
         <div id="rrVegDiv">
             <div class="rrCon">
-                <h3>Title here</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut nam ullam placeat corrupti perspiciatis incidunt necessitatibus ratione amet reiciendis vero assumenda expedita, rerum aliquid voluptas minus dolorem quis tenetur culpa.</p>
+                <h3>Riprap</h3>
+                <p>Riprap is unstable by nature, making it unusable for traffic and hard to maintain. It's obstrusive to plantlife and restricts biodiversity, and when placed by water it leaves fish at risk of predation. Bare riprap rocks also reflect sunlight in the water and cause temperature increases that could pose a danger to aquatic life.</p>
             </div>
             <div id="rrVegIMG">
-                <img id="cableConcrete-phase-1" src="images/cable&concrete_phase_2.jpg" alt="rip-rap onsight images">
-                <img id="cableConcrete-phase-2" src="images/cable&concrete_phase_2.jpg" alt="rip-rap onsight images">
-                <img id="cableConcrete-phase-3" src="images/cable&concrete_phase_3.jpg" alt="rip-rap onsight images">
+                <img id="cableConcrete-phase-1" class="ccPhase" src="images/cable&concrete_phase_2.jpg" alt="rip-rap onsight images">
+                <img id="cableConcrete-phase-2" class="ccPhase" src="images/cable&concrete_phase_2.jpg" alt="rip-rap onsight images">
+                <img id="cableConcrete-phase-3" class="ccPhase" src="images/cable&concrete_phase_3.jpg" alt="rip-rap onsight images">
             </div>
         </div>
     </section>
