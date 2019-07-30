@@ -907,7 +907,7 @@ span .number {
     width: 90%;
     position: absolute;
     top: 10vh;
-    z-index: 2;
+    z-index: 1;
     left: 5%;
 }
 
@@ -916,7 +916,7 @@ span .number {
     font-size: 1.3vw;
     line-height: 4vh;
     text-align: center;
-    z-index: 1;
+    z-index: 2;
     position: absolute;
     width: 45%;
     transition-delay: 3s;
@@ -1108,7 +1108,7 @@ span .number {
 /*road damage styling*/
 
 .roadDamage-Description{
-    width: 80%;
+    width: 85%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -1117,16 +1117,17 @@ span .number {
     height: 44vh;
 }
 
-.roadDamage-column-1 h3, .roadDamage-column-2 h3{
+.roadDamage-column-1 h3, .roadDamage-column-2 h3, .roadDamage-column-3 h3{
     color: #39423A;
     font-weight: 700;
     font-size: 2vw;
     margin-bottom: 3vh;
 }
 
-.roadDamage-column-1, .roadDamage-column-2 {
+.roadDamage-column-1, .roadDamage-column-2, .roadDamage-column-3 {
     opacity: 0;
     transition: all 2s ease-out;
+    width: 33%;
 }
 
 .roadDamage-column-1.fade-in {
@@ -1136,7 +1137,12 @@ span .number {
 
 .roadDamage-column-2.fade-in {
     opacity: 1;
-    transition-delay: 8s;
+    transition-delay: 6s;
+}
+
+.roadDamage-column-3.fade-in {
+    opacity: 1;
+    transition-delay: 9s;
 }
 
 .roadDamage-Description p{
@@ -1658,24 +1664,22 @@ span .number {
     align-items: center;
     padding: 1%;
     background-color: #5B6B4E;
-    transition: all 2s linear;
+    transition: all 2.5s linear;
 }
 
 #dashboard.fade-in {
     background-color: #247b08;
-    transition-delay: 4s;
+    transition-delay: 3s;
 }
 
 .dashBox1, .dashBox2 {
     border-right: 1px solid white;
     width: 33.33%;
- 
     padding: 20px;
 }
 
 .dashBox3 {
     width: 33.33%;
- 
     padding:20px;
 }
 
@@ -1740,7 +1744,7 @@ span .number {
     animation-name: gradientChange;
     animation-iteration-count: 1;
     animation-timing-function: ease-out;
-    animation-duration: 7s;
+    animation-duration: 6s;
 }
 
 @keyframes gradientChange {
@@ -1761,7 +1765,7 @@ span .number {
 }
 
 #finaleBGrr.fade-in {
-    transition-delay: 3s;
+    transition-delay: 2s;
     opacity: 0;
 }
 
@@ -1776,7 +1780,7 @@ span .number {
 
 #finaleBGcc.fade-in {
     z-index: -1;
-    transition-delay: 3s;
+    transition-delay: 2s;
     opacity: .25;
 }
 
@@ -1793,7 +1797,7 @@ span .number {
 
 .call-to-actionCon.fade-in {
     opacity: 1;
-    transition-delay: 6s;
+    transition-delay: 5s;
 }
 
 .call-to-action {
@@ -1838,6 +1842,11 @@ span .number {
 }
 
 
+.actionBtn a{
+    text-decoration: none;
+    color: white;
+}
+
 .actionBtn p{
     text-align: center;
     font-weight: 400;
@@ -1846,8 +1855,9 @@ span .number {
 
 .actionBtn.fade-in {
     opacity: 1;
-    transition-delay: 8s;
+    transition-delay: 7s;
 }
+
 
 #CC_result {
     width: 100%;
