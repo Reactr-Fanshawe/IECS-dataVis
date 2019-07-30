@@ -1112,7 +1112,7 @@ span .number {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: flex-start;
     margin: 0 auto;
     height: 44vh;
 }
@@ -1128,6 +1128,7 @@ span .number {
     opacity: 0;
     transition: all 2s ease-out;
     width: 33%;
+    padding: 3%;
 }
 
 .roadDamage-column-1.fade-in {
@@ -1832,7 +1833,6 @@ span .number {
 .actionBtn {
     background-color: white;
     border-radius: 50px;
-    color: #247b08;
     width: 12vw;
     padding: 1%;
     margin-top: 50px;
@@ -1841,10 +1841,9 @@ span .number {
     transition: all 3s ease-out;
 }
 
-
 .actionBtn a{
     text-decoration: none;
-    color: white;
+    color: #247b08;
 }
 
 .actionBtn p{
