@@ -78,6 +78,7 @@ $(document).ready(function(){
 	.setPin('#summary')
 	.addTo(controller);
 
+
   //end pin scene for every section
   
      
