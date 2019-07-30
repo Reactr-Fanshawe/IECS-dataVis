@@ -452,13 +452,12 @@ $(document).ready(function(){
                 /*upper lane traffic loop*/
 
               
-              
-            
 
               var rrDmgTruck3Scene = new ScrollMagic.Scene({
                 triggerElement: '#roadDamage',
                 triggerHook: .7,
                 reverse:false
+              
               })
                 .setClassToggle('#rrDamageTruck3', 'fade-in')
                 .addTo(controller);

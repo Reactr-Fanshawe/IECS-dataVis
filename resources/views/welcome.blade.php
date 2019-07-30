@@ -163,12 +163,12 @@
        <img id="citytruckRow3" src="images/IECS_illustrated_cityriprap_trucks_1.svg" alt="An illustration of the rip-rap trucks for emissions">
             <img id="iecsSmog" src="images/IECS_illustrated_cityscape_iecssmog.svg" alt="An illustration of the rip-rap trucks for emissions">
             <div id="iecsSmogData">
-                <h2>298g</p>    
+                <h2>298g</h2>    
             </div>
             <img id="riprapSmog" src="images/IECS_illustrated_riprap_smog.svg" alt="A plumm of dark cloud for rip-rap">
             <img id="riprapSmogSmall" src="images/IECS_illustrated_cityscape_iecs_smallsmog.svg" alt="A plum of green smoke for ices">
                 <div id="riprapSmogData">
-                <h2>5,424g</p>
+                <h2>5,424g</h2>
             </div>
        <img id="iecsTruck" src="images/IECS_illustrated_iecs_city_truck.svg" alt="An illustration of ices truck">
        <img id="cityForest" src="images/IECS_illustrated_cityscape_background.svg" alt="A city scape background">
