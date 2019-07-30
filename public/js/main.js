@@ -453,7 +453,7 @@ $(document).ready(function(){
 
               
               
-            function carLoop() {   
+            
 
               var rrDmgTruck3Scene = new ScrollMagic.Scene({
                 triggerElement: '#roadDamage',
@@ -495,11 +495,9 @@ $(document).ready(function(){
                 .setClassToggle('#rrDamageTruck5', 'fade-in')
                 .addTo(controller);
 
-            }
+           
 
-            timeLoop = setInterval(carLoop(), 3000);
-          
-
+           
 
             /*upper lane damage*/
               var roadCrack3Scene = new ScrollMagic.Scene({
@@ -557,6 +555,7 @@ $(document).ready(function(){
 $(document).ready(function(){
 
   
+
   
   var countMagic = new ScrollMagic.Controller();
 
@@ -588,32 +587,32 @@ $(document).ready(function(){
 
   }*/
 
-  function countUpVeg(){
+  /*function countUpVeg(){
 
     var cont = { val: 0 },
       newVal = 40;
   
     TweenMax.to(cont, 3, { val:newVal, roundProps:"val",  delay: 4, onUpdate:function(){document.getElementById("amount4").innerHTML=cont.val}});
 
-  }
+  }*/
 
   function Counter() {
     countDownFuel();
     countDownEmissions();
     /*wordChangeRoad();*/
-    countUpVeg();
+    /*countUpVeg();*/
   }
 
-  var countDownScene = new ScrollMagic.Scene({
-    triggerElement: '#finale',
-    triggerHook: 1,
-    reverse:true
-  })
+
+    var countDownScene = new ScrollMagic.Scene({
+     triggerElement: '#finale',
+     triggerHook: 1,
+     reverse:true
+    })
     .setTween(Counter)
     .addTo(countMagic);
 
 
-    
   var dashboardScene = new ScrollMagic.Scene({
     triggerElement: '#finale',
     triggerHook: 1,
@@ -662,5 +661,7 @@ $(document).ready(function(){
     })
       .setClassToggle('.actionBtn', 'fade-in')
       .addTo(countMagic);
+
+
 });
 
