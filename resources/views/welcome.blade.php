@@ -250,9 +250,9 @@ This improves overall appearance, allows for pedestrian traffic and yard maintai
 </p>
             </div>
             <div id="ccVegIMG">
-                <img class="cableConcrete-phase-1" src="images/cable&concrete_phase_2.jpg" alt="cable & concrete onsight images">
-                <img class="cableConcrete-phase-2" src="images/cable&concrete_phase_2.jpg" alt="cable & concrete onsight images">
-                <img class="cableConcrete-phase-3" src="images/cable&concrete_phase_3.jpg" alt="cable & concrete onsight images">
+                <img class="construction-phase-1" src="images/cable&concrete_phase_2.jpg" alt="cable & concrete onsight images">
+                <img class="construction-phase-2" src="images/cable&concrete_phase_2.jpg" alt="cable & concrete onsight images">
+                <img class="construction-phase-3" src="images/cable&concrete_phase_3.jpg" alt="cable & concrete onsight images">
             </div>
         </div>
         <!-- Title description -->
@@ -262,9 +262,9 @@ This improves overall appearance, allows for pedestrian traffic and yard maintai
                 <p>Riprap is unstable by nature, making it unusable for traffic and hard to maintain. It's obstrusive to plantlife and restricts biodiversity, and when placed by water it leaves fish at risk of predation. Bare riprap rocks also reflect sunlight in the water and cause temperature increases that could pose a danger to aquatic life.</p>
             </div>
             <div id="rrVegIMG">
-                <img class="cableConcrete-phase-1" src="images/cable&concrete_phase_2.jpg" alt="rip-rap onsight images">
-                <img class="cableConcrete-phase-2" src="images/cable&concrete_phase_2.jpg" alt="rip-rap onsight images">
-                <img class="cableConcrete-phase-3" src="images/cable&concrete_phase_3.jpg" alt="rip-rap onsight images">
+                <img class="construction-phase-3" src="images/cable&concrete_phase_2.jpg" alt="rip-rap onsight images">
+                <img class="construction-phase-2" src="images/cable&concrete_phase_2.jpg" alt="rip-rap onsight images">
+                <img class="construction-phase-1" src="images/cable&concrete_phase_3.jpg" alt="rip-rap onsight images">
             </div>
         </div>
     </section>

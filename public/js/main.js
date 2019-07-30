@@ -543,12 +543,44 @@ $(document).ready(function(){
                 .addTo(controller);
 
 
-            /*summary trigger animations*/
+            /*vegetation trigger animations*/
+            var ccPhase1Scene = new ScrollMagic.Scene({
+              triggerElement: '#vegetation',
+              triggerHook: .7,
+              reverse:false
+            })
+              .setClassToggle('.construction-phase-1', 'fade-in')
+              .addTo(controller);
+
+            var ccPhase2Scene = new ScrollMagic.Scene({
+              triggerElement: '#vegetation',
+              triggerHook: .7,
+              reverse:false
+              })
+              .setClassToggle('.construction-phase-2', 'fade-in')
+              .addTo(controller);
+
+            var ccPhase3FadeScene = new ScrollMagic.Scene({
+                triggerElement: '#vegetation',
+                triggerHook: .7,
+                reverse:false
+              })
+                .setClassToggle('.construction-phase-3', 'fade-in')
+                .addTo(controller);
+
+            /*var repairFadeScene = new ScrollMagic.Scene({
+              triggerElement: '#vegetation',
+              triggerHook: .7,
+              reverse:false
+              })
+                .setClassToggle('.ccCon', 'fade-in')
+                .addTo(controller);*/
+
 
         
 });
 
-
+ /*summary trigger animations*/
 /*isolated scrollMagic and tweenMax function for summary counter*/
 
 $(document).ready(function(){
