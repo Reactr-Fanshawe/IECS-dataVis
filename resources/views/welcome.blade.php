@@ -10,10 +10,11 @@
     </head>
     <body>
    
-    <!––main welcome space--> 
+    <!––Introduction header welcome page for the website--> 
 
     <section id="welcomeSpace">
-        <img id="welcomeBg" src="images/IECS_illustrated_header_Background.svg">
+        <h1 class="hidden">Introduction header</h1>
+        <img id="welcomeBg" src="images/IECS_illustrated_header_Background.svg" alt="A illustration of a beautiful landscape">
 
             <div id="logoSpace">
                 <img src="images/iecs_logo.png" alt="IECS black logo">
@@ -31,6 +32,7 @@
     <!––scenario/persona/ratio space-->
 
     <section id="scenario" class="section">
+        <h1 class="hidden">Micheal's Persona</h1>
         <div id="persona">
             <div id="personaText">
                 <p id="michaelText">This is Michael.</p>
@@ -45,14 +47,14 @@
         </div>
         <div id="scenarioDetail">
             <div class="imageThumb">
-                <p id="scenario-title-text">Rip-Rap</p>
+                <p class="scenario-title-text">Rip-Rap</p>
                 <img id="rrThumb" src="images/rrThumb.png" alt="A photograph of rip-rap on site">
             </div>
                 <div>
                     <p class="versus">vs</p>
                 </div>
             <div class="imageThumb">
-                <p id="scenario-title-text">Cable Concrete</p>
+                <p class="scenario-title-text">Cable Concrete</p>
                 <img id="ccThumb" src="images/ccThumb.jpg" alt="A photograph of cable and concrete on site ">
             </div>
         </div>    
@@ -68,6 +70,7 @@
     </section>
 
     <section id="truckRatio">
+        <h1 class="hidden">18 to 1 ratio story</h1>
         <div id="ratio">
             <div id="ratioRows"> 
                 <div id="ratioRow6"><img src="images/IECS_illustrated_ratio_row.svg" alt="An illustration of a rip-rap truck"></div>
@@ -94,6 +97,7 @@
     <!––fuel savings space-->
 
     <section id="fuelSave">
+        <h1 class="hidden">Feul Saving</h1>
         <div id="fuelText">
             <h2>Reduced fuel consumption means <span class="textGreen">more savings</span> and <span class="textGreen">less waste</span></h2>
         </div>
@@ -151,6 +155,7 @@
     <!––co2 emissions space-->
 
     <section id="emissions">
+        <h1 class="hideen">Carbon emissions</h1>
         <div id="emissionsFact">
             <h2>Excess transporter travel raises CO2 emissions, creating air pollution</h2>
             <p>"The commercial road transportation sector produces 
@@ -163,12 +168,12 @@
        <img id="citytruckRow3" src="images/IECS_illustrated_cityriprap_trucks_1.svg" alt="An illustration of the rip-rap trucks for emissions">
             <img id="iecsSmog" src="images/IECS_illustrated_cityscape_iecssmog.svg" alt="An illustration of the rip-rap trucks for emissions">
             <div id="iecsSmogData">
-                <h2>298g</p>    
+                <h2>298g</h2>    
             </div>
             <img id="riprapSmog" src="images/IECS_illustrated_riprap_smog.svg" alt="A plumm of dark cloud for rip-rap">
             <img id="riprapSmogSmall" src="images/IECS_illustrated_cityscape_iecs_smallsmog.svg" alt="A plum of green smoke for ices">
                 <div id="riprapSmogData">
-                <h2>5,424g</p>
+                <h2>5,424g</h2>
             </div>
        <img id="iecsTruck" src="images/IECS_illustrated_iecs_city_truck.svg" alt="An illustration of ices truck">
        <img id="cityForest" src="images/IECS_illustrated_cityscape_background.svg" alt="A city scape background">
@@ -177,6 +182,7 @@
     <!––road damage space-->
 
     <section id="roadDamage">
+        <h1 class="hidden">Road damage summary</h1>
         <h2 class="hidden">Road Damage</h2>
         <div class="roadDamage-Description">
             <!-- column 1 title -->
@@ -197,7 +203,7 @@
             </div>
         </div>
         <div id="street">
-        <img id="streetLine" src="images/IECS_illustrated_road_damage_background.svg">
+        <img id="streetLine" src="images/IECS_illustrated_road_damage_background.svg" alt="An illustration of the road surface">
 
             <img id="car1" src="images/IECS_illustrated_yellowcar.svg" alt="Illustration of a yellow car">
             <img id="car2" src="images/IECS_illustrated_taxicar.svg" alt="Illustration of a taxi cab">
@@ -211,18 +217,18 @@
             <img id="rrDamageTruck4" src="images/IECS_illustrated_riprap_truck_damage.svg" alt="Illustration of a rip-rap truck">
             <img id="rrDamageTruck5" src="images/IECS_illustrated_riprap_truck_damage.svg" alt="Illustration of a rip-rap truck">
 
-            <img id="roadCrack1" src="images/IECS_illustrated_roadcrack_1.svg">
-            <img id="roadCrack2" src="images/IECS_illustrated_roadcrack_2.svg">
-            <img id="roadCrack3" src="images/IECS_illustrated_roadcrack_3.svg">
-            <img id="roadCrack4" src="images/IECS_illustrated_roadcrack_4.svg">
-            <img id="roadCrack5" src="images/IECS_illustrated_roadcrack_5.svg">
-            <img id="roadCrack6" src="images/IECS_illustrated_roadcrack_6.svg">
-            <img id="potHole" src="images/IECS_illustrated_assets_pothole.svg">
-            <img id="repairTruck" src="images/IECS_illustrated_tarmac_roller.svg">
-            <img id="pylon1" class="repairFade" src="images/IECS_illustrated_construction_cone.svg">
-            <img id="pylon2" class="repairFade" src="images/IECS_illustrated_construction_cone.svg">
-            <img id="roadBlock1" class="repairFade" src="images/IECS_illustrated_construction_barrier.svg">
-            <img id="roadBlock2" class="repairFade" src="images/IECS_illustrated_construction_barrier.svg">
+            <img id="roadCrack1" src="images/IECS_illustrated_roadcrack_1.svg" alt="Illustration of a road crack">
+            <img id="roadCrack2" src="images/IECS_illustrated_roadcrack_2.svg" alt="Illustration of a road crack">
+            <img id="roadCrack3" src="images/IECS_illustrated_roadcrack_3.svg" alt="Illustration of a road crack">
+            <img id="roadCrack4" src="images/IECS_illustrated_roadcrack_4.svg" alt="Illustration of a road crack">
+            <img id="roadCrack5" src="images/IECS_illustrated_roadcrack_5.svg" alt="Illustration of a road crack">
+            <img id="roadCrack6" src="images/IECS_illustrated_roadcrack_6.svg" alt="Illustration of a road crack">
+            <img id="potHole" src="images/IECS_illustrated_assets_pothole.svg" alt="Illustration of a  pothole">
+            <img id="repairTruck" src="images/IECS_illustrated_tarmac_roller.svg" alt="Illustration of a tarmac roller">
+            <img id="pylon1" class="repairFade" src="images/IECS_illustrated_construction_cone.svg" alt="Illustration of a construction cones">
+            <img id="pylon2" class="repairFade" src="images/IECS_illustrated_construction_cone.svg" alt="Illustration of a construction cones">
+            <img id="roadBlock1" class="repairFade" src="images/IECS_illustrated_construction_barrier.svg" alt="Illustrated construction">
+            <img id="roadBlock2" class="repairFade" src="images/IECS_illustrated_construction_barrier.svg" alt="Illustrated construction">
         </div>
 
         <div id="damageText">
@@ -234,6 +240,7 @@
 
     <!-- Vegetation section -->
     <section id="vegetation">
+        <h1 class="hidden">Vegetation summary</h1>
         <!-- Title description  -->
         <div id="ccVegDiv">
             <div class="ccCon">
@@ -243,9 +250,9 @@ This improves overall appearance, allows for pedestrian traffic and yard maintai
 </p>
             </div>
             <div id="ccVegIMG">
-                <img id="cableConcrete-phase-1" class="rrPhase" src="images/cable&concrete_phase_2.jpg" alt="cable & concrete onsight images">
-                <img id="cableConcrete-phase-2" class="rrPhase" src="images/cable&concrete_phase_2.jpg" alt="cable & concrete onsight images">
-                <img id="cableConcrete-phase-3" class="rrPhase" src="images/cable&concrete_phase_3.jpg" alt="cable & concrete onsight images">
+                <img class="cableConcrete-phase-1" src="images/cable&concrete_phase_2.jpg" alt="cable & concrete onsight images">
+                <img class="cableConcrete-phase-2" src="images/cable&concrete_phase_2.jpg" alt="cable & concrete onsight images">
+                <img class="cableConcrete-phase-3" src="images/cable&concrete_phase_3.jpg" alt="cable & concrete onsight images">
             </div>
         </div>
         <!-- Title description -->
@@ -255,14 +262,15 @@ This improves overall appearance, allows for pedestrian traffic and yard maintai
                 <p>Riprap is unstable by nature, making it unusable for traffic and hard to maintain. It's obstrusive to plantlife and restricts biodiversity, and when placed by water it leaves fish at risk of predation. Bare riprap rocks also reflect sunlight in the water and cause temperature increases that could pose a danger to aquatic life.</p>
             </div>
             <div id="rrVegIMG">
-                <img id="cableConcrete-phase-1" class="ccPhase" src="images/cable&concrete_phase_2.jpg" alt="rip-rap onsight images">
-                <img id="cableConcrete-phase-2" class="ccPhase" src="images/cable&concrete_phase_2.jpg" alt="rip-rap onsight images">
-                <img id="cableConcrete-phase-3" class="ccPhase" src="images/cable&concrete_phase_3.jpg" alt="rip-rap onsight images">
+                <img class="cableConcrete-phase-1" src="images/cable&concrete_phase_2.jpg" alt="rip-rap onsight images">
+                <img class="cableConcrete-phase-2" src="images/cable&concrete_phase_2.jpg" alt="rip-rap onsight images">
+                <img class="cableConcrete-phase-3" src="images/cable&concrete_phase_3.jpg" alt="rip-rap onsight images">
             </div>
         </div>
     </section>
     <!––ending summary space-->
     <section id="summary" class="section">
+        <h1 class="hidden">Final summary</h1>
         <!-- <div class="summary-title">
             <h3>Client overview</h3>
         </div> -->
@@ -301,8 +309,8 @@ This improves overall appearance, allows for pedestrian traffic and yard maintai
         </div>
 
         <div id="finale" class="finaleClass">
-            <img id="finaleBGrr" src ="images/riprap_result.jpg">
-            <img id="finaleBGcc" src ="images/cableconcrete_result.jpg">
+            <img id="finaleBGrr" src ="images/riprap_result.jpg" alt="Image of rip-rap">
+            <img id="finaleBGcc" src ="images/cableconcrete_result.jpg" alt="Image of cable and concret">
             <div class="call-to-actionCon">
                 <div class="call-to-action">
                     <h3>Now It’s your turn.</h3>

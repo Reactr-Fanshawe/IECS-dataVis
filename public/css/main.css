@@ -177,7 +177,7 @@ a:link {
     justify-content: center;
 }
 
-#scenario-title-text {
+.scenario-title-text {
     color: #39423A;
     font-weight: 500;
     font-size:1.5vw;
@@ -1552,7 +1552,7 @@ span .number {
     background-color: #f2fadb;
 }
 
-#cableConcrete-phase-1, #cableConcrete-phase-2, #cableConcrete-phase-3 {
+.cableConcrete-phase-1, .cableConcrete-phase-2, .cableConcrete-phase-3 {
     width: 29%;
     height: 72%;
 }
