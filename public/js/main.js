@@ -279,7 +279,7 @@ $(document).ready(function(){
               var iecsSmogTruckScene = new ScrollMagic.Scene({
                 triggerElement: '#emissions',
                 triggerHook: .5,
-                reverse:true
+                reverse:false
               })
                 .setClassToggle('#iecsTruck', 'fade-in')
                 .addTo(controller);
@@ -287,7 +287,7 @@ $(document).ready(function(){
               var cityTruckRow1Scene = new ScrollMagic.Scene({
                 triggerElement: '#emissions',
                 triggerHook: .5,
-                reverse:true
+                reverse:false
               })
                 .setClassToggle('#citytruckRow1', 'fade-in')
                 .addTo(controller);
@@ -295,7 +295,7 @@ $(document).ready(function(){
               var cityTruckRow2Scene = new ScrollMagic.Scene({
                 triggerElement: '#emissions',
                 triggerHook: .5,
-                reverse:true
+                reverse:false
               })
                 .setClassToggle('#citytruckRow2', 'fade-in')
                 .addTo(controller);
@@ -303,7 +303,7 @@ $(document).ready(function(){
               var cityTruckRow2Scene = new ScrollMagic.Scene({
                 triggerElement: '#emissions',
                 triggerHook: .5,
-                reverse:true
+                reverse:false
               })
                 .setClassToggle('#citytruckRow3', 'fade-in')
                 .addTo(controller);
@@ -312,7 +312,7 @@ $(document).ready(function(){
               var iecsSmogScene = new ScrollMagic.Scene({
                 triggerElement: '#emissions',
                 triggerHook: .5,
-                reverse:true
+                reverse:false
               })
                 .setClassToggle('#iecsSmog', 'fade-in')
                 .addTo(controller);
@@ -321,7 +321,7 @@ $(document).ready(function(){
               var iecsSmogDataScene = new ScrollMagic.Scene({
                 triggerElement: '#emissions',
                 triggerHook: .5,
-                reverse:true
+                reverse:false
               })
                 .setClassToggle('#iecsSmogData', 'fade-in')
                 .addTo(controller);
@@ -329,7 +329,7 @@ $(document).ready(function(){
               var rirapSmogScene = new ScrollMagic.Scene({
                 triggerElement: '#emissions',
                 triggerHook: .5,
-                reverse:true
+                reverse:false
               })
                 .setClassToggle('#riprapSmog', 'fade-in')
                 .addTo(controller); 
@@ -337,7 +337,7 @@ $(document).ready(function(){
               var rirapSmogScene = new ScrollMagic.Scene({
                 triggerElement: '#emissions',
                 triggerHook: .5,
-                reverse:true
+                reverse:false
               })
                 .setClassToggle('#riprapSmogSmall', 'fade-in')
                 .addTo(controller); 
@@ -346,7 +346,7 @@ $(document).ready(function(){
               var riprapSmogDataScene = new ScrollMagic.Scene({
                 triggerElement: '#emissions',
                 triggerHook: .5,
-                reverse:true
+                reverse:false
               })
                 .setClassToggle('#riprapSmogData', 'fade-in')
                 .addTo(controller);
@@ -356,7 +356,7 @@ $(document).ready(function(){
               /*road damage content animations*/
               
             
-                var car1Scene = new ScrollMagic.Scene({
+                var damageTXTScene = new ScrollMagic.Scene({
                   triggerElement: '#roadDamage',
                   triggerHook: .7,
                   reverse:false
@@ -365,12 +365,20 @@ $(document).ready(function(){
                   .addTo(controller);
 
         
-                var car1Scene = new ScrollMagic.Scene({
+                var damageTXT2Scene = new ScrollMagic.Scene({
                   triggerElement: '#roadDamage',
                   triggerHook: .7,
                   reverse:false
                 })
                   .setClassToggle('.roadDamage-column-2', 'fade-in')
+                  .addTo(controller); 
+                  
+                var damageTXT3Scene = new ScrollMagic.Scene({
+                  triggerElement: '#roadDamage',
+                  triggerHook: .7,
+                  reverse:false
+                })
+                  .setClassToggle('.roadDamage-column-3', 'fade-in')
                   .addTo(controller); 
 
               /*bottom lane*/ 
@@ -489,7 +497,7 @@ $(document).ready(function(){
               var rrDmgTruck5Scene = new ScrollMagic.Scene({
                 triggerElement: '#roadDamage',
                 triggerHook: .7,
-               
+                reverse: false
               })
                 .setClassToggle('#rrDamageTruck5', 'fade-in')
                 .addTo(controller);
@@ -596,7 +604,7 @@ $(document).ready(function(){
     var cont = { val: 1422 },
       newVal = 79;
   
-    TweenLite.to(cont, 3, { val:newVal, roundProps:"val",  delay: 4, onUpdate:function(){document.getElementById("amount1").innerHTML=cont.val}});
+    TweenLite.to(cont, 3, { val:newVal, roundProps:"val",  delay: 3, onUpdate:function(){document.getElementById("amount1").innerHTML=cont.val}});
 
   }
 
@@ -605,7 +613,7 @@ $(document).ready(function(){
     var cont = { val: 5424 },
       newVal = 298;
   
-    TweenMax.to(cont, 3, { val:newVal, roundProps:"val",  delay: 4, onUpdate:function(){document.getElementById("amount2").innerHTML=cont.val}});
+    TweenMax.to(cont, 3, { val:newVal, roundProps:"val",  delay: 3, onUpdate:function(){document.getElementById("amount2").innerHTML=cont.val}});
 
   }
 
@@ -638,7 +646,7 @@ $(document).ready(function(){
     var countDownScene = new ScrollMagic.Scene({
      triggerElement: '#finale',
      triggerHook: 1,
-     reverse:true
+     reverse:false
     })
     .setTween(Counter)
     .addTo(countMagic);
@@ -647,7 +655,7 @@ $(document).ready(function(){
   var dashboardScene = new ScrollMagic.Scene({
     triggerElement: '#finale',
     triggerHook: 1,
-    reverse:true
+    reverse:false
   })
     .setClassToggle('#dashboard', 'fade-in')
     .addTo(countMagic);
@@ -655,7 +663,7 @@ $(document).ready(function(){
     var bgIMGfadeScene = new ScrollMagic.Scene({
       triggerElement: '#finale',
       triggerHook: 1,
-      reverse:true
+      reverse:false
     })
       .setClassToggle('#finaleBGcc', 'fade-in')
       .addTo(countMagic);
@@ -664,7 +672,7 @@ $(document).ready(function(){
     var bgLinearfadeScene = new ScrollMagic.Scene({
       triggerElement: '#finale',
       triggerHook: 1,
-      reverse:true
+      reverse:false
     })
       .setClassToggle('#finale', 'fade-in')
       .addTo(countMagic);
@@ -672,7 +680,7 @@ $(document).ready(function(){
     var bgIMGfadeOutScene = new ScrollMagic.Scene({
       triggerElement: '#finale',
       triggerHook: 1,
-      reverse:true
+      reverse:false
     })
       .setClassToggle('#finaleBGrr', 'fade-in')
       .addTo(countMagic);
@@ -680,7 +688,7 @@ $(document).ready(function(){
     var bgIMGfadeOutScene = new ScrollMagic.Scene({
       triggerElement: '#finale',
       triggerHook: 1,
-      reverse:true
+      reverse:false
     })
       .setClassToggle('.call-to-actionCon', 'fade-in')
       .addTo(countMagic);
@@ -688,7 +696,7 @@ $(document).ready(function(){
     var bgIMGfadeOutScene = new ScrollMagic.Scene({
       triggerElement: '#finale',
       triggerHook: 1,
-      reverse:true
+      reverse:false
     })
       .setClassToggle('.actionBtn', 'fade-in')
       .addTo(countMagic);

@@ -201,6 +201,12 @@
                     trucks is better.
                </p>  
             </div>
+            <div class="roadDamage-column-3">
+                <h3>Higher taxes</h3>
+                <p> An estimated $597 per U.S. household per year in 
+                    general tax revenue dedicated to road construction and repair.</p>
+                <p class="source"><a href="https://calpirgedfund.org/reports/caf/who-pays-roads" target="_blank">Source: CALPIRG Education Fund</a></p>
+            </div>
         </div>
         <div id="street">
         <img id="streetLine" src="images/IECS_illustrated_road_damage_background.svg" alt="An illustration of the road surface">
@@ -247,8 +253,8 @@
             <div class="ccCon">
                 <h3>Cable Concrete</h3>
                 <p>The 40% of gapped space between concrete blocks leave room for vegetation to emerge and settle. 
-This improves overall appearance, allows for pedestrian traffic and yard maintainence, as well as wildlife habitation and added protection from erosion.
-</p>
+                   This improves overall appearance, allows for pedestrian traffic and yard maintainence, as well as wildlife habitation and added protection from erosion.
+                </p>
             </div>
             <div id="ccVegIMG">
                 <img class="construction-phase-1" src="images/cable&concrete_phase_2.jpg" alt="cable & concrete onsight images">
@@ -321,22 +327,19 @@ This improves overall appearance, allows for pedestrian traffic and yard maintai
                          perferendis veniam maxime voluptate?</p>
                 </div>
             </div>
-            <div class="actionBtn"><p>Learn More</p></div>
+                <div class="actionBtn">
+                    <a href="https://iecs.com/cable-concrete/"><p>Learn More</p></a>
+                </div>       
         </div>
     </section>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
         
-
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
-        
-
         <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"></script>
-
-
 
         <script src="js/main.js"></script>
     </body>
