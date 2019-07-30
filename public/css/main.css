@@ -1115,6 +1115,7 @@ span .number {
     align-items: flex-start;
     margin: 0 auto;
     height: 44vh;
+    margin-top: 1%;
 }
 
 .roadDamage-column-1 h3, .roadDamage-column-2 h3, .roadDamage-column-3 h3{
@@ -1150,7 +1151,7 @@ span .number {
     color: #39423A;
     font-size: 2vh;
     line-height: 4vh;
-    width: 85%;
+
 }
 
 #roadDamage {
@@ -1866,7 +1867,7 @@ span .number {
 .footerMain {
     height: 15vh;
     display: flex;
-    background-color: #f2fadb;
+    background-color: #f2fadb7c;
     z-index: 2;
 
 }
