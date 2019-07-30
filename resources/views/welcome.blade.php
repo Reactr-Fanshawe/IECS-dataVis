@@ -188,7 +188,7 @@
             <!-- column 1 title -->
             <div class="roadDamage-column-1">
                 <h3>More traffic</h3>
-                <p>A delivery of riprap would put 17 more trucks on the road. This causes
+                <p>Michaels' delivery of riprap would put 17 more trucks on the road. This causes
                     an uneccesarry amount of traffic, creating more risk and inconvenience
                     for other drivers on the road
                </p>  

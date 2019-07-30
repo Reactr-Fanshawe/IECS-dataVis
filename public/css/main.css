@@ -1112,9 +1112,10 @@ span .number {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: flex-start;
     margin: 0 auto;
     height: 44vh;
+    margin-top: 1%;
 }
 
 .roadDamage-column-1 h3, .roadDamage-column-2 h3, .roadDamage-column-3 h3{
@@ -1128,6 +1129,7 @@ span .number {
     opacity: 0;
     transition: all 2s ease-out;
     width: 33%;
+    padding: 3%;
 }
 
 .roadDamage-column-1.fade-in {
@@ -1149,7 +1151,7 @@ span .number {
     color: #39423A;
     font-size: 2vh;
     line-height: 4vh;
-    width: 85%;
+
 }
 
 #roadDamage {
@@ -1832,7 +1834,6 @@ span .number {
 .actionBtn {
     background-color: white;
     border-radius: 50px;
-    color: #247b08;
     width: 12vw;
     padding: 1%;
     margin-top: 50px;
@@ -1844,7 +1845,7 @@ span .number {
 
 .actionBtn a{
     text-decoration: none;
-    color: white;
+    color: #247b08;
 }
 
 .actionBtn p{
@@ -1867,7 +1868,7 @@ span .number {
 .footerMain {
     height: 15vh;
     display: flex;
-    background-color: #f2fadb;
+    background-color: #f2fadb7c;
     z-index: 2;
 
 }
