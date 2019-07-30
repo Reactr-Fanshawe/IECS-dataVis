@@ -16,14 +16,14 @@
         <img id="welcomeBg" src="images/IECS_illustrated_header_Background.svg">
 
             <div id="logoSpace">
-                <img src="images/iecs_logo.png" alt="IECS logo">
+                <img src="images/iecs_logo.png" alt="IECS black logo">
             </div>
   
         <div id="centerText">
             <p id="title">Cable Concrete is environmentally-friendly</p>
             <p id="message">See how you can be a part of the solution to reducing your ecological footprint within the construction industry.</p>
             <div id="begin"><p>SCROLL</p></div>
-            <img id="scrollBtn" src="images/IECS_illustrated_scrolldownBtn.svg">
+            <img id="scrollBtn" src="images/IECS_illustrated_scrolldownBtn.svg" alt="Scroll down icon">
         </div>
     </section>
 
@@ -46,23 +46,23 @@
         <div id="scenarioDetail">
             <div class="imageThumb">
                 <p id="scenario-title-text">Rip-Rap</p>
-                <img id="rrThumb" src="images/rrThumb.png">
+                <img id="rrThumb" src="images/rrThumb.png" alt="A photograph of rip-rap on site">
             </div>
                 <div>
                     <p class="versus">vs</p>
                 </div>
             <div class="imageThumb">
                 <p id="scenario-title-text">Cable Concrete</p>
-                <img id="ccThumb" src="images/ccThumb.jpg">
+                <img id="ccThumb" src="images/ccThumb.jpg" alt="A photograph of cable and concrete on site ">
             </div>
         </div>    
             <div id="clouds1">
-                <img class="cloudfirst" src="images/IECS_illustrated_cloud_1.svg">
-                <img class="cloudsecond" src="images/IECS_illustrated_cloud_2.svg">
+                <img class="cloudfirst" src="images/IECS_illustrated_cloud_1.svg" alt="An illustration of a cloud">
+                <img class="cloudsecond" src="images/IECS_illustrated_cloud_2.svg" alt="An illustration of a cloud">
             </div>
             <div id="personaScene">
-                <img id="michael" src="images/IECS_illustrated_michael.svg">
-                <img id="plant" src="images/IECS_illustrated_vegetation.svg">      
+                <img id="michael" src="images/IECS_illustrated_michael.svg" alt="An illustration of the company persona, michael">
+                <img id="plant" src="images/IECS_illustrated_vegetation.svg" alt="An illustration of vegetation folliage">      
             </div>
         </div>
     </section>
@@ -70,12 +70,12 @@
     <section id="truckRatio">
         <div id="ratio">
             <div id="ratioRows"> 
-                <div id="ratioRow6"><img src="images/IECS_illustrated_ratio_row.svg"></div>
-                <div id="ratioRow5"><img src="images/IECS_illustrated_ratio_row.svg"></div>
-                <div id="ratioRow4"><img src="images/IECS_illustrated_ratio_row.svg"></div>
-                <div id="ratioRow3"><img src="images/IECS_illustrated_ratio_row.svg"></div>
-                <div id="ratioRow2"><img src="images/IECS_illustrated_ratio_row.svg"></div>
-                <div id="ratioRow1"><img src="images/IECS_illustrated_ratio_row.svg"></div>
+                <div id="ratioRow6"><img src="images/IECS_illustrated_ratio_row.svg" alt="An illustration of a rip-rap truck"></div>
+                <div id="ratioRow5"><img src="images/IECS_illustrated_ratio_row.svg" alt="An illustration of a rip-rap truck"></div>
+                <div id="ratioRow4"><img src="images/IECS_illustrated_ratio_row.svg" alt="An illustration of a rip-rap truck"></div>
+                <div id="ratioRow3"><img src="images/IECS_illustrated_ratio_row.svg" alt="An illustration of a rip-rap truck"></div>
+                <div id="ratioRow2"><img src="images/IECS_illustrated_ratio_row.svg" alt="An illustration of a rip-rap truck"></div>
+                <div id="ratioRow1"><img src="images/IECS_illustrated_ratio_row.svg" alt="An illustration of a rip-rap truck"></div>
             </div> 
         </div>  
         <div id="ratioStatement">
@@ -84,9 +84,9 @@
                     <span id="lineTwo">, whereas up to <span class="number">18</span> rip-rap trucks would be required for the same delivery.</span></h2>
             </div>  
             <div id="iecsTruckratioOverflow">
-                <img id="iecsTruckratio" src="images/IECS_illustrated_iecs_city_truck.svg">
+                <img id="iecsTruckratio" src="images/IECS_illustrated_iecs_city_truck.svg" alt="An illustration of a cable & concrete truck">
         </div>  
-           <img id="scrollBtn2" src="images/IECS_illustrated_scrolldownBtn.svg">  
+           <img id="scrollBtn2" src="images/IECS_illustrated_scrolldownBtn.svg" alt="Scroll down icon">  
         </div>  
     </section>
 
@@ -104,47 +104,47 @@
         </div>
         <div id="indc1Div">
             <div id="dollarDiv1">
-                <img id="dollarIcon1" src="images/IECS_illustrated_money_icon_white.svg">
+                <img id="dollarIcon1" src="images/IECS_illustrated_money_icon_white.svg" alt="A bag of money icon">
                     <div id="dollarText1">
                         <h2>110.60</h2>
                         <p>FUEL COST</p>
                     </div>
             </div>
         <div id="fuelDiv1">
-            <img id="iconFuel1" src="images/IECS_illustrated_fuel_icon_white.svg">
+            <img id="iconFuel1" src="images/IECS_illustrated_fuel_icon_white.svg" alt="A white fuel icon">
                 <h2>79</h2>
                 <p>LITRES</p>
         </div>
-            <img id="indicator1" src="images/IECS_illustrated_assets_green_indicator.svg">
+            <img id="indicator1" src="images/IECS_illustrated_assets_green_indicator.svg" alt="Green indicator panel">
     </div>
     <div id="iecsFuelTitle">
         <h2>Cable Concrete</h2>
     </div>
     <div id="iecsFuel">
-        <img id="scale1" src="images/IECS_illustrated_scale_black.svg">   
-        <img id ="fuelAnim1" src="images/IECS_illustrated_fuel.svg">
+        <img id="scale1" src="images/IECS_illustrated_scale_black.svg" alt="Scale container holding the fuel">   
+        <img id ="fuelAnim1" src="images/IECS_illustrated_fuel.svg" alt="A illustration of fuel">
     </div>
     <div id="indc2Div">
         <div id="dollarDiv2">
-                <img id="dollarIcon2" src="images/IECS_illustrated_money_icon.svg">
+                <img id="dollarIcon2" src="images/IECS_illustrated_money_icon.svg" alt="A bag of money icon">
                 <div id="dollarText2">
                     <h2>1,990.80</h2>
                     <p>FUEL COST</p>
                 </div>
         </div>
         <div id="fuelDiv2">
-            <img id="iconFuel2" src="images/IECS_illustrated_fuel_icon.svg">
+            <img id="iconFuel2" src="images/IECS_illustrated_fuel_icon.svg" alt="An illustrated fuel icon">
                 <h2>1,422</h2>
                 <p>LITRES</p>
         </div>
-            <img id="indicator2" src="images/IECS_illustrated_assets_gray_indicator.svg">
+            <img id="indicator2" src="images/IECS_illustrated_assets_gray_indicator.svg" alt="Gray indicator panel">
     </div>
     <div id="rrFuelTitle">
         <h2>Rip-Rap</h2>
     </div>
     <div id="rrFuel">
-        <img id="scale2" src="images/IECS_illustrated_scale.svg"> 
-        <img id ="fuelAnim2" src="images/IECS_illustrated_fuel.svg">
+        <img id="scale2" src="images/IECS_illustrated_scale.svg" alt="Container for the fuel"> 
+        <img id ="fuelAnim2" src="images/IECS_illustrated_fuel.svg" alt="An illustration of the fuel container">
     </div>
     </section>
 
@@ -157,21 +157,21 @@
                         <span class="number">19%</span> of the total carbon emissions in Canada"</p>
                         <p class="source"><a href="https://www.nrcan.gc.ca/energy/efficiency/transportation/commercial-vehicles/reports/7607" target="_blank">Source: Natural Resources Canada</a></p>
         </div>
-       <img id="emissionsCloud" src="images/IECS_illustrated_cityscape_clouds.svg">
-       <img id="citytruckRow1" src="images/IECS_illustrated_cityriprap_trucks_2.svg">
-       <img id="citytruckRow2" src="images/IECS_illustrated_cityriprap_trucks_1.svg">
-       <img id="citytruckRow3" src="images/IECS_illustrated_cityriprap_trucks_1.svg">
-            <img id="iecsSmog" src="images/IECS_illustrated_cityscape_iecssmog.svg">
+       <img id="emissionsCloud" src="images/IECS_illustrated_cityscape_clouds.svg" alt="An illustration of city clouds">
+       <img id="citytruckRow1" src="images/IECS_illustrated_cityriprap_trucks_2.svg" alt="An illustration of the rip-rap trucks for emissions">
+       <img id="citytruckRow2" src="images/IECS_illustrated_cityriprap_trucks_1.svg" alt="An illustration of the rip-rap trucks for emissions">
+       <img id="citytruckRow3" src="images/IECS_illustrated_cityriprap_trucks_1.svg" alt="An illustration of the rip-rap trucks for emissions">
+            <img id="iecsSmog" src="images/IECS_illustrated_cityscape_iecssmog.svg" alt="An illustration of the rip-rap trucks for emissions">
             <div id="iecsSmogData">
                 <h2>298g</p>    
             </div>
-            <img id="riprapSmog" src="images/IECS_illustrated_riprap_smog.svg">
-            <img id="riprapSmogSmall" src="images/IECS_illustrated_cityscape_iecs_smallsmog.svg">
+            <img id="riprapSmog" src="images/IECS_illustrated_riprap_smog.svg" alt="A plumm of dark cloud for rip-rap">
+            <img id="riprapSmogSmall" src="images/IECS_illustrated_cityscape_iecs_smallsmog.svg" alt="A plum of green smoke for ices">
                 <div id="riprapSmogData">
                 <h2>5,424g</p>
             </div>
-       <img id="iecsTruck" src="images/IECS_illustrated_iecs_city_truck.svg">
-       <img id="cityForest" src="images/IECS_illustrated_cityscape_background.svg">
+       <img id="iecsTruck" src="images/IECS_illustrated_iecs_city_truck.svg" alt="An illustration of ices truck">
+       <img id="cityForest" src="images/IECS_illustrated_cityscape_background.svg" alt="A city scape background">
     </section>
 
     <!––road damage space-->
@@ -199,17 +199,17 @@
         <div id="street">
         <img id="streetLine" src="images/IECS_illustrated_road_damage_background.svg">
 
-            <img id="car1" src="images/IECS_illustrated_yellowcar.svg">
-            <img id="car2" src="images/IECS_illustrated_taxicar.svg">
-            <img id="car3" src="images/IECS_illustrated_lightgraycar.svg">
-            <img id="car4" src="images/IECS_illustrated_lightbluecar.svg">
-            <img id="car5" src="images/IECS_illustrated_sandcar.svg">
+            <img id="car1" src="images/IECS_illustrated_yellowcar.svg" alt="Illustration of a yellow car">
+            <img id="car2" src="images/IECS_illustrated_taxicar.svg" alt="Illustration of a taxi cab">
+            <img id="car3" src="images/IECS_illustrated_lightgraycar.svg" alt="Illustration of a light gray car">
+            <img id="car4" src="images/IECS_illustrated_lightbluecar.svg" alt="Illustration of a light blue car">
+            <img id="car5" src="images/IECS_illustrated_sandcar.svg" alt="Illustration of a sand car">
 
-            <img id="rrDamageTruck1" src="images/IECS_illustrated_riprap_truck_damage.svg">
-            <img id="rrDamageTruck2" src="images/IECS_illustrated_riprap_truck_damage.svg">
-            <img id="rrDamageTruck3" src="images/IECS_illustrated_riprap_truck_damage.svg">
-            <img id="rrDamageTruck4" src="images/IECS_illustrated_riprap_truck_damage.svg">
-            <img id="rrDamageTruck5" src="images/IECS_illustrated_riprap_truck_damage.svg">
+            <img id="rrDamageTruck1" src="images/IECS_illustrated_riprap_truck_damage.svg" alt="Illustration of a rip-rap truck">
+            <img id="rrDamageTruck2" src="images/IECS_illustrated_riprap_truck_damage.svg" alt="Illustration of a rip-rap truck">
+            <img id="rrDamageTruck3" src="images/IECS_illustrated_riprap_truck_damage.svg" alt="Illustration of a rip-rap truck">
+            <img id="rrDamageTruck4" src="images/IECS_illustrated_riprap_truck_damage.svg" alt="Illustration of a rip-rap truck">
+            <img id="rrDamageTruck5" src="images/IECS_illustrated_riprap_truck_damage.svg" alt="Illustration of a rip-rap truck">
 
             <img id="roadCrack1" src="images/IECS_illustrated_roadcrack_1.svg">
             <img id="roadCrack2" src="images/IECS_illustrated_roadcrack_2.svg">
