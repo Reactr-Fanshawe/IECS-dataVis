@@ -318,25 +318,30 @@ This improves overall appearance, allows for pedestrian traffic and yard maintai
                     <div class="keyLine"></div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                         Distinctio porro quo officia quis vitae ut ad ipsam deleniti autem commodi consectetur,
-                         perferendis veniam maxime voluptate?</p>
+                        perferendis veniam maxime voluptate?</p>
                 </div>
             </div>
             <div class="actionBtn"><p>Learn More</p></div>
         </div>
+        <!-- Footer section -->
+        <section class="footerMain">
+            <h1 class="hidden">footer</h1>
+            <footer class="footerCon">
+                    <h4 class="contactHeadQuarters">Contact Us:</h4>
+                    <p>22295 Hoskins Line Rodney, Ontario Canada, N0L 2C0 Phone: 1-800-821-7462</p>
+                    <a href="https://iecs.com/contact/" target="_blank"> See all locations</a>
+            </footer>
+        </section>
+        <!-- footer section end -->
     </section>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
         
-
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
-        
-
         <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"></script>
-
-
 
         <script src="js/main.js"></script>
     </body>
