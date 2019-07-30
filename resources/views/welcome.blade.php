@@ -241,6 +241,7 @@
     <!-- Vegetation section -->
     <section id="vegetation">
         <h1 class="hidden">Vegetation summary</h1>
+        <h2 class="hidden">Vegetation analysis data</h2>
         <!-- Title description  -->
         <div id="ccVegDiv">
             <div class="ccCon">
