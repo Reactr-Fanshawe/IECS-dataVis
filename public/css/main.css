@@ -1826,9 +1826,9 @@ span .number {
 }
 
 .actionBtn {
-    border: 2px solid #c0e74d;
+    background-color: white;
     border-radius: 50px;
-    color: white;
+    color: #247b08;
     width: 12vw;
     padding: 1%;
     margin-top: 50px;
