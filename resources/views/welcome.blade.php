@@ -163,12 +163,12 @@
        <img id="citytruckRow3" src="images/IECS_illustrated_cityriprap_trucks_1.svg" alt="An illustration of the rip-rap trucks for emissions">
             <img id="iecsSmog" src="images/IECS_illustrated_cityscape_iecssmog.svg" alt="An illustration of the rip-rap trucks for emissions">
             <div id="iecsSmogData">
-                <h2>298g</p>    
+                <h2>298g</h2>    
             </div>
             <img id="riprapSmog" src="images/IECS_illustrated_riprap_smog.svg" alt="A plumm of dark cloud for rip-rap">
             <img id="riprapSmogSmall" src="images/IECS_illustrated_cityscape_iecs_smallsmog.svg" alt="A plum of green smoke for ices">
                 <div id="riprapSmogData">
-                <h2>5,424g</p>
+                <h2>5,424g</h2>
             </div>
        <img id="iecsTruck" src="images/IECS_illustrated_iecs_city_truck.svg" alt="An illustration of ices truck">
        <img id="cityForest" src="images/IECS_illustrated_cityscape_background.svg" alt="A city scape background">
@@ -211,18 +211,18 @@
             <img id="rrDamageTruck4" src="images/IECS_illustrated_riprap_truck_damage.svg" alt="Illustration of a rip-rap truck">
             <img id="rrDamageTruck5" src="images/IECS_illustrated_riprap_truck_damage.svg" alt="Illustration of a rip-rap truck">
 
-            <img id="roadCrack1" src="images/IECS_illustrated_roadcrack_1.svg">
-            <img id="roadCrack2" src="images/IECS_illustrated_roadcrack_2.svg">
-            <img id="roadCrack3" src="images/IECS_illustrated_roadcrack_3.svg">
-            <img id="roadCrack4" src="images/IECS_illustrated_roadcrack_4.svg">
-            <img id="roadCrack5" src="images/IECS_illustrated_roadcrack_5.svg">
-            <img id="roadCrack6" src="images/IECS_illustrated_roadcrack_6.svg">
-            <img id="potHole" src="images/IECS_illustrated_assets_pothole.svg">
-            <img id="repairTruck" src="images/IECS_illustrated_tarmac_roller.svg">
-            <img id="pylon1" class="repairFade" src="images/IECS_illustrated_construction_cone.svg">
-            <img id="pylon2" class="repairFade" src="images/IECS_illustrated_construction_cone.svg">
-            <img id="roadBlock1" class="repairFade" src="images/IECS_illustrated_construction_barrier.svg">
-            <img id="roadBlock2" class="repairFade" src="images/IECS_illustrated_construction_barrier.svg">
+            <img id="roadCrack1" src="images/IECS_illustrated_roadcrack_1.svg" alt="Illustration of a road crack">
+            <img id="roadCrack2" src="images/IECS_illustrated_roadcrack_2.svg" alt="Illustration of a road crack">
+            <img id="roadCrack3" src="images/IECS_illustrated_roadcrack_3.svg" alt="Illustration of a road crack">
+            <img id="roadCrack4" src="images/IECS_illustrated_roadcrack_4.svg" alt="Illustration of a road crack">
+            <img id="roadCrack5" src="images/IECS_illustrated_roadcrack_5.svg" alt="Illustration of a road crack">
+            <img id="roadCrack6" src="images/IECS_illustrated_roadcrack_6.svg" alt="Illustration of a road crack">
+            <img id="potHole" src="images/IECS_illustrated_assets_pothole.svg" alt="Illustration of a  pothole">
+            <img id="repairTruck" src="images/IECS_illustrated_tarmac_roller.svg" alt="Illustration of a tarmac roller">
+            <img id="pylon1" class="repairFade" src="images/IECS_illustrated_construction_cone.svg" alt="Illustration of a construction cones">
+            <img id="pylon2" class="repairFade" src="images/IECS_illustrated_construction_cone.svg" alt="Illustration of a construction cones">
+            <img id="roadBlock1" class="repairFade" src="images/IECS_illustrated_construction_barrier.svg" alt="Illustrated construction">
+            <img id="roadBlock2" class="repairFade" src="images/IECS_illustrated_construction_barrier.svg" alt="Illustrated construction">
         </div>
 
         <div id="damageText">
