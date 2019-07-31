@@ -1761,7 +1761,7 @@ span .number {
     -moz-transition: all 5s ease-out;
     -ms-transition: all 5s ease-out;
     -o-transition: all 5s ease-out;
-    -webkit-transition-delay: 7s;
+    -webkit-transition: all 5s ease-out;
     transform: translateX(-850%);
     -o-transform: translateX(-850%);
     -moz-transform: translateX(-850%);
@@ -1970,10 +1970,10 @@ span .number {
     width: 40vh;
     right: 36vw;
     transition: all 6s linear;
-    -moz-transition-delay: all 6s linear;
-    -ms-transition-delay: all 6s linear;
-    -o-transition-delay: all 6s linear;
-    -webkit-transition-delay: all 6s linear;
+    -moz-transition: all 6s linear;
+    -ms-transition: all 6s linear;
+    -o-transition: all 6s linear;
+    -webkit-transition: all 6s linear;
     transform: translateX(-1200%);
     -o-transform: translateX(-1200%);
     -moz-transform: translateX(-1200%);
@@ -2219,11 +2219,11 @@ span .number {
     align-items: center;
     padding: 1%;
     background-color: #5B6B4E;
-    transition: all 2.5s linear;
-    -moz-transition: all 2.5s linear;
-    -ms-transition: all 2.5s linear;
-    -o-transition: all 2.5 linear;
-    -webkit-transition: all 2.5 linear;
+    transition: all 4s linear;
+    -moz-transition: all 4s linear;
+    -ms-transition: all 4s linear;
+    -o-transition: all 4s linear;
+    -webkit-transition: all 4s linear;
 }
 
 #dashboard.fade-in {
@@ -2359,7 +2359,6 @@ span .number {
     opacity: 0;
 }
 
-
 #finaleBGcc {
     width: 100%;
     position: absolute;
@@ -2374,14 +2373,13 @@ span .number {
 
 #finaleBGcc.fade-in {
     z-index: -1;
-    transition-delay: 2s;
-    -moz-transition-delay: 7s;
-    -ms-transition-delay: 7s;
-    -o-transition-delay: 7s;
-    -webkit-transition-delay: 7s;
+    transition-delay: 4s;
+    -moz-transition-delay: 4s;
+    -ms-transition-delay: 4s;
+    -o-transition-delay: 4s;
+    -webkit-transition-delay: 4s;
     opacity: .25;
 }
-
 
 .call-to-actionCon {
     display: flex;
