@@ -285,7 +285,7 @@
                     <img id="level-icon-0" src="images/IECS_illustrated_assets_road_pigBank.svg" alt="fuel level icon">
                 </div>
                 <div class="amount-numbers">
-                    <p><span id="amount1" class="amount">1422</span>Dollars<p> 
+                    <p><span id="amount0" class="amount">1990</span>Dollars<p> 
                 </div>
             </div>
             <div class="dashBox1">
@@ -315,7 +315,7 @@
                         <img id="level-icon-3" src="images/IECS_illustrated_assets_road_damage.svg" alt="road damage level icon">
                     </div>
                     <div class="amount-numbers">
-                        <p><span id="amount3" class="amount">Low</span><p> 
+                        <p><span id="amount3" class="amount"></span><p> 
                     </div>
             </div>
              <!-- Vegetation -->

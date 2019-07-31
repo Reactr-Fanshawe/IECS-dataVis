@@ -2252,6 +2252,42 @@ span .number {
     padding:20px;
 }
 
+
+
+#amount3.fade-in:after {
+    content: "";
+    animation: roadText 7.5s linear;
+    -moz-animation: roadText 7.5s linear;
+    -ms-animation: roadText 7.5s linear;
+    -o-animation: roadText 7.5s linear;
+    -webkit-animation: roadText 7.5s linear;
+    animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -ms-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+}
+
+@keyframes roadText {
+    0% { content: "High";}
+    100% {content: "Low";}
+}
+
+/*@-webkit-keyframes roadText {
+    0% { content: "High";}
+    100% {content: "Low";}
+}
+
+@-moz-keyframes roadText {
+    0% { content: "High";}
+    100% {content: "Low";}
+}
+
+@-o-keyframes roadText {
+    0% { content: "High";}
+    100% {content: "Low";}
+}*/
+
 .summaryDash {
     display: flex;
     justify-content: space-between;

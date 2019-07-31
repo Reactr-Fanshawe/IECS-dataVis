@@ -576,6 +576,15 @@ $(document).ready(function(){
 
 
   var countMagic = new ScrollMagic.Controller();
+  
+  function countDownCost(){
+
+    var cont = { val: 1990 },
+      newVal = 110;
+  
+    TweenLite.to(cont, 3, { val:newVal, roundProps:"val",  delay: 3, onUpdate:function(){document.getElementById("amount0").innerHTML=cont.val}});
+
+  }
 
 
   function countDownFuel(){
@@ -605,19 +614,11 @@ $(document).ready(function(){
 
   }*/
 
-  /*function countUpVeg(){
-
-    var cont = { val: 0 },
-      newVal = 40;
-  
-    TweenMax.to(cont, 3, { val:newVal, roundProps:"val",  delay: 4, onUpdate:function(){document.getElementById("amount4").innerHTML=cont.val}});
-
-  }*/
 
   function Counter() {
     countDownFuel();
     countDownEmissions();
-    /*wordChangeRoad();*/
+    countDownCost();
     /*countUpVeg();*/
   }
 
@@ -639,46 +640,56 @@ $(document).ready(function(){
     .setClassToggle('#dashboard', 'fade-in')
     .addTo(countMagic);
 
-    var bgIMGfadeScene = new ScrollMagic.Scene({
-      triggerElement: '#finale',
-      triggerHook: 1,
-      reverse:false
-    })
-      .setClassToggle('#finaleBGcc', 'fade-in')
-      .addTo(countMagic);
+  
+  var roadTextScene = new ScrollMagic.Scene({
+    triggerElement: '#finale',
+    triggerHook: 1,
+    reverse:false
+  })
+    .setClassToggle('#amount3', 'fade-in')
+    .addTo(countMagic);
+  
+
+  var bgIMGfadeScene = new ScrollMagic.Scene({
+    triggerElement: '#finale',
+    triggerHook: 1,
+    reverse:false
+  })
+    .setClassToggle('#finaleBGcc', 'fade-in')
+    .addTo(countMagic);
 
       
-    var bgLinearfadeScene = new ScrollMagic.Scene({
-      triggerElement: '#finale',
-      triggerHook: 1,
-      reverse:false
-    })
-      .setClassToggle('#finale', 'fade-in')
-      .addTo(countMagic);
+  var bgLinearfadeScene = new ScrollMagic.Scene({
+    triggerElement: '#finale',
+    triggerHook: 1,
+    reverse:false
+  })
+    .setClassToggle('#finale', 'fade-in')
+    .addTo(countMagic);
  
-    var bgIMGfadeOutScene = new ScrollMagic.Scene({
-      triggerElement: '#finale',
-      triggerHook: 1,
-      reverse:false
-    })
-      .setClassToggle('#finaleBGrr', 'fade-in')
-      .addTo(countMagic);
+  var bgIMGfadeOutScene = new ScrollMagic.Scene({
+    triggerElement: '#finale',
+    triggerHook: 1,
+    reverse:false
+  })
+    .setClassToggle('#finaleBGrr', 'fade-in')
+    .addTo(countMagic);
 
-    var bgIMGfadeOutScene = new ScrollMagic.Scene({
-      triggerElement: '#finale',
-      triggerHook: 1,
-      reverse:false
-    })
-      .setClassToggle('.call-to-actionCon', 'fade-in')
-      .addTo(countMagic);
+  var bgIMGfadeOutScene = new ScrollMagic.Scene({
+    triggerElement: '#finale',
+    triggerHook: 1,
+    reverse:false
+  })
+    .setClassToggle('.call-to-actionCon', 'fade-in')
+    .addTo(countMagic);
    
-    var bgIMGfadeOutScene = new ScrollMagic.Scene({
-      triggerElement: '#finale',
-      triggerHook: 1,
-      reverse:false
-    })
-      .setClassToggle('.actionBtn', 'fade-in')
-      .addTo(countMagic);
+  var bgIMGfadeOutScene = new ScrollMagic.Scene({
+    triggerElement: '#finale',
+    triggerHook: 1,
+    reverse:false
+  })
+    .setClassToggle('.actionBtn', 'fade-in')
+    .addTo(countMagic);
 
 
 });
