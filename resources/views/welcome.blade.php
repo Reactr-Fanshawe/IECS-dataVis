@@ -21,8 +21,8 @@
             </div>
   
         <div id="centerText">
-            <p id="title">Cable Concrete is environmentally-friendly</p>
-            <p id="message">See how you can be a part of the solution to reducing your ecological footprint within the construction industry.</p>
+            <p id="title">Cable concrete creates environmentally-friendly solutions for erosion control projects</p>
+            <p id="message">Continue to find out how IECS Cable Concrete can be part of the solution</p>
             <div id="begin"><p>SCROLL</p></div>
             <img id="scrollBtn" src="images/IECS_illustrated_scrolldownBtn.svg" alt="Scroll down icon">
         </div>
@@ -36,9 +36,7 @@
         <div id="persona">
             <div id="personaText">
                 <p id="michaelText">This is Michael.</p>
-                    <p>He wants to provide erosion control for his local 
-                    waterway and is looking for the most environmentally and 
-                    economically conscientious contract.</p>
+                    <p>He is an engineer contracted to build an erosion control solution for a local waterway project. The specification of the job are:</p>
             </div>
         <div id="scenarioText">
             <p>He has <span class="number">215m<sup>2</sup></span> to cover, and the terrain would require 
@@ -47,7 +45,7 @@
         </div>
         <div id="scenarioDetail">
             <div class="imageThumb">
-                <p class="scenario-title-text">Rip-Rap</p>
+                <p class="scenario-title-text">Riprap</p>
                 <img id="rrThumb" src="images/rrThumb.png" alt="A photograph of rip-rap on site">
             </div>
                 <div>
@@ -84,7 +82,7 @@
         <div id="ratioStatement">
             <div id="ratioText">       
                     <h2 id="sentenceOne"><span id="lineOne">For Michael's job, IECS would only need <span class="numberGreen">1</span> truck of cable concrete</span>
-                    <span id="lineTwo">, whereas up to <span class="number">18</span> rip-rap trucks would be required for the same delivery.</span></h2>
+                    <span id="lineTwo">, whereas up to <span class="number">18</span> Riprap trucks would be required for the same delivery.</span></h2>
             </div>  
             <div id="iecsTruckratioOverflow">
                 <img id="iecsTruckratio" src="images/IECS_illustrated_iecs_city_truck.svg" alt="An illustration of a cable & concrete truck">
@@ -99,7 +97,7 @@
     <section id="fuelSave">
         <h1 class="hidden">Feul Saving</h1>
         <div id="fuelText">
-            <h2>Reduced fuel consumption means <span class="textGreen">more savings</span> and <span class="textGreen">less waste</span></h2>
+            <h2>Fewer trucks means reduced <span class="textGreen">fuel consumption</span> and more <span class="textGreen">cost savings</span></h2>
         </div>
         <div id="fuelFact">
             <p>“Heavy trucks make up just around <span class="number">7%</span> of the vehicles on the 
@@ -144,7 +142,7 @@
             <img id="indicator2" src="images/IECS_illustrated_assets_gray_indicator.svg" alt="Gray indicator panel">
     </div>
     <div id="rrFuelTitle">
-        <h2>Rip-Rap</h2>
+        <h2>Riprap</h2>
     </div>
     <div id="rrFuel">
         <img id="scale2" src="images/IECS_illustrated_scale.svg" alt="Container for the fuel"> 
@@ -187,18 +185,16 @@
         <div class="roadDamage-Description">
             <!-- column 1 title -->
             <div class="roadDamage-column-1">
-                <h3>More traffic</h3>
-                <p>Michaels' delivery of riprap would put 17 more trucks on the road. This causes
-                    an uneccesarry amount of traffic, creating more risk and inconvenience
-                    for other drivers on the road
+                <h3>Less Traffic & Congestion</h3>
+                <p>Michaels' delivery of Riprap would put 17 more trucks on the road. 
+                This causes an increased level of traffic and congestion.
                </p>  
             </div>
             <!-- column 2 title -->
             <div class="roadDamage-column-2">
-                <h3>More damage</h3>
-                <p>The weight of a transport truck causes a significantly larger amount of damage
-                    the roads. Tax dollars spent on road repairs is already high, so less heavy
-                    trucks is better.
+                <h3>Less road damage from commercial trucks</h3>
+                <p>Larger numbers of commercial trucks also contribute to continual road damage and repair, 
+                    costing taxpayers and increasing a company’s environmental footprint even further.
                </p>  
             </div>
             <div class="roadDamage-column-3">
@@ -282,6 +278,16 @@
             <h3>Client overview</h3>
         </div> -->
         <div id="dashboard">
+        <div class="dashBox0">
+                <!-- Fuel  -->
+                <div class="summaryDash">
+                    <h2>Fuel cost</h2>
+                    <img id="level-icon-0" src="images/IECS_illustrated_assets_road_pigBank.svg" alt="fuel level icon">
+                </div>
+                <div class="amount-numbers">
+                    <p><span id="amount1" class="amount">1422</span>Dollars<p> 
+                </div>
+            </div>
             <div class="dashBox1">
                 <!-- Fuel  -->
                 <div class="summaryDash">
@@ -322,9 +328,7 @@
                 <div class="call-to-action">
                     <h3>Now It’s your turn.</h3>
                     <div class="keyLine"></div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Distinctio porro quo officia quis vitae ut ad ipsam deleniti autem commodi consectetur,
-                        perferendis veniam maxime voluptate?</p>
+                    <p>We also offer a separate Cable Concrete Calculator tool to estimate the type and amount of Cable Concrete products needed for all of your projects.</p>
                 </div>
             </div>
                 <div class="actionBtn">
