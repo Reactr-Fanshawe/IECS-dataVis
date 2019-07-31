@@ -49,24 +49,7 @@ a:link {
     bottom: 60%;
     left: 7%;
 }
-
-#sun {
-    position: absolute;
-    width: 4%;
-    left: 23%;
-    top: 17%;
-    z-index: -1;
-    animation: sunrise 3.5s ease-out;
-}
   
-@keyframes sunrise{
-    0%{
-      transform: translate(60%, 160%);
-    }
-    100%{
-        transform: translate(0%, 0%);
-    }
-  }
 
 #logoSpace {
     width: 18vw; 
@@ -114,9 +97,27 @@ a:link {
     width: 3vw;
     padding-top: 10%;
     animation: mover1 1s infinite  alternate;
+    -webkit-animation: mover1 1s infinite alternate;
+    -moz-animation:    mover1 1s infinite alternate;
+    -o-animation:      mover1 1s infinite alternate;
 }
 
 @keyframes mover1 {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+
+@-webkit-keyframes mover1 {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+
+@-moz-keyframes mover1 {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+
+@-o-keyframes mover1 {
     0% { transform: translateY(0); }
     100% { transform: translateY(-10px); }
 }
@@ -193,11 +194,18 @@ a:link {
     z-index: 1;
     transition: all 2s ease-out;
     transform: translateY(-300%);
+    -webkit-transform: translateY(-300%);
+    -o-transform: translateY(-300%);
+    -moz-transform:translateY(-300%);
+    -ms-transform:translateY(-300%);
     line-height: 5.5vh; 
 }
 
 #personaText.fade-in {
     transform: translateY(0%); 
+    -o-transform: translateY(0%);
+    -moz-transform:translateY(0%);
+    -ms-transform:translateY(0%);
 }
 
 #scenarioText {
@@ -211,12 +219,17 @@ a:link {
     z-index: 1;
     transition: all 2s ease-out;
     transform: translateY(-500%); 
-
+    -o-transform: translateY(-500%);
+    -moz-transform:translateY(-500%);
+    -ms-transform:translateY(-500%);
 }
 
 #scenarioText.fade-in {
     transition-delay: 2s;
     transform: translateY(0%); 
+    -o-transform: translateY(0%);
+    -moz-transform:translateY(0%);
+    -ms-transform:translateY(0%);
 }
 
 /* superscript */
@@ -269,12 +282,18 @@ sup {
     position: absolute;
     transition: all 1.5s ease-out;
     transform: translateY(200%);
+    -o-transform: translateY(200%);
+    -moz-transform:translateY(200%);
+    -ms-transform:translateY(200%);
     bottom: 0px;
     height: 55vh;
 }
 
 #michael.fade-in {
     transform: translateY(0%);
+    -o-transform: translateY(0%);
+    -moz-transform:translateY(0%);
+    -ms-transform:translateY(0%);
 }
 
 #plant {
@@ -289,6 +308,9 @@ sup {
     opacity: 0;
     transition: all 6s ease-out;
     transform: translateX(-40%);
+    -o-transform: translateX(-40%);
+    -moz-transform:translateX(-40%);
+    -ms-transform:translateX(-40%);
     position: relative;
     top: 40vh;
 }
@@ -307,6 +329,9 @@ sup {
 #clouds1.fade-in {
     opacity: 1;
     transform: translateX(0px);
+    -o-transform: translateX(0px);
+    -moz-transform:translateX(0px);
+    -ms-transform:translateX(0px);
 }
 
 /* ratio styling*/
@@ -423,11 +448,17 @@ span .number {
     right: 15vw;
     transition: all 1.5s ease-out;
     transform: translateX(-450%);
+    -o-transform: translateX(-450%);
+    -moz-transform:translateX(-450%);
+    -ms-transform:translateX(-450%);
     opacity: 0;
 }
 
 #iecsTruckratio.fade-in {
     transform: translateX(0px);
+    -o-transform: translateX(0px);
+    -moz-transform:translateX(0px);
+    -ms-transform:translateX(0px);
     opacity: 1;
 }
 
@@ -438,10 +469,16 @@ span .number {
     transition: all 2s ease-out;
     transition-delay: 3.5s;
     transform: translateX(-170%);
+    -o-transform: translateX(-170%);
+    -moz-transform:translateX(-170%);
+    -ms-transform:translateX(-170%);
 }
 
 #ratioRow1.fade-in {
     transform: translateX(0px);
+    -o-transform: translateX(0px);
+    -moz-transform:translateX(0px);
+    -ms-transform:translateX(0px);
 }
 
 #ratioRow2 {
@@ -451,10 +488,16 @@ span .number {
     transition: all 2s ease-out;
     transition-delay: 3.2s;
     transform: translateX(-170%);
+    -o-transform: translateX(-170%);
+    -moz-transform:translateX(-170%);
+    -ms-transform:translateX(-170%);
 }
 
 #ratioRow2.fade-in {
     transform: translateX(0px);
+    -o-transform: translateX(0px);
+    -moz-transform:translateX(0px);
+    -ms-transform:translateX(0px);
 }
 
 
@@ -465,10 +508,16 @@ span .number {
     transition: all 2s ease-out;
     transition-delay: 2.9s;
     transform: translateX(-170%);
+    -o-transform: translateX(-170%);
+    -moz-transform:translateX(-170%);
+    -ms-transform:translateX(-170%);
 }
 
 #ratioRow3.fade-in {
     transform: translateX(0px);
+    -o-transform: translateX(0px);
+    -moz-transform:translateX(0px);
+    -ms-transform:translateX(0px);
 }
 
 #ratioRow4 {
@@ -478,10 +527,16 @@ span .number {
     transition: all 2s ease-out;
     transition-delay: 2.6s;
     transform: translateX(-170%);
+    -o-transform: translateX(-170%);
+    -moz-transform:translateX(-170%);
+    -ms-transform:translateX(-170%);
 }
 
 #ratioRow4.fade-in {
     transform: translateX(0px);
+    -o-transform: translateX(0px);
+    -moz-transform:translateX(0px);
+    -ms-transform:translateX(0px);
 }
 
 #ratioRow5 {
@@ -491,11 +546,17 @@ span .number {
     transition: all 2s ease-out;
     transition-delay: 2.3s;
     transform: translateX(-170%);
+    -o-transform: translateX(-170%);
+    -moz-transform:translateX(-170%);
+    -ms-transform:translateX(-170%);
     margin-top: -1%;
 }
 
 #ratioRow5.fade-in {
     transform: translateX(0px);
+    -o-transform: translateX(0px);
+    -moz-transform:translateX(0px);
+    -ms-transform:translateX(0px);
 }
 
 #ratioRow6 {
@@ -504,12 +565,18 @@ span .number {
     margin: 0 auto;
     transition: all 2s ease-out;
     transform: translateX(-170%);
+    -o-transform: translateX(-170%);
+    -moz-transform:translateX(-170%);
+    -ms-transform:translateX(-170%);
     transition-delay: 2s;
     margin-top: 2%;
 }
 
 #ratioRow6.fade-in {
     transform: translateX(0px);
+    -o-transform: translateX(0px);
+    -moz-transform:translateX(0px);
+    -ms-transform:translateX(0px);
 }
 
 #scrollBtn2 {
@@ -518,6 +585,9 @@ span .number {
     width: 3vw;
     right: 23vw;
     animation: mover2 1s infinite  alternate;
+    -webkit-animation: mover2 1s infinite alternate;
+    -moz-animation:    mover2 1s infinite alternate;
+    -o-animation:      mover2 1s infinite alternate;
     opacity: 0;
     transition: all .7s ease-out;
     transition-delay: 4.5s;
@@ -530,6 +600,21 @@ span .number {
 @keyframes mover2 {
     0% { transform: translateY(0); }
     100% { transform: translateY(-20px); }
+}
+
+@-webkit-keyframes mover2 {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); } 
+}
+
+@-moz-keyframes mover2 {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); } 
+}
+
+@-o-keyframes mover2 {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); } 
 }
 
 /* fuel save styling*/
@@ -552,12 +637,14 @@ span .number {
     position: absolute;
     transition: all 2s ease-out;
     transform: translateY(-350%);
+    -o-transform: translateY(-350%);
+    -moz-transform:translateY(-350%);
+    -ms-transform:translateY(-350%);
     transition-delay: 4s;
     text-align: center;
 }
 
 #fuelText h2 {
-
     font-weight: 700;
     font-size: 2vw;
     text-align: center;
@@ -566,6 +653,9 @@ span .number {
 
 #fuelText.fade-in {
     transform: translateY(0%);
+    -o-transform: translateY(0%);
+    -moz-transform:translateY(0%);
+    -ms-transform:translateY(0%);
     padding-bottom: 10px;
 }
 
@@ -582,12 +672,18 @@ span .number {
     position: absolute;
     transition: all .8s ease-out;
     transform: translateY(-280%);
+    -o-transform: translateY(-280%);
+    -moz-transform:translateY(-280%);
+    -ms-transform:translateY(-280%);
     transition-delay: 6.5s;
     opacity: 0;
 }
 
 #fuelFact.fade-in {
     transform: translateY(0%);
+    -o-transform: translateY(0%);
+    -moz-transform:translateY(0%);
+    -ms-transform:translateY(0%);
     opacity: 1;
 }
 
@@ -682,6 +778,9 @@ span .number {
      bottom: 8%;
      transition: all .7s ease-out;
      transform: translateY(30%);
+     -o-transform: translateY(30%);
+    -moz-transform:translateY(30%);
+    -ms-transform:translateY(30%);
      transition-delay: 3s;
      opacity: 0;
      display: flex;
@@ -690,6 +789,9 @@ span .number {
 
 #indc1Div.fade-in {
     transform: translateY(0%);
+    -o-transform: translateY(0%);
+    -moz-transform:translateY(0%);
+    -ms-transform:translateY(0%);
     opacity: 1;
 }
 
@@ -794,12 +896,18 @@ span .number {
     bottom: 42%;
     transition: all .7s ease-out;
     transform: translateY(50%);
+    -o-transform: translateY(50%);
+    -moz-transform:translateY(50%);
+    -ms-transform:translateY(50%);
     transition-delay: 3s;
     opacity: 0;
 }
 
 #indc2Div.fade-in {
     transform: translateY(0%);
+    -o-transform: translateY(0%);
+    -moz-transform:translateY(0%);
+    -ms-transform:translateY(0%);
     opacity: 1;
 }
 
@@ -874,10 +982,16 @@ span .number {
     width: 200%;
     transition: all 4s ease;
     transform: translate(30%, 30%);
+    -o-transform: translate(30%, 30%);
+    -moz-transform:translate(30%, 30%);
+    -ms-transform:translate(30%, 30%);
 }
 
 #fuelAnim1.fade-in {
     transform: translate(-30%, 0%);
+    -o-transform: translate(-30%, 0%);
+    -moz-transform:translate(-30%, 0%);
+    -ms-transform:translate(-30%, 0%);
 }
 
 
@@ -886,10 +1000,16 @@ span .number {
     width: 200%;
     transition: all 4s ease;
     transform: translate(10%, 60%);
+    -o-transform: translate(10%, 60%);
+    -moz-transform:translate(10%, 60%);
+    -ms-transform:translate(10%, 60%);
 }
 
 #fuelAnim2.fade-in {
     transform: translate(-40%, 0%);
+    -o-transform: translate(-40%, 0%);
+    -moz-transform:translate(-40%, 0%);
+    -ms-transform:translate(-40%, 0%);
 }
 
 
@@ -923,12 +1043,18 @@ span .number {
     top: 7vh;
     left: 27vw;
     transform: translateY(-400%);
+    -o-transform: translateY(-400%);
+    -moz-transform:translateY(-400%);
+    -ms-transform:translateY(-400%);
     transition: all 1s ease;
 }
 
 #emissionsFact.fade-in {
     transition-delay: 7s;
     transform: translateY(0%);
+    -o-transform: translateY(0%);
+    -moz-transform:translateY(0%);
+    -ms-transform:translateY(0%);
     margin: 0 auto;
 }
 
@@ -958,10 +1084,16 @@ span .number {
     right: 8vw;
     transition: all 2s ease;
     transform: translateX(-600%);
+    -o-transform: translateX(-600%);
+    -moz-transform:translateX(-600%);
+    -ms-transform:translateX(-600%);
 }
 
 #iecsTruck.fade-in {
     transform: translateX(0%);
+    -o-transform: translateX(0%);
+    -moz-transform:translateX(0%);
+    -ms-transform:translateX(0%);
 }
 
 #citytruckRow1 {
@@ -972,11 +1104,17 @@ span .number {
     z-index: 2;
     transition: all 3.5s ease;
     transform: translateX(-600%);
+    -o-transform: translateX(-600%);
+    -moz-transform:translateX(-600%);
+    -ms-transform:translateX(-600%);
 }
 
 #citytruckRow1.fade-in {
     transition-delay: 1.7s;
     transform: translateX(0%);
+    -o-transform: translateX(0%);
+    -moz-transform:translateX(0%);
+    -ms-transform:translateX(0%);
 }
 
 #citytruckRow2 {
@@ -987,11 +1125,17 @@ span .number {
     width: 55%;
     transition: all 3.5s ease;
     transform: translateX(-600%);
+    -o-transform: translateX(-600%);
+    -moz-transform:translateX(-600%);
+    -ms-transform:translateX(-600%);
 }
 
 #citytruckRow2.fade-in {
     transition-delay: 1.2s;
     transform: translateX(0%);
+    -o-transform: translateX(0%);
+    -moz-transform:translateX(0%);
+    -ms-transform:translateX(0%);
 }
 
 #citytruckRow3 {
@@ -1002,11 +1146,17 @@ span .number {
     width: 66%;
     transition: all 3.5s ease;
     transform: translateX(-600%);
+    -o-transform: translateX(-600%);
+    -moz-transform:translateX(-600%);
+    -ms-transform:translateX(-600%);
 }
 
 #citytruckRow3.fade-in {
     transition-delay: 1.2s;
     transform: translateX(0%);
+    -o-transform: translateX(0%);
+    -moz-transform:translateX(0%);
+    -ms-transform:translateX(0%);
 }
 
 #iecsSmog {
@@ -1018,10 +1168,16 @@ span .number {
     opacity: 0;
     transition: all 1s ease;
     transform: translate(40%, 40%) scale(0);
+    -o-transform: translate(40%, 40%) scale(0);
+    -moz-transform:translate(40%, 40%) scale(0);
+    -ms-transform:translate(40%, 40%) scale(0);
 }
 
 #iecsSmog.fade-in {
     transform: translate(0%, 0%) scale(1);
+    -o-transform: translate(0%, 0%) scale(1);
+    -moz-transform:translate(0%, 0%) scale(1);
+    -ms-transform:translate(0%, 0%) scale(1);
     transition-delay: 1.5s;
     opacity: .8;
     width: 10vw;
@@ -1057,10 +1213,16 @@ span .number {
     opacity: 0;
     transition: all 2.5s ease;
     transform: translate(40%, 60%) scale(0);
+    -o-transform: translate(40%, 60%) scale(0);
+    -moz-transform:translate(40%, 60%) scale(0);
+    -ms-transform:translate(40%, 46%) scale(0);
 }
 
 #riprapSmog.fade-in {
     transform: translate(0%, 0%) scale(1);
+    -o-transform: translate(0%, 0%) scale(1);
+    -moz-transform:translate(0%, 0%) scale(1);
+    -ms-transform:translate(0%, 0%) scale(1);
     opacity: .8;
     width: 55%;
     transition-delay: 4s;
@@ -1075,10 +1237,16 @@ span .number {
     opacity: 0;
     transition: all 4.5s ease;
     transform: scale(0);
+    -o-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
 }
 
 #riprapSmogSmall.fade-in {
     transform: scale(1);
+    -o-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
     opacity: .8;
     width: 13vw;
     transition-delay: 5s;
@@ -1201,10 +1369,16 @@ span .number {
     right: -100vw;
     transition: all 2s linear;
     transform: translateX(-1200%);
+    -o-transform: translateX(-1200%);
+    -moz-transform: translateX(-1200%);
+    -ms-transform: translateX(-1200%);
 }
 
 #car1.fade-in {
     transform: translateX(0%);
+    -o-transform: translateX(0%);
+    -moz-transform: translateX(0%);
+    -ms-transform: translateX(0%);
 }
 
 #rrDamageTruck1 {
@@ -1215,10 +1389,16 @@ span .number {
     width: 50vh;
     transition: all 5s linear;
     transform: translateX(-850%);
+    -o-transform: translateX(-850%);
+    -moz-transform: translateX(-850%);
+    -ms-transform: translateX(-850%);
 }
 
 #rrDamageTruck1.fade-in {
     transform: translateX(0%);
+    -o-transform: translateX(0%);
+    -moz-transform: translateX(0%);
+    -ms-transform: translateX(0%);
     transition-delay: .8s;
 }
 
@@ -1246,11 +1426,17 @@ span .number {
     right: -100vw;
     transition: all 4.5s ease-in;
     transform: translateX(-1200%);
+    -o-transform: translateX(-1200%);
+    -moz-transform: translateX(-1200%);
+    -ms-transform: translateX(-1200%);
 }
 
 #car2.fade-in {
     transition-delay: 1.7s;
     transform: translateX(0%);
+    -o-transform: translateX(0%);
+    -moz-transform: translateX(0%);
+    -ms-transform: translateX(0%);
 }
 
 #roadCrack5 {
@@ -1276,6 +1462,9 @@ span .number {
     width: 50vh;
     transition: all 5.5s linear;
     transform: translateX(-850%);
+    -o-transform: translateX(-850%);
+    -moz-transform: translateX(-850%);
+    -ms-transform: translateX(-850%);
 }
 
 #potHole {
@@ -1291,6 +1480,10 @@ span .number {
 #potHole.fade-in {
     opacity: 1;
     transition-delay: 5.5s;
+    -moz-transition-delay: 5.5s;
+    -ms-transition-delay: 5.5s;
+    -o-transition-delay: 5.5s;
+    -webkit-transition-delay: 5.5s;
 }
 
 #roadCrack6 {
@@ -1301,17 +1494,32 @@ span .number {
     height: 20%;
     right: -1%;
     transition: all .8s linear;
+    -moz-transition: all .8s linear;
+    -ms-transition: all .8s linear;
+    -o-transition: all .8s linear;
+    -webkit-transition: all .8s linear;
     opacity: 0;
 }
 
 #roadCrack6.fade-in {
     opacity: 1;
     transition-delay: 7.3s;
+    -moz-transition-delay: 7.3s;
+    -ms-transition-delay: 7.3s;
+    -o-transition-delay: 7.3s;
+    -webkit-transition-delay: 7.3s;
 }
 
 #rrDamageTruck2.fade-in {
     transform: translateX(0%);
+    -o-transform: translateX(0%);
+    -moz-transform: translateX(0%);
+    -ms-transform: translateX(0%);
     transition-delay: 3s;
+    -moz-transition-delay: 3s;
+    -ms-transition-delay: 3s;
+    -o-transition-delay: 3s;
+    -webkit-transition-delay: 3s;
 }
 
 #car3 {
@@ -1321,12 +1529,26 @@ span .number {
     width: 35vh;
     right: -100vw;
     transition: all 3.5s ease-in;
+    -moz-transition: all 3.5s ease-in;
+    -ms-transition: all 3.5s ease-in;
+    -o-transition: all 3.5s ease-in;
+    -webkit-transition: all 3.5s ease-in;
     transform: translateX(-1200%);
+    -o-transform: translateX(-1200%);
+    -moz-transform: translateX(-1200%);
+    -ms-transform: translateX(-1200%);
 }
 
 #car3.fade-in {
     transition-delay: 7s;
+    -moz-transition-delay: 7s;
+    -ms-transition-delay: 7s;
+    -o-transition-delay: 7s;
+    -webkit-transition-delay: 7s;
     transform: translateX(0%);
+    -o-transform: translateX(0%);
+    -moz-transform: translateX(0%);
+    -ms-transform: translateX(0%);
 }
 
 
@@ -1339,11 +1561,21 @@ span .number {
     right: -100vw;
     width: 50vh;
     transition: all 5s ease-out;
+    -moz-transition: all 5s ease-out;
+    -ms-transition: all 5s ease-out;
+    -o-transition: all 5s ease-out;
+    -webkit-transition-delay: 7s;
     transform: translateX(-850%);
+    -o-transform: translateX(-850%);
+    -moz-transform: translateX(-850%);
+    -ms-transform: translateX(-850%);
 }
 
 #rrDamageTruck3.fade-in {
     transform: translateX(0%);
+    -o-transform: translateX(0%);
+    -moz-transform: translateX(0%);
+    -ms-transform: translateX(0%);
 }
 
 #roadCrack2 {
@@ -1354,11 +1586,19 @@ span .number {
     width: 6%;
     opacity: 0;
     transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -webkit-transition: all 1s ease;
 }
 
 #roadCrack2.fade-in {
     opacity: 1;
     transition-delay: 2s;
+    -moz-transition-delay: 2s;
+    -ms-transition-delay: 2s;
+    -o-transition-delay: 2s;
+    -webkit-transition-delay: 2s;
 }
 
 #car4 {
@@ -1368,12 +1608,26 @@ span .number {
     width: 35vh;
     right: -100vw;
     transition: all 3.4s ease-in;
+    -moz-transition: all 3.4s ease-in;
+    -ms-transition: all 3.4s ease-in;
+    -o-transition: all 3.4s ease-in;
+    -webkit-transition: all 3.4s ease-in;
     transform: translateX(-1200%);
+    -o-transform: translateX(-1200%);
+    -moz-transform: translateX(-1200%);
+    -ms-transform: translateX(-1200%);
 }
 
 #car4.fade-in {
     transition-delay: .8s;
+    -moz-transition-delay: .8s;
+    -ms-transition-delay: .8s;
+    -o-transition-delay: .8s;
+    -webkit-transition-delay: .8s;
     transform: translateX(0%);
+    -o-transform: translateX(0%);
+    -moz-transform: translateX(0%);
+    -ms-transform: translateX(0%);
 }
 
 #car5 {
@@ -1383,12 +1637,26 @@ span .number {
     width: 35vh;
     right: -100vw;
     transition: all 3.1s ease-in;
+    -moz-transition: all 3.1s ease-in;
+    -ms-transition: all 3.1s ease-in;
+    -o-transition: all 3.1s ease-in;
+    -webkit-transition: all 3.1s ease-in;
     transform: translateX(-1200%);
+    -o-transform: translateX(-1200%);
+    -moz-transform: translateX(-1200%);
+    -ms-transform: translateX(-1200%);
 }
 
 #car5.fade-in {
     transition-delay: 1.5s;
+    -moz-transition-delay: 1.5s;
+    -ms-transition-delay: 1.5s;
+    -o-transition-delay: 1.5s;
+    -webkit-transition-delay: 1.5s;
     transform: translateX(0%);
+    -o-transform: translateX(0%);
+    -moz-transform: translateX(0%);
+    -ms-transform: translateX(0%);
 }
 
 #rrDamageTruck4 {
@@ -1398,12 +1666,26 @@ span .number {
     width: 50vh;
     right: -100vw;
     transition: all 5s ease-out;
+    -moz-transition: all 5s ease-out;
+    -ms-transition: all 5s ease-out;
+    -o-transition: all 5s ease-out;
+    -webkit-transition: all 5s ease-out;
     transform: translateX(-850%);
+    -o-transform: translateX(-850%);
+    -moz-transform: translateX(-850%);
+    -ms-transform: translateX(-850%);
 }
 
 #rrDamageTruck4.fade-in {
     transform: translateX(0%);
+    -o-transform: translateX(0%);
+    -moz-transform: translateX(0%);
+    -ms-transform: translateX(0%);
     transition-delay: 2.5s;
+    -moz-transition-delay: 2.5s;
+    -ms-transition-delay: 2.5s;
+    -o-transition-delay: 2.5s;
+    -webkit-transition-delay: 2.5s;
 }
 
 #roadCrack1 {
@@ -1414,11 +1696,19 @@ span .number {
     left: 10%;
     opacity: 0;
     transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -webkit-transition: all 1s ease;
 }
 
 #roadCrack1.fade-in {
     opacity: 1;
     transition-delay: 4s;
+    -moz-transition-delay: 4s;
+    -ms-transition-delay: 4s;
+    -o-transition-delay: 4s;
+    -webkit-transition-delay: 4s;
 }
 
 
@@ -1429,12 +1719,26 @@ span .number {
     right: -100vw;
     width: 50vh;
     transition: all 6s ease-in;
+    -moz-transition: all 6s ease-in;
+    -ms-transition: all 6s ease-in;
+    -o-transition: all 6s ease-in;
+    -webkit-transition: all 6s ease-in;
     transform: translateX(-850%);
+    -o-transform: translateX(-850%);
+    -moz-transform: translateX(-850%);
+    -ms-transform: translateX(-850%);
 }
 
 #rrDamageTruck5.fade-in {
     transition-delay: 3.5s;
+    -moz-transition-delay: 3.5s;
+    -ms-transition-delay: 3.5s;
+    -o-transition-delay: 3.5s;
+    -webkit-transition-delay: 3.5s;
     transform: translateX(0%);
+    -o-transform: translateX(0%);
+    -moz-transform: translateX(0%);
+    -ms-transform: translateX(0%);
 }
 
 #roadCrack3 {
@@ -1445,11 +1749,19 @@ span .number {
     width: 13%;
     opacity: 0;
     transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -webkit-transition: all 1s ease;
 }
 
 #roadCrack3.fade-in {
     opacity: 1;
     transition-delay: 8.5s;
+    -moz-transition-delay: 8.5s;
+    -ms-transition-delay: 8.5s;
+    -o-transition-delay: 8.5s;
+    -webkit-transition-delay: 8.5s;
 }
 
 /*construction truck animation*/
@@ -1461,12 +1773,26 @@ span .number {
     width: 40vh;
     right: 36vw;
     transition: all 6s linear;
+    -moz-transition-delay: all 6s linear;
+    -ms-transition-delay: all 6s linear;
+    -o-transition-delay: all 6s linear;
+    -webkit-transition-delay: all 6s linear;
     transform: translateX(-1200%);
+    -o-transform: translateX(-1200%);
+    -moz-transform: translateX(-1200%);
+    -ms-transform: translateX(-1200%);
 }
 
 #repairTruck.fade-in {
     transform: translateX(0%);
+    -o-transform: translateX(0%);
+    -moz-transform: translateX(0%);
+    -ms-transform: translateX(0%);
     transition-delay: 6s;
+    -moz-transition-delay: 6s;
+    -ms-transition-delay: 6s;
+    -o-transition-delay: 6s;
+    -webkit-transition-delay: 6s;
 }
 
 #pylon1 {
@@ -1504,11 +1830,19 @@ span .number {
 .repairFade {
     opacity: 0;
     transition: all 1s linear;
+    -moz-transition: all 1s linear;
+    -ms-transition: all 1s linear;
+    -o-transition: all 1s linear;
+    -webkit-transition: all 1s linear;
 }
 
 .repairFade.fade-in {
     opacity: 1;
     transition-delay: 12.5s;
+    -moz-transition-delay: 12.5s;
+    -ms-transition-delay: 12.5s;
+    -o-transition-delay: 12.5s;
+    -webkit-transition-delay: 12.5s;
 } 
 
 /* vegetation styling */
@@ -1533,11 +1867,21 @@ span .number {
     padding: 3%;
     height: auto;
     transform: translateX(-40%);
+    -o-transform: translateX(-40%);
+    -moz-transform: translateX(-40%);
+    -ms-transform: translateX(-40%);
     transition: all 3s ease-out;
+    -moz-transition: all 3s ease-out;
+    -ms-transition: all 3s ease-out;
+    -o-transition: all 3s ease-out;
+    -webkit-transition-: all 3s ease-out;
 }
 
 .ccCon {
     transform: translateX(0%);
+    -o-transform: translateX(0%);
+    -moz-transform: translateX(0%);
+    -ms-transform: translateX(0%);
 }
 
 .ccCon h3 {
@@ -1571,6 +1915,10 @@ span .number {
     height: 72%;
     opacity: 0;
     transition: all 2s ease-out;
+    -moz-transition: all 2s ease-out;
+    -ms-transition: all 2s ease-out;
+    -o-transition: all 2s ease-out;
+    -webkit-transition: all 2s ease-out;
 }
 
 .construction-phase-1.fade-in {
@@ -1580,11 +1928,19 @@ span .number {
 .construction-phase-2.fade-in {
     opacity: 1;
     transition-delay: .5s;
+    -moz-transition-delay: .5s;
+    -ms-transition-delay:.5s;
+    -o-transition-delay: .5s;
+    -webkit-transition-delay: .5s;
 }
 
 .construction-phase-3.fade-in {
     opacity: 1;
     transition-delay: 1s;
+    -moz-transition-delay: 1s;
+    -ms-transition-delay: 1s;
+    -o-transition-delay: 1s;
+    -webkit-transition-delay: 1s;
 }
 
 
@@ -1667,11 +2023,19 @@ span .number {
     padding: 1%;
     background-color: #5B6B4E;
     transition: all 2.5s linear;
+    -moz-transition: all 2.5s linear;
+    -ms-transition: all 2.5s linear;
+    -o-transition: all 2.5 linear;
+    -webkit-transition: all 2.5 linear;
 }
 
 #dashboard.fade-in {
     background-color: #247b08;
     transition-delay: 3s;
+    -moz-transition-delay: 3s;
+    -ms-transition-delay: 3s;
+    -o-transition-delay: 3s;
+    -webkit-transition-delay: 3s;
 }
 
 .dashBox1, .dashBox2 {
@@ -1756,13 +2120,40 @@ span .number {
     100% {background: linear-gradient(0deg, rgba(36,123,8,1) 27%, rgba(25,83,6,0.815639634760154) 93%);}
   }
 
+  @-webkit-keyframes gradientChange {
+    0% {background: linear-gradient(0deg, rgba(61,72,52,1) 4%, rgba(97,116,81,0.9640990185136554) 78%);}
+    60% {background: linear-gradient(0deg, rgba(61,72,52,1) 4%, rgba(97,116,81,0.9640990185136554) 78%); opacity: .7;}
+    65% {background: linear-gradient(0deg, rgba(36,123,8,1) 27%, rgba(25,83,6,0.815639634760154) 93%); opacity: .5;}
+    100% {background: linear-gradient(0deg, rgba(36,123,8,1) 27%, rgba(25,83,6,0.815639634760154) 93%);}
+  }
+
+  @-moz-keyframes gradientChange {
+    0% {background: linear-gradient(0deg, rgba(61,72,52,1) 4%, rgba(97,116,81,0.9640990185136554) 78%);}
+    60% {background: linear-gradient(0deg, rgba(61,72,52,1) 4%, rgba(97,116,81,0.9640990185136554) 78%); opacity: .7;}
+    65% {background: linear-gradient(0deg, rgba(36,123,8,1) 27%, rgba(25,83,6,0.815639634760154) 93%); opacity: .5;}
+    100% {background: linear-gradient(0deg, rgba(36,123,8,1) 27%, rgba(25,83,6,0.815639634760154) 93%);}
+  }
+
+  @-o-keyframes gradientChange {
+    0% {background: linear-gradient(0deg, rgba(61,72,52,1) 4%, rgba(97,116,81,0.9640990185136554) 78%);}
+    60% {background: linear-gradient(0deg, rgba(61,72,52,1) 4%, rgba(97,116,81,0.9640990185136554) 78%); opacity: .7;}
+    65% {background: linear-gradient(0deg, rgba(36,123,8,1) 27%, rgba(25,83,6,0.815639634760154) 93%); opacity: .5;}
+    100% {background: linear-gradient(0deg, rgba(36,123,8,1) 27%, rgba(25,83,6,0.815639634760154) 93%);}
+  }
+
+
+
 
 #finaleBGrr {
     width: 100%;
     position: absolute;
     z-index: -2;
     opacity: .25;
-    transition: all 3s ease-out;   
+    transition: all 3s ease-out; 
+    -moz-transition: all 3s ease-out;
+    -ms-transition: all 3s ease-out;
+    -o-transition: all 3s ease-out;
+    -webkit-transition: all 3s ease-out;  
     filter: grayscale(100%);
 }
 
@@ -1777,12 +2168,20 @@ span .number {
     position: absolute;
     z-index: -3;
     transition: all 5s ease-out;
+    -moz-transition: all 5s ease-out;
+    -ms-transition: all 5s ease-out;
+    -o-transition: all 5s ease-out;
+    -webkit-transition: all 5s ease-out;
     opacity: 0;
 }
 
 #finaleBGcc.fade-in {
     z-index: -1;
     transition-delay: 2s;
+    -moz-transition-delay: 7s;
+    -ms-transition-delay: 7s;
+    -o-transition-delay: 7s;
+    -webkit-transition-delay: 7s;
     opacity: .25;
 }
 
@@ -1795,11 +2194,19 @@ span .number {
     margin-bottom: 50px;
     opacity: 0;
     transition: all 4s ease-out;
+    -moz-transition: all 4s ease-out;
+    -ms-transition: all 4s ease-out;
+    -o-transition: all 4s ease-out;
+    -webkit-transition: all 4s ease-out;
 }
 
 .call-to-actionCon.fade-in {
     opacity: 1;
     transition-delay: 5s;
+    -moz-transition-delay: 5s;
+    -ms-transition-delay: 5s;
+    -o-transition-delay: 5s;
+    -webkit-transition-delay: 5s;
 }
 
 .call-to-action {
@@ -1840,6 +2247,10 @@ span .number {
     margin: 0 auto;
     opacity: 0;
     transition: all 3s ease-out;
+    -moz-transition: all 3s ease-out;
+    -ms-transition: all 3s ease-out;
+    -o-transition: all 3s ease-out;
+    -webkit-transition: all 3s ease-out;
 }
 
 .actionBtn a{
@@ -1856,6 +2267,10 @@ span .number {
 .actionBtn.fade-in {
     opacity: 1;
     transition-delay: 7s;
+    -moz-transition-delay: 7s;
+    -ms-transition-delay: 7s;
+    -o-transition-delay: 7s;
+    -webkit-transition-delay: 7s;
 }
 
 
