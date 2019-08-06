@@ -21,7 +21,7 @@
             </div>
   
         <div id="centerText">
-            <p id="title">Cable concrete creates environmentally-friendly solutions for erosion control projects</p>
+            <p id="title">Environmentally-friendly solutions for erosion control projects</p>
             <p id="message">Continue to find out how IECS Cable Concrete can be part of the solution</p>
             <div id="begin"><p>SCROLL</p></div>
             <img id="scrollBtn" src="images/IECS_illustrated_scrolldownBtn.svg" alt="Scroll down icon">
