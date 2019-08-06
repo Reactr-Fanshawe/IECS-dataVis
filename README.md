@@ -2,7 +2,7 @@
 Data Visualization web project for IECS
 
 ## Reactr - IECS Carbon emissions prevention summary
-We worked with the International Erosion Control System(IECS) company that produces Cable and concrete. To create an interactive data summary for carbon emission and global conservation internationally.
+We worked with the International Erosion Control System(IECS) company that produces Cable and concrete. To create an interactive data summary for carbon emissions and global conservation.
 
 ## Develops and Managing team
 Project Manager: Natalia Anguillon
