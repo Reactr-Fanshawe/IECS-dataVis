@@ -63,20 +63,18 @@ a:link {
     margin-bottom: 6vh;
 }
 
-#centerText {
-    
+#centerText {   
     margin: 0 auto;
     color: #39423A;
     width: 45%;
     height: 30vh;
-    bottom: 1%;
     z-index: 1;
     line-height: 4vh;
 }
 
 #title {
     width: 85%;
-    padding-top: 10px;
+    padding-top: 15px;
     font-size: 2.7vw;
     font-weight: 700;
     text-align: center;
@@ -95,7 +93,7 @@ a:link {
 
 #scrollBtn {
     width: 3vw;
-    padding-top: 10%;
+    padding-top: 12%;
     animation: mover1 1s infinite  alternate;
     -webkit-animation: mover1 1s infinite alternate;
     -moz-animation:    mover1 1s infinite alternate;
@@ -1006,7 +1004,7 @@ span .number {
 
 #fuelRef1 {
     position: absolute;
-    font-size: 1vw;
+    font-size: .8vw;
     top: -4.5vh;
     text-align: center;
     width: 13vw;
@@ -1016,7 +1014,7 @@ span .number {
 #fuelRef2 {
     position: absolute;
     top: -4.5vh;
-    font-size: 1vw;
+    font-size: .8vw;
     text-align: center;
     width: 13vw;
     left: .8vw;
@@ -1163,7 +1161,7 @@ span .number {
     text-align: center;
     z-index: 2;
     position: absolute;
-    width: 45%;
+    width: 50%;
     transition-delay: 3s;
     -moz-transition-delay: 3s;
     -ms-transition-delay: 3s;

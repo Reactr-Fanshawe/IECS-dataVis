@@ -21,7 +21,7 @@
             </div>
   
         <div id="centerText">
-            <p id="title">Cable concrete creates environmentally-friendly solutions for erosion control projects</p>
+            <p id="title">Environmentally-friendly solutions for erosion control projects</p>
             <p id="message">Continue to find out how IECS Cable Concrete can be part of the solution</p>
             <div id="begin"><p>SCROLL</p></div>
             <img id="scrollBtn" src="images/IECS_illustrated_scrolldownBtn.svg" alt="Scroll down icon">
@@ -157,7 +157,7 @@
     <section id="emissions">
         <h1 class="hideen">Carbon emissions</h1>
         <div id="emissionsFact">
-            <h2>Excess transporter travel raises CO2 emissions, creating air pollution</h2>
+            <h2>Less transporter travel lowers CO2 emissions, minimizing air pollution</h2>
             <p>"The commercial road transportation sector produces 
                         <span class="number">19%</span> of the total carbon emissions in Canada"</p>
                         <p class="source"><a href="https://www.nrcan.gc.ca/energy/efficiency/transportation/commercial-vehicles/reports/7607" target="_blank">Source: Natural Resources Canada</a></p>
