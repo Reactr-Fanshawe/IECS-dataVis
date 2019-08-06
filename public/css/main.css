@@ -1004,7 +1004,7 @@ span .number {
 
 #fuelRef1 {
     position: absolute;
-    font-size: 1vw;
+    font-size: .8vw;
     top: -4.5vh;
     text-align: center;
     width: 13vw;
@@ -1014,7 +1014,7 @@ span .number {
 #fuelRef2 {
     position: absolute;
     top: -4.5vh;
-    font-size: 1vw;
+    font-size: .8vw;
     text-align: center;
     width: 13vw;
     left: .8vw;
