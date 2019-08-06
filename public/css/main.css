@@ -1004,20 +1004,22 @@ span .number {
 
 #fuelRef1 {
     position: absolute;
-    font-size: .8vw;
+    line-height: 19.5px;
+    font-size: .7vw;
     top: -4.5vh;
-    text-align: center;
-    width: 13vw;
+    text-align: left;
+    width: 12vw;
     right: .8vw;
 }
 
 #fuelRef2 {
     position: absolute;
+    line-height: 19.5px;
+    font-size: .7vw;
     top: -4.5vh;
-    font-size: .8vw;
-    text-align: center;
-    width: 13vw;
-    left: .8vw;
+    text-align: left;
+    width: 10vw;
+    right: .8vw;
 }
 
 #indc2Div.fade-in {
