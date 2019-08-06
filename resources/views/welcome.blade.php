@@ -187,20 +187,20 @@
         <div class="roadDamage-Description">
             <!-- column 1 title -->
             <div class="roadDamage-column-1">
-                <h3>Less Traffic & Congestion</h3>
+                <h3>Reduced Traffic & Congestion</h3>
                 <p>Michaels' delivery of Riprap would put 17 more trucks on the road. 
                 This causes an increased level of traffic and congestion.
                </p>  
             </div>
             <!-- column 2 title -->
             <div class="roadDamage-column-2">
-                <h3>Less road damage from commercial trucks</h3>
+                <h3>Reduced road damage</h3>
                 <p>Larger numbers of commercial trucks also contribute to continual road damage and repair, 
                     costing taxpayers and increasing a company’s environmental footprint even further.
                </p>  
             </div>
             <div class="roadDamage-column-3">
-                <h3>Higher taxes</h3>
+                <h3>Lower taxes</h3>
                 <p> An estimated $597 per U.S. household per year in 
                     general tax revenue dedicated to road construction and repair.</p>
                 <p class="source"><a href="https://calpirgedfund.org/reports/caf/who-pays-roads" target="_blank">Source: CALPIRG Education Fund</a></p>
