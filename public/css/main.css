@@ -707,13 +707,13 @@ span .number {
     width: 80%;
     margin: 0 auto;
     color: #39423A;
-    top: 9%;
+    top: 7%;
     left: 11%;
     position: absolute;
-    transition: all 2s ease-out;
-    -moz-transition: all 2s ease-out;
-    -ms-transition: all 2s ease-out;
-    -o-transition: all 2s ease-out;
+    transition: all .8s ease-out;
+    -moz-transition: all .8s ease-out;
+    -ms-transition: all .8s ease-out;
+    -o-transition: all .8s ease-out;
     transform: translateY(-350%);
     -o-transform: translateY(-350%);
     -moz-transform:translateY(-350%);
@@ -748,7 +748,7 @@ span .number {
     width: 50%;
     margin: 0 auto;
     color: #39423A;
-    top: 14vh;
+    top: 13vh;
     left: 25%;
     position: absolute;
     transition: all .8s ease-out;
@@ -757,14 +757,15 @@ span .number {
     -o-transition: all .8s ease-out;
     transform: translateY(-280%);
     -o-transform: translateY(-280%);
-    -moz-transform:translateY(-280%);
-    -ms-transform:translateY(-280%);
+    -moz-transform: translateY(-280%);
+    -ms-transform: translateY(-280%);
     transition-delay: 6.5s;
     -moz-transition-delay: 6.5s;
     -ms-transition-delay: 6.5s;
     -o-transition-delay: 6.5s;
     opacity: 0;
 }
+
 
 #fuelFact.fade-in {
     transform: translateY(0%);
