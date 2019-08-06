@@ -917,7 +917,8 @@ span .number {
     font-size: 1.7vw;
     position: absolute;
     bottom: 35%;
-    left: 33%;
+    left: 37%;
+    
 }
 
 #dollarText1 p {
@@ -1003,6 +1004,24 @@ span .number {
     opacity: 0;
 }
 
+#fuelRef1 {
+    position: absolute;
+    font-size: 1vw;
+    top: -4.5vh;
+    text-align: center;
+    width: 13vw;
+    right: .8vw;
+}
+
+#fuelRef2 {
+    position: absolute;
+    top: -4.5vh;
+    font-size: 1vw;
+    text-align: center;
+    width: 13vw;
+    left: .8vw;
+}
+
 #indc2Div.fade-in {
     transform: translateY(0%);
     -o-transform: translateY(0%);
@@ -1056,7 +1075,7 @@ span .number {
     font-size: 1.3vw;
     position: absolute;
     bottom: 42%;
-    left: 35%;
+    left: 37%;
 }
 
 #dollarText2 p {
@@ -1105,10 +1124,10 @@ span .number {
     -moz-transition: all 4s ease;
     -ms-transition: all 4s ease;
     -o-transition: all 4s ease;
-    transform: translate(10%, 60%);
-    -o-transform: translate(10%, 60%);
-    -moz-transform:translate(10%, 60%);
-    -ms-transform:translate(10%, 60%);
+    transform: translate(0%, 60%);
+    -o-transform: translate(0%, 60%);
+    -moz-transform:translate(0%, 60%);
+    -ms-transform:translate(0%, 60%);
 }
 
 #fuelAnim2.fade-in {

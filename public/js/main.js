@@ -605,21 +605,11 @@ $(document).ready(function(){
 
   }
 
-  /*function wordChangeRoad(){
-
-    var cont = { val: High },
-      newVal = Low ;
-  
-    TweenMax.to(cont, 3, { val:newVal, roundProps:"val",  delay: 1, onUpdate:function(){document.getElementById("amount3").innerHTML=cont.val}});
-
-  }*/
-
 
   function Counter() {
     countDownFuel();
     countDownEmissions();
     countDownCost();
-    /*countUpVeg();*/
   }
 
 

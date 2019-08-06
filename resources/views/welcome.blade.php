@@ -105,10 +105,11 @@
                 <p class="source"><a href="https://thinkprogress.org/big-trucks-emit-huge-amounts-of-carbon-every-year-the-epa-is-about-to-do-something-about-it-5c402732888/" target="_blank">Source: Thinkprogress</a></p>
         </div>
         <div id="indc1Div">
+        <p id="fuelRef1">Fuel cost as of<br>19/08/04 - Toronto</p>
             <div id="dollarDiv1">
                 <img id="dollarIcon1" src="images/IECS_illustrated_money_icon_white.svg" alt="A bag of money icon">
                     <div id="dollarText1">
-                        <h2>110.60</h2>
+                        <h2>97.96</h2>
                         <p>FUEL COST</p>
                     </div>
             </div>
@@ -127,16 +128,17 @@
         <img id ="fuelAnim1" src="images/IECS_illustrated_fuel.svg" alt="A illustration of fuel">
     </div>
     <div id="indc2Div">
+    <p id="fuelRef2">Fuel cost as of<br>19/08/04 - Toronto</p>
         <div id="dollarDiv2">
                 <img id="dollarIcon2" src="images/IECS_illustrated_money_icon.svg" alt="A bag of money icon">
                 <div id="dollarText2">
-                    <h2>1,990.80</h2>
+                    <h2>1785.60</h2>
                     <p>FUEL COST</p>
                 </div>
         </div>
         <div id="fuelDiv2">
             <img id="iconFuel2" src="images/IECS_illustrated_fuel_icon.svg" alt="An illustrated fuel icon">
-                <h2>1,422</h2>
+                <h2>1,440</h2>
                 <p>LITRES</p>
         </div>
             <img id="indicator2" src="images/IECS_illustrated_assets_gray_indicator.svg" alt="Gray indicator panel">
@@ -262,7 +264,7 @@
         <div id="rrVegDiv">
             <div class="rrCon">
                 <h3>Riprap</h3>
-                <p>Riprap is unstable by nature, making it unusable for traffic and hard to maintain. It's obstrusive to plantlife and restricts biodiversity, and when placed by water it leaves fish at risk of predation. Bare riprap rocks also reflect sunlight in the water and cause temperature increases that could pose a danger to aquatic life.</p>
+                <p>Riprap is unstable, making it unsafe for pedestrian traffic and difficult to groom. It's obstrusive to plantlife and restricts biodiversity. When installed by water, it leaves fish at risk of predation. Bare riprap rocks also reflect sunlight in the water and cause temperature increases that could pose a danger to aquatic life.</p>
             </div>
             <div id="rrVegIMG">
                 <img class="construction-phase-3" src="images/cable&concrete_phase_2.jpg" alt="rip-rap onsight images">
