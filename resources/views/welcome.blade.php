@@ -347,26 +347,17 @@
         </section>
         <!-- footer section end -->
     </section>
-<<<<<<< HEAD
         <!-- links to javascript libraries used -->
         <script src="js/jquery.min.js"></script>
-=======
->>>>>>> 6fc663506218584a902e7771877c32430fa20bd5
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+        <script src="js/TweenMax.min.js"></script>
         
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+        <script src="js/ScrollMagic.min.js"></script>
 
-<<<<<<< HEAD
+        <script src="js/animation.gsap.min.js"></script>
+
         <script src="js/jquery.ScrollMagic.min.js"></script>
-        
-        <!-- link to main javascript file -->
-=======
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"></script>
 
->>>>>>> 6fc663506218584a902e7771877c32430fa20bd5
         <script src="js/main.js"></script>
     </body>
 </html>
