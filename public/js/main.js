@@ -478,7 +478,7 @@ $(document).ready(function(){
                                vehicles.style.left = '-650vh'; //so bring it back to the leftmost start point
                                speed = -600; //need to reset the speed value at the same time as the truck position
                            }else{
-                           speed += .5; //value determines the speed, bigger is faster
+                           speed += .4; //value determines the speed, bigger is faster
                            vehicles.style.left = speed+'vh'; //apply the speed number to the DOM object
                            loopcount++;
 
