@@ -103,7 +103,7 @@ $(document).ready(function(){
           .addTo(controller);
 
         var scenarioTextScene = new ScrollMagic.Scene({
-          triggerElement: '#scenarioText',
+          triggerElement: '#personaText',
           triggerHook: .1,
           reverse:false
           })
@@ -452,48 +452,44 @@ $(document).ready(function(){
 
 
             /*top lane of road damage section*/ 
-                
 
-              var rrDmgTruck3Scene = new ScrollMagic.Scene({
-                triggerElement: '#roadDamage',
-                triggerHook: .7,
-                reverse:false
-              
-              })
-                .setClassToggle('#rrDamageTruck3', 'fade-in')
-                .addTo(controller);
+            var vehicleLoopScene = new ScrollMagic.Scene({
+              triggerElement: '#roadDamage',
+              triggerHook: .7,
+              reverse:false
+             })
+             .setTween(vehicleLoop)
+             .addTo(controller);
+         
+          function vehicleLoop(){
+             
+            let vehicles = document.querySelector("#trafficLoop");
+            let timer = setInterval(moveTruck, 45);
+            let speed=-400;
+            let loopcount = 0;
+            let opac = 1;
 
-              var car4Scene = new ScrollMagic.Scene({
-                triggerElement: '#roadDamage',
-                triggerHook: .7,
-                reverse:false
-              })
-                .setClassToggle('#car4', 'fade-in')
-                .addTo(controller);
+            vehicles.style.left = -50+'%'; //set the truck off screen left initially
+                       function moveTruck() {
+                           //console.log(speed);
+                           if(speed >= 100) { //truck is out of view now
+                               vehicles.style.left = '-450%'; //so bring it back to the leftmost start point
+                               speed = -420; //need to reset the speed value at the same time as the truck position
+                           }else{
+                           speed += 3; //value determines the speed, bigger is faster
+                           vehicles.style.left = speed+'%'; //apply the speed number to the DOM object
+                           loopcount++;
 
-              var car5Scene = new ScrollMagic.Scene({
-                triggerElement: '#roadDamage',
-                triggerHook: .7,
-                reverse:false
-              })
-                .setClassToggle('#car5', 'fade-in')
-                .addTo(controller);
+                           if(loopcount == 520) {
+                               clearInterval(timer);
+                           }
+                          }
+                        }
+                       
+                      }
 
-              var rrDmgTruck4Scene = new ScrollMagic.Scene({
-                triggerElement: '#roadDamage',
-                triggerHook: .7,
-                reverse:false
-              })
-                .setClassToggle('#rrDamageTruck4', 'fade-in')
-                .addTo(controller);
-
-              var rrDmgTruck5Scene = new ScrollMagic.Scene({
-                triggerElement: '#roadDamage',
-                triggerHook: .7,
-                reverse: false
-              })
-                .setClassToggle('#rrDamageTruck5', 'fade-in')
-                .addTo(controller);
+            
+                           
 
            
               /*top lane damage*/
