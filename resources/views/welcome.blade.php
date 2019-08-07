@@ -195,13 +195,13 @@
             <!-- column 2 title -->
             <div class="roadDamage-column-2">
                 <h3>Reduced road damage</h3>
-                <p>Larger numbers of commercial trucks also contribute to continual road damage and repair, 
-                    costing taxpayers and increasing a company’s environmental footprint even further.
+                <p><br>Larger numbers of commercial trucks also contribute to continual road damage and repair, draining
+                    taxpayer dollars.
                </p>  
             </div>
             <div class="roadDamage-column-3">
                 <h3>Lower taxes</h3>
-                <p> An estimated $597 per U.S. household per year in 
+                <p><br>An estimated $597 per U.S. household per year in 
                     general tax revenue dedicated to road construction and repair.</p>
                 <p class="source"><a href="https://calpirgedfund.org/reports/caf/who-pays-roads" target="_blank">Source: CALPIRG Education Fund</a></p>
             </div>
@@ -209,11 +209,10 @@
         <div id="street">
         <img id="streetLine" src="images/IECS_illustrated_road_damage_background.svg" alt="An illustration of the road surface">
 
-            <img id="car1" src="images/IECS_illustrated_yellowcar.svg" alt="Illustration of a yellow car">
-            <img id="car2" src="images/IECS_illustrated_taxicar.svg" alt="Illustration of a taxi cab">
-            <img id="car3" src="images/IECS_illustrated_lightgraycar.svg" alt="Illustration of a light gray car">
-            <img id="car4" src="images/IECS_illustrated_lightbluecar.svg" alt="Illustration of a light blue car">
-            <img id="car5" src="images/IECS_illustrated_sandcar.svg" alt="Illustration of a sand car">
+            
+
+            <img id="trafficLoop" src="images/traffic_loop.svg" alt="top lane traffic">
+           
 
             <img id="rrDamageTruck1" src="images/IECS_illustrated_riprap_truck_damage.svg" alt="Illustration of a rip-rap truck">
             <img id="rrDamageTruck2" src="images/IECS_illustrated_riprap_truck_damage.svg" alt="Illustration of a rip-rap truck">
@@ -348,7 +347,7 @@
         </section>
         <!-- footer section end -->
     </section>
-        
+        <!-- links to javascript libraries used -->
         <script src="js/jquery.min.js"></script>
 
         <script src="js/TweenMax.min.js"></script>
@@ -358,7 +357,8 @@
         <script src="js/animation.gsap.min.js"></script>
 
         <script src="js/jquery.ScrollMagic.min.js"></script>
-
+        
+        <!-- link to main javascript file -->
         <script src="js/main.js"></script>
     </body>
 </html>

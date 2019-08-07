@@ -229,7 +229,7 @@ a:link {
 }
 
 #scenarioText.fade-in {
-    transition-delay: 2s;
+    transition-delay: 3s;
     -moz-transition-delay: 2s;
     -ms-transition-delay: 2s;
     -o-transition-delay: 2s;
@@ -1480,28 +1480,29 @@ span .number {
     padding: 3%;
 }
 
+
 .roadDamage-column-1.fade-in {
     opacity: 1;
-    transition-delay: 3s;
-    -moz-transition-delay: 3s;
-    -ms-transition-delay: 3s;
-    -o-transition-delay: 3s;
+    transition-delay: 1.5s;
+    -moz-transition-delay: 1.5s;
+    -ms-transition-delay: 1.5s;
+    -o-transition-delay: 1.5s;
 }
 
 .roadDamage-column-2.fade-in {
     opacity: 1;
-    transition-delay: 6s;
-    -moz-transition-delay: 6s;
-    -ms-transition-delay: 6s;
-    -o-transition-delay: 6s;
+    transition-delay: 5s;
+    -moz-transition-delay: 5s;
+    -ms-transition-delay: 5s;
+    -o-transition-delay: 5s;
 }
 
 .roadDamage-column-3.fade-in {
     opacity: 1;
-    transition-delay: 9s;
-    -moz-transition-delay: 9s;
-    -ms-transition-delay: 9s;
-    -o-transition-delay: 9s;
+    transition-delay: 8.5s;
+    -moz-transition-delay: 8.5s;
+    -ms-transition-delay: 8.5s;
+    -o-transition-delay: 8.5s;
 }
 
 .roadDamage-Description p{
@@ -1768,6 +1769,15 @@ span .number {
 
 
 /*upper lane*/
+
+#trafficLoop {
+    position: absolute;
+    z-index: 2;
+    overflow: hidden;
+    width: 540vh;
+    top: 5%;
+}
+
 
 #rrDamageTruck3 {
     z-index: 3;
@@ -2584,6 +2594,10 @@ and (max-device-width : 1024px) {
 
     #potHole {
     width: 10vw;
+    }
+
+    .roadDamage-column-2 p, .roadDamage-column-3 p {
+        margin-top: -1vh;
     }
 
     /*emissions for tablet*/
