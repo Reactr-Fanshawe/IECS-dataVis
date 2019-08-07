@@ -209,7 +209,9 @@
         <div id="street">
         <img id="streetLine" src="images/IECS_illustrated_road_damage_background.svg" alt="An illustration of the road surface">
 
-            
+            <img id="car1" src="images/IECS_illustrated_sandcar.svg" alt="Illustration of a rip-rap truck">
+            <img id="car2" src="images/IECS_illustrated_yellowcar.svg" alt="Illustration of a rip-rap truck">
+            <img id="car3" src="images/IECS_illustrated_lightgraycar.svg" alt="Illustration of a rip-rap truck">
 
             <img id="trafficLoop" src="images/traffic_loop.svg" alt="top lane traffic">
            

@@ -465,24 +465,24 @@ $(document).ready(function(){
              
             let vehicles = document.querySelector("#trafficLoop");
             let timer = setInterval(moveTruck, 45);
-            let speed=-400;
+            let speed=-500;
             let loopcount = 0;
             let opac = 1;
 
-            vehicles.style.left = -50+'%'; //set the truck off screen left initially
+            vehicles.style.left = -50+'vh'; //set the truck off screen left initially
                        function moveTruck() {
                            //console.log(speed);
-                           if(speed >= 100) { //truck is out of view now
-                               vehicles.style.left = '-450%'; //so bring it back to the leftmost start point
-                               speed = -420; //need to reset the speed value at the same time as the truck position
+                           if(speed >= 200) { //truck is out of view now
+                               vehicles.style.left = '-650vh'; //so bring it back to the leftmost start point
+                               speed = -600; //need to reset the speed value at the same time as the truck position
                            }else{
                            speed += 3; //value determines the speed, bigger is faster
-                           vehicles.style.left = speed+'%'; //apply the speed number to the DOM object
+                           vehicles.style.left = speed+'vh'; //apply the speed number to the DOM object
                            loopcount++;
 
-                           if(loopcount == 520) {
+                           /*if(loopcount == 520) {
                                clearInterval(timer);
-                           }
+                           }*/
                           }
                         }
                        
