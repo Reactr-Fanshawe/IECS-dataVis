@@ -21,7 +21,7 @@
   
         <div id="centerText">
             <p id="title">Environmentally-friendly solutions for erosion control projects</p>
-            <p id="message">Continue to find out how IECS Cable Concrete can be part of the solution</p>
+            <p id="message">Continue to find out how IECS Cable Concrete can be part of the solution.</p>
             <div id="begin"><p>SCROLL</p></div>
             <img id="scrollBtn" src="images/IECS_illustrated_scrolldownBtn.svg" alt="Scroll down icon">
         </div>
@@ -328,9 +328,9 @@
             <img id="finaleBGcc" src ="images/cableconcrete_result.jpg" alt="Image of cable and concret">
             <div class="call-to-actionCon">
                 <div class="call-to-action">
-                    <h3>Now It’s your turn.</h3>
+                    <h3>The grass is greener on our side.</h3>
                     <div class="keyLine"></div>
-                    <p>We also offer a separate Cable Concrete Calculator tool to estimate the type and amount of Cable Concrete products needed for all of your projects.</p>
+                    <p>Discover how your project can make a difference in many ways by using Cable Concrete. You can use our environmental-footprint calculator to determine the impact of using Cable Concrete for your own project.</p>
                 </div>
             </div>
                 <div class="actionBtn">

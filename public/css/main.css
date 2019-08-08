@@ -73,7 +73,7 @@ a:link {
 }
 
 #title {
-    width: 85%;
+    width: 75%;
     padding-top: 15px;
     font-size: 2.7vw;
     font-weight: 700;
@@ -1475,7 +1475,7 @@ span .number {
     margin-bottom: 3vh;
 }
 
-.roadDamage-column-1, .roadDamage-column-2, .roadDamage-column-3 {
+.roadDamage-column-1, .roadDamage-column-2 {
     opacity: 0;
     transition: all 2s ease-out;
     -moz-transition: all 2s ease-out;
@@ -1486,7 +1486,17 @@ span .number {
 }
 
 .roadDamage-column-3 {
-    margin-top: 60px;
+    opacity: 0;
+    transition: all 2s ease-out;
+    -moz-transition: all 2s ease-out;
+    -ms-transition: all 2s ease-out;
+    -o-transition: all 2s ease-out;
+    width: 29%;
+    padding: 3%;
+}
+
+.roadDamage-column-3 {
+    margin-top: 5vh;
     border: solid 1px #247b08;
 }
 
@@ -2379,28 +2389,28 @@ span .number {
     0% {background: linear-gradient(0deg, rgba(61,72,52,1) 4%, rgba(97,116,81,0.9640990185136554) 78%);}
     60% {background: linear-gradient(0deg, rgba(61,72,52,1) 4%, rgba(97,116,81,0.9640990185136554) 78%); opacity: .7;}
     65% {background: linear-gradient(0deg, rgba(36,123,8,1) 27%, rgba(25,83,6,0.815639634760154) 93%); opacity: .5;}
-    100% {background: linear-gradient(0deg, rgba(36,123,8,1) 27%, rgba(25,83,6,0.815639634760154) 93%);}
+    100% {background: linear-gradient(0deg,  rgb(23, 78, 5) 27%, rgba(25, 83, 6, 0.89) 93%);}
   }
 
   @-webkit-keyframes gradientChange {
     0% {background: linear-gradient(0deg, rgba(61,72,52,1) 4%, rgba(97,116,81,0.9640990185136554) 78%);}
     60% {background: linear-gradient(0deg, rgba(61,72,52,1) 4%, rgba(97,116,81,0.9640990185136554) 78%); opacity: .7;}
     65% {background: linear-gradient(0deg, rgba(36,123,8,1) 27%, rgba(25,83,6,0.815639634760154) 93%); opacity: .5;}
-    100% {background: linear-gradient(0deg, rgba(36,123,8,1) 27%, rgba(25,83,6,0.815639634760154) 93%);}
+    100% {background: linear-gradient(0deg,  rgb(23, 78, 5) 27%, rgba(25, 83, 6, 0.89) 93%);}
   }
 
   @-moz-keyframes gradientChange {
     0% {background: linear-gradient(0deg, rgba(61,72,52,1) 4%, rgba(97,116,81,0.9640990185136554) 78%);}
     60% {background: linear-gradient(0deg, rgba(61,72,52,1) 4%, rgba(97,116,81,0.9640990185136554) 78%); opacity: .7;}
     65% {background: linear-gradient(0deg, rgba(36,123,8,1) 27%, rgba(25,83,6,0.815639634760154) 93%); opacity: .5;}
-    100% {background: linear-gradient(0deg, rgba(36,123,8,1) 27%, rgba(25,83,6,0.815639634760154) 93%);}
+    100% {background: linear-gradient(0deg,  rgb(23, 78, 5) 27%, rgba(25, 83, 6, 0.89) 93%);}
   }
 
   @-o-keyframes gradientChange {
     0% {background: linear-gradient(0deg, rgba(61,72,52,1) 4%, rgba(97,116,81,0.9640990185136554) 78%);}
     60% {background: linear-gradient(0deg, rgba(61,72,52,1) 4%, rgba(97,116,81,0.9640990185136554) 78%); opacity: .7;}
     65% {background: linear-gradient(0deg, rgba(36,123,8,1) 27%, rgba(25,83,6,0.815639634760154) 93%); opacity: .5;}
-    100% {background: linear-gradient(0deg, rgba(36,123,8,1) 27%, rgba(25,83,6,0.815639634760154) 93%);}
+    100% {background: linear-gradient(0deg,  rgb(23, 78, 5) 27%, rgba(25, 83, 6, 0.89) 93%);}
   }
 
 
@@ -2462,15 +2472,15 @@ span .number {
 
 .call-to-actionCon.fade-in {
     opacity: 1;
-    transition-delay: 5s;
-    -moz-transition-delay: 5s;
-    -ms-transition-delay: 5s;
-    -o-transition-delay: 5s;
-    -webkit-transition-delay: 5s;
+    transition-delay: 4s;
+    -moz-transition-delay: 4s;
+    -ms-transition-delay: 4s;
+    -o-transition-delay: 4s;
+    -webkit-transition-delay: 4s;
 }
 
 .call-to-action {
-    width: 35vw;
+    width: 40vw;
     align-content: center;
     text-align: center;
     color: white;
@@ -2487,13 +2497,13 @@ span .number {
 }
 
 .call-to-action h3 {
-    font-size: 6vh;
+    font-size: 5.5vh;
     font-weight: 700;
     margin-bottom: 20px;
 }
 
 .call-to-action p {
-    font-size: 2vh;
+    font-size: 2.2vh;
     font-weight: 300;
     line-height: 4vh;
 }
@@ -2526,11 +2536,11 @@ span .number {
 
 .actionBtn.fade-in {
     opacity: 1;
-    transition-delay: 7s;
-    -moz-transition-delay: 7s;
-    -ms-transition-delay: 7s;
-    -o-transition-delay: 7s;
-    -webkit-transition-delay: 7s;
+    transition-delay: 6s;
+    -moz-transition-delay: 6s;
+    -ms-transition-delay: 6s;
+    -o-transition-delay: 6s;
+    -webkit-transition-delay: 6s;
 }
 
 
