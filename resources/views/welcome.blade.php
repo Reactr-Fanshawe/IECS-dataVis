@@ -35,7 +35,7 @@
         <div id="persona">
             <div id="personaText">
                 <p id="michaelText">This is Michael.</p>
-                    <p>He is an engineer contracted to build an erosion control solution for a local waterway project. The specification of the job are:</p>
+                    <p>He is an engineer contracted to build an erosion control solution for a local waterway project. The specifications of the job are:</p>
             </div>
         <div id="scenarioText">
             <p>He has <span class="number">215m<sup>2</sup></span> to cover, and the terrain would require 
@@ -186,14 +186,14 @@
             <!-- column 1 title -->
             <div class="roadDamage-column-1">
                 <h3>Reduced Traffic & Congestion</h3>
-                <p>Michaels' delivery of Riprap would put 17 more trucks on the road. 
-                This causes an increased level of traffic and congestion.
+                <p>A delivery of Riprap would put 18 times more trucks on the road. 
+                This causes an unecessarily high level of traffic and congestion.
                </p>  
             </div>
             <!-- column 2 title -->
             <div class="roadDamage-column-2">
                 <h3>Reduced road damage</h3>
-                <p><br>Larger numbers of commercial trucks also contribute to continual road damage and repair, draining
+                <p><br>Larger numbers of commercial trucks largely contribute to continuous road damage and repair, draining
                     taxpayer dollars.
                </p>  
             </div>
@@ -262,7 +262,9 @@
         <div id="rrVegDiv">
             <div class="rrCon">
                 <h3>Riprap</h3>
-                <p>Riprap is unstable, making it unsafe for pedestrian traffic and difficult to groom. It's obstrusive to plantlife and restricts biodiversity. When installed by water, it leaves fish at risk of predation. Bare riprap rocks also reflect sunlight in the water and cause temperature increases that could pose a danger to aquatic life.</p>
+                <p>Riprap is unstable, making it unsafe for pedestrian traffic and difficult to maintain. 
+                It's restrictive to plantlife and biodiversity, which can put fish at risk of predation. 
+                Riprap rocks also reflect sunlight into the water and cause temperature increases that could pose a danger an aquatic environment.</p>
             </div>
             <div id="rrVegIMG">
                 <img class="construction-phase-3" src="images/cable&concrete_phase_2.jpg" alt="rip-rap onsight images">
