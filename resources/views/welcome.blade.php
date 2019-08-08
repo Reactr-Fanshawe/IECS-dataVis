@@ -5,8 +5,7 @@
         <link rel="stylesheet" href="/css/reset.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="/css/main.css">
-        <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c:100,300,400,500,700,800,900display=swap" rel="stylesheet">
-        <title>IECS Data</title>
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&display=swap" rel="stylesheet">        <title>IECS Data</title>
     </head>
     <body>
    
@@ -105,7 +104,6 @@
                 <p class="source"><a href="https://thinkprogress.org/big-trucks-emit-huge-amounts-of-carbon-every-year-the-epa-is-about-to-do-something-about-it-5c402732888/" target="_blank">Source: Thinkprogress</a></p>
         </div>
         <div id="indc1Div">
-        <p id="fuelRef1">Fuel cost as of<br>19/08/04 - Toronto</p>
             <div id="dollarDiv1">
                 <img id="dollarIcon1" src="images/IECS_illustrated_money_icon_white.svg" alt="A bag of money icon">
                     <div id="dollarText1">
@@ -127,8 +125,8 @@
         <img id="scale1" src="images/IECS_illustrated_scale_black.svg" alt="Scale container holding the fuel">   
         <img id ="fuelAnim1" src="images/IECS_illustrated_fuel.svg" alt="A illustration of fuel">
     </div>
+    <p id="fuelRef1">Fuel cost as of 19/08/04 - Toronto</p>
     <div id="indc2Div">
-    <p id="fuelRef2">Fuel cost as of<br>19/08/04 - Toronto</p>
         <div id="dollarDiv2">
                 <img id="dollarIcon2" src="images/IECS_illustrated_money_icon.svg" alt="A bag of money icon">
                 <div id="dollarText2">
@@ -200,8 +198,7 @@
                </p>  
             </div>
             <div class="roadDamage-column-3">
-                <h3>Lower taxes</h3>
-                <p><br>An estimated $597 per U.S. household per year in 
+                <p>An estimated $597 per U.S. household per year in 
                     general tax revenue dedicated to road construction and repair.</p>
                 <p class="source"><a href="https://calpirgedfund.org/reports/caf/who-pays-roads" target="_blank">Source: CALPIRG Education Fund</a></p>
             </div>
