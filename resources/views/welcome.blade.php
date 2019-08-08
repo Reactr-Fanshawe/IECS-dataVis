@@ -256,7 +256,7 @@
                 </p>
             </div>
             <div id="ccVegIMG">
-                <img class="construction-phase-1" src="images/cable&concrete_phase_2.jpg" alt="cable & concrete onsight images">
+                <img class="construction-phase-1" src="images/cable&concrete_phase_1.jpg" alt="cable & concrete onsight images">
                 <img class="construction-phase-2" src="images/cable&concrete_phase_2.jpg" alt="cable & concrete onsight images">
                 <img class="construction-phase-3" src="images/cable&concrete_phase_3.jpg" alt="cable & concrete onsight images">
             </div>
