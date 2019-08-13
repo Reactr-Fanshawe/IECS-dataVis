@@ -2056,10 +2056,10 @@ span .number {
 
 #sirenSpinner {
     position: absolute;
-    width: 1.7vw;
+    width: 7%;
     z-index: 2;
-    left: 9%;
-    bottom: 29%;
+    right: 33%;
+    bottom: 26%;
     animation: spin 2s linear infinite;
     -webkit-animation: spin 2s linear infinite;
     -moz-animation:    spin 2s linear infinite;
@@ -2696,6 +2696,10 @@ and (max-device-width : 1024px) {
     }
     
     /*road damage for tablet*/
+
+    #repairTruckDiv {
+        right: 42vw;
+    }
 
     #potHole {
     width: 10vw;
