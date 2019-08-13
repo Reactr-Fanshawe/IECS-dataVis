@@ -2474,8 +2474,6 @@ span .number {
   }
 
 
-
-
 #finaleBGrr {
     width: 100%;
     position: absolute;
@@ -2518,6 +2516,7 @@ span .number {
 
 .call-to-actionCon {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-content: center;
     margin-top: 95px;
@@ -2539,12 +2538,20 @@ span .number {
     -webkit-transition-delay: 4s;
 }
 
+.ccwhiteLogo {
+    display: flex;
+    flex-direction: column;
+    width: 21%;
+    padding-bottom:25px;
+    margin: 0 auto;
+}
+
 .call-to-action {
     width: 40vw;
     align-content: center;
     text-align: center;
     color: white;
-    margin-bottom: 1vh;
+    margin: 0 auto;
 }
 
 .call-to-action div {
@@ -2610,7 +2617,7 @@ span .number {
 }
 
 .footerMain {
-    height: 10vh;
+    height: 7vh;
     display: flex;
     background-color: #f2fadb7c;
     z-index: 2;
