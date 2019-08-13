@@ -2023,7 +2023,8 @@ span .number {
 
 /*construction truck animation*/
 
-#repairTruck {
+
+#repairTruckDiv {
     z-index: 2;
     position: absolute;
     bottom: 3%;
@@ -2040,7 +2041,8 @@ span .number {
     -ms-transform: translateX(-1200%);
 }
 
-#repairTruck.fade-in {
+
+#repairTruckDiv.fade-in {
     transform: translateX(0%);
     -o-transform: translateX(0%);
     -moz-transform: translateX(0%);
@@ -2050,6 +2052,35 @@ span .number {
     -ms-transition-delay: 6s;
     -o-transition-delay: 6s;
     -webkit-transition-delay: 6s;
+}
+
+#sirenSpinner {
+    position: absolute;
+    width: 2.8vw;
+    z-index: 2;
+    left: 7%;
+    bottom: 30%;
+    animation: spin 2s linear infinite;
+    -webkit-animation: spin 2s linear infinite;
+    -moz-animation:    spin 2s linear infinite;
+    -o-animation:      spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        -ms-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+      }
+      100% {
+        -ms-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+      }
 }
 
 #pylon1 {
@@ -2150,8 +2181,8 @@ span .number {
 }
 
 .construction-phase-1, .construction-phase-2, .construction-phase-3 {
-    width: 29%;
-    height: 72%;
+    width: 17vw;
+    height: 17vw;
     opacity: 0;
     transition: all 2s ease-out;
     -moz-transition: all 2s ease-out;
@@ -2225,8 +2256,8 @@ span .number {
 }
 
 #ripRap-phase-1, #ripRap-phase-2, #ripRap-phase-3 {
-    width: 29%;
-    height: 72%;
+    width: 17vw;
+    height: 17vw;
 }
 
 /* summary styling */
@@ -2658,9 +2689,6 @@ and (max-device-width : 1024px) {
     }
     
     /*road damage for tablet*/
-    #repairTruck {
-    right: 43vw;
-    }
 
     #potHole {
     width: 10vw;

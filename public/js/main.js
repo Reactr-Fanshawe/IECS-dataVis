@@ -524,7 +524,7 @@ $(document).ready(function(){
                 triggerHook: .7,
                 reverse:false
               })
-                .setClassToggle('#repairTruck', 'fade-in')
+                .setClassToggle('#repairTruckDiv', 'fade-in')
                 .addTo(controller);
 
               var repairFadeScene = new ScrollMagic.Scene({
