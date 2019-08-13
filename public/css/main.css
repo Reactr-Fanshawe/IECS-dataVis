@@ -2464,7 +2464,7 @@ span .number {
 
 #finale {
     z-index: 1;
-    height: 100vh; 
+    height: 95vh; 
     /* background: linear-gradient(0deg, rgba(36,123,8,1) 27%, rgba(25,83,6,0.815639634760154) 93%); */
     background: linear-gradient(0deg, rgb(23, 78, 5) 27%, rgba(25, 83, 6, 0.89) 93%);
 }
@@ -2550,7 +2550,7 @@ span .number {
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    margin-top: 95px;
+    margin-top: 4%;
     margin-bottom: 50px;
     opacity: 0;
     transition: all 4s ease-out;
@@ -2754,5 +2754,12 @@ and (max-device-width : 1024px) {
         height: 49%;
     }
     
+    /*summary section*/
     
+    #finaleBGcc {
+        width: 132%;
+        margin: 0 auto;
+    }
+    
+
 }
