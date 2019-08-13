@@ -14,9 +14,10 @@
     <section id="welcomeSpace">
         <h1 class="hidden">Introduction header</h1>
         <img id="welcomeBg" src="images/IECS_illustrated_header_Background.svg" alt="A illustration of a beautiful landscape">
-
+            <!-- header logos -->
             <div id="logoSpace">
-                <img src="images/iecs_logo.png" alt="IECS black logo">
+                <img class="iecsLogo" src="images/iecs_logo.png" alt="IECS black logo">
+                <img class="ccLogo" src="images/IECS_illustrated_CC-black-logo.svg" alt="Cable & Concrete black logo">
             </div>
   
         <div id="centerText">
