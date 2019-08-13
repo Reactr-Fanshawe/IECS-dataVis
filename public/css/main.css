@@ -986,7 +986,7 @@ span .number {
     height: 10vw;
     position: absolute;
     right: 13%;
-    bottom: 42%;
+    bottom: 43vh;
     transition: all .7s ease-out;
     -moz-transition: all .7s ease-out;
     -ms-transition: all .7s ease-out;
@@ -1011,6 +1011,18 @@ span .number {
     width: 16vw;
     right: .8vw;
     color: #6b6b6b;
+
+}
+
+#fuelRef2 {
+    position: absolute;
+    line-height: 19.5px;
+    font-size: .7vw;
+    top: -4.5vh;
+    text-align: left;
+    width: 10vw;
+    right: .8vw;
+    bottom: 1%;
 }
 
 #indc2Div.fade-in {
@@ -1477,6 +1489,7 @@ span .number {
     margin-top: 60px;
     border: solid 1px #247b08;
 }
+
 .roadDamage-column-1.fade-in {
     opacity: 1;
     transition-delay: 1.5s;
@@ -2085,24 +2098,6 @@ span .number {
 
 .ccCon {
     width: 35%;
-    padding: 3%;
-    height: auto;
-    transform: translateX(-40%);
-    -o-transform: translateX(-40%);
-    -moz-transform: translateX(-40%);
-    -ms-transform: translateX(-40%);
-    transition: all 3s ease-out;
-    -moz-transition: all 3s ease-out;
-    -ms-transition: all 3s ease-out;
-    -o-transition: all 3s ease-out;
-    -webkit-transition-: all 3s ease-out;
-}
-
-.ccCon {
-    transform: translateX(0%);
-    -o-transform: translateX(0%);
-    -moz-transform: translateX(0%);
-    -ms-transform: translateX(0%);
 }
 
 .ccCon h3 {
@@ -2170,8 +2165,7 @@ span .number {
 
 .rrCon {
     width: 35%;
-    padding: 3%;
-    height: auto;
+    margin-left: 3%;
 }
 
 .rrCon h3 {
@@ -2584,6 +2578,15 @@ span .number {
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) {
 
+    /*fuel savings for tablet*/
+    #indc1Div{
+        bottom: 12vh;
+    }
+
+    #indc2Div {
+        bottom: 46vh;
+    }
+    
     /*road damage for tablet*/
     #repairTruck {
     right: 43vw;
