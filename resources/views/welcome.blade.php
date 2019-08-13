@@ -227,7 +227,10 @@
             <img id="roadCrack5" src="images/IECS_illustrated_roadcrack_5.svg" alt="Illustration of a road crack">
             <img id="roadCrack6" src="images/IECS_illustrated_roadcrack_6.svg" alt="Illustration of a road crack">
             <img id="potHole" src="images/IECS_illustrated_assets_pothole.svg" alt="Illustration of a  pothole">
-            <img id="repairTruck" src="images/IECS_illustrated_tarmac_roller.svg" alt="Illustration of a tarmac roller">
+            <div id="repairTruckDiv">
+                <img id="repairTruck" src="images/IECS_illustrated_tarmac_roller.svg" alt="Illustration of a tarmac roller">
+                <img id="sirenSpinner" src="images/IECS_illustrated_siren.svg" alt="Siren spinning">
+            </div>
             <img id="pylon1" class="repairFade" src="images/IECS_illustrated_construction_cone.svg" alt="Illustration of a construction cones">
             <img id="pylon2" class="repairFade" src="images/IECS_illustrated_construction_cone.svg" alt="Illustration of a construction cones">
             <img id="roadBlock1" class="repairFade" src="images/IECS_illustrated_construction_barrier.svg" alt="Illustrated construction">
