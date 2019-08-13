@@ -154,7 +154,7 @@
     <!––co2 emissions space-->
 
     <section id="emissions">
-        <h1 class="hideen">Carbon emissions</h1>
+        <h1 class="hidden">Carbon emissions</h1>
         <div id="emissionsFact">
             <h2>Less transporter travel lowers CO2 emissions, minimizing air pollution</h2>
             <p>"The commercial road transportation sector produces 
