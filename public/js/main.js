@@ -625,6 +625,14 @@ $(document).ready(function(){
     .addTo(countMagic);
 
   
+    var dashboardScene = new ScrollMagic.Scene({
+      triggerElement: '#finale',
+      triggerHook: 1,
+      reverse:false
+    })
+      .setClassToggle('#dashboardTitle', 'fade-in')
+      .addTo(countMagic);
+
   var roadTextScene = new ScrollMagic.Scene({
     triggerElement: '#finale',
     triggerHook: 1,
@@ -632,6 +640,14 @@ $(document).ready(function(){
   })
     .setClassToggle('#amount3', 'fade-in')
     .addTo(countMagic);
+
+    var roadTextScene = new ScrollMagic.Scene({
+      triggerElement: '#finale',
+      triggerHook: 1,
+      reverse:false
+    })
+      .setClassToggle('.companySwitch', 'fade-in')
+      .addTo(countMagic);
   
 
   var bgIMGfadeScene = new ScrollMagic.Scene({

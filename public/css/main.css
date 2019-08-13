@@ -184,7 +184,7 @@ a:link {
 
 #personaText {
     color: #39423A;
-    top: 7vh;
+    top: 13vh;
     left: 7vw;
     position: absolute;
     font-size: 1.5vw;
@@ -215,8 +215,8 @@ a:link {
     width: 42vw;
     position: absolute;
     line-height: 5.5vh; 
-    right: 7%;
-    top: 9vh;
+    right: 2%;
+    top: 21vh;
     z-index: 1;
     transition: all 2s ease-out;
     -moz-transition: all 2s ease-out;
@@ -229,7 +229,7 @@ a:link {
 }
 
 #scenarioText.fade-in {
-    transition-delay: 3s;
+    transition-delay: 2s;
     -moz-transition-delay: 2s;
     -ms-transition-delay: 2s;
     -o-transition-delay: 2s;
@@ -249,7 +249,7 @@ sup {
     position: absolute;
     width: 40vw;
     height: 55vh;
-    top: 37vh;
+    top: 42vh;
     left: 52vw;
     display: flex;
     flex-direction: row;
@@ -274,15 +274,15 @@ sup {
 #rrThumb {
     width: 13vw;
     height: 13vw;
-    border-radius: 60%;
-    border: solid 2px rgb(54, 116, 49);
+    border-radius: 1%;
+    border: solid 1.5px rgb(54, 116, 49);
 }
 
 #ccThumb {
     width: 13vw;
     height: 13vw;
-    border-radius: 60%;
-    border: solid 2px rgb(54, 116, 49);
+    border-radius: 1%;
+    border: solid 1.5px rgb(54, 116, 49);
 }
 
 #michaelText {
@@ -407,6 +407,7 @@ span .number {
 #scenarioText .number {
     font-size: 1.7vw;
     font-weight: 700;
+    color: rgb(54, 116, 49);
 }
 
 #emissionsFact .number {
@@ -2241,11 +2242,32 @@ span .number {
     font-weight: 700;
 }
 
+#dashboardTitle {
+    background-color: #5B6B4E;
+    padding-bottom: .5%;
+    padding-top: 1.2%;
+    border-bottom: 1px solid white; 
+    transition: all 4s linear;
+    -moz-transition: all 4s linear;
+    -ms-transition: all 4s linear;
+    -o-transition: all 4s linear;
+    -webkit-transition: all 4s linear; 
+}
+
+#dashboardTitle.fade-in {
+    background-color: #247b08;
+    transition-delay: 3s;
+    -moz-transition-delay: 3s;
+    -ms-transition-delay: 3s;
+    -o-transition-delay: 3s;
+    -webkit-transition-delay: 3s;
+}
+
 #dashboard {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 1%;
+    padding: .7%;
     background-color: #5B6B4E;
     transition: all 4s linear;
     -moz-transition: all 4s linear;
@@ -2279,8 +2301,34 @@ span .number {
     width: 33.33%;
     padding:20px;
 }
+.companySwitch {
+    font-weight: 500;
+    font-size: 1.6vw;
+    color: white;
+    text-align: center;
+}
 
+.companySwitch.fade-in:after {
+    content: "";
+    animation: compSwitch 6s linear;
+    -moz-animation: compSwitch 6s linear;
+    -ms-animation: compSwitch 6s linear;
+    -o-animation: compSwitch 6s linear;
+    -webkit-animation: compSwitch 6s linear;
+    animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -ms-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+}
 
+@keyframes compSwitch {
+    0% { content: "Riprap";}
+    40% { content: "Riprap"; opacity: 1;}
+    55% { content: "Riprap"; opacity: .7;}
+    60% { content: "Cable Concrete"; opacity: .7;}
+    100% {content: "Cable Concrete";}
+}
 
 #amount3.fade-in:after {
     content: "";
@@ -2301,7 +2349,7 @@ span .number {
     100% {content: "Low";}
 }
 
-/*@-webkit-keyframes roadText {
+@-webkit-keyframes roadText {
     0% { content: "High";}
     100% {content: "Low";}
 }
@@ -2314,7 +2362,7 @@ span .number {
 @-o-keyframes roadText {
     0% { content: "High";}
     100% {content: "Low";}
-}*/
+}
 
 .summaryDash {
     display: flex;
@@ -2324,7 +2372,7 @@ span .number {
 
 .summaryDash h2 {
     font-weight: 300;
-    font-size: 2.3vw;
+    font-size: 2vw;
     color: white;
 }
 
@@ -2365,7 +2413,7 @@ span .number {
 
 .amount {
     font-weight: 700;
-    font-size: 4.5vw;
+    font-size: 3.5vw;
     margin-right: 20px;
 }
 
@@ -2388,28 +2436,28 @@ span .number {
 @keyframes gradientChange {
     0% {background: linear-gradient(0deg, rgba(61,72,52,1) 4%, rgba(97,116,81,0.9640990185136554) 78%);}
     60% {background: linear-gradient(0deg, rgba(61,72,52,1) 4%, rgba(97,116,81,0.9640990185136554) 78%); opacity: .7;}
-    65% {background: linear-gradient(0deg, rgba(36,123,8,1) 27%, rgba(25,83,6,0.815639634760154) 93%); opacity: .5;}
+    65% {background: linear-gradient(0deg, rgb(32, 105, 7) 27%, rgba(25,83,6,0.815639634760154) 93%); opacity: .4;}
     100% {background: linear-gradient(0deg,  rgb(23, 78, 5) 27%, rgba(25, 83, 6, 0.89) 93%);}
   }
 
   @-webkit-keyframes gradientChange {
     0% {background: linear-gradient(0deg, rgba(61,72,52,1) 4%, rgba(97,116,81,0.9640990185136554) 78%);}
     60% {background: linear-gradient(0deg, rgba(61,72,52,1) 4%, rgba(97,116,81,0.9640990185136554) 78%); opacity: .7;}
-    65% {background: linear-gradient(0deg, rgba(36,123,8,1) 27%, rgba(25,83,6,0.815639634760154) 93%); opacity: .5;}
+    65% {background: linear-gradient(0deg,  rgb(32, 105, 7) 27%, rgba(25,83,6,0.815639634760154) 93%); opacity: .4;}
     100% {background: linear-gradient(0deg,  rgb(23, 78, 5) 27%, rgba(25, 83, 6, 0.89) 93%);}
   }
 
   @-moz-keyframes gradientChange {
     0% {background: linear-gradient(0deg, rgba(61,72,52,1) 4%, rgba(97,116,81,0.9640990185136554) 78%);}
     60% {background: linear-gradient(0deg, rgba(61,72,52,1) 4%, rgba(97,116,81,0.9640990185136554) 78%); opacity: .7;}
-    65% {background: linear-gradient(0deg, rgba(36,123,8,1) 27%, rgba(25,83,6,0.815639634760154) 93%); opacity: .5;}
+    65% {background: linear-gradient(0deg,  rgb(32, 105, 7) 27%, rgba(25,83,6,0.815639634760154) 93%); opacity: .4;}
     100% {background: linear-gradient(0deg,  rgb(23, 78, 5) 27%, rgba(25, 83, 6, 0.89) 93%);}
   }
 
   @-o-keyframes gradientChange {
     0% {background: linear-gradient(0deg, rgba(61,72,52,1) 4%, rgba(97,116,81,0.9640990185136554) 78%);}
     60% {background: linear-gradient(0deg, rgba(61,72,52,1) 4%, rgba(97,116,81,0.9640990185136554) 78%); opacity: .7;}
-    65% {background: linear-gradient(0deg, rgba(36,123,8,1) 27%, rgba(25,83,6,0.815639634760154) 93%); opacity: .5;}
+    65% {background: linear-gradient(0deg,  rgb(32, 105, 7) 27%, rgba(25,83,6,0.815639634760154) 93%); opacity: .4;}
     100% {background: linear-gradient(0deg,  rgb(23, 78, 5) 27%, rgba(25, 83, 6, 0.89) 93%);}
   }
 
@@ -2497,7 +2545,7 @@ span .number {
 }
 
 .call-to-action h3 {
-    font-size: 5.5vh;
+    font-size: 4.5vh;
     font-weight: 700;
     margin-bottom: 20px;
 }
@@ -2550,7 +2598,7 @@ span .number {
 }
 
 .footerMain {
-    height: 15vh;
+    height: 10vh;
     display: flex;
     background-color: #f2fadb7c;
     z-index: 2;

@@ -38,9 +38,9 @@
                     <p>He is an engineer contracted to build an erosion control solution for a local waterway project. The specifications of the job are:</p>
             </div>
         <div id="scenarioText">
-            <p>He has <span class="number">215m<sup>2</sup></span> to cover, and the terrain would require 
-            <span class="number">114mm</span> deep of CC<sup>35</sup> Cable Concrete blocks compared to  <span class="number">475mm</span> deep of Riprap. He examines 
-            this comparison further, assuming a <span class="number">200km</span> round trip delivery for his job.</p>
+            <p>Amount of terrain to cover (m<sup>2</sup>): <span class="number">215m<sup>2</sup></span><br>
+             Block type depth (mm): <span class="number">CC<sup>35</sup> (114mm)</span><br>
+             Round trip delivery distance (km): <span class="number">200km</span></p>
         </div>
         <div id="scenarioDetail">
             <div class="imageThumb">
@@ -279,6 +279,9 @@
         <!-- <div class="summary-title">
             <h3>Client overview</h3>
         </div> -->
+        <div id="dashboardTitle">
+            <p class="companySwitch"></p>
+        </div>
         <div id="dashboard">
         <div class="dashBox0">
                 <!-- Fuel  -->
