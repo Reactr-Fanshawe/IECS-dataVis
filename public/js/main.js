@@ -481,10 +481,6 @@ $(document).ready(function(){
                            speed += .4; //value determines the speed, bigger is faster
                            vehicles.style.left = speed+'vh'; //apply the speed number to the DOM object
                            loopcount++;
-
-                           /*if(loopcount == 520) {
-                               clearInterval(timer);
-                           }*/
                           }
                         }
                        
@@ -629,6 +625,14 @@ $(document).ready(function(){
     .addTo(countMagic);
 
   
+    var dashboardScene = new ScrollMagic.Scene({
+      triggerElement: '#finale',
+      triggerHook: 1,
+      reverse:false
+    })
+      .setClassToggle('#dashboardTitle', 'fade-in')
+      .addTo(countMagic);
+
   var roadTextScene = new ScrollMagic.Scene({
     triggerElement: '#finale',
     triggerHook: 1,
@@ -636,6 +640,14 @@ $(document).ready(function(){
   })
     .setClassToggle('#amount3', 'fade-in')
     .addTo(countMagic);
+
+    var roadTextScene = new ScrollMagic.Scene({
+      triggerElement: '#finale',
+      triggerHook: 1,
+      reverse:false
+    })
+      .setClassToggle('.companySwitch', 'fade-in')
+      .addTo(countMagic);
   
 
   var bgIMGfadeScene = new ScrollMagic.Scene({

@@ -22,7 +22,7 @@
   
         <div id="centerText">
             <p id="title">Environmentally-friendly solutions for erosion control projects</p>
-            <p id="message">Continue to find out how IECS Cable Concrete can be part of the solution</p>
+            <p id="message">Continue to find out how IECS Cable Concrete can be part of the solution.</p>
             <div id="begin"><p>SCROLL</p></div>
             <img id="scrollBtn" src="images/IECS_illustrated_scrolldownBtn.svg" alt="Scroll down icon">
         </div>
@@ -39,9 +39,9 @@
                     <p>He is an engineer contracted to build an erosion control solution for a local waterway project. The specifications of the job are:</p>
             </div>
         <div id="scenarioText">
-            <p>He has <span class="number">215m<sup>2</sup></span> to cover, and the terrain would require 
-            <span class="number">114mm</span> deep of CC<sup>35</sup> Cable Concrete blocks compared to  <span class="number">475mm</span> deep of Riprap. He examines 
-            this comparison further, assuming a <span class="number">200km</span> round trip delivery for his job.</p>
+            <p>Amount of terrain to cover (m<sup>2</sup>): <span class="number">215m<sup>2</sup></span><br>
+             Block type depth (mm): <span class="number">CC<sup>35</sup> (114mm)</span><br>
+             Round trip delivery distance (km): <span class="number">200km</span></p>
         </div>
         <div id="scenarioDetail">
             <div class="imageThumb">
@@ -280,6 +280,9 @@
         <!-- <div class="summary-title">
             <h3>Client overview</h3>
         </div> -->
+        <div id="dashboardTitle">
+            <p class="companySwitch"></p>
+        </div>
         <div id="dashboard">
         <div class="dashBox0">
                 <!-- Fuel  -->
@@ -329,9 +332,9 @@
             <img id="finaleBGcc" src ="images/cableconcrete_result.jpg" alt="Image of cable and concret">
             <div class="call-to-actionCon">
                 <div class="call-to-action">
-                    <h3>Now It’s your turn.</h3>
+                    <h3>The grass is greener on our side.</h3>
                     <div class="keyLine"></div>
-                    <p>We also offer a separate Cable Concrete Calculator tool to estimate the type and amount of Cable Concrete products needed for all of your projects.</p>
+                    <p>Discover how your project can make a difference in many ways by using Cable Concrete. You can use our environmental-footprint calculator to determine the impact of using Cable Concrete for your own project.</p>
                 </div>
             </div>
                 <div class="actionBtn">
