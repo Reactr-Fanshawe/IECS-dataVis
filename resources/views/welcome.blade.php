@@ -331,6 +331,9 @@
             <img id="finaleBGrr" src ="images/riprap_result.jpg" alt="Image of rip-rap">
             <img id="finaleBGcc" src ="images/cableconcrete_result.jpg" alt="Image of cable and concret">
             <div class="call-to-actionCon">
+                <div class="ccwhiteLogo">
+                    <img src="images/ccwhite-logo.svg" alt="white cable and concrete logo">
+                </div>
                 <div class="call-to-action">
                     <h3>The grass is greener on our side.</h3>
                     <div class="keyLine"></div>
