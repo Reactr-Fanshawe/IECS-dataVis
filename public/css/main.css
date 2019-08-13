@@ -2310,11 +2310,11 @@ span .number {
 
 .companySwitch.fade-in:after {
     content: "";
-    animation: compSwitch 6s linear;
-    -moz-animation: compSwitch 6s linear;
-    -ms-animation: compSwitch 6s linear;
-    -o-animation: compSwitch 6s linear;
-    -webkit-animation: compSwitch 6s linear;
+    animation: compSwitch 6.6s linear;
+    -moz-animation: compSwitch 6.6s linear;
+    -ms-animation: compSwitch 6.6s linear;
+    -o-animation: compSwitch 6.6s linear;
+    -webkit-animation: compSwitch 6.6s linear;
     animation-fill-mode: forwards;
     -moz-animation-fill-mode: forwards;
     -ms-animation-fill-mode: forwards;
