@@ -1,11 +1,19 @@
 $(document).ready(function(){
 
-    /*scroll magic is used here to trigger css animations when
-    the user reaches a certain section by its id/class*/
+    /*FOR YOUR UNDERSTANDING OF SCROLL MAGIC
+      
+      go here: https://scrollmagic.io/
+
+      To summarize: scrollmagic is used here
+      to toggle CSS classes of elements on 
+      and off based on scroll position with 
+      ease*/
 
     var controller = new ScrollMagic.Controller();
 
-   //scene pins for every section as you scroll through page
+   //here lies scene pins for every section as you scroll through page
+   //scene pins allow you to pin the page view to a certain section
+   //for a certain duration of scrolling the user does
    
     var welcomePinScene = new ScrollMagic.Scene({
 		triggerElement: '#welcomeSpace',
@@ -73,25 +81,35 @@ $(document).ready(function(){
 	.setPin('#summary')
 	.addTo(controller);
 
-
-  //end pin scene for every section
+    //end pin scene for every section
   
-     
-      //persona/scenario content animation
+
+      /*The rest of the scrollmagic functions below are
+      for the purpose of removing and adding css class elements
+      
+      There are lots of them because there are lots of moving parts
+      with different timing and different triggers
+      
+      Each section's scroll magic animations below are grouped and
+      almost entirely in sequence. There is a comment above each grouping
+      to label its HTML parent section.*/
+
+      
+      //persona/scenario content animation starts
 
         var michaelScene = new ScrollMagic.Scene({
             triggerElement: '#persona',
             triggerHook: .7,
             reverse: false
           })
-            .setClassToggle('#michael', 'fade-in')
+            .setClassToggle('#michael', 'scroll-anim')
           .addTo(controller);
 
         var clouds1Scene = new ScrollMagic.Scene({
           triggerElement: '#clouds1',
           triggerHook: .8
           })
-          .setClassToggle('#clouds1', 'fade-in')
+          .setClassToggle('#clouds1', 'scroll-anim')
           .addTo(controller);
 
         var personaTextScene = new ScrollMagic.Scene({
@@ -99,7 +117,7 @@ $(document).ready(function(){
           triggerHook: .1,
           reverse:false
           })
-          .setClassToggle('#personaText', 'fade-in')
+          .setClassToggle('#personaText', 'scroll-anim')
           .addTo(controller);
 
         var scenarioTextScene = new ScrollMagic.Scene({
@@ -107,7 +125,7 @@ $(document).ready(function(){
           triggerHook: .1,
           reverse:false
           })
-          .setClassToggle('#scenarioText', 'fade-in')
+          .setClassToggle('#scenarioText', 'scroll-anim')
           .addTo(controller);
 
           
@@ -116,17 +134,18 @@ $(document).ready(function(){
           triggerHook: 1,
           reverse:false
           })
-          .setClassToggle('#scenarioDetail', 'fade-in')
+          .setClassToggle('#scenarioDetail', 'scroll-anim')
           .addTo(controller);
 
-      /*ratio/18:1 truck content animation trigger*/
+      
+          /*ratio/18:1 truck content animation trigger*/
 
           var ratioRow1Scene = new ScrollMagic.Scene({
             triggerElement: '#ratioRow1',
             triggerHook: 1,
             reverse:false
           })
-            .setClassToggle('#ratioRow1', 'fade-in')
+            .setClassToggle('#ratioRow1', 'scroll-anim')
             .addTo(controller);
 
           var ratioRow2Scene = new ScrollMagic.Scene({
@@ -134,7 +153,7 @@ $(document).ready(function(){
             triggerHook: .95,
             reverse:false
           })
-            .setClassToggle('#ratioRow2', 'fade-in')
+            .setClassToggle('#ratioRow2', 'scroll-anim')
             .addTo(controller);  
 
           var ratioRow3Scene = new ScrollMagic.Scene({
@@ -142,7 +161,7 @@ $(document).ready(function(){
             triggerHook: .9,
             reverse:false
           })
-            .setClassToggle('#ratioRow3', 'fade-in')
+            .setClassToggle('#ratioRow3', 'scroll-anim')
             .addTo(controller);  
 
           var ratioRow4Scene = new ScrollMagic.Scene({
@@ -150,7 +169,7 @@ $(document).ready(function(){
             triggerHook: .8,
             reverse:false
              })
-            .setClassToggle('#ratioRow4', 'fade-in')
+            .setClassToggle('#ratioRow4', 'scroll-anim')
             .addTo(controller);
         
           var ratioRow5Scene = new ScrollMagic.Scene({
@@ -158,7 +177,7 @@ $(document).ready(function(){
             triggerHook: .7,
             reverse:false
           })
-            .setClassToggle('#ratioRow5', 'fade-in')
+            .setClassToggle('#ratioRow5', 'scroll-anim')
             .addTo(controller);
           
           var ratioRow6Scene = new ScrollMagic.Scene({
@@ -166,7 +185,7 @@ $(document).ready(function(){
             triggerHook: .6,
             reverse:false
           })
-            .setClassToggle('#ratioRow6', 'fade-in')
+            .setClassToggle('#ratioRow6', 'scroll-anim')
             .addTo(controller);  
 
           var ratioRow6Scene = new ScrollMagic.Scene({
@@ -174,7 +193,7 @@ $(document).ready(function(){
             triggerHook: .6,
             reverse:false
           })
-            .setClassToggle('#iecsTruckratio', 'fade-in')
+            .setClassToggle('#iecsTruckratio', 'scroll-anim')
             .addTo(controller);  
 
           var scrollBtn2Scene = new ScrollMagic.Scene({
@@ -182,7 +201,7 @@ $(document).ready(function(){
             triggerHook: 1,
             reverse:false
           })
-            .setClassToggle('#scrollBtn2', 'fade-in')
+            .setClassToggle('#scrollBtn2', 'scroll-anim')
             .addTo(controller); 
 
           var lineOneScene = new ScrollMagic.Scene({
@@ -190,7 +209,7 @@ $(document).ready(function(){
             triggerHook: .7,
             reverse:false
             })
-            .setClassToggle('#lineOne', 'fade-in')
+            .setClassToggle('#lineOne', 'scroll-anim')
             .addTo(controller);  
 
           var lineTwoScene = new ScrollMagic.Scene({
@@ -198,7 +217,7 @@ $(document).ready(function(){
             triggerHook: .7,
             reverse:false
             })
-              .setClassToggle('#lineTwo', 'fade-in')
+              .setClassToggle('#lineTwo', 'scroll-anim')
               .addTo(controller);  
           
           
@@ -210,7 +229,7 @@ $(document).ready(function(){
             triggerHook: .6,
             reverse:false
           })
-            .setClassToggle('#fuelText', 'fade-in')
+            .setClassToggle('#fuelText', 'scroll-anim')
             .addTo(controller);  
 
           var fuelFactScene = new ScrollMagic.Scene({
@@ -218,7 +237,7 @@ $(document).ready(function(){
             triggerHook: .6,
             reverse:false
           })
-            .setClassToggle('#fuelFact', 'fade-in')
+            .setClassToggle('#fuelFact', 'scroll-anim')
             .addTo(controller);  
 
 
@@ -227,7 +246,7 @@ $(document).ready(function(){
             triggerHook: .8,
             reverse:true
           })
-            .setClassToggle('#fuelAnim1', 'fade-in')
+            .setClassToggle('#fuelAnim1', 'scroll-anim')
             .addTo(controller);  
 
 
@@ -236,7 +255,7 @@ $(document).ready(function(){
             triggerHook: .8,
             reverse:true
           })
-            .setClassToggle('#fuelAnim2', 'fade-in')
+            .setClassToggle('#fuelAnim2', 'scroll-anim')
             .addTo(controller); 
 
   
@@ -245,7 +264,7 @@ $(document).ready(function(){
             triggerHook: .8,
             reverse:true
           })
-            .setClassToggle('#indc1Div', 'fade-in')
+            .setClassToggle('#indc1Div', 'scroll-anim')
             .addTo(controller); 
 
 
@@ -254,7 +273,7 @@ $(document).ready(function(){
             triggerHook: .8,
             reverse:true
             })
-            .setClassToggle('#indc2Div', 'fade-in')
+            .setClassToggle('#indc2Div', 'scroll-anim')
             .addTo(controller); 
  
                           
@@ -265,7 +284,7 @@ $(document).ready(function(){
                 triggerHook: .5,
                 reverse:false
               })
-                .setClassToggle('#emissionsFact', 'fade-in')
+                .setClassToggle('#emissionsFact', 'scroll-anim')
                 .addTo(controller); 
 
               var iecsSmogTruckScene = new ScrollMagic.Scene({
@@ -273,7 +292,7 @@ $(document).ready(function(){
                 triggerHook: .5,
                 reverse:false
               })
-                .setClassToggle('#iecsTruck', 'fade-in')
+                .setClassToggle('#iecsTruck', 'scroll-anim')
                 .addTo(controller);
 
               var cityTruckRow1Scene = new ScrollMagic.Scene({
@@ -281,7 +300,7 @@ $(document).ready(function(){
                 triggerHook: .5,
                 reverse:false
               })
-                .setClassToggle('#citytruckRow1', 'fade-in')
+                .setClassToggle('#citytruckRow1', 'scroll-anim')
                 .addTo(controller);
 
               var cityTruckRow2Scene = new ScrollMagic.Scene({
@@ -289,7 +308,7 @@ $(document).ready(function(){
                 triggerHook: .5,
                 reverse:false
               })
-                .setClassToggle('#citytruckRow2', 'fade-in')
+                .setClassToggle('#citytruckRow2', 'scroll-anim')
                 .addTo(controller);
 
               var cityTruckRow2Scene = new ScrollMagic.Scene({
@@ -297,7 +316,7 @@ $(document).ready(function(){
                 triggerHook: .5,
                 reverse:false
               })
-                .setClassToggle('#citytruckRow3', 'fade-in')
+                .setClassToggle('#citytruckRow3', 'scroll-anim')
                 .addTo(controller);
 
 
@@ -306,7 +325,7 @@ $(document).ready(function(){
                 triggerHook: .5,
                 reverse:false
               })
-                .setClassToggle('#iecsSmog', 'fade-in')
+                .setClassToggle('#iecsSmog', 'scroll-anim')
                 .addTo(controller);
 
 
@@ -315,7 +334,7 @@ $(document).ready(function(){
                 triggerHook: .5,
                 reverse:false
               })
-                .setClassToggle('#iecsSmogData', 'fade-in')
+                .setClassToggle('#iecsSmogData', 'scroll-anim')
                 .addTo(controller);
         
               var rirapSmogScene = new ScrollMagic.Scene({
@@ -323,7 +342,7 @@ $(document).ready(function(){
                 triggerHook: .5,
                 reverse:false
               })
-                .setClassToggle('#riprapSmog', 'fade-in')
+                .setClassToggle('#riprapSmog', 'scroll-anim')
                 .addTo(controller); 
 
               var rirapSmogScene = new ScrollMagic.Scene({
@@ -331,7 +350,7 @@ $(document).ready(function(){
                 triggerHook: .5,
                 reverse:false
               })
-                .setClassToggle('#riprapSmogSmall', 'fade-in')
+                .setClassToggle('#riprapSmogSmall', 'scroll-anim')
                 .addTo(controller); 
       
                 
@@ -340,7 +359,7 @@ $(document).ready(function(){
                 triggerHook: .5,
                 reverse:false
               })
-                .setClassToggle('#riprapSmogData', 'fade-in')
+                .setClassToggle('#riprapSmogData', 'scroll-anim')
                 .addTo(controller);
 
 
@@ -353,7 +372,7 @@ $(document).ready(function(){
                   triggerHook: .7,
                   reverse:false
                 })
-                  .setClassToggle('.roadDamage-column-1', 'fade-in')
+                  .setClassToggle('.roadDamage-column-1', 'scroll-anim')
                   .addTo(controller);
 
         
@@ -362,7 +381,7 @@ $(document).ready(function(){
                   triggerHook: .7,
                   reverse:false
                 })
-                  .setClassToggle('.roadDamage-column-2', 'fade-in')
+                  .setClassToggle('.roadDamage-column-2', 'scroll-anim')
                   .addTo(controller); 
                   
                 var damageTXT3Scene = new ScrollMagic.Scene({
@@ -370,7 +389,7 @@ $(document).ready(function(){
                   triggerHook: .7,
                   reverse:false
                 })
-                  .setClassToggle('.roadDamage-column-3', 'fade-in')
+                  .setClassToggle('.roadDamage-column-3', 'scroll-anim')
                   .addTo(controller); 
 
               /*bottom lane of road damage section ordered by sequence*/ 
@@ -380,7 +399,7 @@ $(document).ready(function(){
                   triggerHook: .7,
                   reverse:false
                 })
-                  .setClassToggle('#car1', 'fade-in')
+                  .setClassToggle('#car1', 'scroll-anim')
                   .addTo(controller);
 
 
@@ -389,7 +408,7 @@ $(document).ready(function(){
                  triggerHook: .7,
                  reverse:false
                  })
-                  .setClassToggle('#rrDamageTruck1', 'fade-in')
+                  .setClassToggle('#rrDamageTruck1', 'scroll-anim')
                   .addTo(controller);
 
 
@@ -398,7 +417,7 @@ $(document).ready(function(){
                   triggerHook: .7,
                   reverse:false
                 })
-                  .setClassToggle('#car2', 'fade-in')
+                  .setClassToggle('#car2', 'scroll-anim')
                   .addTo(controller);
 
                 var rrDmgTruck2Scene = new ScrollMagic.Scene({
@@ -406,7 +425,7 @@ $(document).ready(function(){
                   triggerHook: .7,
                   reverse:false
                 })
-                  .setClassToggle('#rrDamageTruck2', 'fade-in')
+                  .setClassToggle('#rrDamageTruck2', 'scroll-anim')
                   .addTo(controller);
 
                 var roadCrack4Scene = new ScrollMagic.Scene({
@@ -414,7 +433,7 @@ $(document).ready(function(){
                   triggerHook: .7,
                   reverse:false
                 })
-                  .setClassToggle('#roadCrack4', 'fade-in')
+                  .setClassToggle('#roadCrack4', 'scroll-anim')
                   .addTo(controller);
 
                 var car3Scene = new ScrollMagic.Scene({
@@ -422,7 +441,7 @@ $(document).ready(function(){
                   triggerHook: .7,
                   reverse:false
                 })
-                  .setClassToggle('#car3', 'fade-in')
+                  .setClassToggle('#car3', 'scroll-anim')
                   .addTo(controller);
 
                 var roadCrack5Scene = new ScrollMagic.Scene({
@@ -430,7 +449,7 @@ $(document).ready(function(){
                   triggerHook: .7,
                   reverse:false
                 })
-                  .setClassToggle('#roadCrack5', 'fade-in')
+                  .setClassToggle('#roadCrack5', 'scroll-anim')
                   .addTo(controller);
 
                 var roadCrack6Scene = new ScrollMagic.Scene({
@@ -438,7 +457,7 @@ $(document).ready(function(){
                   triggerHook: .7,
                   reverse:false
                 })
-                  .setClassToggle('#roadCrack6', 'fade-in')
+                  .setClassToggle('#roadCrack6', 'scroll-anim')
                   .addTo(controller);
 
                 var potHoleScene = new ScrollMagic.Scene({
@@ -446,7 +465,7 @@ $(document).ready(function(){
                   triggerHook: .7,
                   reverse:false
                 })
-                  .setClassToggle('#potHole', 'fade-in')
+                  .setClassToggle('#potHole', 'scroll-anim')
                   .addTo(controller);
 
 
@@ -461,7 +480,9 @@ $(document).ready(function(){
              .setTween(vehicleLoop)
              .addTo(controller);
          
-          /*javascript infinite animation loop for the upper lane in the raod damage section*/
+          
+         /*javascript infinite animation loop for the upper lane 
+         in the road damage section*/
 
           function vehicleLoop(){
              
@@ -487,17 +508,14 @@ $(document).ready(function(){
                       }
 
             
-                           
-
-           
-              /*top lane damage*/
+              /*top lane damage done by vehicles*/
 
               var roadCrack3Scene = new ScrollMagic.Scene({
                 triggerElement: '#roadDamage',
                 triggerHook: .7,
                 reverse:false
               })
-                .setClassToggle('#roadCrack3', 'fade-in')
+                .setClassToggle('#roadCrack3', 'scroll-anim')
                 .addTo(controller);
 
               var roadCrack1Scene = new ScrollMagic.Scene({
@@ -505,7 +523,7 @@ $(document).ready(function(){
                 triggerHook: .7,
                 reverse:false
               })
-                .setClassToggle('#roadCrack1', 'fade-in')
+                .setClassToggle('#roadCrack1', 'scroll-anim')
                 .addTo(controller);
 
               var roadCrack2Scene = new ScrollMagic.Scene({
@@ -513,18 +531,18 @@ $(document).ready(function(){
                 triggerHook: .7,
                 reverse:false
               })
-                .setClassToggle('#roadCrack2', 'fade-in')
+                .setClassToggle('#roadCrack2', 'scroll-anim')
                 .addTo(controller);
   
 
-              /*construction truck for road damage trigger animations*/ 
+              /*tarmac/repair truck for road damage trigger animations*/ 
 
               var repairTruckScene = new ScrollMagic.Scene({
                 triggerElement: '#roadDamage',
                 triggerHook: .7,
                 reverse:false
               })
-                .setClassToggle('#repairTruckDiv', 'fade-in')
+                .setClassToggle('#repairTruckDiv', 'scroll-anim')
                 .addTo(controller);
 
               var repairFadeScene = new ScrollMagic.Scene({
@@ -532,7 +550,7 @@ $(document).ready(function(){
                 triggerHook: .7,
                 reverse:false
               })
-                .setClassToggle('.repairFade', 'fade-in')
+                .setClassToggle('.repairFade', 'scroll-anim')
                 .addTo(controller);
 
 
@@ -543,7 +561,7 @@ $(document).ready(function(){
               triggerHook: .7,
               reverse:false
             })
-              .setClassToggle('.construction-phase-1', 'fade-in')
+              .setClassToggle('.construction-phase-1', 'scroll-anim')
               .addTo(controller);
 
             var ccPhase2Scene = new ScrollMagic.Scene({
@@ -551,7 +569,7 @@ $(document).ready(function(){
               triggerHook: .7,
               reverse:false
               })
-              .setClassToggle('.construction-phase-2', 'fade-in')
+              .setClassToggle('.construction-phase-2', 'scroll-anim')
               .addTo(controller);
 
             var ccPhase3FadeScene = new ScrollMagic.Scene({
@@ -559,15 +577,15 @@ $(document).ready(function(){
                 triggerHook: .7,
                 reverse:false
               })
-                .setClassToggle('.construction-phase-3', 'fade-in')
+                .setClassToggle('.construction-phase-3', 'scroll-anim')
                 .addTo(controller);
 
      
 
- /*summary trigger animations*/
+ /*summary (final section) trigger animations*/
 
- /*isolated scrollMagic and tweenMax function for summary counter*/
-
+ /*scrollMagic and tweenMax work togther here to both create functions and trigger
+ the activation for dashboard counter*/
 
   var countMagic = new ScrollMagic.Controller();
   
@@ -607,6 +625,8 @@ $(document).ready(function(){
   }
 
 
+   /*here the dashboard Counter numbers are triggered*/
+
     var countDownScene = new ScrollMagic.Scene({
      triggerElement: '#finale',
      triggerHook: 1,
@@ -615,13 +635,15 @@ $(document).ready(function(){
     .setTween(Counter)
     .addTo(countMagic);
 
+  /*the follows triggers are to change the background colour and image switch, 
+  final statement, and also the change of text content for road damage and dashboard title*/
 
   var dashboardScene = new ScrollMagic.Scene({
     triggerElement: '#finale',
     triggerHook: 1,
     reverse:false
   })
-    .setClassToggle('#dashboard', 'fade-in')
+    .setClassToggle('#dashboard', 'scroll-anim')
     .addTo(countMagic);
 
   
@@ -630,15 +652,17 @@ $(document).ready(function(){
       triggerHook: 1,
       reverse:false
     })
-      .setClassToggle('#dashboardTitle', 'fade-in')
+      .setClassToggle('#dashboardTitle', 'scroll-anim')
       .addTo(countMagic);
 
+  
+      
   var roadTextScene = new ScrollMagic.Scene({
     triggerElement: '#finale',
     triggerHook: 1,
     reverse:false
   })
-    .setClassToggle('#amount3', 'fade-in')
+    .setClassToggle('#amount3', 'scroll-anim')
     .addTo(countMagic);
 
     var roadTextScene = new ScrollMagic.Scene({
@@ -646,16 +670,17 @@ $(document).ready(function(){
       triggerHook: 1,
       reverse:false
     })
-      .setClassToggle('.companySwitch', 'fade-in')
+      .setClassToggle('.companySwitch', 'scroll-anim')
       .addTo(countMagic);
   
+
 
   var bgIMGfadeScene = new ScrollMagic.Scene({
     triggerElement: '#finale',
     triggerHook: 1,
     reverse:false
   })
-    .setClassToggle('#finaleBGcc', 'fade-in')
+    .setClassToggle('#finaleBGcc', 'scroll-anim')
     .addTo(countMagic);
 
       
@@ -664,7 +689,7 @@ $(document).ready(function(){
     triggerHook: 1,
     reverse:false
   })
-    .setClassToggle('#finale', 'fade-in')
+    .setClassToggle('#finale', 'scroll-anim')
     .addTo(countMagic);
  
   var bgIMGfadeOutScene = new ScrollMagic.Scene({
@@ -672,7 +697,7 @@ $(document).ready(function(){
     triggerHook: 1,
     reverse:false
   })
-    .setClassToggle('#finaleBGrr', 'fade-in')
+    .setClassToggle('#finaleBGrr', 'scroll-anim')
     .addTo(countMagic);
 
   var bgIMGfadeOutScene = new ScrollMagic.Scene({
@@ -680,7 +705,7 @@ $(document).ready(function(){
     triggerHook: 1,
     reverse:false
   })
-    .setClassToggle('.call-to-actionCon', 'fade-in')
+    .setClassToggle('.call-to-actionCon', 'scroll-anim')
     .addTo(countMagic);
    
   var bgIMGfadeOutScene = new ScrollMagic.Scene({
@@ -688,7 +713,7 @@ $(document).ready(function(){
     triggerHook: 1,
     reverse:false
   })
-    .setClassToggle('.actionBtn', 'fade-in')
+    .setClassToggle('.actionBtn', 'scroll-anim')
     .addTo(countMagic);
 
 
