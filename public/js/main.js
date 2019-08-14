@@ -76,7 +76,7 @@ $(document).ready(function(){
     var sectionPinScene6 = new ScrollMagic.Scene({
 		triggerElement: '#summary',
         triggerHook: 0,
-        duration: '90%'
+        duration: '99%'
 	})
 	.setPin('#summary')
 	.addTo(controller);
