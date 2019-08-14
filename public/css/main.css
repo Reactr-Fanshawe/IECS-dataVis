@@ -2467,7 +2467,7 @@ span .number {
 
 #finale {
     z-index: 1;
-    height: 95vh; 
+    height: 100%; 
     /* background: linear-gradient(0deg, rgba(36,123,8,1) 27%, rgba(25,83,6,0.815639634760154) 93%); */
     background: linear-gradient(0deg, rgb(23, 78, 5) 27%, rgba(25, 83, 6, 0.89) 93%);
 }
