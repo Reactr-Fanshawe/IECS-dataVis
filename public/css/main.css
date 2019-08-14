@@ -214,7 +214,7 @@ a:link {
     line-height: 5.5vh; 
 }
 
-#personaText.fade-in {
+#personaText.scroll-anim {
     transform: translateY(0%); 
     -o-transform: translateY(0%);
     -moz-transform:translateY(0%);
@@ -240,7 +240,7 @@ a:link {
     -ms-transform:translateY(-500%);
 }
 
-#scenarioText.fade-in {
+#scenarioText.scroll-anim {
     transition-delay: 2s;
     -moz-transition-delay: 2s;
     -ms-transition-delay: 2s;
@@ -274,7 +274,7 @@ sup {
     opacity: 0;
 }
 
-#scenarioDetail.fade-in {
+#scenarioDetail.scroll-anim {
     transition-delay: 4s;
     -moz-transition-delay: 4s;
     -ms-transition-delay: 4s;
@@ -317,7 +317,7 @@ sup {
     height: 55vh;
 }
 
-#michael.fade-in {
+#michael.scroll-anim {
     transform: translateY(0%);
     -o-transform: translateY(0%);
     -moz-transform:translateY(0%);
@@ -357,7 +357,7 @@ sup {
    margin-left: 25vh;
 }
 
-#clouds1.fade-in {
+#clouds1.scroll-anim {
     opacity: 1;
     transform: translateX(0px);
     -o-transform: translateX(0px);
@@ -451,7 +451,7 @@ span .number {
 
 }
 
-#lineOne.fade-in {
+#lineOne.scroll-anim {
     opacity: 1;
 }
 
@@ -468,7 +468,7 @@ span .number {
     -o-transition-delay: 3s;
 }
 
-#lineTwo.fade-in {
+#lineTwo.scroll-anim {
     transition-delay: 3s;
     opacity: 1;
 }
@@ -498,7 +498,7 @@ span .number {
     opacity: 0;
 }
 
-#iecsTruckratio.fade-in {
+#iecsTruckratio.scroll-anim {
     transform: translateX(0px);
     -o-transform: translateX(0px);
     -moz-transform:translateX(0px);
@@ -524,7 +524,7 @@ span .number {
     -ms-transform:translateX(-170%);
 }
 
-#ratioRow1.fade-in {
+#ratioRow1.scroll-anim {
     transform: translateX(0px);
     -o-transform: translateX(0px);
     -moz-transform:translateX(0px);
@@ -549,7 +549,7 @@ span .number {
     -ms-transform:translateX(-170%);
 }
 
-#ratioRow2.fade-in {
+#ratioRow2.scroll-anim {
     transform: translateX(0px);
     -o-transform: translateX(0px);
     -moz-transform:translateX(0px);
@@ -575,7 +575,7 @@ span .number {
     -ms-transform:translateX(-170%);
 }
 
-#ratioRow3.fade-in {
+#ratioRow3.scroll-anim {
     transform: translateX(0px);
     -o-transform: translateX(0px);
     -moz-transform:translateX(0px);
@@ -600,7 +600,7 @@ span .number {
     -ms-transform:translateX(-170%);
 }
 
-#ratioRow4.fade-in {
+#ratioRow4.scroll-anim {
     transform: translateX(0px);
     -o-transform: translateX(0px);
     -moz-transform:translateX(0px);
@@ -626,7 +626,7 @@ span .number {
     margin-top: -1%;
 }
 
-#ratioRow5.fade-in {
+#ratioRow5.scroll-anim {
     transform: translateX(0px);
     -o-transform: translateX(0px);
     -moz-transform:translateX(0px);
@@ -652,7 +652,7 @@ span .number {
     margin-top: 2%;
 }
 
-#ratioRow6.fade-in {
+#ratioRow6.scroll-anim {
     transform: translateX(0px);
     -o-transform: translateX(0px);
     -moz-transform:translateX(0px);
@@ -679,7 +679,7 @@ span .number {
     -o-transition-delay: 4.5s;
 }
 
-#scrollBtn2.fade-in {
+#scrollBtn2.scroll-anim {
     opacity: 1;
 }
 
@@ -743,7 +743,7 @@ span .number {
     margin-bottom: 1vh;
 }
 
-#fuelText.fade-in {
+#fuelText.scroll-anim {
     transform: translateY(0%);
     -o-transform: translateY(0%);
     -moz-transform:translateY(0%);
@@ -778,7 +778,7 @@ span .number {
 }
 
 
-#fuelFact.fade-in {
+#fuelFact.scroll-anim {
     transform: translateY(0%);
     -o-transform: translateY(0%);
     -moz-transform:translateY(0%);
@@ -892,7 +892,7 @@ span .number {
      flex-direction: column;
 }
 
-#indc1Div.fade-in {
+#indc1Div.scroll-anim {
     transform: translateY(0%);
     -o-transform: translateY(0%);
     -moz-transform:translateY(0%);
@@ -1038,7 +1038,7 @@ span .number {
     bottom: 1%;
 }
 
-#indc2Div.fade-in {
+#indc2Div.scroll-anim {
     transform: translateY(0%);
     -o-transform: translateY(0%);
     -moz-transform:translateY(0%);
@@ -1125,7 +1125,7 @@ span .number {
     -ms-transform:translate(30%, 30%);
 }
 
-#fuelAnim1.fade-in {
+#fuelAnim1.scroll-anim {
     transform: translate(-30%, 0%);
     -o-transform: translate(-30%, 0%);
     -moz-transform:translate(-30%, 0%);
@@ -1146,7 +1146,7 @@ span .number {
     -ms-transform:translate(0%, 60%);
 }
 
-#fuelAnim2.fade-in {
+#fuelAnim2.scroll-anim {
     transform: translate(-40%, 0%);
     -o-transform: translate(-40%, 0%);
     -moz-transform:translate(-40%, 0%);
@@ -1196,7 +1196,7 @@ span .number {
     -o-transition: all 1s ease;
 }
 
-#emissionsFact.fade-in {
+#emissionsFact.scroll-anim {
     transition-delay: 7s;
     -moz-transition-delay: 7s;
     -ms-transition-delay: 7s;
@@ -1242,7 +1242,7 @@ span .number {
     -ms-transform:translateX(-600%);
 }
 
-#iecsTruck.fade-in {
+#iecsTruck.scroll-anim {
     transform: translateX(0%);
     -o-transform: translateX(0%);
     -moz-transform:translateX(0%);
@@ -1265,7 +1265,7 @@ span .number {
     -ms-transform:translateX(-600%);
 }
 
-#citytruckRow1.fade-in {
+#citytruckRow1.scroll-anim {
     transition-delay: 1.7s;
     -moz-transition-delay: 1.7s;
     -ms-transition-delay: 1.7s;
@@ -1292,7 +1292,7 @@ span .number {
     -ms-transform:translateX(-600%);
 }
 
-#citytruckRow2.fade-in {
+#citytruckRow2.scroll-anim {
     transition-delay: 1.2s;
     -moz-transition-delay: 1.2s;
     -ms-transition-delay: 1.2s;
@@ -1319,7 +1319,7 @@ span .number {
     -ms-transform:translateX(-600%);
 }
 
-#citytruckRow3.fade-in {
+#citytruckRow3.scroll-anim {
     transition-delay: 1.2s;
     transform: translateX(0%);
     -o-transform: translateX(0%);
@@ -1344,7 +1344,7 @@ span .number {
     -ms-transform:translate(40%, 40%) scale(0);
 }
 
-#iecsSmog.fade-in {
+#iecsSmog.scroll-anim {
     transform: translate(0%, 0%) scale(1);
     -o-transform: translate(0%, 0%) scale(1);
     -moz-transform:translate(0%, 0%) scale(1);
@@ -1376,7 +1376,7 @@ span .number {
     font-size: 1vw;
 }
 
-#iecsSmogData.fade-in {
+#iecsSmogData.scroll-anim {
     transition-delay: 2s;
     -moz-transition-delay: 2s;
     -ms-transition-delay: 2s;
@@ -1401,7 +1401,7 @@ span .number {
     -ms-transform:translate(40%, 46%) scale(0);
 }
 
-#riprapSmog.fade-in {
+#riprapSmog.scroll-anim {
     transform: translate(0%, 0%) scale(1);
     -o-transform: translate(0%, 0%) scale(1);
     -moz-transform:translate(0%, 0%) scale(1);
@@ -1428,7 +1428,7 @@ span .number {
     -ms-transform: scale(0);
 }
 
-#riprapSmogSmall.fade-in {
+#riprapSmogSmall.scroll-anim {
     transform: scale(1);
     -o-transform: scale(1);
     -moz-transform: scale(1);
@@ -1460,7 +1460,7 @@ span .number {
     font-size: 1.5vw;
 }
 
-#riprapSmogData.fade-in {
+#riprapSmogData.scroll-anim {
     transition-delay: 6s;
     -moz-transition-delay: 6s;
     -ms-transition-delay: 6s;
@@ -1489,7 +1489,7 @@ span .number {
 }
 
 .roadDamage-column-1 {
-    border-right: solid 1.5px #247b08;
+    border-right: solid 1px #247b08;
 }
 
 .roadDamage-column-1, .roadDamage-column-2 {
@@ -1517,7 +1517,7 @@ span .number {
     border: solid 1px #247b08;
 }
 
-.roadDamage-column-1.fade-in {
+.roadDamage-column-1.scroll-anim {
     opacity: 1;
     transition-delay: 1.5s;
     -moz-transition-delay: 1.5s;
@@ -1525,7 +1525,7 @@ span .number {
     -o-transition-delay: 1.5s;
 }
 
-.roadDamage-column-2.fade-in {
+.roadDamage-column-2.scroll-anim {
     opacity: 1;
     transition-delay: 5s;
     -moz-transition-delay: 5s;
@@ -1533,7 +1533,7 @@ span .number {
     -o-transition-delay: 5s;
 }
 
-.roadDamage-column-3.fade-in {
+.roadDamage-column-3.scroll-anim {
     opacity: 1;
     transition-delay: 8.5s;
     -moz-transition-delay: 8.5s;
@@ -1602,7 +1602,7 @@ span .number {
     -ms-transform: translateX(-1200%);
 }
 
-#car1.fade-in {
+#car1.scroll-anim {
     transform: translateX(0%);
     -o-transform: translateX(0%);
     -moz-transform: translateX(0%);
@@ -1625,7 +1625,7 @@ span .number {
     -ms-transform: translateX(-850%);
 }
 
-#rrDamageTruck1.fade-in {
+#rrDamageTruck1.scroll-anim {
     transform: translateX(0%);
     -o-transform: translateX(0%);
     -moz-transform: translateX(0%);
@@ -1644,7 +1644,7 @@ span .number {
     opacity: 0;
 }
 
-#roadCrack4.fade-in {
+#roadCrack4.scroll-anim {
     opacity: 1;
     transition-delay: 3.2s;
 }
@@ -1666,7 +1666,7 @@ span .number {
     -ms-transform: translateX(-1200%);
 }
 
-#car2.fade-in {
+#car2.scroll-anim {
     transition-delay: 1.7s;
     -moz-transition-delay: 1.7s;
     -ms-transition-delay: 1.7s;
@@ -1690,7 +1690,7 @@ span .number {
     opacity: 0;
 }
 
-#roadCrack5.fade-in {
+#roadCrack5.scroll-anim {
     opacity: 1;
     transition-delay: 4.7s;
     -moz-transition-delay: 4.7s;
@@ -1728,7 +1728,7 @@ span .number {
     opacity: 0;
 }
 
-#potHole.fade-in {
+#potHole.scroll-anim {
     opacity: 1;
     transition-delay: 5.5s;
     -moz-transition-delay: 5.5s;
@@ -1752,7 +1752,7 @@ span .number {
     opacity: 0;
 }
 
-#roadCrack6.fade-in {
+#roadCrack6.scroll-anim {
     opacity: 1;
     transition-delay: 7.3s;
     -moz-transition-delay: 7.3s;
@@ -1761,7 +1761,7 @@ span .number {
     -webkit-transition-delay: 7.3s;
 }
 
-#rrDamageTruck2.fade-in {
+#rrDamageTruck2.scroll-anim {
     transform: translateX(0%);
     -o-transform: translateX(0%);
     -moz-transform: translateX(0%);
@@ -1790,7 +1790,7 @@ span .number {
     -ms-transform: translateX(-1200%);
 }
 
-#car3.fade-in {
+#car3.scroll-anim {
     transition-delay: 7s;
     -moz-transition-delay: 7s;
     -ms-transition-delay: 7s;
@@ -1831,7 +1831,7 @@ span .number {
     -ms-transform: translateX(-850%);
 }
 
-#rrDamageTruck3.fade-in {
+#rrDamageTruck3.scroll-anim {
     transform: translateX(0%);
     -o-transform: translateX(0%);
     -moz-transform: translateX(0%);
@@ -1852,7 +1852,7 @@ span .number {
     -webkit-transition: all 1s ease;
 }
 
-#roadCrack2.fade-in {
+#roadCrack2.scroll-anim {
     opacity: 1;
     transition-delay: 2s;
     -moz-transition-delay: 2s;
@@ -1878,7 +1878,7 @@ span .number {
     -ms-transform: translateX(-1200%);
 }
 
-#car4.fade-in {
+#car4.scroll-anim {
     transition-delay: .8s;
     -moz-transition-delay: .8s;
     -ms-transition-delay: .8s;
@@ -1907,7 +1907,7 @@ span .number {
     -ms-transform: translateX(-1200%);
 }
 
-#car5.fade-in {
+#car5.scroll-anim {
     transition-delay: 1.5s;
     -moz-transition-delay: 1.5s;
     -ms-transition-delay: 1.5s;
@@ -1936,7 +1936,7 @@ span .number {
     -ms-transform: translateX(-850%);
 }
 
-#rrDamageTruck4.fade-in {
+#rrDamageTruck4.scroll-anim {
     transform: translateX(0%);
     -o-transform: translateX(0%);
     -moz-transform: translateX(0%);
@@ -1962,7 +1962,7 @@ span .number {
     -webkit-transition: all 1s ease;
 }
 
-#roadCrack1.fade-in {
+#roadCrack1.scroll-anim {
     opacity: 1;
     transition-delay: 4s;
     -moz-transition-delay: 4s;
@@ -1989,7 +1989,7 @@ span .number {
     -ms-transform: translateX(-850%);
 }
 
-#rrDamageTruck5.fade-in {
+#rrDamageTruck5.scroll-anim {
     transition-delay: 3.5s;
     -moz-transition-delay: 3.5s;
     -ms-transition-delay: 3.5s;
@@ -2015,7 +2015,7 @@ span .number {
     -webkit-transition: all 1s ease;
 }
 
-#roadCrack3.fade-in {
+#roadCrack3.scroll-anim {
     opacity: 1;
     transition-delay: 8.5s;
     -moz-transition-delay: 8.5s;
@@ -2045,7 +2045,7 @@ span .number {
 }
 
 
-#repairTruckDiv.fade-in {
+#repairTruckDiv.scroll-anim {
     transform: translateX(0%);
     -o-transform: translateX(0%);
     -moz-transform: translateX(0%);
@@ -2127,7 +2127,7 @@ span .number {
     -webkit-transition: all 1s linear;
 }
 
-.repairFade.fade-in {
+.repairFade.scroll-anim {
     opacity: 1;
     transition-delay: 12.5s;
     -moz-transition-delay: 12.5s;
@@ -2194,11 +2194,11 @@ span .number {
     -webkit-transition: all 2s ease-out;
 }
 
-.construction-phase-1.fade-in {
+.construction-phase-1.scroll-anim {
     opacity: 1;
 }
 
-.construction-phase-2.fade-in {
+.construction-phase-2.scroll-anim {
     opacity: 1;
     transition-delay: .5s;
     -moz-transition-delay: .5s;
@@ -2207,7 +2207,7 @@ span .number {
     -webkit-transition-delay: .5s;
 }
 
-.construction-phase-3.fade-in {
+.construction-phase-3.scroll-anim {
     opacity: 1;
     transition-delay: 1s;
     -moz-transition-delay: 1s;
@@ -2300,7 +2300,7 @@ span .number {
     -webkit-transition: all 4s linear; 
 }
 
-#dashboardTitle.fade-in {
+#dashboardTitle.scroll-anim {
     background-color: #247b08;
     transition-delay: 3s;
     -moz-transition-delay: 3s;
@@ -2322,7 +2322,7 @@ span .number {
     -webkit-transition: all 4s linear;
 }
 
-#dashboard.fade-in {
+#dashboard.scroll-anim {
     background-color: #247b08;
     transition-delay: 3s;
     -moz-transition-delay: 3s;
@@ -2354,7 +2354,7 @@ span .number {
     text-align: center;
 }
 
-.companySwitch.fade-in:after {
+.companySwitch.scroll-anim:after {
     content: "";
     animation: compSwitch 6.6s linear;
     -moz-animation: compSwitch 6.6s linear;
@@ -2376,7 +2376,7 @@ span .number {
     100% {content: "Cable Concrete";}
 }
 
-#amount3.fade-in:after {
+#amount3.scroll-anim:after {
     content: "";
     animation: roadText 7.5s linear;
     -moz-animation: roadText 7.5s linear;
@@ -2472,7 +2472,7 @@ span .number {
     background: linear-gradient(0deg, rgb(23, 78, 5) 27%, rgba(25, 83, 6, 0.89) 93%);
 }
 
-#finale.fade-in {
+#finale.scroll-anim {
     animation-name: gradientChange;
     animation-iteration-count: 1;
     animation-timing-function: ease-out;
@@ -2521,7 +2521,7 @@ span .number {
     filter: grayscale(100%);
 }
 
-#finaleBGrr.fade-in {
+#finaleBGrr.scroll-anim {
     transition-delay: 2s;
     opacity: 0;
 }
@@ -2538,7 +2538,7 @@ span .number {
     opacity: 0;
 }
 
-#finaleBGcc.fade-in {
+#finaleBGcc.scroll-anim {
     z-index: -1;
     transition-delay: 4s;
     -moz-transition-delay: 4s;
@@ -2563,7 +2563,7 @@ span .number {
     -webkit-transition: all 4s ease-out;
 }
 
-.call-to-actionCon.fade-in {
+.call-to-actionCon.scroll-anim {
     opacity: 1;
     transition-delay: 4s;
     -moz-transition-delay: 4s;
@@ -2635,7 +2635,7 @@ span .number {
     font-size: 1.3vw;
 }
 
-.actionBtn.fade-in {
+.actionBtn.scroll-anim {
     opacity: 1;
     transition-delay: 6s;
     -moz-transition-delay: 6s;
