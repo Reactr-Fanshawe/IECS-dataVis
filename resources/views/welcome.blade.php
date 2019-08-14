@@ -158,8 +158,8 @@
         <div id="emissionsFact">
             <h2>Less transporter travel lowers CO2 emissions, minimizing air pollution</h2>
             <p>"The commercial road transportation sector produces 
-                        <span class="number">19%</span> of the total carbon emissions in Canada"</p>
-                        <p class="source"><a href="https://www.nrcan.gc.ca/energy/efficiency/transportation/commercial-vehicles/reports/7607" target="_blank">Source: Natural Resources Canada</a></p>
+                <span class="number">19%</span> of the total carbon emissions in Canada"</p>
+                <p class="source"><a href="https://www.nrcan.gc.ca/energy/efficiency/transportation/commercial-vehicles/reports/7607" target="_blank">Source: Natural Resources Canada</a></p>
         </div>
        <img id="emissionsCloud" src="images/IECS_illustrated_cityscape_clouds.svg" alt="An illustration of city clouds">
        <img id="citytruckRow1" src="images/IECS_illustrated_cityriprap_trucks_2.svg" alt="An illustration of the rip-rap trucks for emissions">
@@ -199,9 +199,8 @@
                </p>  
             </div>
             <div class="roadDamage-column-3">
-                <p>An estimated $597 per U.S. household per year in 
-                    general tax revenue dedicated to road construction and repair.</p>
-                <p class="source"><a href="https://calpirgedfund.org/reports/caf/who-pays-roads" target="_blank">Source: CALPIRG Education Fund</a></p>
+                <p>"Traffic congestion in Canada's nine largest cities costs an estimated $3.1–$4.6 billion annually because of time delays for drivers and the wasted fuel and GHG emissions"</p>
+                <p class="source"><a href="https://www.tc.gc.ca/eng/policy/anre-menu-3021.htm">Source: Government of Canada</a></p>
             </div>
         </div>
         <div id="street">

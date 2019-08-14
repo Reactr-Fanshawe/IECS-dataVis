@@ -1471,14 +1471,14 @@ span .number {
 /*road damage styling*/
 
 .roadDamage-Description{
-    width: 85%;
+    width: 90%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: flex-start;
     margin: 0 auto;
-    height: 44vh;
-    margin-top: 1%;
+    height: 40vh;
+    margin-top: 2%;
 }
 
 .roadDamage-column-1 h3, .roadDamage-column-2 h3 {
@@ -1488,13 +1488,17 @@ span .number {
     margin-bottom: 3vh;
 }
 
+.roadDamage-column-1 {
+    border-right: solid 1.5px #247b08;
+}
+
 .roadDamage-column-1, .roadDamage-column-2 {
     opacity: 0;
     transition: all 2s ease-out;
     -moz-transition: all 2s ease-out;
     -ms-transition: all 2s ease-out;
     -o-transition: all 2s ease-out;
-    width: 33%;
+    width: 35%;
     padding: 3%;
 }
 
@@ -1504,12 +1508,12 @@ span .number {
     -moz-transition: all 2s ease-out;
     -ms-transition: all 2s ease-out;
     -o-transition: all 2s ease-out;
-    width: 29%;
+    width: 32%;
     padding: 3%;
 }
 
 .roadDamage-column-3 {
-    margin-top: 5vh;
+    margin-top: 2vh;
     border: solid 1px #247b08;
 }
 
@@ -1541,7 +1545,6 @@ span .number {
     color: #39423A;
     font-size: 2vh;
     line-height: 4vh;
-
 }
 
 #roadDamage {
@@ -2707,6 +2710,10 @@ and (max-device-width : 1024px) {
 
     .roadDamage-column-2 p, .roadDamage-column-3 p {
         margin-top: -1vh;
+    }
+
+    .roadDamage-column-3 {
+        width: 35%;
     }
 
     /*emissions for tablet*/
