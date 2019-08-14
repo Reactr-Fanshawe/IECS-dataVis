@@ -66,7 +66,7 @@
             </div>
         </div>
     </section>
-
+    <!-- 18 to 1 ratio section -->
     <section id="truckRatio">
         <h1 class="hidden">18 to 1 ratio story</h1>
         <div id="ratio">
@@ -92,8 +92,7 @@
     </section>
 
 
-    <!––fuel savings space-->
-
+    <!-- fuel saving section -->
     <section id="fuelSave">
         <h1 class="hidden">Feul Saving</h1>
         <div id="fuelText">
@@ -150,9 +149,7 @@
         <img id ="fuelAnim2" src="images/IECS_illustrated_fuel.svg" alt="An illustration of the fuel container">
     </div>
     </section>
-
-    <!––co2 emissions space-->
-
+    <!-- co2 emissions section -->
     <section id="emissions">
         <h1 class="hidden">Carbon emissions</h1>
         <div id="emissionsFact">
@@ -177,9 +174,7 @@
        <img id="iecsTruck" src="images/IECS_illustrated_iecs_city_truck.svg" alt="An illustration of ices truck">
        <img id="cityForest" src="images/IECS_illustrated_cityscape_background.svg" alt="A city scape background">
     </section>
-
-    <!––road damage space-->
-
+   <!-- road damage section -->
     <section id="roadDamage">
         <h1 class="hidden">Road damage summary</h1>
         <h2 class="hidden">Road Damage</h2>
@@ -235,12 +230,6 @@
             <img id="roadBlock1" class="repairFade" src="images/IECS_illustrated_construction_barrier.svg" alt="Illustrated construction">
             <img id="roadBlock2" class="repairFade" src="images/IECS_illustrated_construction_barrier.svg" alt="Illustrated construction">
         </div>
-
-        <div id="damageText">
-          <!--  <p>Tax dollars spent on road damage repair from excessive
-                heavy truck traffic is a strain on the economy and can be reduced
-            </p>   -->
-        </div>
     </section>
 
     <!-- Vegetation section -->
@@ -276,12 +265,9 @@
             </div>
         </div>
     </section>
-    <!––ending summary space-->
+    <!-- ending summary space -->
     <section id="summary" class="section">
         <h1 class="hidden">Final summary</h1>
-        <!-- <div class="summary-title">
-            <h3>Client overview</h3>
-        </div> -->
         <div id="dashboardTitle">
             <p class="companySwitch"></p>
         </div>
@@ -348,7 +334,7 @@
         </div>
         <!-- Footer section -->
         <section class="footerMain">
-            <h1 class="hidden">footer</h1>
+            <h2 class="hidden">footer</h2>
             <footer class="footerCon">
                     <h4 class="contactHeadQuarters">Contact Us:</h4>
                     <p>22295 Hoskins Line Rodney, Ontario Canada, N0L 2C0 Phone: 1-800-821-7462</p>
