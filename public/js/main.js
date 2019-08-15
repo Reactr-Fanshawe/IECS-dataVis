@@ -598,6 +598,15 @@ $(document).ready(function(){
 
   }
 
+  function countDownCostSave(){
+
+    var cont = { val: 0 },
+      newVal = 1880;
+  
+    TweenLite.to(cont, 3, { val:newVal, roundProps:"val",  delay: 3, onUpdate:function(){document.getElementById("saving0").innerHTML=cont.val}});
+
+  }
+
 
   function countDownFuel(){
 
@@ -605,6 +614,15 @@ $(document).ready(function(){
       newVal = 79;
   
     TweenLite.to(cont, 3, { val:newVal, roundProps:"val",  delay: 3, onUpdate:function(){document.getElementById("amount1").innerHTML=cont.val}});
+
+  }
+
+  function countDownFuelSave(){
+
+    var cont = { val: 0 },
+      newVal = 1343;
+  
+    TweenLite.to(cont, 3, { val:newVal, roundProps:"val",  delay: 3, onUpdate:function(){document.getElementById("saving1").innerHTML=cont.val}});
 
   }
 
@@ -617,11 +635,23 @@ $(document).ready(function(){
 
   }
 
+  function countDownEmissionsSave(){
+
+    var cont = { val: 0 },
+      newVal = 5126;
+  
+    TweenMax.to(cont, 3, { val:newVal, roundProps:"val",  delay: 3, onUpdate:function(){document.getElementById("saving2").innerHTML=cont.val}});
+
+  }
+
 
   function Counter() {
     countDownFuel();
     countDownEmissions();
     countDownCost();
+    countDownFuelSave();
+    countDownEmissionsSave();
+    countDownCostSave();
   }
 
 
