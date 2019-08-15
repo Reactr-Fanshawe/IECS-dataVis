@@ -17,7 +17,8 @@ $(document).ready(function(){
    
     var welcomePinScene = new ScrollMagic.Scene({
 		triggerElement: '#welcomeSpace',
-		triggerHook: 0,
+    triggerHook: 0,
+    duration: '90%'
 	})
 	.setPin('#welcomeSpace')
     .addTo(controller);
@@ -76,7 +77,7 @@ $(document).ready(function(){
     var sectionPinScene6 = new ScrollMagic.Scene({
 		triggerElement: '#summary',
         triggerHook: 0,
-        duration: '99%'
+        duration: '90%'
 	})
 	.setPin('#summary')
 	.addTo(controller);

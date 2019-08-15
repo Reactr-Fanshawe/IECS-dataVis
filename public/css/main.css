@@ -770,10 +770,10 @@ span .number {
     -o-transform: translateY(-280%);
     -moz-transform: translateY(-280%);
     -ms-transform: translateY(-280%);
-    transition-delay: 6.5s;
-    -moz-transition-delay: 6.5s;
-    -ms-transition-delay: 6.5s;
-    -o-transition-delay: 6.5s;
+    transition-delay: 5s;
+    -moz-transition-delay: 5s;
+    -ms-transition-delay: 5s;
+    -o-transition-delay: 5s;
     opacity: 0;
 }
 
@@ -2271,6 +2271,7 @@ span .number {
     height: 100vh;
     background-color: #E8FFD4;
     border-top: 1px solid white;
+    width: 100%;
 }
 
 /*  parent for summary */
@@ -2428,7 +2429,6 @@ span .number {
 
 #level-icon-1 {
     width: 20%;
-    
 }
 
 #level-icon-2{
@@ -2648,10 +2648,11 @@ span .number {
 #CC_result {
     width: 100%;
     opacity: .8;
+    
 }
 
 .footerMain {
-    height: 7vh;
+    height: 8%;
     display: flex;
     background-color: #f2fadb7c;
     z-index: 2;
