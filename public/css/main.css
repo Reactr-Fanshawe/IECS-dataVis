@@ -1321,6 +1321,8 @@ span .number {
     -ms-transform:translateX(0%);
 }
 
+
+
 #iecsSmog {
     position: absolute;
     z-index: 1;
@@ -1350,6 +1352,7 @@ span .number {
     opacity: .8;
     width: 10vw;
 }
+
 
 #iecsSmogData {
     font-size: 2vw;
@@ -2351,11 +2354,11 @@ span .number {
 
 .companySwitch.scroll-anim:after {
     content: "";
-    animation: compSwitch 6.6s linear;
-    -moz-animation: compSwitch 6.6s linear;
-    -ms-animation: compSwitch 6.6s linear;
-    -o-animation: compSwitch 6.6s linear;
-    -webkit-animation: compSwitch 6.6s linear;
+    animation: compSwitch 9.6s linear;
+    -moz-animation: compSwitch 9.6s linear;
+    -ms-animation: compSwitch 9.6s linear;
+    -o-animation: compSwitch 9.6s linear;
+    -webkit-animation: compSwitch 10.6s linear;
     animation-fill-mode: forwards;
     -moz-animation-fill-mode: forwards;
     -ms-animation-fill-mode: forwards;
@@ -2407,43 +2410,45 @@ span .number {
 
 .summaryDash {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+}
+
+#summaryDashLabel {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    flex-direction: row;
+    width: 65%;
+    margin-left: 10%;
 }
 
 .summaryDash h2 {
     font-weight: 300;
-    font-size: 2vw;
+    font-size: 1.8vw;
     color: white;
 }
 
 #level-icon-0 {
-    width:13.5%
+    width: 11%;
 }
 
 #level-icon-1 {
-    width: 20%;
-}
-
-#level-icon-2{
-    width: 25%;
-}
-
-#level-icon-3 {
     width: 12%;
 }
 
-#level-icon-4 {
-    width: 11%;
+#level-icon-2{
+    width: 13%;
 }
 
 .amount-numbers {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 100%;
+    width: 85%;
     margin-top: 4px;
+    margin-left: 22%;
 }
+
 
 .amount-numbers p{
     font-weight: 300;
@@ -2453,7 +2458,7 @@ span .number {
 
 .amount {
     font-weight: 700;
-    font-size: 3.5vw;
+    font-size: 2vw;
     margin-right: 20px;
 }
 

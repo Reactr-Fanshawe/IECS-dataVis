@@ -164,9 +164,10 @@
        <img id="citytruckRow2" src="images/IECS_illustrated_cityriprap_trucks_1.svg" alt="An illustration of the rip-rap trucks for emissions">
        <img id="citytruckRow3" src="images/IECS_illustrated_cityriprap_trucks_1.svg" alt="An illustration of the rip-rap trucks for emissions">
             <img id="iecsSmog" src="images/IECS_illustrated_cityscape_iecssmog.svg" alt="An illustration of the rip-rap trucks for emissions">
-            <div id="iecsSmogData">
-                <h2>298g</h2>    
-            </div>
+                <div id="iecsSmogData">
+                    <h2>298g</h2>   
+                </div> 
+            <div id="iecsSmogDiv">
             <img id="riprapSmog" src="images/IECS_illustrated_riprap_smog.svg" alt="A plumm of dark cloud for rip-rap">
             <img id="riprapSmogSmall" src="images/IECS_illustrated_cityscape_iecs_smallsmog.svg" alt="A plum of green smoke for ices">
                 <div id="riprapSmogData">
@@ -276,35 +277,49 @@
         <div class="dashBox0">
                 <!-- Fuel  -->
                 <div class="summaryDash">
-                    <h2>Fuel cost</h2>
-                    <img id="level-icon-0" src="images/IECS_illustrated_assets_road_pigBank.svg" alt="fuel level icon">
+                <img id="level-icon-0" src="images/IECS_illustrated_assets_road_pigBank.svg" alt="fuel level icon">
+                    <div id="summaryDashLabel">  
+                        <h2>Fuel cost</h2>
+                        <h2>Savings</h2>
+                    </div>  
                 </div>
                 <div class="amount-numbers">
-                    <p><span id="amount0" class="amount">1990</span>Dollars<p> 
+                    <p><span id="amount0" class="amount">1990</span>Dollars<p>
+                    <p><span id="saving0" class="amount">0</span>Dollars<p>  
                 </div>
             </div>
             <div class="dashBox1">
                 <!-- Fuel  -->
                 <div class="summaryDash">
-                    <h2>Fuel used</h2>
                     <img id="level-icon-1" src="images/IECS_illustrated_assets_fuel_level.svg" alt="fuel level icon">
+                <div id="summaryDashLabel"> 
+                    <h2>Fuel used</h2>
+                    <h2>Savings</h2>
+                </div>
+
                 </div>
                 <div class="amount-numbers">
                     <p><span id="amount1" class="amount">1422</span>Litres<p> 
+                    <p><span id="saving1" class="amount">0</span>Litres<p>  
                 </div>
+                
             </div>
             <!-- Co2 -->
             <div class="dashBox2">
                 <div class="summaryDash">
+                <img id="level-icon-2" src="images/IECS_illustrated_assets_c02.svg" alt="caron emissions level icon">
+                    <div id="summaryDashLabel"> 
                         <h2>Co2 emitted</h2>
-                        <img id="level-icon-2" src="images/IECS_illustrated_assets_c02.svg" alt="caron emissions level icon">
+                        <h2>Savings</h2>
+                    </div>
                 </div>
                 <div class="amount-numbers">
                     <p><span id="amount2" class="amount">5424</span>Grams<p> 
+                    <p><span id="saving2" class="amount">0</span>Grams<p> 
                 </div>
                 </div>
             <!-- Road Damage -->
-            <div class="dashBox3">
+            <!--<div class="dashBox3">
                     <div class="summaryDash">
                         <h2>Road Damage</h2>
                         <img id="level-icon-3" src="images/IECS_illustrated_assets_road_damage.svg" alt="road damage level icon">
@@ -312,7 +327,7 @@
                     <div class="amount-numbers">
                         <p><span id="amount3" class="amount"></span><p> 
                     </div>
-            </div>
+            </div>-->
              <!-- Vegetation -->
         </div>
 
