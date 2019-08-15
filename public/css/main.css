@@ -17,6 +17,7 @@ body
     width: 100%;
     height: 100%;
     overflow-x: hidden; 
+    margin: 0;
 }
 
 /*  Set letter spacing  */
@@ -41,6 +42,7 @@ a:link {
     height: 100%;
     width: 100%;
     margin: 0 auto;
+    bottom: 0%;
 }
 
 
