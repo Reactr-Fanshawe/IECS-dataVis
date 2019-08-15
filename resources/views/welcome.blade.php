@@ -5,7 +5,8 @@
         <link rel="stylesheet" href="/css/reset.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="/css/main.css">
-        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&display=swap" rel="stylesheet">        <title>IECS Data</title>
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&display=swap" rel="stylesheet">        
+        <title>IECS - Environmental Data</title>
     </head>
     <body>
    
