@@ -18,7 +18,7 @@ $(document).ready(function(){
     var welcomePinScene = new ScrollMagic.Scene({
 		triggerElement: '#welcomeSpace',
     triggerHook: 0,
-    duration: '90%'
+
 	})
 	.setPin('#welcomeSpace')
     .addTo(controller);
